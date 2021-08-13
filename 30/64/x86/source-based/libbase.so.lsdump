@@ -608,14 +608,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN3fmt2v68internal14write_exponentIcNS1_17counting_iteratorEEET0_iS4_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN3fmt2v68internal14write_exponentIwNS1_17counting_iteratorEEET0_iS4_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN3fmt2v68internal15fallback_formatIdEEvT_RNS1_6bufferIcEERi"
   },
   {
@@ -2992,38 +2984,6 @@
    "return_type" : "_ZTIi",
    "source_file" : "/external/fmtlib/include/fmt/format-inl.h",
    "template_args" : [ "_ZTIe" ]
-  },
-  {
-   "function_name" : "fmt::v6::internal::write_exponent",
-   "linker_set_key" : "_ZN3fmt2v68internal14write_exponentIcNS1_17counting_iteratorEEET0_iS4_",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIN3fmt2v68internal17counting_iteratorE"
-    }
-   ],
-   "return_type" : "_ZTIN3fmt2v68internal17counting_iteratorE",
-   "source_file" : "/external/fmtlib/include/fmt/format.h",
-   "template_args" : [ "_ZTIc", "_ZTIN3fmt2v68internal17counting_iteratorE" ]
-  },
-  {
-   "function_name" : "fmt::v6::internal::write_exponent",
-   "linker_set_key" : "_ZN3fmt2v68internal14write_exponentIwNS1_17counting_iteratorEEET0_iS4_",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIN3fmt2v68internal17counting_iteratorE"
-    }
-   ],
-   "return_type" : "_ZTIN3fmt2v68internal17counting_iteratorE",
-   "source_file" : "/external/fmtlib/include/fmt/format.h",
-   "template_args" : [ "_ZTIw", "_ZTIN3fmt2v68internal17counting_iteratorE" ]
   },
   {
    "function_name" : "fmt::v6::internal::fallback_format",
