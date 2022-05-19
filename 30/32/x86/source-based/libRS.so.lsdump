@@ -3211,55 +3211,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
-     "name" : "ANDROID_LOG_UNKNOWN"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ANDROID_LOG_DEFAULT"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ANDROID_LOG_VERBOSE"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "ANDROID_LOG_DEBUG"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "ANDROID_LOG_INFO"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "ANDROID_LOG_WARN"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "ANDROID_LOG_ERROR"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "ANDROID_LOG_FATAL"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "ANDROID_LOG_SILENT"
-    }
-   ],
-   "linker_set_key" : "_ZTI19android_LogPriority",
-   "name" : "android_LogPriority",
-   "referenced_type" : "_ZTI19android_LogPriority#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI19android_LogPriority#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 4,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/android/log.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 1,
      "name" : "RS_ALLOCATION_USAGE_SCRIPT"
     },
@@ -3654,63 +3605,6 @@
    "self_type" : "_ZTI6log_id",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/android/log.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "LOG_ID_MIN"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "LOG_ID_MAIN"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "LOG_ID_RADIO"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "LOG_ID_EVENTS"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "LOG_ID_SYSTEM"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "LOG_ID_CRASH"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "LOG_ID_STATS"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "LOG_ID_SECURITY"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "LOG_ID_KERNEL"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "LOG_ID_MAX"
-    },
-    {
-     "enum_field_value" : 2147483647,
-     "name" : "LOG_ID_DEFAULT"
-    }
-   ],
-   "linker_set_key" : "_ZTI6log_id",
-   "name" : "log_id",
-   "referenced_type" : "_ZTI6log_id#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI6log_id#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 4,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/android/log.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -17234,13 +17128,6 @@
    "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
   },
   {
-   "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE",
-   "name" : "const iter<is_const> &",
-   "referenced_type" : "_ZTIKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vecINS0_11hidl_stringEEE",
    "name" : "const android::hardware::hidl_vec<android::hardware::hidl_string> &",
@@ -17356,13 +17243,6 @@
    "source_file" : "/external/libcxx/include/__bit_reference"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__114__map_iteratorINS_15__tree_iteratorINS_12__value_typeIPvP16RsContextWrapperEEPNS_11__tree_nodeIS6_S3_EEiEEEE",
    "name" : "const std::__map_iterator<std::__tree_iterator<std::__value_type<void *, RsContextWrapper *>, std::__tree_node<std::__value_type<void *, RsContextWrapper *>, void *> *, int> > &",
@@ -17376,13 +17256,6 @@
    "name" : "const __map_iterator<_TreeIterator> &",
    "referenced_type" : "_ZTIKNSt3__114__map_iteratorIT_EE",
    "self_type" : "_ZTIRKNSt3__114__map_iteratorIT_EE",
-   "source_file" : "/external/libcxx/include/map"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__map_iteratorIT_EE",
-   "name" : "const __map_iterator<_TreeIterator> &",
-   "referenced_type" : "_ZTIKNSt3__114__map_iteratorIT_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__114__map_iteratorIT_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
    "source_file" : "/external/libcxx/include/map"
   },
   {
@@ -17426,13 +17299,6 @@
    "name" : "const __tree_iterator<_Tp, _NodePtr, _DiffType> &",
    "referenced_type" : "_ZTIKNSt3__115__tree_iteratorIT_T0_T1_EE",
    "self_type" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_iterator<_Tp, _NodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
    "source_file" : "/external/libcxx/include/__tree"
   },
   {
@@ -17614,13 +17480,6 @@
    "source_file" : "/external/libcxx/include/map"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__120__map_const_iteratorIT_EE",
-   "name" : "const __map_const_iterator<_TreeIterator> &",
-   "referenced_type" : "_ZTIKNSt3__120__map_const_iteratorIT_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__120__map_const_iteratorIT_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "source_file" : "/external/libcxx/include/map"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__120__sfinae_assign_baseILb0ELb0EEE",
    "name" : "const std::__sfinae_assign_base<false, false> &",
@@ -17661,13 +17520,6 @@
    "name" : "const __tree_const_iterator<_Tp, _ConstNodePtr, _DiffType> &",
    "referenced_type" : "_ZTIKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
    "self_type" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_const_iterator<_Tp, _ConstNodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
    "source_file" : "/external/libcxx/include/__tree"
   },
   {
@@ -17948,24 +17800,10 @@
    "source_file" : "/external/libcxx/include/algorithm"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
    "name" : "const uniform_int_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
    "source_file" : "/external/libcxx/include/algorithm"
   },
   {
@@ -19556,15 +19394,6 @@
    "name" : "__locale_t *&",
    "referenced_type" : "_ZTIP10__locale_t",
    "self_type" : "_ZTIRP10__locale_t",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
    "size" : 4,
    "source_file" : "/external/libcxx/include/__locale"
   },
@@ -24599,15 +24428,6 @@
    "name" : "const std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> *",
    "referenced_type" : "_ZTIKNSt3__18functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS7_S7_S7_PNS_6vectorIPvNS_9allocatorIS9_EEEEEEE",
    "self_type" : "_ZTIPKNSt3__18functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS7_S7_S7_PNS_6vectorIPvNS_9allocatorIS9_EEEEEEE",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKNSt3__18functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS7_S7_S7_PNS_6vectorIPvNS_9allocatorIS9_EEEEEEE",
-   "name" : "const std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> *",
-   "referenced_type" : "_ZTIKNSt3__18functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS7_S7_S7_PNS_6vectorIPvNS_9allocatorIS9_EEEEEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIPKNSt3__18functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS7_S7_S7_PNS_6vectorIPvNS_9allocatorIS9_EEEEEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
   },
@@ -30560,16 +30380,6 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/rs/libRS/android_x86_shared/obj/frameworks/rs/rsHidlAdaptation.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
    "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE",
    "self_type" : "_ZTIKPN7android7RefBase12weakref_implE",
    "size" : 4,
@@ -31968,11 +31778,6 @@
      "field_name" : "uid",
      "field_offset" : 192,
      "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "msg",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIA0_c"
     }
    ],
    "linker_set_key" : "_ZTI12logger_entry",
@@ -33197,47 +33002,6 @@
    "fields" :
    [
     {
-     "field_name" : "flags",
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "stack_base",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "stack_size",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "guard_size",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "sched_policy",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "sched_priority",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "linker_set_key" : "_ZTI14pthread_attr_t",
-   "name" : "pthread_attr_t",
-   "referenced_type" : "_ZTI14pthread_attr_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI14pthread_attr_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 24,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/bits/pthread_types.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "__private",
      "referenced_type" : "_ZTIA1_i"
     }
@@ -33248,22 +33012,6 @@
    "self_type" : "_ZTI14pthread_cond_t",
    "size" : 4,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "__private",
-     "referenced_type" : "_ZTIA1_i"
-    }
-   ],
-   "linker_set_key" : "_ZTI14pthread_cond_t",
-   "name" : "pthread_cond_t",
-   "referenced_type" : "_ZTI14pthread_cond_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI14pthread_cond_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 4,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -33399,22 +33147,6 @@
    "fields" :
    [
     {
-     "field_name" : "fds_bits",
-     "referenced_type" : "_ZTIA32_m"
-    }
-   ],
-   "linker_set_key" : "_ZTI15__kernel_fd_set",
-   "name" : "__kernel_fd_set",
-   "referenced_type" : "_ZTI15__kernel_fd_set#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI15__kernel_fd_set#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 128,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/linux/posix_types.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "val",
      "referenced_type" : "_ZTIA2_i"
     }
@@ -33431,22 +33163,6 @@
    "fields" :
    [
     {
-     "field_name" : "val",
-     "referenced_type" : "_ZTIA2_i"
-    }
-   ],
-   "linker_set_key" : "_ZTI15__kernel_fsid_t",
-   "name" : "__kernel_fsid_t",
-   "referenced_type" : "_ZTI15__kernel_fsid_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI15__kernel_fsid_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 8,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/asm-generic/posix_types.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "__private",
      "referenced_type" : "_ZTIA1_i"
     }
@@ -33457,22 +33173,6 @@
    "self_type" : "_ZTI15pthread_mutex_t",
    "size" : 4,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "__private",
-     "referenced_type" : "_ZTIA1_i"
-    }
-   ],
-   "linker_set_key" : "_ZTI15pthread_mutex_t",
-   "name" : "pthread_mutex_t",
-   "referenced_type" : "_ZTI15pthread_mutex_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI15pthread_mutex_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 4,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -33593,22 +33293,6 @@
    "self_type" : "_ZTI16pthread_rwlock_t",
    "size" : 40,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "__private",
-     "referenced_type" : "_ZTIA10_i"
-    }
-   ],
-   "linker_set_key" : "_ZTI16pthread_rwlock_t",
-   "name" : "pthread_rwlock_t",
-   "referenced_type" : "_ZTI16pthread_rwlock_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI16pthread_rwlock_t#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 40,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -35318,52 +35002,6 @@
    "fields" :
    [
     {
-     "field_name" : "struct_size",
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "buffer_id",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "priority",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "tag",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "field_name" : "file",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "field_name" : "line",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "message",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIPKc"
-    }
-   ],
-   "linker_set_key" : "_ZTI21__android_log_message",
-   "name" : "__android_log_message",
-   "referenced_type" : "_ZTI21__android_log_message#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI21__android_log_message#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 28,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/android/log.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "tv_sec",
      "referenced_type" : "_ZTIl"
     },
@@ -36072,37 +35710,6 @@
    "self_type" : "_ZTI7Dl_info",
    "size" : 16,
    "source_file" : "/bionic/libc/include/dlfcn.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "dli_fname",
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "field_name" : "dli_fbase",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "dli_sname",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "field_name" : "dli_saddr",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "linker_set_key" : "_ZTI7Dl_info",
-   "name" : "Dl_info",
-   "referenced_type" : "_ZTI7Dl_info#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "self_type" : "_ZTI7Dl_info#ODR:out/soong/.intermediates/frameworks/rs/cpp/libRSDispatch/android_x86_static/obj/frameworks/rs/cpp/rsDispatch.sdump",
-   "size" : 16,
-   "source_file" : "/out/soong/ndk/sysroot/usr/include/dlfcn.h"
   },
   {
    "alignment" : 4,
@@ -39308,7 +38915,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
@@ -39348,7 +38955,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
@@ -39388,7 +38995,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
@@ -39428,7 +39035,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_11hidl_stringEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<hidl_string>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<hidl_string>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_11hidl_stringEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_11hidl_stringEEUt_E",
@@ -39468,7 +39075,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
@@ -39508,7 +39115,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIhEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIhEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIhEUt_E",
@@ -39548,7 +39155,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIiEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<int>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<int>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIiEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIiEUt_E",
@@ -39588,7 +39195,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIjEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<unsigned int>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<unsigned int>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIjEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIjEUt_E",
@@ -39628,7 +39235,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIxEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<long long>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<long long>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIxEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIxEUt_E",
@@ -39668,7 +39275,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIyEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<unsigned long long>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<unsigned long long>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIyEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIyEUt_E",
@@ -40056,7 +39663,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:81:3)",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",

@@ -9674,7 +9674,7 @@
      "referenced_type" : "_ZTIRPc"
     },
     {
-     "referenced_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIPK2tm"
     },
     {
      "referenced_type" : "_ZTIc"
@@ -9703,7 +9703,7 @@
      "referenced_type" : "_ZTIRPw"
     },
     {
-     "referenced_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIPK2tm"
     },
     {
      "referenced_type" : "_ZTIc"
@@ -11361,7 +11361,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -11429,7 +11429,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -11464,7 +11464,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDi"
@@ -11499,7 +11499,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -11525,7 +11525,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -11593,7 +11593,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -11628,7 +11628,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDs"
@@ -11663,7 +11663,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -11689,7 +11689,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -11757,7 +11757,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -11792,7 +11792,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKw"
@@ -11827,7 +11827,7 @@
      "referenced_type" : "_ZTIPKNSt3__114__codecvt_utf8IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -11999,7 +11999,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -12067,7 +12067,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12102,7 +12102,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDi"
@@ -12137,7 +12137,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12163,7 +12163,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -12231,7 +12231,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12266,7 +12266,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDi"
@@ -12301,7 +12301,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDiLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12327,7 +12327,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -12395,7 +12395,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12430,7 +12430,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDs"
@@ -12465,7 +12465,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12491,7 +12491,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -12559,7 +12559,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12594,7 +12594,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDs"
@@ -12629,7 +12629,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IDsLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12655,7 +12655,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -12723,7 +12723,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12758,7 +12758,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKw"
@@ -12793,7 +12793,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb0EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12819,7 +12819,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -12887,7 +12887,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -12922,7 +12922,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKw"
@@ -12957,7 +12957,7 @@
      "referenced_type" : "_ZTIPKNSt3__115__codecvt_utf16IwLb1EEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -13570,7 +13570,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -13638,7 +13638,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -13673,7 +13673,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDi"
@@ -13708,7 +13708,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDiEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -13734,7 +13734,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -13802,7 +13802,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -13837,7 +13837,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDs"
@@ -13872,7 +13872,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IDsEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -13898,7 +13898,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -13966,7 +13966,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -14001,7 +14001,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKw"
@@ -14036,7 +14036,7 @@
      "referenced_type" : "_ZTIPKNSt3__120__codecvt_utf8_utf16IwEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -14831,7 +14831,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDic9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -14899,7 +14899,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDic9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -14934,7 +14934,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDic9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDi"
@@ -14969,7 +14969,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDic9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -14995,7 +14995,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDsc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -15063,7 +15063,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDsc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -15098,7 +15098,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDsc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKDs"
@@ -15133,7 +15133,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIDsc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -15159,7 +15159,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIcc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -15227,7 +15227,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIcc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -15262,7 +15262,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIcc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -15297,7 +15297,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIcc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -15323,7 +15323,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIwc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -15391,7 +15391,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIwc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -15426,7 +15426,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIwc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKw"
@@ -15461,7 +15461,7 @@
      "referenced_type" : "_ZTIPKNSt3__17codecvtIwc9mbstate_tEE"
     },
     {
-     "referenced_type" : "_ZTIR9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIR9mbstate_t"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -18274,7 +18274,7 @@
      "referenced_type" : "_ZTIc"
     },
     {
-     "referenced_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIPK2tm"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -18306,7 +18306,7 @@
      "referenced_type" : "_ZTIc"
     },
     {
-     "referenced_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIPK2tm"
     },
     {
      "referenced_type" : "_ZTIc"
@@ -18337,7 +18337,7 @@
      "referenced_type" : "_ZTIw"
     },
     {
-     "referenced_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIPK2tm"
     },
     {
      "referenced_type" : "_ZTIPKw"
@@ -18369,7 +18369,7 @@
      "referenced_type" : "_ZTIw"
     },
     {
-     "referenced_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump"
+     "referenced_type" : "_ZTIPK2tm"
     },
     {
      "referenced_type" : "_ZTIc"
@@ -30102,7 +30102,7 @@
   {
    "function_name" : "std::__1::__cloc",
    "linker_set_key" : "_ZNSt3__16__clocEv",
-   "return_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
+   "return_type" : "_ZTIP10__locale_t",
    "source_file" : "/external/libcxx/include/locale"
   },
   {
@@ -35030,78 +35030,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/any.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/any.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/bind.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/bind.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/new.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/new.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/optional.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/optional.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/valarray.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/valarray.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/variant.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/variant.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE5__repE",
    "name" : "const std::basic_string<wchar_t>::__rep &",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE5__repE",
@@ -35153,69 +35081,6 @@
    "source_file" : "/external/libcxx/include/__bit_reference"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/thread.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/thread.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__114error_categoryE",
    "name" : "const std::error_category &",
@@ -35229,20 +35094,6 @@
    "name" : "const __hash_iterator<_NodePtr> &",
    "referenced_type" : "_ZTIKNSt3__115__hash_iteratorIT_EE",
    "self_type" : "_ZTIRKNSt3__115__hash_iteratorIT_EE",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__115__hash_iteratorIT_EE",
-   "name" : "const __hash_iterator<_NodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__115__hash_iteratorIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__115__hash_iteratorIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__115__hash_iteratorIT_EE",
-   "name" : "const __hash_iterator<_NodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__115__hash_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__115__hash_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
    "source_file" : "/external/libcxx/include/__hash_table"
   },
   {
@@ -35286,13 +35137,6 @@
    "name" : "const __deque_iterator<_ValueType, _Pointer, _Reference, _MapPointer, _DiffType, _BlockSize> &",
    "referenced_type" : "_ZTIKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE",
    "self_type" : "_ZTIRKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE",
-   "source_file" : "/external/libcxx/include/deque"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE",
-   "name" : "const __deque_iterator<_ValueType, _Pointer, _Reference, _MapPointer, _DiffType, _BlockSize> &",
-   "referenced_type" : "_ZTIKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE#ODR:",
-   "self_type" : "_ZTIRKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE#ODR:",
    "source_file" : "/external/libcxx/include/deque"
   },
   {
@@ -35501,38 +35345,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__118gamma_distribution10param_typeE",
-   "name" : "const class std::__1::gamma_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__118gamma_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__118gamma_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__118gamma_distribution10param_typeE",
-   "name" : "const class std::__1::gamma_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__118gamma_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__118gamma_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__118gamma_distributionIT_EE",
    "name" : "const gamma_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__118gamma_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__118gamma_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__118gamma_distributionIT_EE",
-   "name" : "const gamma_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__118gamma_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__118gamma_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__118gamma_distributionIT_EE",
-   "name" : "const gamma_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__118gamma_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__118gamma_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35552,38 +35368,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__119cauchy_distribution10param_typeE",
-   "name" : "const class std::__1::cauchy_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__119cauchy_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__119cauchy_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__119cauchy_distribution10param_typeE",
-   "name" : "const class std::__1::cauchy_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__119cauchy_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__119cauchy_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__119cauchy_distributionIT_EE",
    "name" : "const cauchy_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__119cauchy_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__119cauchy_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__119cauchy_distributionIT_EE",
-   "name" : "const cauchy_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__119cauchy_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__119cauchy_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__119cauchy_distributionIT_EE",
-   "name" : "const cauchy_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__119cauchy_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__119cauchy_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35612,38 +35400,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__119normal_distribution10param_typeE",
-   "name" : "const class std::__1::normal_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__119normal_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__119normal_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__119normal_distribution10param_typeE",
-   "name" : "const class std::__1::normal_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__119normal_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__119normal_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__119normal_distributionIT_EE",
    "name" : "const normal_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__119normal_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__119normal_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__119normal_distributionIT_EE",
-   "name" : "const normal_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__119normal_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__119normal_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__119normal_distributionIT_EE",
-   "name" : "const normal_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__119normal_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__119normal_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35654,38 +35414,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__120poisson_distribution10param_typeE",
-   "name" : "const class std::__1::poisson_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__120poisson_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__120poisson_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__120poisson_distribution10param_typeE",
-   "name" : "const class std::__1::poisson_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__120poisson_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__120poisson_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__120poisson_distributionIT_EE",
    "name" : "const poisson_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__120poisson_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__120poisson_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__120poisson_distributionIT_EE",
-   "name" : "const poisson_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__120poisson_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__120poisson_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__120poisson_distributionIT_EE",
-   "name" : "const poisson_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__120poisson_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__120poisson_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35696,38 +35428,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__120weibull_distribution10param_typeE",
-   "name" : "const class std::__1::weibull_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__120weibull_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__120weibull_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__120weibull_distribution10param_typeE",
-   "name" : "const class std::__1::weibull_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__120weibull_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__120weibull_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__120weibull_distributionIT_EE",
    "name" : "const weibull_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__120weibull_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__120weibull_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__120weibull_distributionIT_EE",
-   "name" : "const weibull_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__120weibull_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__120weibull_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__120weibull_distributionIT_EE",
-   "name" : "const weibull_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__120weibull_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__120weibull_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35738,38 +35442,10 @@
    "source_file" : "/external/libcxx/include/__hash_table"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__121__hash_const_iteratorIT_EE",
-   "name" : "const __hash_const_iterator<_ConstNodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__121__hash_const_iteratorIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121__hash_const_iteratorIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__hash_const_iteratorIT_EE",
-   "name" : "const __hash_const_iterator<_ConstNodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__121__hash_const_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__121__hash_const_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__121__hash_local_iteratorIT_EE",
    "name" : "const __hash_local_iterator<_NodePtr> &",
    "referenced_type" : "_ZTIKNSt3__121__hash_local_iteratorIT_EE",
    "self_type" : "_ZTIRKNSt3__121__hash_local_iteratorIT_EE",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__hash_local_iteratorIT_EE",
-   "name" : "const __hash_local_iterator<_NodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__121__hash_local_iteratorIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121__hash_local_iteratorIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__hash_local_iteratorIT_EE",
-   "name" : "const __hash_local_iterator<_NodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__121__hash_local_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__121__hash_local_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
    "source_file" : "/external/libcxx/include/__hash_table"
   },
   {
@@ -35780,38 +35456,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__121binomial_distribution10param_typeE",
-   "name" : "const class std::__1::binomial_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__121binomial_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121binomial_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121binomial_distribution10param_typeE",
-   "name" : "const class std::__1::binomial_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__121binomial_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__121binomial_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__121binomial_distributionIT_EE",
    "name" : "const binomial_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__121binomial_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__121binomial_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121binomial_distributionIT_EE",
-   "name" : "const binomial_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__121binomial_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121binomial_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121binomial_distributionIT_EE",
-   "name" : "const binomial_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__121binomial_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__121binomial_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35822,38 +35470,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__121discrete_distribution10param_typeE",
-   "name" : "const class std::__1::discrete_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__121discrete_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121discrete_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121discrete_distribution10param_typeE",
-   "name" : "const class std::__1::discrete_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__121discrete_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__121discrete_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__121discrete_distributionIT_EE",
    "name" : "const discrete_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__121discrete_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__121discrete_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121discrete_distributionIT_EE",
-   "name" : "const discrete_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__121discrete_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121discrete_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121discrete_distributionIT_EE",
-   "name" : "const discrete_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__121discrete_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__121discrete_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -35864,38 +35484,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__121fisher_f_distribution10param_typeE",
-   "name" : "const class std::__1::fisher_f_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__121fisher_f_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121fisher_f_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121fisher_f_distribution10param_typeE",
-   "name" : "const class std::__1::fisher_f_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__121fisher_f_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__121fisher_f_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__121fisher_f_distributionIT_EE",
    "name" : "const fisher_f_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__121fisher_f_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__121fisher_f_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121fisher_f_distributionIT_EE",
-   "name" : "const fisher_f_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__121fisher_f_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121fisher_f_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121fisher_f_distributionIT_EE",
-   "name" : "const fisher_f_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__121fisher_f_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__121fisher_f_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36248,38 +35840,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__122geometric_distribution10param_typeE",
-   "name" : "const class std::__1::geometric_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__122geometric_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__122geometric_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122geometric_distribution10param_typeE",
-   "name" : "const class std::__1::geometric_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__122geometric_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__122geometric_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__122geometric_distributionIT_EE",
    "name" : "const geometric_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__122geometric_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__122geometric_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122geometric_distributionIT_EE",
-   "name" : "const geometric_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__122geometric_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__122geometric_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122geometric_distributionIT_EE",
-   "name" : "const geometric_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__122geometric_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__122geometric_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36290,38 +35854,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__122lognormal_distribution10param_typeE",
-   "name" : "const class std::__1::lognormal_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__122lognormal_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__122lognormal_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122lognormal_distribution10param_typeE",
-   "name" : "const class std::__1::lognormal_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__122lognormal_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__122lognormal_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__122lognormal_distributionIT_EE",
    "name" : "const lognormal_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__122lognormal_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__122lognormal_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122lognormal_distributionIT_EE",
-   "name" : "const lognormal_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__122lognormal_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__122lognormal_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122lognormal_distributionIT_EE",
-   "name" : "const lognormal_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__122lognormal_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__122lognormal_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36332,38 +35868,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__122student_t_distribution10param_typeE",
-   "name" : "const class std::__1::student_t_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__122student_t_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__122student_t_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122student_t_distribution10param_typeE",
-   "name" : "const class std::__1::student_t_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__122student_t_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__122student_t_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__122student_t_distributionIT_EE",
    "name" : "const student_t_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__122student_t_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__122student_t_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122student_t_distributionIT_EE",
-   "name" : "const student_t_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__122student_t_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__122student_t_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__122student_t_distributionIT_EE",
-   "name" : "const student_t_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__122student_t_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__122student_t_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36383,38 +35891,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__124chi_squared_distribution10param_typeE",
-   "name" : "const class std::__1::chi_squared_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124chi_squared_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124chi_squared_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124chi_squared_distribution10param_typeE",
-   "name" : "const class std::__1::chi_squared_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124chi_squared_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__124chi_squared_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__124chi_squared_distributionIT_EE",
    "name" : "const chi_squared_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__124chi_squared_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__124chi_squared_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124chi_squared_distributionIT_EE",
-   "name" : "const chi_squared_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__124chi_squared_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124chi_squared_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124chi_squared_distributionIT_EE",
-   "name" : "const chi_squared_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__124chi_squared_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__124chi_squared_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36425,38 +35905,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__124exponential_distribution10param_typeE",
-   "name" : "const class std::__1::exponential_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124exponential_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124exponential_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124exponential_distribution10param_typeE",
-   "name" : "const class std::__1::exponential_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124exponential_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__124exponential_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__124exponential_distributionIT_EE",
    "name" : "const exponential_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__124exponential_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__124exponential_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124exponential_distributionIT_EE",
-   "name" : "const exponential_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__124exponential_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124exponential_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124exponential_distributionIT_EE",
-   "name" : "const exponential_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__124exponential_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__124exponential_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36467,318 +35919,10 @@
    "source_file" : "/external/libcxx/include/algorithm"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/chrono.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/chrono.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/condition_variable.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/condition_variable.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/debug.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/debug.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/future.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/future.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/memory.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/memory.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/mutex.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/mutex.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/shared_mutex.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/shared_mutex.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/stdexcept.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/stdexcept.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/string.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/string.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/system_error.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/system_error.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/thread.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/thread.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/valarray.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/valarray.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/variant.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/variant.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
    "name" : "const uniform_int_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/chrono.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/chrono.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/condition_variable.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/condition_variable.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/debug.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/debug.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/future.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/future.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/memory.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/memory.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/mutex.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/mutex.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/shared_mutex.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/shared_mutex.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/stdexcept.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/stdexcept.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/string.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/string.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/system_error.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/system_error.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/thread.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/thread.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/valarray.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/valarray.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/variant.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/variant.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/vector.sdump",
    "source_file" : "/external/libcxx/include/algorithm"
   },
   {
@@ -36789,38 +35933,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__125uniform_real_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_real_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__125uniform_real_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__125uniform_real_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__125uniform_real_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_real_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__125uniform_real_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__125uniform_real_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__125uniform_real_distributionIT_EE",
    "name" : "const uniform_real_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__125uniform_real_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__125uniform_real_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__125uniform_real_distributionIT_EE",
-   "name" : "const uniform_real_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__125uniform_real_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__125uniform_real_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__125uniform_real_distributionIT_EE",
-   "name" : "const uniform_real_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__125uniform_real_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__125uniform_real_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36831,38 +35947,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__126extreme_value_distribution10param_typeE",
-   "name" : "const class std::__1::extreme_value_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__126extreme_value_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__126extreme_value_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__126extreme_value_distribution10param_typeE",
-   "name" : "const class std::__1::extreme_value_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__126extreme_value_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__126extreme_value_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__126extreme_value_distributionIT_EE",
    "name" : "const extreme_value_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__126extreme_value_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__126extreme_value_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__126extreme_value_distributionIT_EE",
-   "name" : "const extreme_value_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__126extreme_value_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__126extreme_value_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__126extreme_value_distributionIT_EE",
-   "name" : "const extreme_value_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__126extreme_value_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__126extreme_value_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36873,38 +35961,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__126linear_congruential_engineIT_XT0_EXT1_EXT2_EEE",
-   "name" : "const linear_congruential_engine<_UIntType, __a, __c, __m> &",
-   "referenced_type" : "_ZTIKNSt3__126linear_congruential_engineIT_XT0_EXT1_EXT2_EEE#ODR:",
-   "self_type" : "_ZTIRKNSt3__126linear_congruential_engineIT_XT0_EXT1_EXT2_EEE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__126linear_congruential_engineIT_XT0_EXT1_EXT2_EEE",
-   "name" : "const linear_congruential_engine<_UIntType, __a, __c, __m> &",
-   "referenced_type" : "_ZTIKNSt3__126linear_congruential_engineIT_XT0_EXT1_EXT2_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__126linear_congruential_engineIT_XT0_EXT1_EXT2_EEE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__127__hash_const_local_iteratorIT_EE",
    "name" : "const __hash_const_local_iterator<_ConstNodePtr> &",
    "referenced_type" : "_ZTIKNSt3__127__hash_const_local_iteratorIT_EE",
    "self_type" : "_ZTIRKNSt3__127__hash_const_local_iteratorIT_EE",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__127__hash_const_local_iteratorIT_EE",
-   "name" : "const __hash_const_local_iterator<_ConstNodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__127__hash_const_local_iteratorIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__127__hash_const_local_iteratorIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/__hash_table"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__127__hash_const_local_iteratorIT_EE",
-   "name" : "const __hash_const_local_iterator<_ConstNodePtr> &",
-   "referenced_type" : "_ZTIKNSt3__127__hash_const_local_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
-   "self_type" : "_ZTIRKNSt3__127__hash_const_local_iteratorIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/hash.sdump",
    "source_file" : "/external/libcxx/include/__hash_table"
   },
   {
@@ -36915,38 +35975,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__129piecewise_linear_distribution10param_typeE",
-   "name" : "const class std::__1::piecewise_linear_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__129piecewise_linear_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__129piecewise_linear_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__129piecewise_linear_distribution10param_typeE",
-   "name" : "const class std::__1::piecewise_linear_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__129piecewise_linear_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__129piecewise_linear_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__129piecewise_linear_distributionIT_EE",
    "name" : "const piecewise_linear_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__129piecewise_linear_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__129piecewise_linear_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__129piecewise_linear_distributionIT_EE",
-   "name" : "const piecewise_linear_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__129piecewise_linear_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__129piecewise_linear_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__129piecewise_linear_distributionIT_EE",
-   "name" : "const piecewise_linear_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__129piecewise_linear_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__129piecewise_linear_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36957,38 +35989,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__130negative_binomial_distribution10param_typeE",
-   "name" : "const class std::__1::negative_binomial_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__130negative_binomial_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__130negative_binomial_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__130negative_binomial_distribution10param_typeE",
-   "name" : "const class std::__1::negative_binomial_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__130negative_binomial_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__130negative_binomial_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__130negative_binomial_distributionIT_EE",
    "name" : "const negative_binomial_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__130negative_binomial_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__130negative_binomial_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__130negative_binomial_distributionIT_EE",
-   "name" : "const negative_binomial_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__130negative_binomial_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__130negative_binomial_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__130negative_binomial_distributionIT_EE",
-   "name" : "const negative_binomial_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__130negative_binomial_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__130negative_binomial_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -36999,38 +36003,10 @@
    "source_file" : "/external/libcxx/include/random"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__131piecewise_constant_distribution10param_typeE",
-   "name" : "const class std::__1::piecewise_constant_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__131piecewise_constant_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__131piecewise_constant_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__131piecewise_constant_distribution10param_typeE",
-   "name" : "const class std::__1::piecewise_constant_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__131piecewise_constant_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__131piecewise_constant_distribution10param_typeE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__131piecewise_constant_distributionIT_EE",
    "name" : "const piecewise_constant_distribution<_RealType> &",
    "referenced_type" : "_ZTIKNSt3__131piecewise_constant_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__131piecewise_constant_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__131piecewise_constant_distributionIT_EE",
-   "name" : "const piecewise_constant_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__131piecewise_constant_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__131piecewise_constant_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/random"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__131piecewise_constant_distributionIT_EE",
-   "name" : "const piecewise_constant_distribution<_RealType> &",
-   "referenced_type" : "_ZTIKNSt3__131piecewise_constant_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRKNSt3__131piecewise_constant_distributionIT_EE#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
    "source_file" : "/external/libcxx/include/random"
   },
   {
@@ -38570,7 +37546,7 @@
    "referenced_type" : "_ZTINSt3__15mutexE",
    "self_type" : "_ZTIRNSt3__15mutexE",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/external/libcxx/include/__mutex_base"
   },
   {
    "alignment" : 4,
@@ -38956,69 +37932,6 @@
    "name" : "__locale_t *&",
    "referenced_type" : "_ZTIP10__locale_t",
    "self_type" : "_ZTIRP10__locale_t",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:",
-   "self_type" : "_ZTIRP10__locale_t#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
    "size" : 4,
    "source_file" : "/external/libcxx/include/__locale"
   },
@@ -39751,69 +38664,6 @@
    "name" : "const tm *",
    "referenced_type" : "_ZTIK2tm",
    "self_type" : "_ZTIPK2tm",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:",
-   "self_type" : "_ZTIPK2tm#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "self_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/ios.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "self_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "self_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/locale.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "self_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/random.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "self_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/regex.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK2tm",
-   "name" : "const tm *",
-   "referenced_type" : "_ZTIK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
-   "self_type" : "_ZTIPK2tm#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/strstream.sdump",
    "size" : 4,
    "source_file" : "/external/libcxx/include/support/xlocale/__posix_l_fallback.h"
   },
@@ -41574,28 +40424,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKNSt3__14pairIjPKcEE",
-   "name" : "const std::pair<unsigned int, const char *> *",
-   "referenced_type" : "_ZTIKNSt3__14pairIjPKcEE#ODR:",
-   "self_type" : "_ZTIPKNSt3__14pairIjPKcEE#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKNSt3__14pairIjPKwEE",
    "name" : "const std::pair<unsigned int, const wchar_t *> *",
    "referenced_type" : "_ZTIKNSt3__14pairIjPKwEE",
    "self_type" : "_ZTIPKNSt3__14pairIjPKwEE",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKNSt3__14pairIjPKwEE",
-   "name" : "const std::pair<unsigned int, const wchar_t *> *",
-   "referenced_type" : "_ZTIKNSt3__14pairIjPKwEE#ODR:",
-   "self_type" : "_ZTIPKNSt3__14pairIjPKwEE#ODR:",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
   },
@@ -42330,28 +41162,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKNSt3__19sub_matchIPKcEE",
-   "name" : "const std::sub_match<const char *> *",
-   "referenced_type" : "_ZTIKNSt3__19sub_matchIPKcEE#ODR:",
-   "self_type" : "_ZTIPKNSt3__19sub_matchIPKcEE#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKNSt3__19sub_matchIPKwEE",
    "name" : "const std::sub_match<const wchar_t *> *",
    "referenced_type" : "_ZTIKNSt3__19sub_matchIPKwEE",
    "self_type" : "_ZTIPKNSt3__19sub_matchIPKwEE",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKNSt3__19sub_matchIPKwEE",
-   "name" : "const std::sub_match<const wchar_t *> *",
-   "referenced_type" : "_ZTIKNSt3__19sub_matchIPKwEE#ODR:",
-   "self_type" : "_ZTIPKNSt3__19sub_matchIPKwEE#ODR:",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
   },
@@ -43595,7 +42409,7 @@
    "referenced_type" : "_ZTINSt3__117__assoc_sub_stateE",
    "self_type" : "_ZTIPNSt3__117__assoc_sub_stateE",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/external/libcxx/include/vector"
   },
   {
    "alignment" : 4,
@@ -50424,7 +49238,7 @@
      "access" : "private",
      "field_name" : "__st_",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIP9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump"
+     "referenced_type" : "_ZTIP9mbstate_t"
     },
     {
      "access" : "private",
@@ -50540,7 +49354,7 @@
      "access" : "private",
      "field_name" : "__st_",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIP9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump"
+     "referenced_type" : "_ZTIP9mbstate_t"
     },
     {
      "access" : "private",
@@ -52232,7 +51046,7 @@
      "access" : "private",
      "field_name" : "__st_",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIP9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump"
+     "referenced_type" : "_ZTIP9mbstate_t"
     },
     {
      "access" : "private",
@@ -52330,7 +51144,7 @@
      "access" : "private",
      "field_name" : "__st_",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIP9mbstate_t#ODR:out/soong/.intermediates/external/libcxx/libc++_static/android_vendor.R_x86_static/obj/external/libcxx/src/iostream.sdump"
+     "referenced_type" : "_ZTIP9mbstate_t"
     },
     {
      "access" : "private",
