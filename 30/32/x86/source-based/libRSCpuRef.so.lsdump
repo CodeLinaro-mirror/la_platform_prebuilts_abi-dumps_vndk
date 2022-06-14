@@ -2,14 +2,6 @@
  "array_types" :
  [
   {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIA0_c",
-   "name" : "char [0]",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIA0_c",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIA0_i",
    "name" : "int [0]",
@@ -42,7 +34,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA10_i",
    "size" : 40,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 1,
@@ -168,7 +160,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA19_i",
    "size" : 76,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -195,7 +187,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA1_i",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -204,7 +196,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIA1_m",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sched.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sched.h"
   },
   {
    "alignment" : 2,
@@ -231,7 +223,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIA20_l",
    "size" : 80,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 1,
@@ -250,6 +242,15 @@
    "self_type" : "_ZTIA22_c",
    "size" : 22,
    "source_file" : "/frameworks/rs/rsDefines.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA23_c",
+   "name" : "char [23]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA23_c",
+   "size" : 23,
+   "source_file" : "/external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -384,7 +385,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIA2_m",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h"
   },
   {
    "alignment" : 4,
@@ -411,7 +412,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA32_c",
    "size" : 32,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -438,7 +439,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIA32_l",
    "size" : 128,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -537,7 +538,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIA4_h",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/mbstate_t.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/mbstate_t.h"
   },
   {
    "alignment" : 4,
@@ -591,7 +592,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIA56_l",
    "size" : 224,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 2,
@@ -645,7 +646,7 @@
    "referenced_type" : "_ZTIPKc",
    "self_type" : "_ZTIA65_PKc",
    "size" : 260,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/signal.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/signal.h"
   },
   {
    "alignment" : 4,
@@ -708,7 +709,7 @@
    "referenced_type" : "_ZTI11_libc_fpreg",
    "self_type" : "_ZTIA8_11_libc_fpreg",
    "size" : 80,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 2,
@@ -789,7 +790,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA8_i",
    "size" : 32,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -808,6 +809,15 @@
    "self_type" : "_ZTIA8_y",
    "size" : 64,
    "source_file" : "/bionic/libc/kernel/uapi/asm-x86/asm/sigcontext.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA92_c",
+   "name" : "char [92]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA92_c",
+   "size" : 92,
+   "source_file" : "/external/libcxx/include/type_traits"
   },
   {
    "alignment" : 1,
@@ -832,7 +842,14 @@
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",
    "self_type" : "_ZTIA_Pc",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/time.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/time.h"
+  },
+  {
+   "linker_set_key" : "_ZTIA_c",
+   "name" : "char []",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA_c",
+   "source_file" : "/frameworks/compile/libbcc/bcinfo/include/bcinfo/MetadataExtractor.h"
   },
   {
    "linker_set_key" : "_ZTIA_f",
@@ -6619,11 +6636,11 @@
     }
    ],
    "linker_set_key" : "_ZTI22$PTHREAD_MUTEX_DEFAULT",
-   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h:41:1)",
+   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/pthread.h:41:1)",
    "referenced_type" : "_ZTI22$PTHREAD_MUTEX_DEFAULT",
    "self_type" : "_ZTI22$PTHREAD_MUTEX_DEFAULT",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h",
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/pthread.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -6992,11 +7009,11 @@
     }
    ],
    "linker_set_key" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
-   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/android/dlext.h:41:1)",
+   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/android/dlext.h:41:1)",
    "referenced_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
    "self_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/android/dlext.h",
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/android/dlext.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -7357,11 +7374,11 @@
     }
    ],
    "linker_set_key" : "_ZTI32$PTHREAD_RWLOCK_PREFER_READER_NP",
-   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h:63:1)",
+   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/pthread.h:63:1)",
    "referenced_type" : "_ZTI32$PTHREAD_RWLOCK_PREFER_READER_NP",
    "self_type" : "_ZTI32$PTHREAD_RWLOCK_PREFER_READER_NP",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h",
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/pthread.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -7450,11 +7467,11 @@
     }
    ],
    "linker_set_key" : "_ZTI6$NGREG",
-   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h:128:1)",
+   "name" : "(anonymous enum at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h:128:1)",
    "referenced_type" : "_ZTI6$NGREG",
    "self_type" : "_ZTI6$NGREG",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h",
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -10433,7 +10450,7 @@
    "referenced_type" : "_ZTIFPKN7android12renderscript15RsdCpuReference9CpuSymbolEPNS0_7ContextEPKcE",
    "return_type" : "_ZTIPKN7android12renderscript15RsdCpuReference9CpuSymbolE",
    "self_type" : "_ZTIFPKN7android12renderscript15RsdCpuReference9CpuSymbolEPNS0_7ContextEPKcE",
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuCore.h"
   },
   {
    "alignment" : 4,
@@ -10451,7 +10468,7 @@
    "referenced_type" : "_ZTIFPKcS0_jE",
    "return_type" : "_ZTIPKc",
    "self_type" : "_ZTIFPKcS0_jE",
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuCore.h"
   },
   {
    "alignment" : 4,
@@ -10469,7 +10486,7 @@
    "referenced_type" : "_ZTIFPN7android12renderscript15RsdCpuReference9CpuScriptEPNS0_7ContextEPKNS0_6ScriptEE",
    "return_type" : "_ZTIPN7android12renderscript15RsdCpuReference9CpuScriptE",
    "self_type" : "_ZTIFPN7android12renderscript15RsdCpuReference9CpuScriptEPNS0_7ContextEPKNS0_6ScriptEE",
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuCore.h"
   },
   {
    "alignment" : 4,
@@ -10538,7 +10555,7 @@
    "referenced_type" : "_ZTIFPvS_jPKvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvS_jPKvE",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -10577,7 +10594,7 @@
    "referenced_type" : "_ZTIFPvjPKvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvjPKvE",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -10616,7 +10633,7 @@
    "referenced_type" : "_ZTIFPvjjPKvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvjjPKvE",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -11138,7 +11155,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "referenced_type" : "_ZTIFiP7__sFILEE",
@@ -12929,7 +12946,7 @@
    "referenced_type" : "_ZTIFvPvE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPvE",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -12947,7 +12964,7 @@
    "referenced_type" : "_ZTIFvPvPKvE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPvPKvE",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -15133,7 +15150,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIPN7android12renderscript16ScriptExecutableE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
+   "return_type" : "_ZTIPN7android12renderscript16ScriptExecutableE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
    "source_file" : "/frameworks/rs/cpu_ref/rsCpuExecutable.h"
   },
   {
@@ -19827,6 +19844,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA23_Kc",
+   "name" : "char const (&)[23]",
+   "referenced_type" : "_ZTIA23_Kc",
+   "self_type" : "_ZTIRA23_Kc",
+   "size" : 4,
+   "source_file" : "/external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA2_Kc",
    "name" : "char const (&)[2]",
    "referenced_type" : "_ZTIA2_Kc",
@@ -19872,10 +19898,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRA9_Kc",
-   "name" : "char const (&)[9]",
-   "referenced_type" : "_ZTIA9_Kc",
-   "self_type" : "_ZTIRA9_Kc",
+   "linker_set_key" : "_ZTIRA92_Kc",
+   "name" : "char const (&)[92]",
+   "referenced_type" : "_ZTIA92_Kc",
+   "self_type" : "_ZTIRA92_Kc",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
   },
@@ -20238,132 +20264,6 @@
    "source_file" : "/external/libcxx/include/__bit_reference"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE",
-   "name" : "const __bit_iterator<_Cp, _IsConst, > &",
-   "referenced_type" : "_ZTIKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIRKNSt3__114__bit_iteratorIT_XT0_EXT1_EEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "source_file" : "/external/libcxx/include/__bit_reference"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__114error_categoryE",
    "name" : "const std::error_category &",
@@ -20407,27 +20307,6 @@
    "source_file" : "/external/libcxx/include/__tree"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_iterator<_Tp, _NodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_iterator<_Tp, _NodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_iterator<_Tp, _NodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIRKNSt3__115__tree_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__115error_conditionE",
    "name" : "const std::error_condition &",
@@ -20441,13 +20320,6 @@
    "name" : "const __deque_iterator<_ValueType, _Pointer, _Reference, _MapPointer, _DiffType, _BlockSize> &",
    "referenced_type" : "_ZTIKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE",
    "self_type" : "_ZTIRKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE",
-   "source_file" : "/external/libcxx/include/deque"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE",
-   "name" : "const __deque_iterator<_ValueType, _Pointer, _Reference, _MapPointer, _DiffType, _BlockSize> &",
-   "referenced_type" : "_ZTIKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE#ODR:",
-   "self_type" : "_ZTIRKNSt3__116__deque_iteratorIT_T0_T1_T2_T3_XT4_EEE#ODR:",
    "source_file" : "/external/libcxx/include/deque"
   },
   {
@@ -20716,27 +20588,6 @@
    "name" : "const __tree_const_iterator<_Tp, _ConstNodePtr, _DiffType> &",
    "referenced_type" : "_ZTIKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
    "self_type" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_const_iterator<_Tp, _ConstNodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_const_iterator<_Tp, _ConstNodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "source_file" : "/external/libcxx/include/__tree"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE",
-   "name" : "const __tree_const_iterator<_Tp, _ConstNodePtr, _DiffType> &",
-   "referenced_type" : "_ZTIKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIRKNSt3__121__tree_const_iteratorIT_T0_T1_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "source_file" : "/external/libcxx/include/__tree"
   },
   {
@@ -21206,262 +21057,10 @@
    "source_file" : "/external/libcxx/include/algorithm"
   },
   {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE",
-   "name" : "const class std::__1::uniform_int_distribution::param_type &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distribution10param_typeE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
    "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
    "name" : "const uniform_int_distribution<_IntType> &",
    "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE",
    "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "source_file" : "/external/libcxx/include/algorithm"
-  },
-  {
-   "linker_set_key" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE",
-   "name" : "const uniform_int_distribution<_IntType> &",
-   "referenced_type" : "_ZTIKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIRKNSt3__124uniform_int_distributionIT_EE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "source_file" : "/external/libcxx/include/algorithm"
   },
   {
@@ -21925,15 +21524,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRKPKN7android12renderscript7ClosureE",
-   "name" : "const android::renderscript::Closure *const &",
-   "referenced_type" : "_ZTIKPKN7android12renderscript7ClosureE#ODR:",
-   "self_type" : "_ZTIRKPKN7android12renderscript7ClosureE#ODR:",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsMap.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRKPKc",
    "name" : "const char *const &",
    "referenced_type" : "_ZTIKPKc",
@@ -22209,7 +21799,7 @@
    "referenced_type" : "_ZTIKi",
    "self_type" : "_ZTIRKi",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/algorithm"
+   "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
   {
    "alignment" : 4,
@@ -23642,36 +23232,9 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:",
-   "self_type" : "_ZTIRP10__locale_t#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRP10__locale_t",
-   "name" : "__locale_t *&",
-   "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIRP10__locale_t#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/__locale"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRP7__sFILE",
    "name" : "__sFILE *&",
-   "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
+   "referenced_type" : "_ZTIP7__sFILE",
    "self_type" : "_ZTIRP7__sFILE",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
@@ -23876,28 +23439,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRPNSt3__14__fs10filesystem12__dir_streamE",
-   "name" : "std::filesystem::__dir_stream *&",
-   "referenced_type" : "_ZTIPNSt3__14__fs10filesystem12__dir_streamE#ODR:",
-   "self_type" : "_ZTIRPNSt3__14__fs10filesystem12__dir_streamE#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
    "name" : "std::filesystem::recursive_directory_iterator::__shared_imp *&",
    "referenced_type" : "_ZTIPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
    "self_type" : "_ZTIRPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
-   "name" : "std::filesystem::recursive_directory_iterator::__shared_imp *&",
-   "referenced_type" : "_ZTIPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE#ODR:",
-   "self_type" : "_ZTIRPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE#ODR:",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
   },
@@ -24082,7 +23627,7 @@
    "referenced_type" : "_ZTI10__locale_t",
    "self_type" : "_ZTIP10__locale_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/time.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/time.h"
   },
   {
    "alignment" : 4,
@@ -24163,7 +23708,7 @@
    "referenced_type" : "_ZTI13_libc_fpstate",
    "self_type" : "_ZTIP13_libc_fpstate",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -24244,7 +23789,7 @@
    "referenced_type" : "_ZTI16user_regs_struct",
    "self_type" : "_ZTIP16user_regs_struct",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -24271,7 +23816,7 @@
    "referenced_type" : "_ZTI18user_fpregs_struct",
    "self_type" : "_ZTIP18user_fpregs_struct",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -24280,7 +23825,7 @@
    "referenced_type" : "_ZTI19__pthread_cleanup_t",
    "self_type" : "_ZTIP19__pthread_cleanup_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/pthread.h"
   },
   {
    "alignment" : 4,
@@ -24289,7 +23834,7 @@
    "referenced_type" : "_ZTI19android_namespace_t",
    "self_type" : "_ZTIP19android_namespace_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/android/dlext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/android/dlext.h"
   },
   {
    "alignment" : 4,
@@ -24325,7 +23870,7 @@
    "referenced_type" : "_ZTI7__sFILE",
    "self_type" : "_ZTIP7__sFILE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/stdio.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/stdio.h"
   },
   {
    "alignment" : 4,
@@ -24358,8 +23903,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP8timespec",
    "name" : "timespec *",
-   "referenced_type" : "_ZTI8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIP8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "referenced_type" : "_ZTI8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
+   "self_type" : "_ZTIP8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "size" : 4,
    "source_file" : "/external/libcxx/include/__threading_support"
   },
@@ -24370,7 +23915,7 @@
    "referenced_type" : "_ZTI8ucontext",
    "self_type" : "_ZTIP8ucontext",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -24415,7 +23960,7 @@
    "referenced_type" : "_ZTIFPKN7android12renderscript15RsdCpuReference9CpuSymbolEPNS0_7ContextEPKcE",
    "self_type" : "_ZTIPFPKN7android12renderscript15RsdCpuReference9CpuSymbolEPNS0_7ContextEPKcE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuCore.h"
   },
   {
    "alignment" : 4,
@@ -24424,7 +23969,7 @@
    "referenced_type" : "_ZTIFPKcS0_jE",
    "self_type" : "_ZTIPFPKcS0_jE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuCore.h"
   },
   {
    "alignment" : 4,
@@ -24433,7 +23978,7 @@
    "referenced_type" : "_ZTIFPN7android12renderscript15RsdCpuReference9CpuScriptEPNS0_7ContextEPKNS0_6ScriptEE",
    "self_type" : "_ZTIPFPN7android12renderscript15RsdCpuReference9CpuScriptEPNS0_7ContextEPKNS0_6ScriptEE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuCore.h"
   },
   {
    "alignment" : 4,
@@ -24469,7 +24014,7 @@
    "referenced_type" : "_ZTIFPvS_jPKvE",
    "self_type" : "_ZTIPFPvS_jPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -24487,7 +24032,7 @@
    "referenced_type" : "_ZTIFPvjPKvE",
    "self_type" : "_ZTIPFPvjPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -24505,7 +24050,7 @@
    "referenced_type" : "_ZTIFPvjjPKvE",
    "self_type" : "_ZTIPFPvjjPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -25360,7 +24905,7 @@
    "referenced_type" : "_ZTIFvPvE",
    "self_type" : "_ZTIPFvPvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -25369,7 +24914,7 @@
    "referenced_type" : "_ZTIFvPvPKvE",
    "self_type" : "_ZTIPFvPvPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -25531,7 +25076,7 @@
    "referenced_type" : "_ZTIK2tm",
    "self_type" : "_ZTIPK2tm",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/time.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/time.h"
   },
   {
    "alignment" : 4,
@@ -25566,15 +25111,6 @@
    "name" : "const llvm::Module *",
    "referenced_type" : "_ZTIKN4llvm6ModuleE",
    "self_type" : "_ZTIPKN4llvm6ModuleE",
-   "size" : 4,
-   "source_file" : "/frameworks/compile/libbcc/bcinfo/include/bcinfo/MetadataExtractor.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN4llvm6ModuleE",
-   "name" : "const llvm::Module *",
-   "referenced_type" : "_ZTIKN4llvm6ModuleE#ODR:",
-   "self_type" : "_ZTIPKN4llvm6ModuleE#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/compile/libbcc/bcinfo/include/bcinfo/MetadataExtractor.h"
   },
@@ -25663,8 +25199,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android12renderscript12ScriptGroup2E",
    "name" : "const android::renderscript::ScriptGroup2 *",
-   "referenced_type" : "_ZTIKN7android12renderscript12ScriptGroup2E#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript12ScriptGroup2E#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "referenced_type" : "_ZTIKN7android12renderscript12ScriptGroup2E#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "self_type" : "_ZTIPKN7android12renderscript12ScriptGroup2E#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "size" : 4,
    "source_file" : "/frameworks/rs/cpu_ref/rsCpuScriptGroup2.h"
   },
@@ -25760,168 +25296,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
-   "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *",
-   "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android12renderscript13ObjectBaseRefINS0_15ProgramFragmentEEE",
    "name" : "const android::renderscript::ObjectBaseRef<android::renderscript::ProgramFragment> *",
    "referenced_type" : "_ZTIKN7android12renderscript13ObjectBaseRefINS0_15ProgramFragmentEEE",
@@ -25990,7 +25364,7 @@
    "referenced_type" : "_ZTIKN7android12renderscript14ScriptKernelIDE",
    "self_type" : "_ZTIPKN7android12renderscript14ScriptKernelIDE",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -26219,334 +25593,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
-   "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rs_hal.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
    "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
    "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE",
    "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsic3DLUT.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBLAS.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlend.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicBlur.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve3x3.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicConvolve5x5.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicHistogram.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicLUT.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicResize.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicYuvToRGB.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuRuntimeMath.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScript.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android12renderscript4PairIPKcjEE",
-   "name" : "const android::renderscript::Pair<const char *, unsigned int> *",
-   "referenced_type" : "_ZTIKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4PairIPKcjEE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "size" : 4,
    "source_file" : "/frameworks/rs/rsScript.h"
   },
@@ -26584,7 +25634,7 @@
    "referenced_type" : "_ZTIKN7android12renderscript6ScriptE",
    "self_type" : "_ZTIPKN7android12renderscript6ScriptE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -26599,8 +25649,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android12renderscript7ClosureE",
    "name" : "const android::renderscript::Closure *",
-   "referenced_type" : "_ZTIKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "referenced_type" : "_ZTIKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "self_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "size" : 4,
    "source_file" : "/frameworks/rs/cpu_ref/rsCpuScriptGroup2.h"
   },
@@ -26665,7 +25715,7 @@
    "referenced_type" : "_ZTIKN7android12renderscript7ScriptCE",
    "self_type" : "_ZTIPKN7android12renderscript7ScriptCE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/rsScriptC.h"
   },
   {
    "alignment" : 4,
@@ -28978,7 +28028,7 @@
    "referenced_type" : "_ZTIKs",
    "self_type" : "_ZTIPKs",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.cpp"
+   "source_file" : "/frameworks/rs/cpu_ref/rsCpuIntrinsics_x86.cpp"
   },
   {
    "alignment" : 4,
@@ -28987,7 +28037,7 @@
    "referenced_type" : "_ZTIKv",
    "self_type" : "_ZTIPKv",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -29041,7 +28091,7 @@
    "referenced_type" : "_ZTIN7android12renderscript10ObjectBaseE",
    "self_type" : "_ZTIPN7android12renderscript10ObjectBaseE",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -29167,7 +28217,7 @@
    "referenced_type" : "_ZTIN7android12renderscript13ObjectBaseRefINS0_10AllocationEEE",
    "self_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_10AllocationEEE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/rsScript.h"
+   "source_file" : "/frameworks/rs/rsObjectBase.h"
   },
   {
    "alignment" : 4,
@@ -29806,7 +28856,7 @@
    "referenced_type" : "_ZTIN7android12renderscript7ContextE",
    "self_type" : "_ZTIPN7android12renderscript7ContextE",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -29824,7 +28874,7 @@
    "referenced_type" : "_ZTIN7android12renderscript7ElementE",
    "self_type" : "_ZTIPN7android12renderscript7ElementE",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -30643,7 +29693,7 @@
    "referenced_type" : "_ZTINSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EE",
    "self_type" : "_ZTIPNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EE",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/memory"
+   "source_file" : "/external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -32602,7 +31652,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP7__sFILE",
    "name" : "__sFILE **",
-   "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
+   "referenced_type" : "_ZTIP7__sFILE",
    "self_type" : "_ZTIPP7__sFILE",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
@@ -32911,7 +31961,7 @@
    "referenced_type" : "_ZTIPc",
    "self_type" : "_ZTIPPc",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/unistd.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/unistd.h"
   },
   {
    "alignment" : 4,
@@ -32929,7 +31979,7 @@
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIPPv",
    "size" : 4,
-   "source_file" : "/frameworks/rs/cpu_ref/rsCpuExecutable.h"
+   "source_file" : "/hardware/libhardware/include/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -33055,7 +32105,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/time.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/time.h"
   },
   {
    "alignment" : 4,
@@ -33127,7 +32177,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -33213,6 +32263,16 @@
   {
    "alignment" : 1,
    "is_const" : true,
+   "linker_set_key" : "_ZTIA23_Kc",
+   "name" : "char const[23]",
+   "referenced_type" : "_ZTIA23_c",
+   "self_type" : "_ZTIA23_Kc",
+   "size" : 23,
+   "source_file" : "/external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
    "linker_set_key" : "_ZTIA2_Kc",
    "name" : "char const[2]",
    "referenced_type" : "_ZTIA2_c",
@@ -33288,7 +32348,7 @@
    "referenced_type" : "_ZTIA65_PKc",
    "self_type" : "_ZTIA65_KPKc",
    "size" : 260,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/signal.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/signal.h"
   },
   {
    "alignment" : 1,
@@ -33308,6 +32368,16 @@
    "referenced_type" : "_ZTIA8_c",
    "self_type" : "_ZTIA8_Kc",
    "size" : 8,
+   "source_file" : "/external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA92_Kc",
+   "name" : "char const[92]",
+   "referenced_type" : "_ZTIA92_c",
+   "self_type" : "_ZTIA92_Kc",
+   "size" : 92,
    "source_file" : "/external/libcxx/include/type_traits"
   },
   {
@@ -33446,7 +32516,7 @@
    "referenced_type" : "_ZTI2tm",
    "self_type" : "_ZTIK2tm",
    "size" : 44,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/time.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/time.h"
   },
   {
    "alignment" : 4,
@@ -33750,7 +32820,7 @@
    "referenced_type" : "_ZTIN7android12renderscript14ScriptKernelIDE",
    "self_type" : "_ZTIKN7android12renderscript14ScriptKernelIDE",
    "size" : 44,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -34076,7 +33146,7 @@
    "referenced_type" : "_ZTIN7android12renderscript6ScriptE",
    "self_type" : "_ZTIKN7android12renderscript6ScriptE",
    "size" : 128,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "is_const" : true,
@@ -34154,7 +33224,7 @@
    "referenced_type" : "_ZTIN7android12renderscript7ScriptCE",
    "self_type" : "_ZTIKN7android12renderscript7ScriptCE",
    "size" : 128,
-   "source_file" : "/frameworks/rs/cpu_ref/rsd_cpu.h"
+   "source_file" : "/frameworks/rs/rsScriptC.h"
   },
   {
    "alignment" : 4,
@@ -37049,17 +36119,7 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKPKN7android12renderscript7ClosureE",
    "name" : "const android::renderscript::Closure *const",
-   "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump#ODR:",
-   "self_type" : "_ZTIKPKN7android12renderscript7ClosureE#ODR:",
-   "size" : 4,
-   "source_file" : "/frameworks/rs/rsMap.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPKN7android12renderscript7ClosureE",
-   "name" : "const android::renderscript::Closure *const",
-   "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
    "self_type" : "_ZTIKPKN7android12renderscript7ClosureE",
    "size" : 4,
    "source_file" : "/frameworks/rs/rsMap.h"
@@ -37102,7 +36162,7 @@
    "referenced_type" : "_ZTIPKv",
    "self_type" : "_ZTIKPKv",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/string.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/string.h"
   },
   {
    "alignment" : 4,
@@ -37372,7 +36432,7 @@
    "referenced_type" : "_ZTIPc",
    "self_type" : "_ZTIKPc",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/string.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/string.h"
   },
   {
    "alignment" : 4,
@@ -37402,7 +36462,7 @@
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIKPv",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/string.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/string.h"
   },
   {
    "alignment" : 4,
@@ -37542,7 +36602,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -37552,7 +36612,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -37600,7 +36660,7 @@
    "name" : "const void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/frameworks/rs/rs_hal.h"
   },
   {
    "alignment" : 4,
@@ -37650,7 +36710,7 @@
    "referenced_type" : "_ZTIPFPvS_jPKvE",
    "self_type" : "_ZTIVPFPvS_jPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -37660,7 +36720,7 @@
    "referenced_type" : "_ZTIPFPvjPKvE",
    "self_type" : "_ZTIVPFPvjPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -37670,7 +36730,7 @@
    "referenced_type" : "_ZTIPFPvjjPKvE",
    "self_type" : "_ZTIVPFPvjjPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -37680,7 +36740,7 @@
    "referenced_type" : "_ZTIPFvPvPKvE",
    "self_type" : "_ZTIVPFvPvPKvE",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -37974,7 +37034,7 @@
    "referenced_type" : "_ZTI10mcontext_t",
    "self_type" : "_ZTI10mcontext_t",
    "size" : 88,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -38157,7 +37217,7 @@
    "referenced_type" : "_ZTI10sigset64_t",
    "self_type" : "_ZTI10sigset64_t",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h"
   },
   {
    "alignment" : 4,
@@ -38423,7 +37483,7 @@
    "referenced_type" : "_ZTI11_libc_fpreg",
    "self_type" : "_ZTI11_libc_fpreg",
    "size" : 10,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -38660,7 +37720,7 @@
    "referenced_type" : "_ZTI11sched_param",
    "self_type" : "_ZTI11sched_param",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sched.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sched.h"
   },
   {
    "alignment" : 4,
@@ -38690,7 +37750,7 @@
    "referenced_type" : "_ZTI11sigaction64",
    "self_type" : "_ZTI11sigaction64",
    "size" : 20,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h"
   },
   {
    "alignment" : 4,
@@ -38875,11 +37935,6 @@
      "field_name" : "uid",
      "field_offset" : 192,
      "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "msg",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIA0_c"
     }
    ],
    "linker_set_key" : "_ZTI12logger_entry",
@@ -39027,7 +38082,7 @@
    "referenced_type" : "_ZTI13_libc_fpstate",
    "self_type" : "_ZTI13_libc_fpstate",
    "size" : 112,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -39504,7 +38559,7 @@
    "referenced_type" : "_ZTI14pthread_attr_t",
    "self_type" : "_ZTI14pthread_attr_t",
    "size" : 24,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -39520,7 +38575,7 @@
    "referenced_type" : "_ZTI14pthread_cond_t",
    "self_type" : "_ZTI14pthread_cond_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -39655,7 +38710,7 @@
    "referenced_type" : "_ZTI15pthread_mutex_t",
    "self_type" : "_ZTI15pthread_mutex_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -39815,7 +38870,7 @@
    "referenced_type" : "_ZTI16pthread_rwlock_t",
    "self_type" : "_ZTI16pthread_rwlock_t",
    "size" : 40,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -39911,7 +38966,7 @@
    "referenced_type" : "_ZTI16user_regs_struct",
    "self_type" : "_ZTI16user_regs_struct",
    "size" : 68,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -39978,7 +39033,7 @@
    "referenced_type" : "_ZTI17android_dlextinfo",
    "self_type" : "_ZTI17android_dlextinfo",
    "size" : 36,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/android/dlext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/android/dlext.h"
   },
   {
    "alignment" : 4,
@@ -39994,7 +39049,7 @@
    "referenced_type" : "_ZTI17pthread_barrier_t",
    "self_type" : "_ZTI17pthread_barrier_t",
    "size" : 32,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -40199,7 +39254,7 @@
    "referenced_type" : "_ZTI18pthread_spinlock_t",
    "self_type" : "_ZTI18pthread_spinlock_t",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/pthread_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -40250,7 +39305,7 @@
    "referenced_type" : "_ZTI18user_fpregs_struct",
    "self_type" : "_ZTI18user_fpregs_struct",
    "size" : 108,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -40297,7 +39352,7 @@
    "referenced_type" : "_ZTI19__pthread_cleanup_t",
    "self_type" : "_ZTI19__pthread_cleanup_t",
    "size" : 12,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/pthread.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/pthread.h"
   },
   {
    "alignment" : 4,
@@ -40415,7 +39470,7 @@
    "referenced_type" : "_ZTI19user_fpxregs_struct",
    "self_type" : "_ZTI19user_fpxregs_struct",
    "size" : 512,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -40839,7 +39894,7 @@
    "referenced_type" : "_ZTI2tm",
    "self_type" : "_ZTI2tm",
    "size" : 44,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/time.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/time.h"
   },
   {
    "alignment" : 4,
@@ -40930,7 +39985,7 @@
    "referenced_type" : "_ZTI4stat",
    "self_type" : "_ZTI4stat",
    "size" : 96,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/stat.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/stat.h"
   },
   {
    "alignment" : 4,
@@ -41016,7 +40071,7 @@
    "referenced_type" : "_ZTI4user",
    "self_type" : "_ZTI4user",
    "size" : 284,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/user.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/user.h"
   },
   {
    "alignment" : 4,
@@ -41037,7 +40092,7 @@
    "referenced_type" : "_ZTI5div_t",
    "self_type" : "_ZTI5div_t",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/stdlib.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -41073,7 +40128,7 @@
    "referenced_type" : "_ZTI5flock",
    "self_type" : "_ZTI5flock",
    "size" : 16,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/flock.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/flock.h"
   },
   {
    "alignment" : 4,
@@ -41225,7 +40280,7 @@
    "referenced_type" : "_ZTI5lconv",
    "self_type" : "_ZTI5lconv",
    "size" : 56,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/locale.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/locale.h"
   },
   {
    "alignment" : 4,
@@ -41378,7 +40433,7 @@
    "referenced_type" : "_ZTI6fd_set",
    "self_type" : "_ZTI6fd_set",
    "size" : 128,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/select.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/select.h"
   },
   {
    "alignment" : 4,
@@ -41399,7 +40454,7 @@
    "referenced_type" : "_ZTI6ldiv_t",
    "self_type" : "_ZTI6ldiv_t",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/stdlib.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -41623,7 +40678,7 @@
    "referenced_type" : "_ZTI6stat64",
    "self_type" : "_ZTI6stat64",
    "size" : 96,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/stat.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/stat.h"
   },
   {
    "alignment" : 4,
@@ -41654,7 +40709,7 @@
    "referenced_type" : "_ZTI7Dl_info",
    "self_type" : "_ZTI7Dl_info",
    "size" : 16,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/dlfcn.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/dlfcn.h"
   },
   {
    "alignment" : 2,
@@ -41784,7 +40839,7 @@
    "referenced_type" : "_ZTI7flock64",
    "self_type" : "_ZTI7flock64",
    "size" : 24,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/flock.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/flock.h"
   },
   {
    "alignment" : 4,
@@ -41805,7 +40860,7 @@
    "referenced_type" : "_ZTI7lldiv_t",
    "self_type" : "_ZTI7lldiv_t",
    "size" : 16,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/stdlib.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -41964,7 +41019,7 @@
    "referenced_type" : "_ZTI8mallinfo",
    "self_type" : "_ZTI8mallinfo",
    "size" : 40,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/malloc.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -42037,7 +41092,7 @@
    "referenced_type" : "_ZTI8timespec",
    "self_type" : "_ZTI8timespec",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/timespec.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/timespec.h"
   },
   {
    "alignment" : 4,
@@ -42055,8 +41110,8 @@
    ],
    "linker_set_key" : "_ZTI8timespec",
    "name" : "timespec",
-   "referenced_type" : "_ZTI8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
-   "self_type" : "_ZTI8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+   "referenced_type" : "_ZTI8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
+   "self_type" : "_ZTI8timespec#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuIntrinsicColorMatrix.sdump",
    "size" : 8,
    "source_file" : "/bionic/libc/kernel/uapi/linux/time.h"
   },
@@ -42119,7 +41174,7 @@
    "referenced_type" : "_ZTI8ucontext",
    "self_type" : "_ZTI8ucontext",
    "size" : 228,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -42135,7 +41190,7 @@
    "referenced_type" : "_ZTI9cpu_set_t",
    "self_type" : "_ZTI9cpu_set_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sched.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sched.h"
   },
   {
    "alignment" : 4,
@@ -42172,7 +41227,7 @@
    "referenced_type" : "_ZTI9mbstate_t",
    "self_type" : "_ZTI9mbstate_t",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/mbstate_t.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/mbstate_t.h"
   },
   {
    "alignment" : 4,
@@ -42202,7 +41257,7 @@
    "referenced_type" : "_ZTI9sigaction",
    "self_type" : "_ZTI9sigaction",
    "size" : 16,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h"
   },
   {
    "alignment" : 4,
@@ -42548,12 +41603,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN11sigaction64Ut_E",
-   "name" : "sigaction64::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h:100:3)",
+   "name" : "sigaction64::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h:100:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN11sigaction64Ut_E",
    "self_type" : "_ZTIN11sigaction64Ut_E",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h"
   },
   {
    "alignment" : 4,
@@ -46586,7 +45641,7 @@
      "access" : "private",
      "field_name" : "mExecutable",
      "field_offset" : 864,
-     "referenced_type" : "_ZTIPN7android12renderscript16ScriptExecutableE"
+     "referenced_type" : "_ZTIPN7android12renderscript16ScriptExecutableE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
     },
     {
      "access" : "private",
@@ -48742,7 +47797,7 @@
    "source_file" : "/frameworks/rs/rsMap.h",
    "template_args" :
    [
-    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
     "_ZTIPN7android12renderscript3MapIPKNS0_13ScriptFieldIDENS0_13ObjectBaseRefIS2_EEEE"
    ]
   },
@@ -48823,7 +47878,7 @@
    "source_file" : "/frameworks/rs/rsMap.h",
    "template_args" :
    [
-    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
     "_ZTIPN7android12renderscript3MapIiNS0_13ObjectBaseRefINS0_13ScriptFieldIDEEEEE"
    ]
   },
@@ -49589,7 +48644,7 @@
    [
     {
      "field_name" : "first",
-     "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump"
+     "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump"
     },
     {
      "field_name" : "second",
@@ -49606,7 +48661,7 @@
    "source_file" : "/frameworks/rs/rsMap.h",
    "template_args" :
    [
-    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
     "_ZTIPN7android12renderscript3MapIPKNS0_13ScriptFieldIDENS0_13ObjectBaseRefIS2_EEEE"
    ]
   },
@@ -49616,7 +48671,7 @@
    [
     {
      "field_name" : "first",
-     "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump"
+     "referenced_type" : "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump"
     },
     {
      "field_name" : "second",
@@ -49633,7 +48688,7 @@
    "source_file" : "/frameworks/rs/rsMap.h",
    "template_args" :
    [
-    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
+    "_ZTIPKN7android12renderscript7ClosureE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.30_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuScriptGroup2.sdump",
     "_ZTIPN7android12renderscript3MapIiNS0_13ObjectBaseRefINS0_13ScriptFieldIDEEEEE"
    ]
   },
@@ -52895,7 +51950,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include_vndk/log/log_read.h:81:3)",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include_vndk/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",
@@ -53017,12 +52072,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN8ucontextUt_E",
-   "name" : "ucontext::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h:205:3)",
+   "name" : "ucontext::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h:205:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN8ucontextUt_E",
    "self_type" : "_ZTIN8ucontextUt_E",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -53040,11 +52095,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN8ucontextUt_Ut_E",
-   "name" : "ucontext::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h:205:3)::(anonymous struct at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h:206:5)",
+   "name" : "ucontext::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h:205:3)::(anonymous struct at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h:206:5)",
    "referenced_type" : "_ZTIN8ucontextUt_Ut_E",
    "self_type" : "_ZTIN8ucontextUt_Ut_E",
    "size" : 8,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/sys/ucontext.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/sys/ucontext.h"
   },
   {
    "alignment" : 4,
@@ -53061,12 +52116,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9sigactionUt_E",
-   "name" : "sigaction::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h:89:3)",
+   "name" : "sigaction::(anonymous union at out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h:89:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN9sigactionUt_E",
    "self_type" : "_ZTIN9sigactionUt_E",
    "size" : 4,
-   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.R_x86_shared/gen/include/bits/signal_types.h"
+   "source_file" : "/out/soong/.intermediates/bionic/libc/libc.llndk/android_vendor.30_x86_shared/gen/include/bits/signal_types.h"
   },
   {
    "alignment" : 4,
@@ -57702,10 +56757,7 @@
    "self_type" : "_ZTINSt3__111add_pointerIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -60800,11 +59852,7 @@
    "self_type" : "_ZTINSt3__111conditionalILb0EPP7__sFILES2_EE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIPP7__sFILE",
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIPP7__sFILE", "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -64466,10 +63514,7 @@
    "self_type" : "_ZTINSt3__111is_functionIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -70510,10 +69555,7 @@
    "self_type" : "_ZTINSt3__112is_referenceIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -73410,10 +72452,7 @@
    "self_type" : "_ZTINSt3__112remove_constIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -75776,7 +74815,7 @@
      "access" : "private",
      "field_name" : "__file_",
      "field_offset" : 512,
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "access" : "private",
@@ -78689,10 +77728,7 @@
    "self_type" : "_ZTINSt3__113remove_extentIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -82002,10 +81038,7 @@
    "self_type" : "_ZTINSt3__114__is_nullptr_tIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -84789,6 +83822,42 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRA23_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
+   "name" : "std::is_convertible<char const (&)[23], std::basic_string_view<char, std::char_traits<char> > >",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRA23_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRA23_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
+   "size" : 1,
+   "source_file" : "/external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRA23_Kc",
+    "_ZTINSt3__117basic_string_viewIcNS_11char_traitsIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRA23_KcPS1_EE",
+   "name" : "std::is_convertible<char const (&)[23], const char *>",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRA23_KcPS1_EE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRA23_KcPS1_EE",
+   "size" : 1,
+   "source_file" : "/external/libcxx/include/type_traits",
+   "template_args" : [ "_ZTIRA23_Kc", "_ZTIPKc" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__114is_convertibleIRA2_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
    "name" : "std::is_convertible<char const (&)[2], std::basic_string_view<char, std::char_traits<char> > >",
    "referenced_type" : "_ZTINSt3__114is_convertibleIRA2_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
@@ -84969,15 +84038,15 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
-   "linker_set_key" : "_ZTINSt3__114is_convertibleIRA9_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
-   "name" : "std::is_convertible<char const (&)[9], std::basic_string_view<char, std::char_traits<char> > >",
-   "referenced_type" : "_ZTINSt3__114is_convertibleIRA9_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
-   "self_type" : "_ZTINSt3__114is_convertibleIRA9_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRA92_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
+   "name" : "std::is_convertible<char const (&)[92], std::basic_string_view<char, std::char_traits<char> > >",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRA92_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRA92_KcNS_17basic_string_viewIcNS_11char_traitsIcEEEEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIRA9_Kc",
+    "_ZTIRA92_Kc",
     "_ZTINSt3__117basic_string_viewIcNS_11char_traitsIcEEEE"
    ]
   },
@@ -84989,13 +84058,13 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
-   "linker_set_key" : "_ZTINSt3__114is_convertibleIRA9_KcPS1_EE",
-   "name" : "std::is_convertible<char const (&)[9], const char *>",
-   "referenced_type" : "_ZTINSt3__114is_convertibleIRA9_KcPS1_EE",
-   "self_type" : "_ZTINSt3__114is_convertibleIRA9_KcPS1_EE",
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRA92_KcPS1_EE",
+   "name" : "std::is_convertible<char const (&)[92], const char *>",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRA92_KcPS1_EE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRA92_KcPS1_EE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" : [ "_ZTIRA9_Kc", "_ZTIPKc" ]
+   "template_args" : [ "_ZTIRA92_Kc", "_ZTIPKc" ]
   },
   {
    "alignment" : 1,
@@ -90715,10 +89784,7 @@
    "self_type" : "_ZTINSt3__115remove_volatileIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -94512,10 +93578,7 @@
    "self_type" : "_ZTINSt3__116__libcpp_is_voidIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -99756,10 +98819,7 @@
    "self_type" : "_ZTINSt3__116remove_referenceIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -101724,11 +100784,7 @@
    "self_type" : "_ZTINSt3__117__compressed_pairIP7__sFILEPFiS2_EEE",
    "size" : 8,
    "source_file" : "/external/libcxx/include/memory",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-    "_ZTIPFiP7__sFILEE"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE", "_ZTIPFiP7__sFILEE" ]
   },
   {
    "alignment" : 4,
@@ -103756,10 +102812,7 @@
    "self_type" : "_ZTINSt3__117__libcpp_is_finalIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -107288,10 +106341,7 @@
    "self_type" : "_ZTINSt3__118__add_pointer_implIP7__sFILELb1EEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -111757,10 +110807,7 @@
    "self_type" : "_ZTINSt3__118__is_referenceableIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -117480,10 +116527,7 @@
    "self_type" : "_ZTINSt3__119__is_nullptr_t_implIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -121760,10 +120804,7 @@
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP7__sFILELb0EEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -126574,7 +125615,7 @@
     {
      "access" : "private",
      "field_name" : "__value_",
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP7__sFILELi0ELb0EEE",
@@ -126583,10 +125624,7 @@
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP7__sFILELi0ELb0EEE",
    "size" : 4,
    "source_file" : "/external/libcxx/include/memory",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 4,
@@ -134492,6 +133530,22 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA23_cEE",
+   "name" : "std::__can_be_converted_to_string_view<char, std::char_traits<char>, char [23]>",
+   "referenced_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA23_cEE",
+   "self_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA23_cEE",
+   "size" : 1,
+   "source_file" : "/external/libcxx/include/string",
+   "template_args" : [ "_ZTIc", "_ZTINSt3__111char_traitsIcEE", "_ZTIA23_c" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA2_cEE",
    "name" : "std::__can_be_converted_to_string_view<char, std::char_traits<char>, char [2]>",
    "referenced_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA2_cEE",
@@ -134572,13 +133626,13 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
-   "linker_set_key" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA9_cEE",
-   "name" : "std::__can_be_converted_to_string_view<char, std::char_traits<char>, char [9]>",
-   "referenced_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA9_cEE",
-   "self_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA9_cEE",
+   "linker_set_key" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA92_cEE",
+   "name" : "std::__can_be_converted_to_string_view<char, std::char_traits<char>, char [92]>",
+   "referenced_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA92_cEE",
+   "self_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEEA92_cEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/string",
-   "template_args" : [ "_ZTIc", "_ZTINSt3__111char_traitsIcEE", "_ZTIA9_c" ]
+   "template_args" : [ "_ZTIc", "_ZTINSt3__111char_traitsIcEE", "_ZTIA92_c" ]
   },
   {
    "alignment" : 1,
@@ -145081,10 +144135,7 @@
    "self_type" : "_ZTINSt3__17__decayIP7__sFILELb1EEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -148257,7 +147308,7 @@
    "template_args" :
    [
     "_ZTINSt3__122__compressed_pair_elemIP7__sFILELi0ELb0EEE",
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
+    "_ZTIP7__sFILE"
    ]
   },
   {
@@ -150498,11 +149549,7 @@
    "self_type" : "_ZTINSt3__17is_sameIP7__sFILEPFiS2_EEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-    "_ZTIPFiP7__sFILEE"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE", "_ZTIPFiP7__sFILEE" ]
   },
   {
    "alignment" : 1,
@@ -150518,11 +149565,7 @@
    "self_type" : "_ZTINSt3__17is_sameIP7__sFILEvEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
-    "_ZTIv"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE", "_ZTIv" ]
   },
   {
    "alignment" : 1,
@@ -158975,10 +158018,7 @@
    "self_type" : "_ZTINSt3__17is_voidIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -164112,10 +163152,7 @@
    "self_type" : "_ZTINSt3__18is_arrayIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -167030,10 +166067,7 @@
    "self_type" : "_ZTINSt3__18is_classIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -168346,10 +167380,7 @@
    "self_type" : "_ZTINSt3__18is_emptyIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -171718,10 +170749,7 @@
    "self_type" : "_ZTINSt3__18is_unionIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -176590,10 +175618,7 @@
    "self_type" : "_ZTINSt3__19remove_cvIP7__sFILEEE",
    "size" : 1,
    "source_file" : "/external/libcxx/include/type_traits",
-   "template_args" :
-   [
-    "_ZTIP7__sFILE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.R_x86_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump"
-   ]
+   "template_args" : [ "_ZTIP7__sFILE" ]
   },
   {
    "alignment" : 1,
@@ -178853,28 +177878,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIOPNSt3__14__fs10filesystem12__dir_streamE",
-   "name" : "std::filesystem::__dir_stream *&&",
-   "referenced_type" : "_ZTIPNSt3__14__fs10filesystem12__dir_streamE#ODR:",
-   "self_type" : "_ZTIOPNSt3__14__fs10filesystem12__dir_streamE#ODR:",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIOPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
    "name" : "std::filesystem::recursive_directory_iterator::__shared_imp *&&",
    "referenced_type" : "_ZTIPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
    "self_type" : "_ZTIOPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/type_traits"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIOPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE",
-   "name" : "std::filesystem::recursive_directory_iterator::__shared_imp *&&",
-   "referenced_type" : "_ZTIPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE#ODR:",
-   "self_type" : "_ZTIOPNSt3__14__fs10filesystem28recursive_directory_iterator12__shared_impE#ODR:",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
   },
