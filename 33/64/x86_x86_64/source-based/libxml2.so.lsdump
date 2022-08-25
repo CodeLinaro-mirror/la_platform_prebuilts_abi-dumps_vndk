@@ -4593,70 +4593,10 @@
    "name" : "xmlXPatherror"
   },
   {
-   "name" : "xmlXPtrAdvanceNode"
-  },
-  {
-   "name" : "xmlXPtrBuildNodeList"
-  },
-  {
    "name" : "xmlXPtrEval"
   },
   {
-   "name" : "xmlXPtrEvalRangePredicate"
-  },
-  {
-   "name" : "xmlXPtrFreeLocationSet"
-  },
-  {
-   "name" : "xmlXPtrLocationSetAdd"
-  },
-  {
-   "name" : "xmlXPtrLocationSetCreate"
-  },
-  {
-   "name" : "xmlXPtrLocationSetDel"
-  },
-  {
-   "name" : "xmlXPtrLocationSetMerge"
-  },
-  {
-   "name" : "xmlXPtrLocationSetRemove"
-  },
-  {
-   "name" : "xmlXPtrNewCollapsedRange"
-  },
-  {
    "name" : "xmlXPtrNewContext"
-  },
-  {
-   "name" : "xmlXPtrNewLocationSetNodeSet"
-  },
-  {
-   "name" : "xmlXPtrNewLocationSetNodes"
-  },
-  {
-   "name" : "xmlXPtrNewRange"
-  },
-  {
-   "name" : "xmlXPtrNewRangeNodeObject"
-  },
-  {
-   "name" : "xmlXPtrNewRangeNodePoint"
-  },
-  {
-   "name" : "xmlXPtrNewRangeNodes"
-  },
-  {
-   "name" : "xmlXPtrNewRangePointNode"
-  },
-  {
-   "name" : "xmlXPtrNewRangePoints"
-  },
-  {
-   "name" : "xmlXPtrRangeToFunction"
-  },
-  {
-   "name" : "xmlXPtrWrapLocationSet"
   }
  ],
  "elf_objects" :
@@ -6195,6 +6135,10 @@
     {
      "enum_field_value" : 111,
      "name" : "XML_ERR_USER_STOP"
+    },
+    {
+     "enum_field_value" : 112,
+     "name" : "XML_ERR_COMMENT_ABRUPTLY_ENDED"
     },
     {
      "enum_field_value" : 200,
@@ -9590,18 +9534,6 @@
     {
      "enum_field_value" : 4,
      "name" : "XPATH_STRING"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "XPATH_POINT"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "XPATH_RANGE"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "XPATH_LOCATIONSET"
     },
     {
      "enum_field_value" : 8,
@@ -32456,18 +32388,6 @@
    "source_file" : "external/libxml2/include/libxml/xpathInternals.h"
   },
   {
-   "function_name" : "xmlXPtrBuildNodeList",
-   "linker_set_key" : "xmlXPtrBuildNodeList",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIP8_xmlNode",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
    "function_name" : "xmlXPtrEval",
    "linker_set_key" : "xmlXPtrEval",
    "parameters" :
@@ -32477,114 +32397,6 @@
     },
     {
      "referenced_type" : "_ZTIP16_xmlXPathContext"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrEvalRangePredicate",
-   "linker_set_key" : "xmlXPtrEvalRangePredicate",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP22_xmlXPathParserContext"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrFreeLocationSet",
-   "linker_set_key" : "xmlXPtrFreeLocationSet",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrLocationSetAdd",
-   "linker_set_key" : "xmlXPtrLocationSetAdd",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    },
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrLocationSetCreate",
-   "linker_set_key" : "xmlXPtrLocationSetCreate",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlLocationSet",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrLocationSetDel",
-   "linker_set_key" : "xmlXPtrLocationSetDel",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    },
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrLocationSetMerge",
-   "linker_set_key" : "xmlXPtrLocationSetMerge",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    },
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlLocationSet",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrLocationSetRemove",
-   "linker_set_key" : "xmlXPtrLocationSetRemove",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewCollapsedRange",
-   "linker_set_key" : "xmlXPtrNewCollapsedRange",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
     }
    ],
    "return_type" : "_ZTIP15_xmlXPathObject",
@@ -32606,156 +32418,6 @@
     }
    ],
    "return_type" : "_ZTIP16_xmlXPathContext",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewLocationSetNodeSet",
-   "linker_set_key" : "xmlXPtrNewLocationSetNodeSet",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11_xmlNodeSet"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewLocationSetNodes",
-   "linker_set_key" : "xmlXPtrNewLocationSetNodes",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    },
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewRange",
-   "linker_set_key" : "xmlXPtrNewRange",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewRangeNodeObject",
-   "linker_set_key" : "xmlXPtrNewRangeNodeObject",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    },
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewRangeNodePoint",
-   "linker_set_key" : "xmlXPtrNewRangeNodePoint",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    },
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewRangeNodes",
-   "linker_set_key" : "xmlXPtrNewRangeNodes",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    },
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewRangePointNode",
-   "linker_set_key" : "xmlXPtrNewRangePointNode",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    },
-    {
-     "referenced_type" : "_ZTIP8_xmlNode"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrNewRangePoints",
-   "linker_set_key" : "xmlXPtrNewRangePoints",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    },
-    {
-     "referenced_type" : "_ZTIP15_xmlXPathObject"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrRangeToFunction",
-   "linker_set_key" : "xmlXPtrRangeToFunction",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP22_xmlXPathParserContext"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
-  },
-  {
-   "function_name" : "xmlXPtrWrapLocationSet",
-   "linker_set_key" : "xmlXPtrWrapLocationSet",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15_xmlLocationSet"
-    }
-   ],
-   "return_type" : "_ZTIP15_xmlXPathObject",
    "source_file" : "external/libxml2/include/libxml/xpointer.h"
   }
  ],
@@ -33202,15 +32864,6 @@
    "self_type" : "_ZTIP15_xmlGlobalState",
    "size" : 4,
    "source_file" : "external/libxml2/include/libxml/globals.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIP15_xmlLocationSet",
-   "name" : "_xmlLocationSet *",
-   "referenced_type" : "_ZTI15_xmlLocationSet",
-   "self_type" : "_ZTIP15_xmlLocationSet",
-   "size" : 4,
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
   },
   {
    "alignment" : 4,
@@ -36488,32 +36141,6 @@
    "self_type" : "_ZTI15_xmlGlobalState",
    "size" : 516,
    "source_file" : "external/libxml2/include/libxml/globals.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "locNr",
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "locMax",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "locTab",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPP15_xmlXPathObject"
-    }
-   ],
-   "linker_set_key" : "_ZTI15_xmlLocationSet",
-   "name" : "_xmlLocationSet",
-   "referenced_type" : "_ZTI15_xmlLocationSet",
-   "self_type" : "_ZTI15_xmlLocationSet",
-   "size" : 12,
-   "source_file" : "external/libxml2/include/libxml/xpointer.h"
   },
   {
    "alignment" : 4,

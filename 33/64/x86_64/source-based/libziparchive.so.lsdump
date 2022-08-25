@@ -327,7 +327,7 @@
    "name" : "_ZN9ZipWriter13CompressBytesEPNS_9FileEntryEPKvj"
   },
   {
-   "name" : "_ZN9ZipWriter14PrepareDeflateEv"
+   "name" : "_ZN9ZipWriter14PrepareDeflateEi"
   },
   {
    "name" : "_ZN9ZipWriter15ErrorCodeStringEi"
@@ -614,6 +614,10 @@
     {
      "enum_field_value" : 2,
      "name" : "ZipWriter::kAlign32"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ZipWriter::kDefaultCompression"
     }
    ],
    "linker_set_key" : "_ZTIN9ZipWriter9$kAlign32E",
@@ -1381,12 +1385,15 @@
   {
    "access" : "private",
    "function_name" : "ZipWriter::PrepareDeflate",
-   "linker_set_key" : "_ZN9ZipWriter14PrepareDeflateEv",
+   "linker_set_key" : "_ZN9ZipWriter14PrepareDeflateEi",
    "parameters" :
    [
     {
      "is_this_ptr" : true,
      "referenced_type" : "_ZTIP9ZipWriter"
+    },
+    {
+     "referenced_type" : "_ZTIi"
     }
    ],
    "return_type" : "_ZTIi",
