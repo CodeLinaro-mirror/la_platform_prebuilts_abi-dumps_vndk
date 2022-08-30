@@ -1183,10 +1183,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11hasInstanceEv"
   },
   {
@@ -2233,10 +2229,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISC_PvEEEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE6rehashEj"
   },
   {
    "binding" : "weak",

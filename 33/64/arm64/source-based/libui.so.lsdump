@@ -1184,10 +1184,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11hasInstanceEv"
   },
   {

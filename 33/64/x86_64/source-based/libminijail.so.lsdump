@@ -331,6 +331,9 @@
    "name" : "get_last_valid_cap"
   },
   {
+   "name" : "get_mount_flags"
+  },
+  {
    "name" : "getmultiline"
   },
   {
@@ -1348,6 +1351,21 @@
    "function_name" : "get_last_valid_cap",
    "linker_set_key" : "get_last_valid_cap",
    "return_type" : "_ZTIj",
+   "source_file" : "external/minijail/system.h"
+  },
+  {
+   "function_name" : "get_mount_flags",
+   "linker_set_key" : "get_mount_flags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "external/minijail/system.h"
   },
   {
@@ -3019,9 +3037,6 @@
     },
     {
      "referenced_type" : "_ZTIb"
-    },
-    {
-     "referenced_type" : "_ZTIPm"
     }
    ],
    "return_type" : "_ZTIi",
