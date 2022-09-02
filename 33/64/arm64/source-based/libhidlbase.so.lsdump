@@ -3176,14 +3176,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__113__vector_baseIN7android8hardware7details21ClientCounterCallback7ServiceENS_9allocatorIS5_EEED2Ev"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__113__vector_baseINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEED2Ev"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__113__vector_baseINS_8functionIFvvEEENS_9allocatorIS3_EEED2Ev"
   },
   {
@@ -3332,18 +3324,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS8_4hidl4base4V1_05IBaseEEEPvEEENS_4lessIS6_EENS4_INS_4pairIKS6_SH_EEEEEixEOS6_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS8_8hardware7IBinderEEEPvEEENS_4lessIS6_EENS4_INS_4pairIKS6_SF_EEEEEixEOS6_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE10push_frontEOS2_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv"
   },
   {
@@ -3364,10 +3344,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__15dequeINS_8functionIFvvEEENS_9allocatorIS3_EEE9pop_frontEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__15dequeINS_8functionIFvvEEENS_9allocatorIS3_EEE9push_backERKS3_"
   },
   {
@@ -3376,15 +3352,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIN7android2wpINS2_4hidl4base4V1_05IBaseEEENS2_8hardware9SchedPrioEEENS_19__map_value_compareIS8_SB_NS_4lessIS8_EELb1EEENS_9allocatorISB_EEE5eraseENS_21__tree_const_iteratorISB_PNS_11__tree_nodeISB_PvEElEE"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIN7android2wpINS2_4hidl4base4V1_05IBaseEEEbEENS_19__map_value_compareIS8_S9_NS_4lessIS8_EELb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS8_JRKNS_21piecewise_construct_tENS_5tupleIJRKS8_EEENSL_IJEEEEEENS_4pairINS_15__tree_iteratorIS9_PNS_11__tree_nodeIS9_PvEElEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIN7android2wpINS2_4hidl4base4V1_05IBaseEEEbEENS_19__map_value_compareIS8_S9_NS_4lessIS8_EELb1EEENS_9allocatorIS9_EEE5eraseENS_21__tree_const_iteratorIS9_PNS_11__tree_nodeIS9_PvEElEE"
   },
   {
    "binding" : "weak",
@@ -3437,18 +3405,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE5eraseENS_21__tree_const_iteratorISH_PNS_11__tree_nodeISH_SE_EElEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIPKN7android4hidl4base4V1_05IBaseENS2_2wpINS2_8hardware9BHwBinderEEEEENS_19__map_value_compareIS8_SD_NS_4lessIS8_EELb1EEENS_9allocatorISD_EEE25__emplace_unique_key_argsIS8_JRKNS_21piecewise_construct_tENS_5tupleIJRKS8_EEENSP_IJEEEEEENS_4pairINS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIPKN7android4hidl4base4V1_05IBaseENS2_2wpINS2_8hardware9BHwBinderEEEEENS_19__map_value_compareIS8_SD_NS_4lessIS8_EELb1EEENS_9allocatorISD_EEE5eraseENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEElEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE25__emplace_unique_key_argsIiJRKiEEENS_4pairINS_15__tree_iteratorIiPNS_11__tree_nodeIiPvEElEEbEERKT_DpOT0_"
   },
   {
    "binding" : "weak",
@@ -3529,10 +3485,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEmRKS4_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEEC2ERKS7_"
   },
   {
    "binding" : "weak",
@@ -3737,144 +3689,6 @@
   {
    "binding" : "weak",
    "name" : "__emutls_get_address"
-  },
-  {
-   "name" : "__ubsan_handle_add_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_add_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_alignment_assumption_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_alignment_assumption_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_builtin_unreachable_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_cfi_check_fail_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_cfi_check_fail_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_divrem_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_divrem_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_float_cast_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_float_cast_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_function_type_mismatch_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_function_type_mismatch_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_implicit_conversion_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_implicit_conversion_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_invalid_builtin_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_invalid_builtin_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_invalid_objc_cast_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_invalid_objc_cast_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_load_invalid_value_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_load_invalid_value_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_missing_return_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_mul_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_mul_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_negate_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_negate_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_nonnull_arg_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_nonnull_arg_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_nonnull_return_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_nonnull_return_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_nullability_arg_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_nullability_arg_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_nullability_return_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_nullability_return_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_out_of_bounds_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_out_of_bounds_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_pointer_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_pointer_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_shift_out_of_bounds_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_shift_out_of_bounds_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_sub_overflow_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_sub_overflow_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_type_mismatch_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_type_mismatch_minimal_abort"
-  },
-  {
-   "name" : "__ubsan_handle_vla_bound_not_positive_minimal"
-  },
-  {
-   "name" : "__ubsan_handle_vla_bound_not_positive_minimal_abort"
   },
   {
    "name" : "getHWBinderKernelReferences"
