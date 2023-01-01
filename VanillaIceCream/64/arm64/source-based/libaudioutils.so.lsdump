@@ -840,6 +840,34 @@
  "builtin_types" :
  [
   {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "referenced_type" : "_ZTIDi",
+   "self_type" : "_ZTIDi",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "referenced_type" : "_ZTIDn",
+   "self_type" : "_ZTIDn",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "referenced_type" : "_ZTIDs",
+   "self_type" : "_ZTIDs",
+   "size" : 2
+  },
+  {
    "alignment" : 1,
    "is_integral" : true,
    "linker_set_key" : "_ZTIa",
@@ -875,6 +903,14 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTId",
    "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "linker_set_key" : "_ZTIe",
+   "name" : "long double",
+   "referenced_type" : "_ZTIe",
+   "self_type" : "_ZTIe",
+   "size" : 16
   },
   {
    "alignment" : 4,
@@ -933,6 +969,25 @@
    "size" : 8
   },
   {
+   "alignment" : 16,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIn",
+   "name" : "__int128",
+   "referenced_type" : "_ZTIn",
+   "self_type" : "_ZTIn",
+   "size" : 16
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIo",
+   "name" : "unsigned __int128",
+   "referenced_type" : "_ZTIo",
+   "self_type" : "_ZTIo",
+   "size" : 16
+  },
+  {
    "alignment" : 2,
    "is_integral" : true,
    "linker_set_key" : "_ZTIs",
@@ -956,6 +1011,16 @@
    "name" : "void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIv"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "referenced_type" : "_ZTIw",
+   "self_type" : "_ZTIw",
+   "size" : 4
   },
   {
    "alignment" : 8,
@@ -1262,6 +1327,9 @@
   },
   {
    "name" : "_ZN7android11audio_utils13MelAggregator6getCsdEv"
+  },
+  {
+   "name" : "_ZN7android11audio_utils21mutex_get_enable_flagEv"
   },
   {
    "name" : "_ZN7android11audio_utils7Balance10setBalanceEf"
@@ -2310,6 +2378,9 @@
    "name" : "byte_string_from_audio_metadata"
   },
   {
+   "name" : "com_android_media_audioserver_mutex_priority_inheritance"
+  },
+  {
    "name" : "create_echo_reference"
   },
   {
@@ -2532,6 +2603,9 @@
  "elf_objects" :
  [
   {
+   "name" : "_ZN3com7android5media11audioserver9provider_E"
+  },
+  {
    "binding" : "weak",
    "name" : "_ZN7android11audio_utils12BiquadFilterIfLb1ENS0_7details25DefaultBiquadConstOptionsEE12mFilterFuncsE"
   },
@@ -2587,6 +2661,10 @@
   },
   {
    "name" : "_ZTV25audio_utils_fifo_provider"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3com7android5media11audioserver13flag_providerE"
   },
   {
    "name" : "_ZTVN7android11audio_utils12MelProcessorE"
@@ -13632,6 +13710,12 @@
    "source_file" : "system/media/audio_utils/include/audio_utils/Metadata.h"
   },
   {
+   "function_name" : "com_android_media_audioserver_mutex_priority_inheritance",
+   "linker_set_key" : "com_android_media_audioserver_mutex_priority_inheritance",
+   "return_type" : "_ZTIb",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/audio/aconfig/com.android.media.audioserver-aconfig-cc/android_vendor.VanillaIceCream_arm64_armv8-a-branchprot_static_lto-none/gen/include/com_android_media_audioserver.h"
+  },
+  {
    "function_name" : "create_echo_reference",
    "linker_set_key" : "create_echo_reference",
    "parameters" :
@@ -14886,6 +14970,12 @@
  ],
  "global_vars" :
  [
+  {
+   "linker_set_key" : "_ZN3com7android5media11audioserver9provider_E",
+   "name" : "com::android::media::audioserver::provider_",
+   "referenced_type" : "_ZTINSt3__110unique_ptrIN3com7android5media11audioserver23flag_provider_interfaceENS_14default_deleteIS5_EEEE",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/audio/aconfig/com.android.media.audioserver-aconfig-cc/android_vendor.VanillaIceCream_arm64_armv8-a-branchprot_static_lto-none/gen/include/com_android_media_audioserver.h"
+  },
   {
    "access" : "private",
    "linker_set_key" : "_ZN7android11audio_utils12BiquadFilterIfLb1ENS0_7details25DefaultBiquadConstOptionsEE12mFilterFuncsE",
@@ -16479,6 +16569,15 @@
    "self_type" : "_ZTIPKv",
    "size" : 8,
    "source_file" : "system/media/audio_utils/include/audio_utils/channels.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN3com7android5media11audioserver23flag_provider_interfaceE",
+   "name" : "com::android::media::audioserver::flag_provider_interface *",
+   "referenced_type" : "_ZTIN3com7android5media11audioserver23flag_provider_interfaceE",
+   "self_type" : "_ZTIPN3com7android5media11audioserver23flag_provider_interfaceE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/audio/aconfig/com.android.media.audioserver-aconfig-cc/android_vendor.VanillaIceCream_arm64_armv8-a-branchprot_static_lto-none/gen/include/com_android_media_audioserver.h"
   },
   {
    "alignment" : 8,
@@ -20349,6 +20448,38 @@
    "self_type" : "_ZTIN25audio_port_config_mix_extUt_E",
    "size" : 4,
    "source_file" : "system/media/audio/include/system/audio.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIN3com7android5media11audioserver23flag_provider_interfaceE",
+   "name" : "com::android::media::audioserver::flag_provider_interface",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN3com7android5media11audioserver23flag_provider_interfaceE",
+   "self_type" : "_ZTIN3com7android5media11audioserver23flag_provider_interfaceE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/audio/aconfig/com.android.media.audioserver-aconfig-cc/android_vendor.VanillaIceCream_arm64_armv8-a-branchprot_static_lto-none/gen/include/com_android_media_audioserver.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN3com7android5media11audioserver23flag_provider_interfaceE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN3com7android5media11audioserver23flag_provider_interfaceD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN3com7android5media11audioserver23flag_provider_interfaceD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN3com7android5media11audioserver23flag_provider_interface26mutex_priority_inheritanceEv"
+    }
+   ]
   },
   {
    "alignment" : 4,
