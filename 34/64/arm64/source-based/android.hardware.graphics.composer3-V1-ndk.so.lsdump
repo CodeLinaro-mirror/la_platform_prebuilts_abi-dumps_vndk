@@ -1,0 +1,1170 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9composer315IComposerClientEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9composer317IComposerCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9composer39IComposerEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9composer315IComposerClientEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9composer317IComposerCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9composer39IComposerEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics6common4RectEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer312LayerCommandEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer313ReleaseFences5LayerEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer314DisplayCommandEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer314DisplayRequest12LayerRequestEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer320CommandResultPayloadEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer323ChangedCompositionLayerEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics6common4RectEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer312LayerCommandEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer313ReleaseFences5LayerEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer314DisplayCommandEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer314DisplayRequest12LayerRequestEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer320CommandResultPayloadEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics9composer323ChangedCompositionLayerEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk46AParcel_readNullableStdVectorParcelableElementINSt3__18optionalIN4aidl7android8hardware8graphics6common4RectEEEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk46AParcel_readNullableStdVectorParcelableElementINSt3__18optionalIN4aidl7android8hardware8graphics9composer316PerFrameMetadataEEEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk46AParcel_readNullableStdVectorParcelableElementINSt3__18optionalIN4aidl7android8hardware8graphics9composer320PerFrameMetadataBlobEEEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk47AParcel_writeNullableStdVectorParcelableElementINSt3__18optionalIN4aidl7android8hardware8graphics6common4RectEEEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk47AParcel_writeNullableStdVectorParcelableElementINSt3__18optionalIN4aidl7android8hardware8graphics9composer316PerFrameMetadataEEEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk47AParcel_writeNullableStdVectorParcelableElementINSt3__18optionalIN4aidl7android8hardware8graphics9composer320PerFrameMetadataBlobEEEEEiP7AParcelPKvm"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposer12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposer16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposer19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposerC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BnComposerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposer12createClientEPNSt3__110shared_ptrINS3_15IComposerClientEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposer15getCapabilitiesEPNSt3__16vectorINS3_10CapabilityENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposer16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposer19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposerC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposerC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310BpComposerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310PlaneAlpha14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312ClientTarget14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312CommandError14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312LayerCommand14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312PresentFence14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer313ReleaseFences14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer313ReleaseFences5Layer14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314DisplayCommand14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314DisplayRequest12LayerRequest14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314DisplayRequest14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314VirtualDisplay14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315HdrCapabilities14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClientC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClientD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClientD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClientD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315LayerBrightness14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClient12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClient16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClient19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClientC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClientD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClientD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BnComposerClientD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient11createLayerEliPl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient12destroyLayerEll"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient12setColorModeElNS3_9ColorModeENS3_12RenderIntentE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient12setPowerModeElNS3_9PowerModeE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient13getColorModesElPNSt3__16vectorINS3_9ColorModeENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient14getDisplayNameElPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient14setContentTypeElNS3_11ContentTypeE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient15executeCommandsERKNSt3__16vectorINS3_14DisplayCommandENS5_9allocatorIS7_EEEEPNS6_INS3_20CommandResultPayloadENS8_ISD_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient15getActiveConfigElPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient15setActiveConfigEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient15setVsyncEnabledElb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient16getRenderIntentsElNS3_9ColorModeEPNSt3__16vectorINS3_12RenderIntentENS6_9allocatorIS8_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient16registerCallbackERKNSt3__110shared_ptrINS3_17IComposerCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient17getDisplayConfigsElPNSt3__16vectorIiNS5_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient17setReadbackBufferElRKNS1_6common12NativeHandleERKN3ndk20ScopedFileDescriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient18getHdrCapabilitiesElPNS3_15HdrCapabilitiesE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient19getDisplayAttributeEliNS3_16DisplayAttributeEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient19setIdleTimerEnabledEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient20createVirtualDisplayEiiNS2_6common11PixelFormatEiPNS3_14VirtualDisplayE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient20setBootDisplayConfigEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient21destroyVirtualDisplayEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient21getDisplayVsyncPeriodElPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient21setAutoLowLatencyModeElb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient22clearBootDisplayConfigEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient22getDisplayCapabilitiesElPNSt3__16vectorINS3_17DisplayCapabilityENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient22getReadbackBufferFenceElPN3ndk20ScopedFileDescriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient23getPerFrameMetadataKeysElPNSt3__16vectorINS3_19PerFrameMetadataKeyENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient24getDisplayConnectionTypeElPNS3_21DisplayConnectionTypeE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient24getSupportedContentTypesElPNSt3__16vectorINS3_11ContentTypeENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient24setClientTargetSlotCountEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient25getDisplayedContentSampleElllPNS3_20DisplayContentSampleE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient25getMaxVirtualDisplayCountEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient27getDisplayDecorationSupportElPNSt3__18optionalINS2_6common24DisplayDecorationSupportEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient27getReadbackBufferAttributesElPNS3_24ReadbackBufferAttributesE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient28getDataspaceSaturationMatrixENS2_6common9DataspaceEPNSt3__16vectorIfNS7_9allocatorIfEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient28getDisplayIdentificationDataElPNS3_21DisplayIdentificationE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient29getDisplayPhysicalOrientationElPNS2_6common9TransformE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient29getPreferredBootDisplayConfigElPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient30setActiveConfigWithConstraintsEliRKNS3_28VsyncPeriodChangeConstraintsEPNS3_25VsyncPeriodChangeTimelineE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient34setDisplayedContentSamplingEnabledElbNS3_20FormatColorComponentEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClient37getDisplayedContentSamplingAttributesElPNS3_32DisplayContentSamplingAttributesE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClientC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClientC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClientD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClientD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316BpComposerClientD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316IComposerDefault12createClientEPNSt3__110shared_ptrINS3_15IComposerClientEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316IComposerDefault15getCapabilitiesEPNSt3__16vectorINS3_10CapabilityENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316IComposerDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316IComposerDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316IComposerDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316IComposerDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316PerFrameMetadata14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317DisplayBrightness14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317PresentOrValidate14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallback12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BnComposerCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback11onVsyncIdleEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback18onSeamlessPossibleEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback26onVsyncPeriodTimingChangedElRKNS3_25VsyncPeriodChangeTimelineE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback7onVsyncElli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback9onHotplugElb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallback9onRefreshEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallbackC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallbackC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer318BpComposerCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer319ParcelableBlendMode14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer319ParcelableDataspace14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer319ParcelableTransform14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320ClientTargetProperty14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320CommandResultPayload14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320DisplayContentSample14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320PerFrameMetadataBlob14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer321DisplayIdentification14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer321ParcelableComposition14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault11createLayerEliPl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault12destroyLayerEll"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault12setColorModeElNS3_9ColorModeENS3_12RenderIntentE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault12setPowerModeElNS3_9PowerModeE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault13getColorModesElPNSt3__16vectorINS3_9ColorModeENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault14getDisplayNameElPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault14setContentTypeElNS3_11ContentTypeE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault15executeCommandsERKNSt3__16vectorINS3_14DisplayCommandENS5_9allocatorIS7_EEEEPNS6_INS3_20CommandResultPayloadENS8_ISD_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault15getActiveConfigElPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault15setActiveConfigEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault15setVsyncEnabledElb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault16getRenderIntentsElNS3_9ColorModeEPNSt3__16vectorINS3_12RenderIntentENS6_9allocatorIS8_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault16registerCallbackERKNSt3__110shared_ptrINS3_17IComposerCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault17getDisplayConfigsElPNSt3__16vectorIiNS5_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault17setReadbackBufferElRKNS1_6common12NativeHandleERKN3ndk20ScopedFileDescriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault18getHdrCapabilitiesElPNS3_15HdrCapabilitiesE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault19getDisplayAttributeEliNS3_16DisplayAttributeEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault19setIdleTimerEnabledEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault20createVirtualDisplayEiiNS2_6common11PixelFormatEiPNS3_14VirtualDisplayE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault20setBootDisplayConfigEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault21destroyVirtualDisplayEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault21getDisplayVsyncPeriodElPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault21setAutoLowLatencyModeElb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault22clearBootDisplayConfigEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault22getDisplayCapabilitiesElPNSt3__16vectorINS3_17DisplayCapabilityENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault22getReadbackBufferFenceElPN3ndk20ScopedFileDescriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault23getPerFrameMetadataKeysElPNSt3__16vectorINS3_19PerFrameMetadataKeyENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault24getDisplayConnectionTypeElPNS3_21DisplayConnectionTypeE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault24getSupportedContentTypesElPNSt3__16vectorINS3_11ContentTypeENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault24setClientTargetSlotCountEli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault25getDisplayedContentSampleElllPNS3_20DisplayContentSampleE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault25getMaxVirtualDisplayCountEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault27getDisplayDecorationSupportElPNSt3__18optionalINS2_6common24DisplayDecorationSupportEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault27getReadbackBufferAttributesElPNS3_24ReadbackBufferAttributesE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault28getDataspaceSaturationMatrixENS2_6common9DataspaceEPNSt3__16vectorIfNS7_9allocatorIfEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault28getDisplayIdentificationDataElPNS3_21DisplayIdentificationE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault29getDisplayPhysicalOrientationElPNS2_6common9TransformE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault29getPreferredBootDisplayConfigElPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault30setActiveConfigWithConstraintsEliRKNS3_28VsyncPeriodChangeConstraintsEPNS3_25VsyncPeriodChangeTimelineE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault34setDisplayedContentSamplingEnabledElbNS3_20FormatColorComponentEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault37getDisplayedContentSamplingAttributesElPNS3_32DisplayContentSamplingAttributesE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer322IComposerClientDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer323ChangedCompositionLayer14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer323ChangedCompositionTypes14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer323ClockMonotonicTimestamp14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault11onVsyncIdleEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault18onSeamlessPossibleEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault26onVsyncPeriodTimingChangedElRKNS3_25VsyncPeriodChangeTimelineE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault7onVsyncElli"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault9onHotplugElb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324IComposerCallbackDefault9onRefreshEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324ReadbackBufferAttributes14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer325VsyncPeriodChangeTimeline14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer328VsyncPeriodChangeConstraints14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer332DisplayContentSamplingAttributes14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer334ClientTargetPropertyWithBrightness14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer35Color14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer36Buffer14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer36ZOrder14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposerC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposerD2Ev"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer310PlaneAlpha13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer312ClientTarget13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer312CommandError13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer312LayerCommand13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer312PresentFence13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer313ReleaseFences13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer313ReleaseFences5Layer13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer314DisplayCommand13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer314DisplayRequest12LayerRequest13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer314DisplayRequest13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer314VirtualDisplay13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer315HdrCapabilities13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer315LayerBrightness13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer316PerFrameMetadata13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer317DisplayBrightness13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer317PresentOrValidate13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer319ParcelableBlendMode13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer319ParcelableDataspace13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer319ParcelableTransform13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer320ClientTargetProperty13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer320CommandResultPayload13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer320DisplayContentSample13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer320PerFrameMetadataBlob13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer321DisplayIdentification13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer321ParcelableComposition13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer323ChangedCompositionLayer13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer323ChangedCompositionTypes13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer323ClockMonotonicTimestamp13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer324ReadbackBufferAttributes13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer325VsyncPeriodChangeTimeline13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer328VsyncPeriodChangeConstraints13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer332DisplayContentSamplingAttributes13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer334ClientTargetPropertyWithBrightness13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer35Color13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer36Buffer13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9composer36ZOrder13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8graphics9composer315IComposerClientEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8graphics9composer317IComposerCallbackEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8graphics9composer39IComposerEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common4RectENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics9composer312LayerCommandENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics9composer313ReleaseFences5LayerENS_9allocatorIS7_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics9composer314DisplayCommandENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics9composer314DisplayRequest12LayerRequestENS_9allocatorIS7_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics9composer320CommandResultPayloadENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics9composer323ChangedCompositionLayerENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_8optionalIN4aidl7android8hardware8graphics6common4RectEEENS_9allocatorIS8_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_8optionalIN4aidl7android8hardware8graphics9composer316PerFrameMetadataEEENS_9allocatorIS8_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_8optionalIN4aidl7android8hardware8graphics9composer320PerFrameMetadataBlobEEENS_9allocatorIS8_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIaNS_9allocatorIaEEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIfNS_9allocatorIfEEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIlNS_9allocatorIlEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8graphics9composer315IComposerClient4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8graphics9composer317IComposerCallback4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8graphics9composer39IComposer4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer310PlaneAlpha10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312ClientTarget10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312CommandError10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312LayerCommand10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer312PresentFence10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer313ReleaseFences10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer313ReleaseFences5Layer10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314DisplayCommand10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314DisplayRequest10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314DisplayRequest12LayerRequest10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer314VirtualDisplay10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315HdrCapabilities10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315IComposerClient4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer315LayerBrightness10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer316PerFrameMetadata10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317DisplayBrightness10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317IComposerCallback4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer317PresentOrValidate10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer319ParcelableBlendMode10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer319ParcelableDataspace10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer319ParcelableTransform10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320ClientTargetProperty10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320CommandResultPayload10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320DisplayContentSample10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer320PerFrameMetadataBlob10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer321DisplayIdentification10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer321ParcelableComposition10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer323ChangedCompositionLayer10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer323ChangedCompositionTypes10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer323ClockMonotonicTimestamp10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer324ReadbackBufferAttributes10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer325VsyncPeriodChangeTimeline10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer328VsyncPeriodChangeConstraints10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer332DisplayContentSamplingAttributes10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer334ClientTargetPropertyWithBrightness10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer35Color10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer36Buffer10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer36ZOrder10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8graphics9composer39IComposer4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9composer315IComposerClientEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9composer317IComposerCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9composer39IComposerEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9composer315IComposerClientEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9composer317IComposerCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9composer39IComposerEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer310BnComposerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer310BpComposerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer315IComposerClientE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer316BnComposerClientE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer316BpComposerClientE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer316IComposerDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer317IComposerCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer318BnComposerCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer318BpComposerCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer322IComposerClientDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer324IComposerCallbackDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9composer39IComposerE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

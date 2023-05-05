@@ -1,0 +1,3574 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AsmGetRegs"
+  },
+  {
+   "name" : "_RNvCs5OIsIcU3KsB_14rustc_demangle12try_demangle"
+  },
+  {
+   "name" : "_RNvCs5OIsIcU3KsB_14rustc_demangle8demangle"
+  },
+  {
+   "name" : "_RNvMNtNtCsgEvhZdlx7kS_3std10sys_common16thread_local_keyNtB2_9StaticKey9lazy_init"
+  },
+  {
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core3str5lossyNtB2_9Utf8Chunk5valid"
+  },
+  {
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core3str5lossyNtB2_9Utf8Chunk7invalid"
+  },
+  {
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo10can_unwind"
+  },
+  {
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo7message"
+  },
+  {
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo7payload"
+  },
+  {
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo8location"
+  },
+  {
+   "name" : "_RNvMNtNtNtNtCsgEvhZdlx7kS_3std3sys4unix5locks11futex_mutexNtB2_5Mutex14lock_contended"
+  },
+  {
+   "name" : "_RNvMNtNtNtNtCsgEvhZdlx7kS_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock14read_contended"
+  },
+  {
+   "name" : "_RNvMNtNtNtNtCsgEvhZdlx7kS_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock22wake_writer_or_readers"
+  },
+  {
+   "name" : "_RNvMs0_NtNtCshYZxXgsOdMC_4core3str5lossyNtB5_10Utf8Chunks3new"
+  },
+  {
+   "name" : "_RNvMs1_NtCshYZxXgsOdMC_4core3fmtNtB5_10ArgumentV110from_usize"
+  },
+  {
+   "name" : "_RNvMs1_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_11DebugStruct5field"
+  },
+  {
+   "name" : "_RNvMs1_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_11DebugStruct6finish"
+  },
+  {
+   "name" : "_RNvMs3_NtNtCshYZxXgsOdMC_4core3ffi5c_strNtB5_4CStr6to_str"
+  },
+  {
+   "name" : "_RNvMs4_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_8DebugSet5entry"
+  },
+  {
+   "name" : "_RNvMs5_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_9DebugList5entry"
+  },
+  {
+   "name" : "_RNvMs5_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_9DebugList6finish"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter10debug_list"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter12debug_struct"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter12pad_integral"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter15debug_lower_hex"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter15debug_upper_hex"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter3pad"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter9alternate"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter9write_fmt"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter9write_str"
+  },
+  {
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3numm14from_str_radix"
+  },
+  {
+   "name" : "_RNvMs8_NtCsgEvhZdlx7kS_3std4pathNtB5_10Components7as_path"
+  },
+  {
+   "name" : "_RNvMsZ_NtCsgEvhZdlx7kS_3std4pathNtB5_4Path13__strip_prefix"
+  },
+  {
+   "name" : "_RNvMsr_NtNtCshYZxXgsOdMC_4core3str7patternNtB5_11StrSearcher3new"
+  },
+  {
+   "name" : "_RNvNtCse8HI3UYfCwz_5alloc4sync32arcinner_layout_for_value_layout"
+  },
+  {
+   "name" : "_RNvNtCse8HI3UYfCwz_5alloc5alloc18handle_alloc_error"
+  },
+  {
+   "name" : "_RNvNtCse8HI3UYfCwz_5alloc7raw_vec17capacity_overflow"
+  },
+  {
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std3env11current_dir"
+  },
+  {
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std5alloc8rust_oom"
+  },
+  {
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std7process5abort"
+  },
+  {
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std9panicking12default_hook"
+  },
+  {
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std9panicking20rust_panic_with_hook"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3fmt17pointer_fmt_inner"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3fmt5write"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3str16slice_error_fail"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3str19slice_error_fail_rt"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core6result13unwrap_failed"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking18panic_bounds_check"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking19assert_failed_inner"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking5panic"
+  },
+  {
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking9panic_fmt"
+  },
+  {
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std3sys4unix14abort_internal"
+  },
+  {
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std3sys4unix17decode_error_kind"
+  },
+  {
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std9panicking11panic_count17is_zero_slow_path"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str5count14do_count_chars"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str5count23char_count_general_case"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str6traits23str_index_overflow_fail"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str8converts9from_utf8"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice5index22slice_index_order_fail"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice5index24slice_end_index_len_fail"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice5index26slice_start_index_len_fail"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice6memchr14memchr_aligned"
+  },
+  {
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core7unicode9printable12is_printable"
+  },
+  {
+   "name" : "_RNvNtNtNtCsgEvhZdlx7kS_3std3sys6common5alloc16realloc_fallback"
+  },
+  {
+   "name" : "_RNvNtNtNtCshYZxXgsOdMC_4core7unicode12unicode_data15grapheme_extend6lookup"
+  },
+  {
+   "name" : "_RNvNtNtNtCshYZxXgsOdMC_4core7unicode12unicode_data2cc6lookup"
+  },
+  {
+   "name" : "_RNvNvMs3_NtNtCshYZxXgsOdMC_4core3ffi5c_strNtB7_4CStr8from_ptr9strlen_rt"
+  },
+  {
+   "name" : "_RNvNvNtCse8HI3UYfCwz_5alloc5alloc18handle_alloc_error8rt_error"
+  },
+  {
+   "name" : "_RNvXNtCs5OIsIcU3KsB_14rustc_demangle6legacyNtB2_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXNtCsjhy8uZQdWLM_14rustc_demangle6legacyNtB2_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXNvNtNtCsgEvhZdlx7kS_3std10sys_common9backtrace6__printNtB2_16DisplayBacktraceNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs0_NtCs5OIsIcU3KsB_14rustc_demangle2v0NtB5_5IdentNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs0_NtCsjhy8uZQdWLM_14rustc_demangle2v0NtB5_5IdentNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs0_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str"
+  },
+  {
+   "name" : "_RNvXs0_NtNtCshYZxXgsOdMC_4core5panic8locationNtB5_8LocationNtNtB9_3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs0_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp3get"
+  },
+  {
+   "name" : "_RNvXs0_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp8take_box"
+  },
+  {
+   "name" : "_RNvXs10_NtNtCshYZxXgsOdMC_4core3fmt3numxNtB8_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXs14_NtNtCshYZxXgsOdMC_4core3fmt3numyNtB8_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXs1_Cs5OIsIcU3KsB_14rustc_demangleNtB5_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs1_Csjhy8uZQdWLM_14rustc_demangleNtB5_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs1_NtNtCshYZxXgsOdMC_4core3str5lossyNtB5_10Utf8ChunksNtNtNtNtB9_4iter6traits8iterator8Iterator4next"
+  },
+  {
+   "name" : "_RNvXs1_NtNtNtCsgEvhZdlx7kS_3std3sys4unix5stdioNtB5_6StdoutNtNtBb_2io5Write5flush"
+  },
+  {
+   "name" : "_RNvXs2_NtCshYZxXgsOdMC_4core4charNtB5_13EscapeDefaultNtNtNtNtB7_4iter6traits8iterator8Iterator4next"
+  },
+  {
+   "name" : "_RNvXs2_NtNtNtCshYZxXgsOdMC_4core3fmt3num3implNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs3_NtNtCsgEvhZdlx7kS_3std12backtrace_rs9symbolizeNtB5_10SymbolNameNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCsgEvhZdlx7kS_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write14write_vectored"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCsgEvhZdlx7kS_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5write"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCshYZxXgsOdMC_4core3fmt3num3impmNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs5_NtCshYZxXgsOdMC_4core3fmtNtB5_9ArgumentsNtB5_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs5_NtNtNtCshYZxXgsOdMC_4core3fmt3num3impyNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs6_NtCshYZxXgsOdMC_4core4charNtB5_11EscapeDebugNtNtNtNtB7_4iter6traits8iterator8Iterator4next"
+  },
+  {
+   "name" : "_RNvXs6_NtNtNtCshYZxXgsOdMC_4core3fmt3num3impjNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs7_Cs5OIsIcU3KsB_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCshYZxXgsOdMC_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs7_Csjhy8uZQdWLM_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCshYZxXgsOdMC_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs8_NtCshYZxXgsOdMC_4core3fmtNtB5_9FormatterNtB5_5Write10write_char"
+  },
+  {
+   "name" : "_RNvXs8_NtCshYZxXgsOdMC_4core3fmtNtB5_9FormatterNtB5_5Write9write_str"
+  },
+  {
+   "name" : "_RNvXsC_NtNtCshYZxXgsOdMC_4core3fmt3numaNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsD_NtNtCshYZxXgsOdMC_4core3fmt3numaNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXsG_NtCshYZxXgsOdMC_4core3fmtNtB5_5ErrorNtB5_5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsG_NtNtCshYZxXgsOdMC_4core3fmt3numhNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsH_NtNtCshYZxXgsOdMC_4core3fmt3numhNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXsS_NtNtCshYZxXgsOdMC_4core3fmt3numlNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsT_NtNtCshYZxXgsOdMC_4core3fmt3numlNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtCsgEvhZdlx7kS_3std6thread5localNtB4_11AccessErrorNtNtCshYZxXgsOdMC_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB4_9PanicInfoNtNtB8_3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtNtCsgEvhZdlx7kS_3std3sys4unix6os_strNtB4_5SliceNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtNtCshYZxXgsOdMC_4core3fmt3num3imphNtB8_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp3get"
+  },
+  {
+   "name" : "_RNvXs_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp8take_box"
+  },
+  {
+   "name" : "_RNvXsd_NtNtCshYZxXgsOdMC_4core3num5errorNtB5_13ParseIntErrorNtNtB9_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXse_NtCshYZxXgsOdMC_4core3fmteNtB5_5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXse_NtNtCshYZxXgsOdMC_4core5alloc6layoutNtB5_11LayoutErrorNtNtB9_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsf_NtCshYZxXgsOdMC_4core3fmteNtB5_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXsg_NtCshYZxXgsOdMC_4core3fmtcNtB5_5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsg_NtCshYZxXgsOdMC_4core4cellNtB5_14BorrowMutErrorNtNtB7_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsh_NtCshYZxXgsOdMC_4core3fmtcNtB5_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXsi_NtCsgEvhZdlx7kS_3std4pathNtB5_10ComponentsNtNtNtNtCshYZxXgsOdMC_4core4iter6traits8iterator8Iterator4next"
+  },
+  {
+   "name" : "_RNvXsp_NtCshYZxXgsOdMC_4core3numjNtNtNtB7_3str6traits7FromStr8from_str"
+  },
+  {
+   "name" : "_ZN11unwindstack10BufferMaps5ParseEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6416IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6418CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6422SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips642pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips642spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips644ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips644ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips645CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips646set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips646set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips64C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips64C2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_6415SetFromUcontextEPNS_17x86_64_ucontext_tE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_6416IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_6418CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_6422SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_642pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_642spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_644ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_644ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_645CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_646set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_646set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_64C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsX86_64C2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory10ReadSignedIaEEbPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory10ReadSignedIiEEbPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory10ReadSignedIlEEbPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory10ReadSignedIsEEbPm"
+  },
+  {
+   "name" : "_ZN11unwindstack11DwarfMemory11ReadSLEB128EPl"
+  },
+  {
+   "name" : "_ZN11unwindstack11DwarfMemory11ReadULEB128EPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory14GetEncodedSizeIjEEmh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory14GetEncodedSizeImEEmh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory16ReadEncodedValueIjEEbhPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack11DwarfMemory16ReadEncodedValueImEEbhPm"
+  },
+  {
+   "name" : "_ZN11unwindstack11DwarfMemory18AdjustEncodedValueEhPm"
+  },
+  {
+   "name" : "_ZN11unwindstack11DwarfMemory9ReadBytesEPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryCache10CachedReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryCache5ClearEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryLocal4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryLocal7ReadTagEm"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryRange4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryRangeC1ERKNSt3__110shared_ptrINS_6MemoryEEEmmm"
+  },
+  {
+   "name" : "_ZN11unwindstack11MemoryRangeC2ERKNSt3__110shared_ptrINS_6MemoryEEEmmm"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6416IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6418CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6422SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv642pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv642spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv644ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv644ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv645CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv646set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv646set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv64C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv64C2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry15GetWaitTypeNameENS_8WaitTypeE"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry26CopyUcontextFromSigcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry3GetEib"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry4WaitENS_8WaitTypeE"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry4WakeEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry6RemoveEPS0_"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntryC1Ei"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntryC2Ei"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntryD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntryD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12DwarfEhFrameIjEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12DwarfEhFrameIjEC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12DwarfEhFrameImEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12DwarfEhFrameImEC2EPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack12DwarfSection4StepEmPNS_4RegsEPNS_6MemoryEPbS5_"
+  },
+  {
+   "name" : "_ZN11unwindstack12DwarfSectionC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12ElfInterface11GetLoadBiasI9elf32_hdr10elf32_phdrEElPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12ElfInterface11GetLoadBiasI9elf64_hdr10elf64_phdrEElPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterface12GetTextRangeEPmS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12ElfInterface21ReadBuildIDFromMemoryI9elf32_hdr10elf32_shdr10elf32_noteEENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack12ElfInterface21ReadBuildIDFromMemoryI9elf64_hdr10elf64_shdr10elf64_noteEENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterface24CreateGnuDebugdataMemoryEv"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterface4StepEmPNS_4RegsEPNS_6MemoryEPbS5_"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterface9IsValidPcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterfaceD0Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterfaceD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterfaceD2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack12MemoryBuffer4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack12MemoryBuffer6GetPtrEm"
+  },
+  {
+   "name" : "_ZN11unwindstack12MemoryRanges4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack12MemoryRanges6InsertEPNS_11MemoryRangeE"
+  },
+  {
+   "name" : "_ZN11unwindstack12MemoryRemote4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack12MemoryRemote7ReadTagEm"
+  },
+  {
+   "name" : "_ZN11unwindstack13MemoryOffline4InitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEm"
+  },
+  {
+   "name" : "_ZN11unwindstack13MemoryOffline4InitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEmmm"
+  },
+  {
+   "name" : "_ZN11unwindstack13MemoryOffline4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack14CreateDexFilesENS_8ArchEnumERNSt3__110shared_ptrINS_6MemoryEEENS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENSA_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack14CreateJitDebugENS_8ArchEnumERNSt3__110shared_ptrINS_6MemoryEEENS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENSA_ISC_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack14GetBuildIDInfoI9elf32_hdr10elf32_shdrEEbPNS_6MemoryEPmS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack14GetBuildIDInfoI9elf64_hdr10elf64_shdrEEbPNS_6MemoryEPmS5_"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinder16UnwindWithSignalEiiPNSt3__110unique_ptrINS_4RegsENS1_14default_deleteIS3_EEEEPKNS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENSC_ISE_EEEESI_"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinder18SendSignalToThreadEii"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinderC1EmPKS0_"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinderC1EmPNS_4MapsE"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinderC1EmPNS_4MapsERNSt3__110shared_ptrINS_6MemoryEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinderC2EmPKS0_"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinderC2EmPNS_4MapsE"
+  },
+  {
+   "name" : "_ZN11unwindstack14ThreadUnwinderC2EmPNS_4MapsERNSt3__110shared_ptrINS_6MemoryEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder10InitializeERNS_9ErrorDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder20BuildFrameFromPcOnlyEm"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder6CreateEi"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder6UnwindENSt3__18optionalIiEERNS_19AndroidUnwinderDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder6UnwindEPNS_4RegsERNS_19AndroidUnwinderDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder6UnwindEPvRNS_19AndroidUnwinderDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack15AndroidUnwinder6UnwindERNS_19AndroidUnwinderDataE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack15DwarfDebugFrameIjEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack15DwarfDebugFrameIjEC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack15DwarfDebugFrameImEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack15DwarfDebugFrameImEC2EPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm13GetPrel31AddrEjPj"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm15GetFunctionNameEmPNS_12SharedStringEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm17HandleUnknownTypeEjmm"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm4InitEPl"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm4StepEmPNS_4RegsEPNS_6MemoryEPbS5_"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm9FindEntryEjPm"
+  },
+  {
+   "name" : "_ZN11unwindstack15ElfInterfaceArm9StepExidxEmPNS_4RegsEPNS_6MemoryEPb"
+  },
+  {
+   "name" : "_ZN11unwindstack15GetPcAdjustmentEmPNS_3ElfENS_8ArchEnumE"
+  },
+  {
+   "name" : "_ZN11unwindstack15MemoryCacheBase18InternalCachedReadEmPvmPNSt3__113unordered_mapImA4096_hNS2_4hashImEENS2_8equal_toImEENS2_9allocatorINS2_4pairIKmS4_EEEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack15UnwinderFromPid4InitEv"
+  },
+  {
+   "name" : "_ZN11unwindstack15UnwinderFromPid6UnwindEPKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEESC_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE12EvalRegisterEPKNS_13DwarfLocationEjPjPv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE12GetFdeFromPcEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE14EvalExpressionERKNS_13DwarfLocationEPNS_6MemoryEPjPNS_8RegsInfoIjEEPb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE15FillInCieHeaderEPNS_8DwarfCieE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE15FillInFdeHeaderEPNS_8DwarfFdeE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE15GetNextCieOrFdeERmRNSt3__18optionalINS_8DwarfFdeEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE16GetCieFromOffsetEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE16GetFdeFromOffsetEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE18GetCfaLocationInfoEmPKNS_8DwarfFdeEPNS_14DwarfLocationsENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE3LogEhmPKNS_8DwarfFdeENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE4EvalEPKNS_8DwarfCieEPNS_6MemoryERKNS_14DwarfLocationsEPNS_4RegsEPb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE4InitEmml"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE7GetFdesEPNSt3__16vectorIPKNS_8DwarfFdeENS2_9allocatorIS6_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE9FillInCieEPNS_8DwarfCieE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE9FillInFdeEPNS_8DwarfFdeE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjEC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE12EvalRegisterEPKNS_13DwarfLocationEjPmPv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE12GetFdeFromPcEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE13BuildFdeIndexEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE14EvalExpressionERKNS_13DwarfLocationEPNS_6MemoryEPmPNS_8RegsInfoImEEPb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE15FillInCieHeaderEPNS_8DwarfCieE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE15FillInFdeHeaderEPNS_8DwarfFdeE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE15GetNextCieOrFdeERmRNSt3__18optionalINS_8DwarfFdeEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE16GetCieFromOffsetEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE16GetFdeFromOffsetEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE18GetCfaLocationInfoEmPKNS_8DwarfFdeEPNS_14DwarfLocationsENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE3LogEhmPKNS_8DwarfFdeENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE4EvalEPKNS_8DwarfCieEPNS_6MemoryERKNS_14DwarfLocationsEPNS_4RegsEPb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE4InitEmml"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE7GetFdesEPNSt3__16vectorIPKNS_8DwarfFdeENS2_9allocatorIS6_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE9FillInCieEPNS_8DwarfCieE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE9FillInFdeEPNS_8DwarfFdeE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16DwarfSectionImplImEC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE10GetMaxSizeEPNS_6MemoryEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE11InitHeadersEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE11ReadBuildIDEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE14ReadAllHeadersEPl"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE15GetFunctionNameEmPNS_12SharedStringEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE17GetGlobalVariableERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE18ReadProgramHeadersERK9elf32_hdrPl"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE18ReadSectionHeadersERK9elf32_hdr"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EE9GetSonameEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE10GetMaxSizeEPNS_6MemoryEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE11InitHeadersEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE11ReadBuildIDEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE14ReadAllHeadersEPl"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE15GetFunctionNameEmPNS_12SharedStringEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE17GetGlobalVariableERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE18ReadProgramHeadersERK9elf64_hdrPl"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE18ReadSectionHeadersERK9elf64_hdr"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EE9GetSonameEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC2EPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCache10CachedReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCache5ClearEv"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCacheC1EPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCacheC2EPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCacheD0Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCacheD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack17MemoryThreadCacheD2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18LocalUpdatableMaps4FindEm"
+  },
+  {
+   "name" : "_ZN11unwindstack18LocalUpdatableMaps5ParseEv"
+  },
+  {
+   "name" : "_ZN11unwindstack18LocalUpdatableMaps7ReparseEPb"
+  },
+  {
+   "name" : "_ZN11unwindstack18LocalUpdatableMapsC1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18LocalUpdatableMapsC2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryFileAtOffset4InitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEmm"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryFileAtOffset4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryFileAtOffset5ClearEv"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryFileAtOffsetD0Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryFileAtOffsetD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryFileAtOffsetD2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryOfflineParts4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryOfflinePartsD0Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryOfflinePartsD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack18MemoryOfflinePartsD2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack19AndroidUnwinderData14GetErrorStringEv"
+  },
+  {
+   "name" : "_ZN11unwindstack19AndroidUnwinderData21DemangleFunctionNamesEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE11EhFrameInitEmml"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE12GetFdeFromPcEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE18GetFdeOffsetFromPcEmPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE19GetFdeInfoFromIndexEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE4InitEmml"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE7GetFdesEPNSt3__16vectorIPKNS_8DwarfFdeENS2_9allocatorIS6_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjEC2EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE11EhFrameInitEmml"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE12GetFdeFromPcEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE18GetFdeOffsetFromPcEmPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE19GetFdeInfoFromIndexEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE4InitEmml"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE7GetFdesEPNSt3__16vectorIPKNS_8DwarfFdeENS2_9allocatorIS6_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImEC1EPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImEC2EPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack19MemoryOfflineBuffer4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack19MemoryOfflineBuffer5ResetEPKhmm"
+  },
+  {
+   "name" : "_ZN11unwindstack19MemoryOfflineBufferC1EPKhmm"
+  },
+  {
+   "name" : "_ZN11unwindstack19MemoryOfflineBufferC2EPKhmm"
+  },
+  {
+   "name" : "_ZN11unwindstack20AndroidLocalUnwinder14InternalUnwindENSt3__18optionalIiEERNS_19AndroidUnwinderDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack20AndroidLocalUnwinder18InternalInitializeERNS_9ErrorDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack20DemangleNameIfNeededERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_3ElfEE4LoadEPNS_4MapsERNSt3__110shared_ptrINS_6MemoryEEEmmRNS6_IS1_EE"
+  },
+  {
+   "name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_7DexFileEE4LoadEPNS_4MapsERNSt3__110shared_ptrINS_6MemoryEEEmmRNS6_IS1_EE"
+  },
+  {
+   "name" : "_ZN11unwindstack21AndroidRemoteUnwinder14InternalUnwindENSt3__18optionalIiEERNS_19AndroidUnwinderDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack21AndroidRemoteUnwinder18InternalInitializeERNS_9ErrorDataE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack21CreateGlobalDebugImplINS_3ElfEEENSt3__110unique_ptrINS_20GlobalDebugInterfaceIT_EENS2_14default_deleteIS6_EEEENS_8ArchEnumERNS2_10shared_ptrINS_6MemoryEEENS2_6vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENSJ_ISL_EEEEPKc"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf10GetBuildIDEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf10GetBuildIDEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf10InvalidateEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf10IsValidElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf11CacheUnlockEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf11GetLoadBiasEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf12GetLastErrorEPNS_9ErrorDataE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf12GetTextRangeEPmS1_"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf15GetFunctionNameEmPNS_12SharedStringEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf16GetLastErrorCodeEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf16InitGnuDebugdataEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf17SetCachingEnabledEb"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf19GetLastErrorAddressEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf19GetPrintableBuildIDERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf19GetPrintableBuildIDEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf19StepIfSignalHandlerEmPNS_4RegsEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf23GetGlobalVariableOffsetERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf25CreateInterfaceFromMemoryEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf4InitEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf4StepEmPNS_4RegsEPNS_6MemoryEPbS5_"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf7GetInfoEPNS_6MemoryEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf8CacheAddEPNS_7MapInfoE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf8CacheGetEPNS_7MapInfoE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf8GetRelPcEmPNS_7MapInfoE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf9CacheLockEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf9GetSonameEv"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf9IsValidPcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack3Log4InfoEPKcz"
+  },
+  {
+   "name" : "_ZN11unwindstack3Log4InfoEhPKcz"
+  },
+  {
+   "name" : "_ZN11unwindstack3Log5ErrorEPKcz"
+  },
+  {
+   "name" : "_ZN11unwindstack3Log9AsyncSafeEPKcz"
+  },
+  {
+   "name" : "_ZN11unwindstack4Maps3AddEmmmmRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack4Maps3AddEmmmmRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEm"
+  },
+  {
+   "name" : "_ZN11unwindstack4Maps4FindEm"
+  },
+  {
+   "name" : "_ZN11unwindstack4Maps4SortEv"
+  },
+  {
+   "name" : "_ZN11unwindstack4Maps5ParseEv"
+  },
+  {
+   "name" : "_ZN11unwindstack4Regs11CurrentArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack4Regs13RemoteGetArchEiPNS_9ErrorCodeE"
+  },
+  {
+   "name" : "_ZN11unwindstack4Regs15CreateFromLocalEv"
+  },
+  {
+   "name" : "_ZN11unwindstack4Regs18CreateFromUcontextENS_8ArchEnumEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack4Regs9RemoteGetEiPNS_9ErrorCodeE"
+  },
+  {
+   "name" : "_ZN11unwindstack6Global10SearchableERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack6Global19FindAndReadVariableEPNS_4MapsEPKc"
+  },
+  {
+   "name" : "_ZN11unwindstack6Global7SetArchENS_8ArchEnumE"
+  },
+  {
+   "name" : "_ZN11unwindstack6GlobalC2ERNSt3__110shared_ptrINS_6MemoryEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack6GlobalC2ERNSt3__110shared_ptrINS_6MemoryEEERNS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENSA_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory10ReadStringEmPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEm"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory16CreateFileMemoryERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEmm"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory19CreateOfflineMemoryEPKhmm"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory19CreateProcessMemoryEi"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory25CreateProcessMemoryCachedEi"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory31CreateProcessMemoryThreadCachedEi"
+  },
+  {
+   "name" : "_ZN11unwindstack6Memory9ReadFullyEmPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE10GetLogInfoEmmPNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE10dex_pc_setEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE10last_errorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE11is_registerEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE12OperandsSizeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE13LastErrorCodeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE13op_deref_sizeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE13set_regs_infoEPNS_8RegsInfoIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE14op_plus_uconstEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE14regular_memoryEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE16LastErrorAddressEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE18bool_to_dwarf_boolEb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE18op_not_implementedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE4EvalEmm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_eqEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_geEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_gtEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_leEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_ltEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_neEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE5op_orEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6DecodeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6cur_opEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_absEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_andEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_braEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_divEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_dupEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_litEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_modEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_mulEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_negEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_nopEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_notEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_regEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_rotEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_shlEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_shrEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE6op_xorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7StackAtEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_bregEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_dropEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_overEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_pickEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_plusEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_pushEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_regxEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_shraEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_skipEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE7op_swapEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE8StackPopEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE8op_bregxEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE8op_derefEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE8op_minusEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE9OperandAtEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE9StackSizeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjEC1EPNS_11DwarfMemoryEPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjEC2EPNS_11DwarfMemoryEPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE10GetLogInfoEmmPNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE10dex_pc_setEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE10last_errorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE11is_registerEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE12OperandsSizeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE13LastErrorCodeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE13op_deref_sizeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE13set_regs_infoEPNS_8RegsInfoImEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE14op_plus_uconstEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE14regular_memoryEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE16LastErrorAddressEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE18bool_to_dwarf_boolEb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE18op_not_implementedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE4EvalEmm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_eqEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_geEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_gtEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_leEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_ltEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_neEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE5op_orEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6DecodeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6cur_opEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_absEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_andEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_braEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_divEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_dupEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_litEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_modEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_mulEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_negEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_nopEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_notEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_regEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_rotEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_shlEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_shrEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE6op_xorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7StackAtEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_bregEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_dropEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_overEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_pickEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_plusEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_pushEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_regxEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_shraEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_skipEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE7op_swapEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE8StackPopEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE8op_bregxEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE8op_derefEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE8op_minusEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE9OperandAtEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE9StackSizeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImEC1EPNS_11DwarfMemoryEPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImEC2EPNS_11DwarfMemoryEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo10GetBuildIDEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo10SetBuildIDEONSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo11GetFullNameEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo11GetLoadBiasERKNSt3__110shared_ptrINS_6MemoryEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo11GetLoadBiasEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo12CreateMemoryERKNSt3__110shared_ptrINS_6MemoryEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo12GetElfFieldsEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo13GetFileMemoryEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo14GetNextRealMapEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo14GetPrevRealMapEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo15GetFunctionNameEmPNS_12SharedStringEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo18ElfFileNotReadableEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo19GetPrintableBuildIDEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo37InitFileMemoryFromPreviousReadOnlyMapEPNS_18MemoryFileAtOffsetE"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo6GetElfERKNSt3__110shared_ptrINS_6MemoryEEENS_8ArchEnumE"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfoD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfoD2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm16IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm18CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm19StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm22SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm2pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm2spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm4ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm4ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm5CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm6set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArm6set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArmC1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsArmC2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX8615SetFromUcontextEPNS_14x86_ucontext_tE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX8616IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX8618CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX8619StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX8622SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX862pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX862spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX864ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX864ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX865CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX866set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX866set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX86C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack7RegsX86C2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols12BinarySearchI9elf32_symLb0EEEPNS0_4InfoEmPNS_6MemoryEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols12BinarySearchI9elf32_symLb1EEEPNS0_4InfoEmPNS_6MemoryEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols12BinarySearchI9elf64_symLb0EEEPNS0_4InfoEmPNS_6MemoryEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols12BinarySearchI9elf64_symLb1EEEPNS0_4InfoEmPNS_6MemoryEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols15BuildRemapTableI9elf32_symEEvPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols15BuildRemapTableI9elf64_symEEvPNS_6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols7GetNameI9elf32_symEEbmPNS_6MemoryEPNS_12SharedStringEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols7GetNameI9elf64_symEEbmPNS_6MemoryEPNS_12SharedStringEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols9GetGlobalI9elf32_symEEbPNS_6MemoryERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7Symbols9GetGlobalI9elf64_symEEbPNS_6MemoryERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack7SymbolsC1Emmmmm"
+  },
+  {
+   "name" : "_ZN11unwindstack7SymbolsC2Emmmmm"
+  },
+  {
+   "name" : "_ZN11unwindstack8ArmExidx10LogRawDataEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8ArmExidx16ExtractEntryDataEj"
+  },
+  {
+   "name" : "_ZN11unwindstack8ArmExidx4EvalEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8ArmExidx6DecodeEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8ArmExidx8LogByRegEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE10cfa_offsetEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE10last_errorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE11cfa_def_cfaEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE11cfa_restoreEPNS_14DwarfLocationsE"
+  },
+  {
+   "name" : "_ZN11unwindstack8DwarfCfaIjE11cfa_set_locEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE12cfa_registerEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE13LastErrorCodeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE13cfa_undefinedEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE14LogInstructionEjmhPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE14cfa_def_cfa_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE14cfa_expressionEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE14cfa_same_valueEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE14cfa_val_offsetEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE15GetLocationInfoEmmmPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE15cfa_advance_locEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE16GetOperandStringEhmPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE16LastErrorAddressEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE16set_cie_loc_regsEPKNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE17cfa_restore_stateEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE17cfa_val_offset_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE18cfa_def_cfa_offsetEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE18cfa_remember_stateEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE18cfa_val_expressionEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE20cfa_def_cfa_registerEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE21cfa_def_cfa_offset_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE22cfa_def_cfa_expressionEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE22cfa_offset_extended_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE23LogOffsetRegisterStringEjmh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE27cfa_aarch64_negate_ra_stateEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE32cfa_gnu_negative_offset_extendedEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE3LogEjmmm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE6cur_pcEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE7cfa_nopEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjEC1EPNS_11DwarfMemoryEPKNS_8DwarfFdeENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjEC2EPNS_11DwarfMemoryEPKNS_8DwarfFdeENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE10cfa_offsetEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE10last_errorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE11cfa_def_cfaEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE11cfa_restoreEPNS_14DwarfLocationsE"
+  },
+  {
+   "name" : "_ZN11unwindstack8DwarfCfaImE11cfa_set_locEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE12cfa_registerEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE13LastErrorCodeEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE13cfa_undefinedEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE14LogInstructionEjmhPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE14cfa_def_cfa_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE14cfa_expressionEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE14cfa_same_valueEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE14cfa_val_offsetEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE15GetLocationInfoEmmmPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE15cfa_advance_locEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE16GetOperandStringEhmPm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE16LastErrorAddressEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE16set_cie_loc_regsEPKNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE17cfa_restore_stateEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE17cfa_val_offset_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE18cfa_def_cfa_offsetEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE18cfa_remember_stateEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE18cfa_val_expressionEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE20cfa_def_cfa_registerEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE21cfa_def_cfa_offset_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE22cfa_def_cfa_expressionEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE22cfa_offset_extended_sfEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE23LogOffsetRegisterStringEjmh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE27cfa_aarch64_negate_ra_stateEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE32cfa_gnu_negative_offset_extendedEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE3LogEjmmm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE6cur_pcEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE7cfa_nopEPNS_14DwarfLocationsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImEC1EPNS_11DwarfMemoryEPKNS_8DwarfFdeENS_8ArchEnumE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImEC2EPNS_11DwarfMemoryEPKNS_8DwarfFdeENS_8ArchEnumE"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz10DecompressEPNS0_7XzBlockE"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz10ReadBlocksEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz4InitEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz4ReadEmPvm"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXzC1EPNS_6MemoryEmmRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXzC2EPNS_6MemoryEmmRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXzD0Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXzD1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXzD2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips16IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips18CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips19StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips22SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips2pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips2spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips4ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips4ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips5CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips6set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips6set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMipsC1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMipsC2Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder11FillInFrameERNSt3__110shared_ptrINS_7MapInfoEEEPNS_3ElfEmm"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder11FormatFrameENS_8ArchEnumERKNS_9FrameDataEb"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder11SetDexFilesEPNS_20GlobalDebugInterfaceINS_7DexFileEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder11SetJitDebugEPNS_20GlobalDebugInterfaceINS_3ElfEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder14FillInDexFrameEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder20BuildFrameFromPcOnlyEm"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder20BuildFrameFromPcOnlyEmNS_8ArchEnumEPNS_4MapsEPNS_20GlobalDebugInterfaceINS_3ElfEEENSt3__110shared_ptrINS_6MemoryEEEb"
+  },
+  {
+   "name" : "_ZN11unwindstack8Unwinder6UnwindEPKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEESC_"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6410IsRASignedEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6410SetPACMaskEm"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6411fallback_pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6416IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6417GetPseudoRegisterEtPm"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6417SetPseudoRegisterEtm"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6418CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6420ResetPseudoRegistersEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm6422SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm642pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm642spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm644ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm644ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm645CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm646set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm646set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm64C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack9RegsArm64C2Ev"
+  },
+  {
+   "name" : "_ZNK11unwindstack10RemoteMaps11GetMapsFileEv"
+  },
+  {
+   "name" : "_ZNK11unwindstack15AndroidUnwinder11FormatFrameERKNS_9FrameDataE"
+  },
+  {
+   "name" : "_ZNK11unwindstack18LocalUpdatableMaps11GetMapsFileEv"
+  },
+  {
+   "name" : "_ZNK11unwindstack8Unwinder11FormatFrameERKNS_9FrameDataE"
+  },
+  {
+   "name" : "_ZNK11unwindstack8Unwinder11FormatFrameEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN11unwindstack7MapInfoEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__deque_baseIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE5clearEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__deque_baseIhNS_9allocatorIhEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__deque_baseIjNS_9allocatorIjEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__deque_baseImNS_9allocatorImEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapImNS_10shared_ptrIN11unwindstack3ElfEEENS_4hashImEENS_8equal_toImEENS5_INS_4pairIKmSC_EEEEEEEENS_22__unordered_map_hasherIS7_SM_NSD_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_NSF_IS7_EELb1EEENS5_ISM_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSZ_IJEEEEEENSH_INS_15__hash_iteratorIPNS_11__hash_nodeISM_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapImNS_10shared_ptrIN11unwindstack3ElfEEENS_4hashImEENS_8equal_toImEENS5_INS_4pairIKmSC_EEEEEEEENS_22__unordered_map_hasherIS7_SM_NSD_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_NSF_IS7_EELb1EEENS5_ISM_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISM_PvEEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapImNS_10shared_ptrIN11unwindstack3ElfEEENS_4hashImEENS_8equal_toImEENS5_INS_4pairIKmSC_EEEEEEEENS_22__unordered_map_hasherIS7_SM_NSD_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_NSF_IS7_EELb1EEENS5_ISM_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapImNS_10shared_ptrIN11unwindstack3ElfEEENS_4hashImEENS_8equal_toImEENS5_INS_4pairIKmSC_EEEEEEEENS_22__unordered_map_hasherIS7_SM_NSD_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_NSF_IS7_EELb1EEENS5_ISM_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKS7_RjEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKS7_RyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKS7_S9_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEEEEvT_SN_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE14__erase_uniqueIjEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJOjEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJRKjEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIjJRKNS_4pairIKjS3_EEEEENSH_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE14__erase_uniqueImEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack14DwarfLocationsEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack14DwarfLocationsEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack14DwarfLocationsEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrIjE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE14__erase_uniqueImEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrIjE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSM_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrIjE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrIjE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS6_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrIjE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrImE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE14__erase_uniqueImEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrImE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSM_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrImE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrImE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS6_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack19DwarfEhFrameWithHdrImE7FdeInfoEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfCieEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE14__erase_uniqueImEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfCieEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfCieEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfCieEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfCieEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfFdeEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE14__erase_uniqueImEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfFdeEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfFdeEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfFdeEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8DwarfFdeEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8LoadInfoEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJOmEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8LoadInfoEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN11unwindstack8LoadInfoEEENS_22__unordered_map_hasherImS4_NS_4hashImEELb1EEENS_21__unordered_map_equalImS4_NS_8equal_toImEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImNS_10shared_ptrIN11unwindstack3ElfEEEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsImJmRS5_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImNS_10shared_ptrIN11unwindstack3ElfEEEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImNS_10shared_ptrIN11unwindstack3ElfEEEEENS_22__unordered_map_hasherImS6_NS_4hashImEELb1EEENS_21__unordered_map_equalImS6_NS_8equal_toImEELb1EEENS_9allocatorIS6_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImjEENS_22__unordered_map_hasherImS2_NS_4hashImEELb1EEENS_21__unordered_map_equalImS2_NS_8equal_toImEELb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImjEENS_22__unordered_map_hasherImS2_NS_4hashImEELb1EEENS_21__unordered_map_equalImS2_NS_8equal_toImEELb1EEENS_9allocatorIS2_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImjEENS_22__unordered_map_hasherImS2_NS_4hashImEELb1EEENS_21__unordered_map_equalImS2_NS_8equal_toImEELb1EEENS_9allocatorIS2_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPN11unwindstack14DwarfLocationsENS_9allocatorIS3_EEE10push_frontEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPN11unwindstack14DwarfLocationsENS_9allocatorIS3_EEE9push_backEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPN11unwindstack14DwarfLocationsERNS_9allocatorIS3_EEE10push_frontERKS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPN11unwindstack14DwarfLocationsERNS_9allocatorIS3_EEE9push_backEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPhNS_9allocatorIS1_EEE10push_frontEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPhNS_9allocatorIS1_EEE9push_backEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPhRNS_9allocatorIS1_EEE10push_frontERKS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPhRNS_9allocatorIS1_EEE9push_backEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE10push_frontEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE10push_frontERKS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE9push_backEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPjRNS_9allocatorIS1_EEE9push_backEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPmNS_9allocatorIS1_EEE10push_frontEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPmNS_9allocatorIS1_EEE10push_frontERKS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPmNS_9allocatorIS1_EEE9push_backEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPmRNS_9allocatorIS1_EEE9push_backEOS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS7_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS7_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack18MemoryFileAtOffsetENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack18MemoryFileAtOffsetENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack7MapInfoENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack7MapInfoENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack10RemoteMapsENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack10RemoteMapsENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryCacheENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryCacheENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryLocalENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryLocalENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryRemoteENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryRemoteENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack17MemoryThreadCacheENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack17MemoryThreadCacheENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack18LocalUpdatableMapsENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack18LocalUpdatableMapsENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack19MemoryOfflineBufferENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack19MemoryOfflineBufferENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack3ElfENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack3ElfENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack6MemoryENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack6MemoryENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__insertion_sort_incompleteIRNS_6__lessINS_4pairImmEES3_EEPS3_EEbT0_S7_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__insertion_sort_incompleteIRZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEbT0_SA_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__insertion_sort_incompleteIRZN11unwindstack16DwarfSectionImplImE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEbT0_SA_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__insertion_sort_incompleteIRZN11unwindstack7Symbols15BuildRemapTableI9elf32_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEbS8_S8_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__insertion_sort_incompleteIRZN11unwindstack7Symbols15BuildRemapTableI9elf64_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEbS8_S8_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE19__add_back_capacityEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE8pop_backEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE9push_backERKS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIhNS_9allocatorIhEEE19__add_back_capacityEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIhNS_9allocatorIhEEE9push_backEOh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIhNS_9allocatorIhEEE9push_backERKh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeIjNS_9allocatorIjEEE20__add_front_capacityEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__15dequeImNS_9allocatorImEEE20__add_front_capacityEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__sortIRNS_6__lessINS_4pairImmEES3_EEPS3_EEvT0_S7_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__sortIRZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEvT0_SA_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__sortIRZN11unwindstack16DwarfSectionImplImE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEvT0_SA_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__sortIRZN11unwindstack7Symbols15BuildRemapTableI9elf32_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEvS8_S8_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__sortIRZN11unwindstack7Symbols15BuildRemapTableI9elf64_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEvS8_S8_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEjNS2_8Uint64_AEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS7_JRS7_RS9_EEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEjNS2_8Uint64_AEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEjNS2_8Uint64_PEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS7_JRS7_RS9_EEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEjNS2_8Uint64_PEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEmNS2_8Uint64_AEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS7_JRS7_RS9_EEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEmNS2_8Uint64_AEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIhiEENS_19__map_value_compareIhS2_NS_4lessIhEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeImN11unwindstack14DwarfLocationsEEENS_19__map_value_compareImS4_NS_4lessImEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsImJRmS3_EEENS_4pairINS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeImN11unwindstack14DwarfLocationsEEENS_19__map_value_compareImS4_NS_4lessImEELb1EEENS_9allocatorIS4_EEE7destroyEPNS_11__tree_nodeIS4_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeImN11unwindstack7Symbols4InfoEEENS_19__map_value_compareImS5_NS_4lessImEELb1EEENS_9allocatorIS5_EEE7destroyEPNS_11__tree_nodeIS5_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeImNS_10unique_ptrIN11unwindstack11MemoryRangeENS_14default_deleteIS4_EEEEEENS_19__map_value_compareImS8_NS_4lessImEELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN11unwindstack8MemoryXz7XzBlockENS_9allocatorIS3_EEE21__push_back_slow_pathIS3_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN11unwindstack8MemoryXz7XzBlockENS_9allocatorIS3_EEE7reserveEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN11unwindstack9FrameDataENS_9allocatorIS2_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN11unwindstack9FrameDataENS_9allocatorIS2_EEE6resizeEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN11unwindstack9FrameDataENS_9allocatorIS2_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_10shared_ptrIN11unwindstack7MapInfoEEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_10shared_ptrIN11unwindstack7MapInfoEEENS_9allocatorIS4_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKPKcEEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEE21__push_back_slow_pathIS2_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKmS8_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIPKN11unwindstack8DwarfFdeENS_9allocatorIS4_EEE21__push_back_slow_pathIRKS4_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIPKN11unwindstack8DwarfFdeENS_9allocatorIS4_EEE21__push_back_slow_pathIS4_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIPN11unwindstack7SymbolsENS_9allocatorIS3_EEE21__push_back_slow_pathIS3_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEvE7FdeInfoNS_9allocatorIS4_EEE21__push_back_slow_pathIS4_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIZN11unwindstack16DwarfSectionImplImE13BuildFdeIndexEvE7FdeInfoNS_9allocatorIS4_EEE21__push_back_slow_pathIS4_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE21__push_back_slow_pathIRKcEEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIjNS_9allocatorIjEEE21__push_back_slow_pathIjEEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorImNS_9allocatorImEEE21__push_back_slow_pathIRKmEEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorImNS_9allocatorImEEE21__push_back_slow_pathImEEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessINS_4pairImmEES3_EEPS3_EEjT0_S7_S7_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEjT0_SA_SA_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRZN11unwindstack16DwarfSectionImplImE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEjT0_SA_SA_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRZN11unwindstack7Symbols15BuildRemapTableI9elf32_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEjS8_S8_S8_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRZN11unwindstack7Symbols15BuildRemapTableI9elf64_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEjS8_S8_S8_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessINS_4pairImmEES3_EEPS3_EEjT0_S7_S7_S7_T_"
+  },
+  {
+   "name" : "__cxa_demangle"
+  },
+  {
+   "name" : "__rdl_alloc"
+  },
+  {
+   "name" : "__rdl_dealloc"
+  },
+  {
+   "name" : "__rdl_realloc"
+  },
+  {
+   "name" : "__rg_oom"
+  },
+  {
+   "name" : "__rust_alloc"
+  },
+  {
+   "name" : "__rust_alloc_error_handler"
+  },
+  {
+   "name" : "__rust_dealloc"
+  },
+  {
+   "name" : "__rust_realloc"
+  },
+  {
+   "name" : "__rust_start_panic"
+  },
+  {
+   "name" : "async_safe_fatal_no_abort"
+  },
+  {
+   "name" : "async_safe_fatal_va_list"
+  },
+  {
+   "name" : "async_safe_format_buffer"
+  },
+  {
+   "name" : "async_safe_format_buffer_va_list"
+  },
+  {
+   "name" : "async_safe_format_fd"
+  },
+  {
+   "name" : "async_safe_format_fd_va_list"
+  },
+  {
+   "name" : "async_safe_format_log"
+  },
+  {
+   "name" : "async_safe_format_log_va_list"
+  },
+  {
+   "name" : "async_safe_write_log"
+  },
+  {
+   "name" : "rust_begin_unwind"
+  },
+  {
+   "name" : "rust_eh_personality"
+  },
+  {
+   "name" : "rust_panic"
+  },
+  {
+   "name" : "rustc_demangle"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std9panicking4HOOK"
+  },
+  {
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std9panicking11panic_count18GLOBAL_PANIC_COUNT"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVZNK11unwindstack12SharedStringcvRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEvE5empty"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry14entries_mutex_E"
+  },
+  {
+   "name" : "_ZN11unwindstack11ThreadEntry8entries_E"
+  },
+  {
+   "name" : "_ZN11unwindstack12DwarfCfaInfo6kTableE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack15GlobalDebugImplINS_3ElfEjNS_8Uint64_PEE6kMagicE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack20AndroidLocalUnwinder15kUnwindstackLibE"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf11cache_lock_E"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf14cache_enabled_E"
+  },
+  {
+   "name" : "_ZN11unwindstack3Elf6cache_E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpIjE17kOpHandleFuncListE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack7DwarfOpImE17kOpHandleFuncListE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaIjE14kCallbackTableE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN11unwindstack8DwarfCfaImE14kCallbackTableE"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz11total_open_E"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz11total_size_E"
+  },
+  {
+   "name" : "_ZN11unwindstack8MemoryXz11total_used_E"
+  },
+  {
+   "name" : "_ZTVN11unwindstack10BufferMapsE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack10RegsMips64E"
+  },
+  {
+   "name" : "_ZTVN11unwindstack10RegsX86_64E"
+  },
+  {
+   "name" : "_ZTVN11unwindstack10RemoteMapsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack11DwarfMemoryE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack11MemoryCacheE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack11MemoryLocalE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack11MemoryRangeE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack11RegsRiscv64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack12DwarfEhFrameIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack12DwarfEhFrameImEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack12DwarfSectionE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack12ElfInterfaceE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack12MemoryBufferE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack12MemoryRangesE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack12MemoryRemoteE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack13MemoryOfflineE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack14ThreadUnwinderE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15AndroidUnwinderE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15DwarfDebugFrameIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15DwarfDebugFrameImEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack15ElfInterfaceArmE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15GlobalDebugImplINS_3ElfEjNS_8Uint64_AEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15GlobalDebugImplINS_3ElfEjNS_8Uint64_PEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15GlobalDebugImplINS_3ElfEmNS_8Uint64_AEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack15MemoryCacheBaseE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack15UnwinderFromPidE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack16DwarfSectionImplIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack16DwarfSectionImplImEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack17MemoryThreadCacheE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack18LocalUpdatableMapsE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack18MemoryFileAtOffsetE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack18MemoryOfflinePartsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack19DwarfEhFrameWithHdrIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack19DwarfEhFrameWithHdrImEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack19MemoryOfflineBufferE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack20AndroidLocalUnwinderE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack21AndroidRemoteUnwinderE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack3ElfE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack4MapsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack6GlobalE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack6MemoryE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack7DwarfOpIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack7DwarfOpImEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack7RegsArmE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack7RegsX86E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack7SymbolsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack8ArmExidxE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack8DwarfCfaIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack8DwarfCfaImEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack8MemoryXzE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack8RegsImplIjEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack8RegsImplImEE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack8RegsMipsE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack8UnwinderE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN11unwindstack9LocalMapsE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack9RegsArm64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS7_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN11unwindstack18MemoryFileAtOffsetENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN11unwindstack7MapInfoENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack10RemoteMapsENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryCacheENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryLocalENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryRemoteENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack17MemoryThreadCacheENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack18LocalUpdatableMapsENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack19MemoryOfflineBufferENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack3ElfENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack6MemoryENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZNK11unwindstack12SharedStringcvRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEvE5empty"
+  },
+  {
+   "name" : "__rust_alloc_error_handler_should_panic"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
+   "name" : "unwindstack::GlobalDebugInterface<unwindstack::Elf> *",
+   "referenced_type" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
+   "self_type" : "_ZTIPN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/GlobalDebugInterface.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE",
+   "name" : "unwindstack::GlobalDebugInterface<unwindstack::DexFile> *",
+   "referenced_type" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE",
+   "self_type" : "_ZTIPN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/GlobalDebugInterface.h"
+  }
+ ],
+ "qualified_types" : [],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
+   "name" : "unwindstack::GlobalDebugInterface<unwindstack::Elf>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
+   "self_type" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/GlobalDebugInterface.h",
+   "template_args" :
+   [
+    "_ZTIN11unwindstack3ElfE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_3ElfEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_3ElfEED0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_3ElfEE15GetFunctionNameEPNS_4MapsEmPNS_12SharedStringEPm"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_3ElfEE4FindEPNS_4MapsEm"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE",
+   "name" : "unwindstack::GlobalDebugInterface<unwindstack::DexFile>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE",
+   "self_type" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/GlobalDebugInterface.h",
+   "template_args" :
+   [
+    "_ZTIN11unwindstack7DexFileE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_7DexFileEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_7DexFileEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_7DexFileEED0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_7DexFileEE15GetFunctionNameEPNS_4MapsEmPNS_12SharedStringEPm"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_7DexFileEE4FindEPNS_4MapsEm"
+    }
+   ]
+  }
+ ],
+ "rvalue_reference_types" : []
+}

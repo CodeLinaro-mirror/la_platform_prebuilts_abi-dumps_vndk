@@ -1,0 +1,490 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "CheckIonSupport"
+  },
+  {
+   "name" : "CreateDmabufHeapBufferAllocator"
+  },
+  {
+   "name" : "DmabufHeapAlloc"
+  },
+  {
+   "name" : "DmabufHeapAllocSystem"
+  },
+  {
+   "name" : "DmabufHeapCpuSyncEnd"
+  },
+  {
+   "name" : "DmabufHeapCpuSyncStart"
+  },
+  {
+   "name" : "FreeDmabufHeapBufferAllocator"
+  },
+  {
+   "name" : "MapDmabufHeapNameToIonHeap"
+  },
+  {
+   "name" : "_ZN15BufferAllocator10CpuSyncEndEj8SyncTypeRKNSt3__18functionIFiiiPvEEES3_"
+  },
+  {
+   "name" : "_ZN15BufferAllocator11AllocSystemEbjjj"
+  },
+  {
+   "name" : "_ZN15BufferAllocator11DmabufAllocERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEj"
+  },
+  {
+   "name" : "_ZN15BufferAllocator12CpuSyncStartEj8SyncTypeRKNSt3__18functionIFiiiPvEEES3_"
+  },
+  {
+   "name" : "_ZN15BufferAllocator12GetIonConfigERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS_13IonHeapConfigE"
+  },
+  {
+   "name" : "_ZN15BufferAllocator12LogInterfaceERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN15BufferAllocator13DmabufSetNameEjRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN15BufferAllocator13QueryIonHeapsEv"
+  },
+  {
+   "name" : "_ZN15BufferAllocator14OpenDmabufHeapERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN15BufferAllocator15CheckIonSupportEv"
+  },
+  {
+   "name" : "_ZN15BufferAllocator16LegacyIonCpuSyncEjRKNSt3__18functionIFiiiPvEEES2_"
+  },
+  {
+   "name" : "_ZN15BufferAllocator16MapNameToIonHeapERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_jjj"
+  },
+  {
+   "name" : "_ZN15BufferAllocator16MapNameToIonMaskERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjj"
+  },
+  {
+   "name" : "_ZN15BufferAllocator16MapNameToIonNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_j"
+  },
+  {
+   "name" : "_ZN15BufferAllocator17GetDmabufHeapListEv"
+  },
+  {
+   "name" : "_ZN15BufferAllocator18GetIonHeapIdByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPj"
+  },
+  {
+   "name" : "_ZN15BufferAllocator5AllocERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjjj"
+  },
+  {
+   "name" : "_ZN15BufferAllocator6DoSyncEjb8SyncTypeRKNSt3__18functionIFiiiPvEEES3_"
+  },
+  {
+   "name" : "_ZN15BufferAllocator8IonAllocERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjjj"
+  },
+  {
+   "name" : "_ZN15BufferAllocatorC1Ev"
+  },
+  {
+   "name" : "_ZN15BufferAllocatorC2Ev"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessage6streamEv"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessage7LogLineEPKcjNS0_11LogSeverityES3_S3_"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC1EPKcjNS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC1EPKcjNS0_5LogIdENS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC2EPKcjNS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC2EPKcjNS0_5LogIdENS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageD1Ev"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageD2Ev"
+  },
+  {
+   "name" : "_ZN7android4base10LogdLoggerC1ENS0_5LogIdE"
+  },
+  {
+   "name" : "_ZN7android4base10LogdLoggerC2ENS0_5LogIdE"
+  },
+  {
+   "name" : "_ZN7android4base10LogdLoggerclENS0_5LogIdENS0_11LogSeverityEPKcS5_jS5_"
+  },
+  {
+   "name" : "_ZN7android4base10SetAborterEONSt3__18functionIFvPKcEEE"
+  },
+  {
+   "name" : "_ZN7android4base10StartsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base10StartsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEc"
+  },
+  {
+   "name" : "_ZN7android4base11GetThreadIdEv"
+  },
+  {
+   "name" : "_ZN7android4base11InitLoggingEPPcONSt3__18functionIFvNS0_5LogIdENS0_11LogSeverityEPKcS8_jS8_EEEONS4_IFvS8_EEE"
+  },
+  {
+   "name" : "_ZN7android4base11StdioLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_"
+  },
+  {
+   "name" : "_ZN7android4base12KernelLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_"
+  },
+  {
+   "name" : "_ZN7android4base12StderrLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_"
+  },
+  {
+   "name" : "_ZN7android4base12StringPrintfEPKcz"
+  },
+  {
+   "name" : "_ZN7android4base13SetDefaultTagERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base13StringAppendFEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcz"
+  },
+  {
+   "name" : "_ZN7android4base13StringAppendVEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcPc"
+  },
+  {
+   "name" : "_ZN7android4base13StringReplaceENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_S5_b"
+  },
+  {
+   "name" : "_ZN7android4base14DefaultAborterEPKc"
+  },
+  {
+   "name" : "_ZN7android4base16EqualsIgnoreCaseENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityC1ENS0_11LogSeverityE"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityC2ENS0_11LogSeverityE"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityD1Ev"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityD2Ev"
+  },
+  {
+   "name" : "_ZN7android4base18EndsWithIgnoreCaseENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base19ErrnoNumberAsStringEi"
+  },
+  {
+   "name" : "_ZN7android4base20StartsWithIgnoreCaseENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base21GetMinimumLogSeverityEv"
+  },
+  {
+   "name" : "_ZN7android4base21SetMinimumLogSeverityENS0_11LogSeverityE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_EES9_RKT_T0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEEcEES9_RKT_T0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorIPKcNS2_9allocatorIS5_EEEERKNS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEEEESD_RKT_T0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorIPKcNS2_9allocatorIS5_EEEEcEENS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEERKT_T0_"
+  },
+  {
+   "name" : "_ZN7android4base4TrimERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEES8_OT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimINSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEEENS2_12basic_stringIcS5_NS2_9allocatorIcEEEEOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIPKcEENSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEES8_OT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRNSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEEENS2_12basic_stringIcS5_NS2_9allocatorIcEEEEOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRPKcEENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEOT_"
+  },
+  {
+   "name" : "_ZN7android4base5SplitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_"
+  },
+  {
+   "name" : "_ZN7android4base8EndsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base8EndsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEc"
+  },
+  {
+   "name" : "_ZN7android4base8TokenizeERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_"
+  },
+  {
+   "name" : "_ZN7android4base9SetLoggerEONSt3__18functionIFvNS0_5LogIdENS0_11LogSeverityEPKcS6_jS6_EEE"
+  },
+  {
+   "name" : "_ZN7android4base9ShouldLogENS0_11LogSeverityEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE7__cloneEPNS0_6__baseISB_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE7__cloneEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIPFiiiPvENS_9allocatorIS4_EES3_E7__cloneEPNS0_6__baseIS3_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIPFiiiPvENS_9allocatorIS4_EES3_E7__cloneEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E7__cloneEPNS0_6__baseIS4_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E7__cloneEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE18destroy_deallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE7destroyEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EEclEOS7_OS8_OSA_SF_OjSF_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFiiiPvENS_9allocatorIS4_EES3_E18destroy_deallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFiiiPvENS_9allocatorIS4_EES3_E7destroyEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFiiiPvENS_9allocatorIS4_EES3_EclEOiS8_OS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E18destroy_deallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E7destroyEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE25__emplace_unique_key_argsIS6_JS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE4findIS6_EENS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE6rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE8__rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN15BufferAllocator13IonHeapConfigEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSP_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN15BufferAllocator13IonHeapConfigEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN15BufferAllocator13IonHeapConfigEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE6rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN15BufferAllocator13IonHeapConfigEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE8__rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android4base14unique_fd_implINS9_13DefaultCloserEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_NS_8equal_toIS7_EELb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JNS_4pairIKS7_SC_EEEEENSP_INS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android4base14unique_fd_implINS9_13DefaultCloserEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_NS_8equal_toIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android4base14unique_fd_implINS9_13DefaultCloserEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_NS_8equal_toIS7_EELb1EEENS5_ISD_EEE6rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android4base14unique_fd_implINS9_13DefaultCloserEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_NS_8equal_toIS7_EELb1EEENS5_ISD_EEE8__rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_j"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI13ion_heap_dataNS_9allocatorIS1_EEE8__appendEjRKS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__1lsIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_ostreamIT_T0_EES9_RKNS_12basic_stringIS6_S7_T1_EE"
+  },
+  {
+   "name" : "ion_alloc"
+  },
+  {
+   "name" : "ion_alloc_fd"
+  },
+  {
+   "name" : "ion_close"
+  },
+  {
+   "name" : "ion_free"
+  },
+  {
+   "name" : "ion_import"
+  },
+  {
+   "name" : "ion_is_legacy"
+  },
+  {
+   "name" : "ion_is_using_modular_heaps"
+  },
+  {
+   "name" : "ion_map"
+  },
+  {
+   "name" : "ion_open"
+  },
+  {
+   "name" : "ion_query_get_heaps"
+  },
+  {
+   "name" : "ion_query_heap_cnt"
+  },
+  {
+   "name" : "ion_share"
+  },
+  {
+   "name" : "ion_sync_fd"
+  },
+  {
+   "name" : "posix_strerror_r"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN15BufferAllocator17logged_interface_E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTTNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__110__function6__funcIPFiiiPvENS_9allocatorIS4_EES3_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

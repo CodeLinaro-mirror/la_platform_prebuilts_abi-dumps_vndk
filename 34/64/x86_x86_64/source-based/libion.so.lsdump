@@ -1,0 +1,56 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "ion_alloc"
+  },
+  {
+   "name" : "ion_alloc_fd"
+  },
+  {
+   "name" : "ion_close"
+  },
+  {
+   "name" : "ion_free"
+  },
+  {
+   "name" : "ion_import"
+  },
+  {
+   "name" : "ion_is_legacy"
+  },
+  {
+   "name" : "ion_is_using_modular_heaps"
+  },
+  {
+   "name" : "ion_map"
+  },
+  {
+   "name" : "ion_open"
+  },
+  {
+   "name" : "ion_query_get_heaps"
+  },
+  {
+   "name" : "ion_query_heap_cnt"
+  },
+  {
+   "name" : "ion_share"
+  },
+  {
+   "name" : "ion_sync_fd"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

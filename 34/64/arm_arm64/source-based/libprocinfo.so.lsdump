@@ -1,0 +1,26 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN7android8procinfo14GetProcessInfoEiPNS0_11ProcessInfoEPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android8procinfo27GetProcessInfoFromProcPidFdEiiPNS0_11ProcessInfoEPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android8procinfo8SetErrorEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEiPKcz"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
