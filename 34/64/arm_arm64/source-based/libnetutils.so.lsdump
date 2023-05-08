@@ -1,0 +1,266 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIh",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "referenced_type" : "_ZTIt",
+   "self_type" : "_ZTIt",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "decode_dhcp_msg"
+  },
+  {
+   "name" : "dhcp_init_ifc"
+  },
+  {
+   "name" : "dhcp_lasterror"
+  },
+  {
+   "name" : "do_dhcp"
+  },
+  {
+   "name" : "dump_dhcp_info"
+  },
+  {
+   "name" : "dump_dhcp_msg"
+  },
+  {
+   "name" : "fatal"
+  },
+  {
+   "name" : "get_dhcp_info"
+  },
+  {
+   "name" : "get_msecs"
+  },
+  {
+   "name" : "ifc_act_on_address"
+  },
+  {
+   "name" : "ifc_act_on_ipv4_route"
+  },
+  {
+   "name" : "ifc_add_address"
+  },
+  {
+   "name" : "ifc_clear_addresses"
+  },
+  {
+   "name" : "ifc_clear_ipv4_addresses"
+  },
+  {
+   "name" : "ifc_clear_ipv6_addresses"
+  },
+  {
+   "name" : "ifc_close"
+  },
+  {
+   "name" : "ifc_close6"
+  },
+  {
+   "name" : "ifc_configure"
+  },
+  {
+   "name" : "ifc_create_default_route"
+  },
+  {
+   "name" : "ifc_del_address"
+  },
+  {
+   "name" : "ifc_disable"
+  },
+  {
+   "name" : "ifc_down"
+  },
+  {
+   "name" : "ifc_enable"
+  },
+  {
+   "name" : "ifc_get_addr"
+  },
+  {
+   "name" : "ifc_get_hwaddr"
+  },
+  {
+   "name" : "ifc_get_ifindex"
+  },
+  {
+   "name" : "ifc_get_info"
+  },
+  {
+   "name" : "ifc_init"
+  },
+  {
+   "name" : "ifc_init6"
+  },
+  {
+   "name" : "ifc_remove_default_route"
+  },
+  {
+   "name" : "ifc_reset_connections"
+  },
+  {
+   "name" : "ifc_set_addr"
+  },
+  {
+   "name" : "ifc_set_hwaddr"
+  },
+  {
+   "name" : "ifc_set_mask"
+  },
+  {
+   "name" : "ifc_set_prefixLength"
+  },
+  {
+   "name" : "ifc_up"
+  },
+  {
+   "name" : "init_dhcp_discover_msg"
+  },
+  {
+   "name" : "init_dhcp_request_msg"
+  },
+  {
+   "name" : "ipaddr"
+  },
+  {
+   "name" : "ipv4NetmaskToPrefixLength"
+  },
+  {
+   "name" : "open_raw_socket"
+  },
+  {
+   "name" : "prefixLengthToIpv4Netmask"
+  },
+  {
+   "name" : "printerr"
+  },
+  {
+   "name" : "receive_packet"
+  },
+  {
+   "name" : "send_packet"
+  },
+  {
+   "name" : "string_to_ip"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "last_good_info"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK5iphdr",
+   "name" : "const iphdr *",
+   "referenced_type" : "_ZTIK5iphdr",
+   "self_type" : "_ZTIPK5iphdr",
+   "size" : 4,
+   "source_file" : "frameworks/libs/net/common/native/ip_checksum/checksum.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK7ip6_hdr",
+   "name" : "const ip6_hdr *",
+   "referenced_type" : "_ZTIK7ip6_hdr",
+   "self_type" : "_ZTIPK7ip6_hdr",
+   "size" : 4,
+   "source_file" : "frameworks/libs/net/common/native/ip_checksum/checksum.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "self_type" : "_ZTIPKv",
+   "size" : 4,
+   "source_file" : "frameworks/libs/net/common/native/ip_checksum/checksum.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK5iphdr",
+   "name" : "const iphdr",
+   "referenced_type" : "_ZTI5iphdr",
+   "self_type" : "_ZTIK5iphdr",
+   "size" : 20,
+   "source_file" : "frameworks/libs/net/common/native/ip_checksum/checksum.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK7ip6_hdr",
+   "name" : "const ip6_hdr",
+   "referenced_type" : "_ZTI7ip6_hdr",
+   "self_type" : "_ZTIK7ip6_hdr",
+   "size" : 40,
+   "source_file" : "frameworks/libs/net/common/native/ip_checksum/checksum.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIKv",
+   "source_file" : "frameworks/libs/net/common/native/ip_checksum/checksum.h"
+  }
+ ],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

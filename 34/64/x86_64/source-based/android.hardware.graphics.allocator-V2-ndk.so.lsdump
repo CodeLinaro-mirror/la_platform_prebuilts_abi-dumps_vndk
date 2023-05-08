@@ -1,0 +1,232 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9allocator10IAllocatorEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9allocator10IAllocatorEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics6common14ExtendableTypeEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics6common14ExtendableTypeEEEiP7AParcelPKvm"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocatorC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocatorD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocatorD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocatorD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocator12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocator16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocator19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocatorC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocatorD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocatorD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BnAllocatorD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocator11isSupportedERKNS3_20BufferDescriptorInfoEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocator16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocator19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocator23getIMapperLibrarySuffixEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocator8allocateERKNSt3__16vectorIhNS5_9allocatorIhEEEEiPNS3_16AllocationResultE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocator9allocate2ERKNS3_20BufferDescriptorInfoEiPNS3_16AllocationResultE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocatorC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocatorC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocatorD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocatorD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator11BpAllocatorD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator16AllocationResult14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault11isSupportedERKNS3_20BufferDescriptorInfoEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault23getIMapperLibrarySuffixEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault8allocateERKNSt3__16vectorIhNS5_9allocatorIhEEEEiPNS3_16AllocationResultE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator17IAllocatorDefault9allocate2ERKNS3_20BufferDescriptorInfoEiPNS3_16AllocationResultE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator20BufferDescriptorInfo14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9allocator16AllocationResult13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics9allocator20BufferDescriptorInfo13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8graphics9allocator10IAllocatorEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common14ExtendableTypeENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIaNS_9allocatorIaEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8graphics9allocator10IAllocator4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator10IAllocator4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator16AllocationResult10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics9allocator20BufferDescriptorInfo10descriptorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8graphics9allocator10IAllocatorEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8graphics9allocator10IAllocatorEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9allocator10IAllocatorE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9allocator11BnAllocatorE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9allocator11BpAllocatorE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8graphics9allocator17IAllocatorDefaultE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

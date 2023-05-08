@@ -1,0 +1,601 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device14CaptureRequestEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware6common3fmq17GrantorDescriptorEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device14CaptureRequestEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware6common3fmq17GrantorDescriptorEEEiP7AParcelPKvm"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device10SubmitInfo14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device14CameraMetadata14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device14CaptureRequest14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17StreamAndWindowId14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUser12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUser16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUser19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser10disconnectEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser12createStreamERKNS3_19OutputConfigurationEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser12deleteStreamEi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser12endConfigureENS3_23StreamConfigurationModeERKNS3_14CameraMetadataEl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser13waitUntilIdleEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser14beginConfigureEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser17submitRequestListERKNSt3__16vectorINS3_14CaptureRequestENS5_9allocatorIS7_EEEEbPNS3_10SubmitInfoE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser20createDefaultRequestENS3_10TemplateIdEPNS3_14CameraMetadataE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser22cancelRepeatingRequestEPl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser25updateOutputConfigurationEiRKNS3_19OutputConfigurationE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser29getCaptureResultMetadataQueueEPNS0_8hardware6common3fmq12MQDescriptorIaNS7_21SynchronizedReadWriteEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser30getCaptureRequestMetadataQueueEPNS0_8hardware6common3fmq12MQDescriptorIaNS7_21SynchronizedReadWriteEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser31isSessionConfigurationSupportedERKNS3_20SessionConfigurationEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser5flushEPl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUser7prepareEi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device19CaptureResultExtras14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device19OutputConfiguration14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device20SessionConfiguration14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallback12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback10onPreparedEi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback12onDeviceIdleEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback13onDeviceErrorENS3_9ErrorCodeERKNS3_19CaptureResultExtrasE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback16onCaptureStartedERKNS3_19CaptureResultExtrasEl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback16onResultReceivedERKNS3_19CaptureMetadataInfoERKNS3_19CaptureResultExtrasERKNSt3__16vectorINS3_25PhysicalCaptureResultInfoENSB_9allocatorISD_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallback23onRepeatingRequestErrorEli"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettings14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault10disconnectEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault12createStreamERKNS3_19OutputConfigurationEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault12deleteStreamEi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault12endConfigureENS3_23StreamConfigurationModeERKNS3_14CameraMetadataEl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault13waitUntilIdleEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault14beginConfigureEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault17submitRequestListERKNSt3__16vectorINS3_14CaptureRequestENS5_9allocatorIS7_EEEEbPNS3_10SubmitInfoE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault20createDefaultRequestENS3_10TemplateIdEPNS3_14CameraMetadataE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault22cancelRepeatingRequestEPl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault25updateOutputConfigurationEiRKNS3_19OutputConfigurationE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault29getCaptureResultMetadataQueueEPNS0_8hardware6common3fmq12MQDescriptorIaNS7_21SynchronizedReadWriteEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault30getCaptureRequestMetadataQueueEPNS0_8hardware6common3fmq12MQDescriptorIaNS7_21SynchronizedReadWriteEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault31isSessionConfigurationSupportedERKNS3_20SessionConfigurationEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault5flushEPl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault7prepareEi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfo14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault10onPreparedEi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault12onDeviceIdleEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault13onDeviceErrorENS3_9ErrorCodeERKNS3_19CaptureResultExtrasE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault16onCaptureStartedERKNS3_19CaptureResultExtrasEl"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault16onResultReceivedERKNS3_19CaptureMetadataInfoERKNS3_19CaptureResultExtrasERKNSt3__16vectorINS3_25PhysicalCaptureResultInfoENSB_9allocatorISD_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault23onRepeatingRequestErrorEli"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefault8isRemoteEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEE14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device10SubmitInfo13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device14CameraMetadata13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device14CaptureRequest13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device17StreamAndWindowId13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device19CaptureResultExtras13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device19OutputConfiguration13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device20SessionConfiguration13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettings13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfo13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEE13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device14CaptureRequestENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware6common3fmq17GrantorDescriptorENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIaNS_9allocatorIaEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device10SubmitInfo10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device14CameraMetadata10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device14CaptureRequest10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device17StreamAndWindowId10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device19CaptureResultExtras10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device19OutputConfiguration10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device20SessionConfiguration10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettings10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfo10descriptorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefaultE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

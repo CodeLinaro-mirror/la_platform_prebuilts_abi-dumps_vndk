@@ -1,0 +1,79 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN7android20RadioMetadataWrapperC1EPP14radio_metadata"
+  },
+  {
+   "name" : "_ZN7android20RadioMetadataWrapperC2EPP14radio_metadata"
+  },
+  {
+   "name" : "_ZN7android20RadioMetadataWrapperD0Ev"
+  },
+  {
+   "name" : "_ZN7android20RadioMetadataWrapperD1Ev"
+  },
+  {
+   "name" : "_ZN7android20RadioMetadataWrapperD2Ev"
+  },
+  {
+   "name" : "radio_metadata_add_clock"
+  },
+  {
+   "name" : "radio_metadata_add_int"
+  },
+  {
+   "name" : "radio_metadata_add_metadata"
+  },
+  {
+   "name" : "radio_metadata_add_raw"
+  },
+  {
+   "name" : "radio_metadata_add_text"
+  },
+  {
+   "name" : "radio_metadata_allocate"
+  },
+  {
+   "name" : "radio_metadata_check"
+  },
+  {
+   "name" : "radio_metadata_deallocate"
+  },
+  {
+   "name" : "radio_metadata_get_at_index"
+  },
+  {
+   "name" : "radio_metadata_get_channel"
+  },
+  {
+   "name" : "radio_metadata_get_count"
+  },
+  {
+   "name" : "radio_metadata_get_from_key"
+  },
+  {
+   "name" : "radio_metadata_get_size"
+  },
+  {
+   "name" : "radio_metadata_type_of_key"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_ZTVN7android20RadioMetadataWrapperE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

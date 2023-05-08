@@ -1,0 +1,444 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_Z23socket_make_sockaddr_unPKciP11sockaddr_unPj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEES8_OT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4syncEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE6setbufEPcl"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE7seekposENS_4fposI9mbstate_tEEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE8overflowEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9underflowEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI5EntryNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17getlineIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__1lsINS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc"
+  },
+  {
+   "name" : "android_get_control_file"
+  },
+  {
+   "name" : "android_get_control_socket"
+  },
+  {
+   "name" : "android_get_ioprio"
+  },
+  {
+   "name" : "android_reboot"
+  },
+  {
+   "name" : "android_set_ioprio"
+  },
+  {
+   "name" : "ashmem_create_region"
+  },
+  {
+   "name" : "ashmem_get_size_region"
+  },
+  {
+   "name" : "ashmem_pin_region"
+  },
+  {
+   "name" : "ashmem_set_prot_region"
+  },
+  {
+   "name" : "ashmem_unpin_region"
+  },
+  {
+   "name" : "ashmem_valid"
+  },
+  {
+   "name" : "atrace_async_begin_body"
+  },
+  {
+   "name" : "atrace_async_end_body"
+  },
+  {
+   "name" : "atrace_async_for_track_begin_body"
+  },
+  {
+   "name" : "atrace_async_for_track_end_body"
+  },
+  {
+   "name" : "atrace_begin_body"
+  },
+  {
+   "name" : "atrace_end_body"
+  },
+  {
+   "name" : "atrace_get_enabled_tags"
+  },
+  {
+   "name" : "atrace_init"
+  },
+  {
+   "name" : "atrace_instant_body"
+  },
+  {
+   "name" : "atrace_instant_for_track_body"
+  },
+  {
+   "name" : "atrace_int64_body"
+  },
+  {
+   "name" : "atrace_int_body"
+  },
+  {
+   "name" : "atrace_set_tracing_enabled"
+  },
+  {
+   "name" : "atrace_setup"
+  },
+  {
+   "name" : "atrace_update_tags"
+  },
+  {
+   "name" : "canned_fs_config"
+  },
+  {
+   "name" : "config_bool"
+  },
+  {
+   "name" : "config_find"
+  },
+  {
+   "name" : "config_free"
+  },
+  {
+   "name" : "config_load"
+  },
+  {
+   "name" : "config_load_file"
+  },
+  {
+   "name" : "config_node"
+  },
+  {
+   "name" : "config_set"
+  },
+  {
+   "name" : "config_str"
+  },
+  {
+   "name" : "fs_config"
+  },
+  {
+   "name" : "fs_mkdirs"
+  },
+  {
+   "name" : "fs_prepare_dir"
+  },
+  {
+   "name" : "fs_prepare_dir_strict"
+  },
+  {
+   "name" : "fs_prepare_file_strict"
+  },
+  {
+   "name" : "fs_read_atomic_int"
+  },
+  {
+   "name" : "fs_write_atomic_int"
+  },
+  {
+   "name" : "hashmapCreate"
+  },
+  {
+   "name" : "hashmapForEach"
+  },
+  {
+   "name" : "hashmapFree"
+  },
+  {
+   "name" : "hashmapGet"
+  },
+  {
+   "name" : "hashmapHash"
+  },
+  {
+   "name" : "hashmapLock"
+  },
+  {
+   "name" : "hashmapPut"
+  },
+  {
+   "name" : "hashmapRemove"
+  },
+  {
+   "name" : "hashmapUnlock"
+  },
+  {
+   "name" : "klog_set_level"
+  },
+  {
+   "name" : "klog_write"
+  },
+  {
+   "name" : "klog_writev"
+  },
+  {
+   "name" : "load_canned_fs_config"
+  },
+  {
+   "name" : "load_file"
+  },
+  {
+   "name" : "multiuser_convert_sdk_sandbox_to_app_uid"
+  },
+  {
+   "name" : "multiuser_get_app_id"
+  },
+  {
+   "name" : "multiuser_get_cache_gid"
+  },
+  {
+   "name" : "multiuser_get_ext_cache_gid"
+  },
+  {
+   "name" : "multiuser_get_ext_gid"
+  },
+  {
+   "name" : "multiuser_get_sdk_sandbox_uid"
+  },
+  {
+   "name" : "multiuser_get_shared_app_gid"
+  },
+  {
+   "name" : "multiuser_get_shared_gid"
+  },
+  {
+   "name" : "multiuser_get_uid"
+  },
+  {
+   "name" : "multiuser_get_user_id"
+  },
+  {
+   "name" : "native_handle_clone"
+  },
+  {
+   "name" : "native_handle_close"
+  },
+  {
+   "name" : "native_handle_close_with_tag"
+  },
+  {
+   "name" : "native_handle_create"
+  },
+  {
+   "name" : "native_handle_delete"
+  },
+  {
+   "name" : "native_handle_init"
+  },
+  {
+   "name" : "native_handle_set_fdsan_tag"
+  },
+  {
+   "name" : "native_handle_unset_fdsan_tag"
+  },
+  {
+   "name" : "partition_wiped"
+  },
+  {
+   "name" : "property_get"
+  },
+  {
+   "name" : "property_get_bool"
+  },
+  {
+   "name" : "property_get_int32"
+  },
+  {
+   "name" : "property_get_int64"
+  },
+  {
+   "name" : "property_list"
+  },
+  {
+   "name" : "property_set"
+  },
+  {
+   "name" : "record_stream_free"
+  },
+  {
+   "name" : "record_stream_get_next"
+  },
+  {
+   "name" : "record_stream_new"
+  },
+  {
+   "name" : "socket_close"
+  },
+  {
+   "name" : "socket_get_local_port"
+  },
+  {
+   "name" : "socket_inaddr_any_server"
+  },
+  {
+   "name" : "socket_local_client"
+  },
+  {
+   "name" : "socket_local_client_connect"
+  },
+  {
+   "name" : "socket_local_server"
+  },
+  {
+   "name" : "socket_local_server_bind"
+  },
+  {
+   "name" : "socket_network_client"
+  },
+  {
+   "name" : "socket_network_client_timeout"
+  },
+  {
+   "name" : "socket_send_buffers"
+  },
+  {
+   "name" : "str_parms_add_float"
+  },
+  {
+   "name" : "str_parms_add_int"
+  },
+  {
+   "name" : "str_parms_add_str"
+  },
+  {
+   "name" : "str_parms_create"
+  },
+  {
+   "name" : "str_parms_create_str"
+  },
+  {
+   "name" : "str_parms_del"
+  },
+  {
+   "name" : "str_parms_destroy"
+  },
+  {
+   "name" : "str_parms_dump"
+  },
+  {
+   "name" : "str_parms_get_float"
+  },
+  {
+   "name" : "str_parms_get_int"
+  },
+  {
+   "name" : "str_parms_get_str"
+  },
+  {
+   "name" : "str_parms_has_key"
+  },
+  {
+   "name" : "str_parms_to_str"
+  },
+  {
+   "name" : "uevent_kernel_multicast_recv"
+  },
+  {
+   "name" : "uevent_kernel_multicast_uid_recv"
+  },
+  {
+   "name" : "uevent_kernel_recv"
+  },
+  {
+   "name" : "uevent_open_socket"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTTNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__113basic_filebufIcNS_11char_traitsIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "atrace_enabled_tags"
+  },
+  {
+   "name" : "atrace_is_ready"
+  },
+  {
+   "name" : "atrace_marker_fd"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

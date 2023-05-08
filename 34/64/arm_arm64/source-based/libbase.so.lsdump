@@ -1,0 +1,1004 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN10MappedFile6FromFdEixmi"
+  },
+  {
+   "name" : "_ZN12TemporaryDir4initERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN12TemporaryDirC1Ev"
+  },
+  {
+   "name" : "_ZN12TemporaryDirC2Ev"
+  },
+  {
+   "name" : "_ZN12TemporaryDirD1Ev"
+  },
+  {
+   "name" : "_ZN12TemporaryDirD2Ev"
+  },
+  {
+   "name" : "_ZN13CapturedStdFd3strEv"
+  },
+  {
+   "name" : "_ZN13CapturedStdFd4StopEv"
+  },
+  {
+   "name" : "_ZN13CapturedStdFd5ResetEv"
+  },
+  {
+   "name" : "_ZN13CapturedStdFd5StartEv"
+  },
+  {
+   "name" : "_ZN13CapturedStdFdC1Ei"
+  },
+  {
+   "name" : "_ZN13CapturedStdFdC2Ei"
+  },
+  {
+   "name" : "_ZN13CapturedStdFdD1Ev"
+  },
+  {
+   "name" : "_ZN13CapturedStdFdD2Ev"
+  },
+  {
+   "name" : "_ZN13TemporaryFile4initERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN13TemporaryFile7releaseEv"
+  },
+  {
+   "name" : "_ZN13TemporaryFileC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN13TemporaryFileC1Ev"
+  },
+  {
+   "name" : "_ZN13TemporaryFileC2ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN13TemporaryFileC2Ev"
+  },
+  {
+   "name" : "_ZN13TemporaryFileD1Ev"
+  },
+  {
+   "name" : "_ZN13TemporaryFileD2Ev"
+  },
+  {
+   "name" : "_ZN3fmt2v712format_errorD0Ev"
+  },
+  {
+   "name" : "_ZN3fmt2v712format_errorD1Ev"
+  },
+  {
+   "name" : "_ZN3fmt2v712format_errorD2Ev"
+  },
+  {
+   "name" : "_ZN3fmt2v712system_error4initEiNS0_17basic_string_viewIcEENS0_11format_argsE"
+  },
+  {
+   "name" : "_ZN3fmt2v712system_errorD0Ev"
+  },
+  {
+   "name" : "_ZN3fmt2v712system_errorD1Ev"
+  },
+  {
+   "name" : "_ZN3fmt2v712system_errorD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v719basic_memory_bufferIcLj500ENSt3__19allocatorIcEEE4growEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v719basic_memory_bufferIjLj32ENSt3__19allocatorIjEEE4growEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v719basic_memory_bufferIwLj500ENSt3__19allocatorIwEEE4growEj"
+  },
+  {
+   "name" : "_ZN3fmt2v719format_system_errorERNS0_6detail6bufferIcEEiNS0_17basic_string_viewIcEE"
+  },
+  {
+   "name" : "_ZN3fmt2v719report_system_errorEiNS0_17basic_string_viewIcEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10locale_refC1INSt3__16localeEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10locale_refC2INSt3__16localeEEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10vformat_toIcEENS0_20basic_format_contextINSt3__120back_insert_iteratorINS1_6bufferIT_EEEES7_E8iteratorERS8_NS0_17basic_string_viewIS7_EENS0_17basic_format_argsINS3_INS5_INS6_INS0_13type_identityIS7_E4typeEEEEESI_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10vformat_toIcEEvRNS1_6bufferIT_EENS0_17basic_string_viewIS4_EENS0_17basic_format_argsINS0_20basic_format_contextINS1_15buffer_appenderINS0_13type_identityIS4_E4typeEEESE_EEEENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10write_charIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_T_RKNS0_18basic_format_specsIS9_EE"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail11assert_failEPKciS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_bytesIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_NS0_17basic_string_viewIcEERKNS0_18basic_format_specsIT_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_14big_decimal_fpEcEET_S6_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESB_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_9dragonbox10decimal_fpIdEEcEET_S8_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESD_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_9dragonbox10decimal_fpIfEEcEET_S8_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESD_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_14big_decimal_fpEcEET_S9_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESE_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_9dragonbox10decimal_fpIdEEcEET_SB_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESG_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_9dragonbox10decimal_fpIfEEcEET_SB_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESG_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_9dragonbox10decimal_fpIdEEcEET_SF_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESK_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_9dragonbox10decimal_fpIfEEcEET_SF_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESK_"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail12count_digitsILj4ENS1_16fallback_uintptrEEEiT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail12format_floatIdEEiT_iNS1_11float_specsERNS1_6bufferIcEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail12format_floatIeEEiT_iNS1_11float_specsERNS1_6bufferIcEE"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail12report_errorEPFvRNS1_6bufferIcEEiNS0_17basic_string_viewIcEEEiS6_"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail13error_handler8on_errorEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail13grouping_implIcEENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail13grouping_implIwEENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS1_10locale_refE"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail13utf8_to_utf16C1ENS0_17basic_string_viewIcEE"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail13utf8_to_utf16C2ENS0_17basic_string_viewIcEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail14snprintf_floatIdEEiT_iNS1_11float_specsERNS1_6bufferIcEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail14snprintf_floatIeEEiT_iNS1_11float_specsERNS1_6bufferIcEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail14write_exponentIcNS1_15buffer_appenderIcEEEET0_iS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail14write_exponentIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_iS8_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail15fallback_formatIdEEvT_ibRNS1_6bufferIcEERi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail15fallback_formatIeEEvT_ibRNS1_6bufferIcEERi"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail17format_error_codeERNS1_6bufferIcEEiNS0_17basic_string_viewIcEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail18decimal_point_implIcEET_NS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail18decimal_point_implIwEET_NS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail18thousands_sep_implIcEET_NS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail18thousands_sep_implIwEET_NS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail4fillINS1_15buffer_appenderIcEEcEET_S5_jRKNS1_6fill_tIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail4fillINSt3__120back_insert_iteratorINS1_6bufferIcEEEEcEET_S8_jRKNS1_6fill_tIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail4fillIPccEET_S4_jRKNS1_6fill_tIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEdLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEeLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEfLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEiLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEjLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEExLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEyLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEdLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEeLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEfLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEEET0_SC_PKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIccNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET1_S8_NS0_17basic_string_viewIT_EERKNS0_18basic_format_specsIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail6bufferIcE6appendIcEEvPKT_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail6bufferIwE6appendIwEEvPKT_S7_"
+  },
+  {
+   "name" : "_ZN3fmt2v76detail7vformatENS0_17basic_string_viewIcEENS0_11format_argsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail9dragonbox10to_decimalIdEENS2_10decimal_fpIT_EES5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail9dragonbox10to_decimalIfEENS2_10decimal_fpIT_EES5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail9write_ptrIcNS1_15buffer_appenderIcEEjEET0_S5_T1_PKNS0_18basic_format_specsIT_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail9write_ptrIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEjEET0_S8_T1_PKNS0_18basic_format_specsIT_EE"
+  },
+  {
+   "name" : "_ZN3fmt2v76vprintENS0_17basic_string_viewIcEENS0_11format_argsE"
+  },
+  {
+   "name" : "_ZN3fmt2v76vprintEP7__sFILENS0_17basic_string_viewIcEENS0_11format_argsE"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessage6streamEv"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessage7LogLineEPKcjNS0_11LogSeverityES3_S3_"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC1EPKcjNS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC1EPKcjNS0_5LogIdENS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC2EPKcjNS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC2EPKcjNS0_5LogIdENS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageD1Ev"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageD2Ev"
+  },
+  {
+   "name" : "_ZN7android4base10LogdLoggerC1ENS0_5LogIdE"
+  },
+  {
+   "name" : "_ZN7android4base10LogdLoggerC2ENS0_5LogIdE"
+  },
+  {
+   "name" : "_ZN7android4base10LogdLoggerclENS0_5LogIdENS0_11LogSeverityEPKcS5_jS5_"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFile12FromOsHandleEixji"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFile5CloseEv"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFile6FromFdENS0_11borrowed_fdExji"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFileC1EOS1_"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFileC2EOS1_"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFileD1Ev"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFileD2Ev"
+  },
+  {
+   "name" : "_ZN7android4base10MappedFileaSEOS1_"
+  },
+  {
+   "name" : "_ZN7android4base10SetAborterEONSt3__18functionIFvPKcEEE"
+  },
+  {
+   "name" : "_ZN7android4base10StartsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base10StartsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEc"
+  },
+  {
+   "name" : "_ZN7android4base10WriteFullyENS0_11borrowed_fdEPKvj"
+  },
+  {
+   "name" : "_ZN7android4base10WriteFullyEiPKvj"
+  },
+  {
+   "name" : "_ZN7android4base10boot_clock3nowEv"
+  },
+  {
+   "name" : "_ZN7android4base11GetPropertyERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_"
+  },
+  {
+   "name" : "_ZN7android4base11GetThreadIdEv"
+  },
+  {
+   "name" : "_ZN7android4base11InitLoggingEPPcONSt3__18functionIFvNS0_5LogIdENS0_11LogSeverityEPKcS8_jS8_EEEONS4_IFvS8_EEE"
+  },
+  {
+   "name" : "_ZN7android4base11SetPropertyERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_"
+  },
+  {
+   "name" : "_ZN7android4base11StdioLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_"
+  },
+  {
+   "name" : "_ZN7android4base12KernelLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_"
+  },
+  {
+   "name" : "_ZN7android4base12StderrLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_"
+  },
+  {
+   "name" : "_ZN7android4base12StringPrintfEPKcz"
+  },
+  {
+   "name" : "_ZN7android4base13SetDefaultTagERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base13StringAppendFEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcz"
+  },
+  {
+   "name" : "_ZN7android4base13StringAppendVEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcSt9__va_list"
+  },
+  {
+   "name" : "_ZN7android4base13StringReplaceENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_S5_b"
+  },
+  {
+   "name" : "_ZN7android4base14CachedProperty3GetEPb"
+  },
+  {
+   "name" : "_ZN7android4base14CachedPropertyC1EPKc"
+  },
+  {
+   "name" : "_ZN7android4base14CachedPropertyC2EPKc"
+  },
+  {
+   "name" : "_ZN7android4base14DefaultAborterEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base14GetIntPropertyIaEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_S2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base14GetIntPropertyIiEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_S2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base14GetIntPropertyIsEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_S2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base14GetIntPropertyIxEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_S2_"
+  },
+  {
+   "name" : "_ZN7android4base14ReadFdToStringENS0_11borrowed_fdEPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base14ReadFdToStringEiPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base15GetBoolPropertyERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base15GetUintPropertyIhEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base15GetUintPropertyIjEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base15GetUintPropertyItEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base15GetUintPropertyIyEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_S2_"
+  },
+  {
+   "name" : "_ZN7android4base15ParseNetAddressERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_PiSA_SA_"
+  },
+  {
+   "name" : "_ZN7android4base15WaitForPropertyERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_NS1_6chrono8durationIxNS1_5ratioILx1ELx1000EEEEE"
+  },
+  {
+   "name" : "_ZN7android4base15WriteStringToFdENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEENS0_11borrowed_fdE"
+  },
+  {
+   "name" : "_ZN7android4base15WriteStringToFdERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS0_11borrowed_fdE"
+  },
+  {
+   "name" : "_ZN7android4base15WriteStringToFdERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEi"
+  },
+  {
+   "name" : "_ZN7android4base16EqualsIgnoreCaseENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base16ReadFileToStringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_b"
+  },
+  {
+   "name" : "_ZN7android4base17GetExecutablePathEv"
+  },
+  {
+   "name" : "_ZN7android4base17ReadFullyAtOffsetENS0_11borrowed_fdEPvjx"
+  },
+  {
+   "name" : "_ZN7android4base17ReadFullyAtOffsetEiPvjx"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityC1ENS0_11LogSeverityE"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityC2ENS0_11LogSeverityE"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityD1Ev"
+  },
+  {
+   "name" : "_ZN7android4base17ScopedLogSeverityD2Ev"
+  },
+  {
+   "name" : "_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_b"
+  },
+  {
+   "name" : "_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_tjjb"
+  },
+  {
+   "name" : "_ZN7android4base18EndsWithIgnoreCaseENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base18RemoveFileIfExistsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_"
+  },
+  {
+   "name" : "_ZN7android4base18WriteFullyAtOffsetENS0_11borrowed_fdEPKvjx"
+  },
+  {
+   "name" : "_ZN7android4base19ErrnoNumberAsStringEi"
+  },
+  {
+   "name" : "_ZN7android4base20StartsWithIgnoreCaseENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base21GetMinimumLogSeverityEv"
+  },
+  {
+   "name" : "_ZN7android4base21SetMinimumLogSeverityENS0_11LogSeverityE"
+  },
+  {
+   "name" : "_ZN7android4base22GetExecutableDirectoryEv"
+  },
+  {
+   "name" : "_ZN7android4base23SystemErrorCodeToStringEi"
+  },
+  {
+   "name" : "_ZN7android4base23WaitForPropertyCreationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_6chrono8durationIxNS1_5ratioILx1ELx1000EEEEE"
+  },
+  {
+   "name" : "_ZN7android4base24SendFileDescriptorVectorENS0_11borrowed_fdEPKvjRKNSt3__16vectorIiNS4_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN7android4base24SendFileDescriptorVectorEiPKvjRKNSt3__16vectorIiNS3_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN7android4base27ReceiveFileDescriptorVectorENS0_11borrowed_fdEPvjjPNSt3__16vectorINS0_14unique_fd_implINS0_13DefaultCloserEEENS3_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN7android4base27ReceiveFileDescriptorVectorEiPvjjPNSt3__16vectorINS0_14unique_fd_implINS0_13DefaultCloserEEENS2_9allocatorIS6_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_EES9_RKT_T0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEEcEES9_RKT_T0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorIPKcNS2_9allocatorIS5_EEEERKNS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEEEESD_RKT_T0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4JoinINSt3__16vectorIPKcNS2_9allocatorIS5_EEEEcEENS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEERKT_T0_"
+  },
+  {
+   "name" : "_ZN7android4base4TrimERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEES8_OT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimINSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEEENS2_12basic_stringIcS5_NS2_9allocatorIcEEEEOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIPKcEENSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEES8_OT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRNSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEEENS2_12basic_stringIcS5_NS2_9allocatorIcEEEEOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base4TrimIRPKcEENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEOT_"
+  },
+  {
+   "name" : "_ZN7android4base5SplitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_"
+  },
+  {
+   "name" : "_ZN7android4base7AllPids11PidIterator9IncrementEv"
+  },
+  {
+   "name" : "_ZN7android4base7DirnameENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base7DirnameERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base8BasenameENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base8BasenameERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android4base8EndsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_"
+  },
+  {
+   "name" : "_ZN7android4base8EndsWithENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEc"
+  },
+  {
+   "name" : "_ZN7android4base8ReadlinkERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_"
+  },
+  {
+   "name" : "_ZN7android4base8RealpathERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_"
+  },
+  {
+   "name" : "_ZN7android4base8TokenizeERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_"
+  },
+  {
+   "name" : "_ZN7android4base9HexStringEPKvj"
+  },
+  {
+   "name" : "_ZN7android4base9ParseBoolENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base9ParseUintIhEEbPKcPT_S4_b"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base9ParseUintIjEEbPKcPT_S4_b"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base9ParseUintItEEbPKcPT_S4_b"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android4base9ParseUintIyEEbPKcPT_S4_b"
+  },
+  {
+   "name" : "_ZN7android4base9ReadFullyENS0_11borrowed_fdEPvj"
+  },
+  {
+   "name" : "_ZN7android4base9ReadFullyEiPvj"
+  },
+  {
+   "name" : "_ZN7android4base9SetLoggerEONSt3__18functionIFvNS0_5LogIdENS0_11LogSeverityEPKcS6_jS6_EEE"
+  },
+  {
+   "name" : "_ZN7android4base9ShouldLogENS0_11LogSeverityEPKc"
+  },
+  {
+   "name" : "_ZN7android4baselsERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEERKNS0_5TimerE"
+  },
+  {
+   "name" : "_ZNK13CapturedStdFd2fdEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK3fmt2v76detail10locale_ref3getINSt3__16localeEEET_v"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE7__cloneEPNS0_6__baseISB_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE7__cloneEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E7__cloneEPNS0_6__baseIS4_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E7__cloneEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE18destroy_deallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EE7destroyEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EEclEOS7_OS8_OSA_SF_OjSF_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E18destroy_deallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_E7destroyEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_j"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4base14unique_fd_implINS2_13DefaultCloserEEENS_9allocatorIS5_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4base14unique_fd_implINS2_13DefaultCloserEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJRiEEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__1lsIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_ostreamIT_T0_EES9_RKNS_12basic_stringIS6_S7_T1_EE"
+  },
+  {
+   "name" : "posix_strerror_r"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN3fmt2v76detail10basic_dataIvE32dragonbox_pow10_significands_128E"
+  },
+  {
+   "name" : "_ZN3fmt2v724instantiate_format_floatE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE10hex_digitsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE11reset_colorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE12wreset_colorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE14powers_of_5_64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE15powers_of_10_64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE16background_colorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE16foreground_colorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE19left_padding_shiftsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE20right_padding_shiftsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE21grisu_pow10_exponentsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE23zero_or_powers_of_10_32E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE23zero_or_powers_of_10_64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE24grisu_pow10_significandsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE25divtest_table_for_pow5_32E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE25divtest_table_for_pow5_64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE27zero_or_powers_of_10_32_newE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE27zero_or_powers_of_10_64_newE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE31dragonbox_pow10_recovery_errorsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE31dragonbox_pow10_significands_64E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE32dragonbox_pow10_significands_128E"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE5signsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10basic_dataIvE6digitsE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTTNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZTVN3fmt2v712format_errorE"
+  },
+  {
+   "name" : "_ZTVN3fmt2v712system_errorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3fmt2v719basic_memory_bufferIcLj500ENSt3__19allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3fmt2v719basic_memory_bufferIjLj32ENSt3__19allocatorIjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3fmt2v719basic_memory_bufferIwLj500ENSt3__19allocatorIwEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE4mins"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE5masks"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE6shiftc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE6shifte"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEdLi0EEET0_S5_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEeLi0EEET0_S5_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEfLi0EEET0_S5_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEdLi0EEET0_S8_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEeLi0EEET0_S8_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEfLi0EEET0_S8_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEdLi0EEET0_SC_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEeLi0EEET0_SC_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEfLi0EEET0_SC_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail9bsr2log10EiE4data"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
