@@ -667,6 +667,7 @@
    "source_file" : "frameworks/rs/rsDefines.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_Pc",
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",
@@ -22331,7 +22332,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22348,7 +22349,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ElementE"
@@ -22371,7 +22372,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22400,7 +22401,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIb",
@@ -22414,7 +22415,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22437,7 +22438,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22457,7 +22458,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22471,7 +22472,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22485,7 +22486,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22499,7 +22500,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIPN9RsdShader13StateBasedKeyE",
@@ -22513,7 +22514,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ElementE"
@@ -22542,7 +22543,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22565,7 +22566,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22578,7 +22579,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22595,7 +22596,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22609,7 +22610,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPPKc"
@@ -22631,7 +22632,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -22650,7 +22651,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ProgramE"
@@ -22684,7 +22685,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ProgramE"
@@ -22718,7 +22719,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22731,7 +22732,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22744,7 +22745,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIP9RsdShader#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_silvermont_shared/obj/frameworks/rs/driver/rsdShader.sdump"
+     "referenced_type" : "_ZTIP9RsdShader"
     }
    ],
    "return_type" : "_ZTIv",

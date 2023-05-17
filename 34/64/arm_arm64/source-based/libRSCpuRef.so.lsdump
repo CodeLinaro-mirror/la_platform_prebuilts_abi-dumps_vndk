@@ -739,6 +739,7 @@
    "source_file" : "frameworks/rs/rsDefines.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_Pc",
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",
@@ -746,6 +747,7 @@
    "source_file" : "out/soong/.intermediates/bionic/libc/libc/android_vendor.34_arm_armv8-2a_cortex-a9_shared/gen/include/time.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_c",
    "name" : "char[]",
    "referenced_type" : "_ZTIc",
@@ -753,6 +755,7 @@
    "source_file" : "frameworks/compile/libbcc/bcinfo/include/bcinfo/MetadataExtractor.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_f",
    "name" : "float[]",
    "referenced_type" : "_ZTIf",
@@ -13408,7 +13411,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIPN7android12renderscript16ScriptExecutableE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.34_arm_armv8-2a_cortex-a9_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
+   "return_type" : "_ZTIPN7android12renderscript16ScriptExecutableE",
    "source_file" : "frameworks/rs/cpu_ref/rsCpuExecutable.h"
   },
   {

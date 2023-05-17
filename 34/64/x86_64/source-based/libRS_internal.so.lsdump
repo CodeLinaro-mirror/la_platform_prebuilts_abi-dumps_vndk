@@ -784,6 +784,7 @@
    "source_file" : "frameworks/rs/rsDefines.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_Pc",
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",
@@ -791,6 +792,7 @@
    "source_file" : "out/soong/.intermediates/bionic/libc/libc/android_vendor.34_x86_64_silvermont_shared/gen/include/time.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_f",
    "name" : "float[]",
    "referenced_type" : "_ZTIf",
@@ -15980,7 +15982,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptC_LibGL.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -17049,7 +17051,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIPPv"
@@ -17320,7 +17322,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -17336,7 +17338,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     },
     {
      "default_arg" : true,
@@ -17353,7 +17355,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     },
     {
      "default_arg" : true,
@@ -17370,7 +17372,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     }
    ],
    "return_type" : "_ZTIP13ANativeWindow",
@@ -17398,7 +17400,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     },
     {
      "referenced_type" : "_ZTIPN7android12renderscript10AllocationE"
@@ -17414,7 +17416,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     }
    ],
    "return_type" : "_ZTIb",
@@ -17427,7 +17429,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -17449,7 +17451,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     },
     {
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
@@ -17471,7 +17473,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -17484,7 +17486,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -17497,7 +17499,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsGrallocConsumer.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript15GrallocConsumerE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -20005,7 +20007,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptC_LibGL.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -21817,7 +21819,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptC_LibGL.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -21841,7 +21843,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptC_LibGL.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
      "referenced_type" : "_ZTIPf"
@@ -22755,7 +22757,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22767,7 +22769,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIPN7android12renderscript7IStreamE"
@@ -22799,7 +22801,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22815,7 +22817,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22831,7 +22833,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -22853,7 +22855,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -22869,7 +22871,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -23910,7 +23912,7 @@
      "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript6DeviceE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsContext.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript6DeviceE"
     },
     {
      "referenced_type" : "_ZTIPK15RsSurfaceConfig"
@@ -24004,7 +24006,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPN7android12renderscript6DeviceE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsContext.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript6DeviceE"
     },
     {
      "referenced_type" : "_ZTIPK15RsSurfaceConfig"
@@ -28078,7 +28080,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -28097,7 +28099,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -28122,7 +28124,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -28138,7 +28140,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript4MeshE"
     },
     {
-     "referenced_type" : "_ZTIPN7android12renderscript7ContextE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsMesh.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript7ContextE"
     },
     {
      "referenced_type" : "_ZTIPN7android12renderscript7OStreamE"
@@ -35687,7 +35689,7 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIRPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "name" : "android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *&",
-   "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump",
+   "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "self_type" : "_ZTIRPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "size" : 8,
    "source_file" : "external/libcxx/include/type_traits"
@@ -49914,7 +49916,7 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "name" : "android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *const",
-   "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump",
+   "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "self_type" : "_ZTIKPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "size" : 8,
    "source_file" : "external/libcxx/include/memory"
@@ -51336,7 +51338,7 @@
    [
     {
      "field_name" : "face",
-     "referenced_type" : "_ZTIP11FT_FaceRec_#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsFont.sdump"
+     "referenced_type" : "_ZTIP11FT_FaceRec_"
     },
     {
      "field_name" : "generic",
@@ -52758,7 +52760,7 @@
    [
     {
      "field_name" : "face",
-     "referenced_type" : "_ZTIP11FT_FaceRec_#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsFont.sdump"
+     "referenced_type" : "_ZTIP11FT_FaceRec_"
     },
     {
      "field_name" : "encoding",
@@ -53389,7 +53391,7 @@
     {
      "field_name" : "face",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIP11FT_FaceRec_#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsFont.sdump"
+     "referenced_type" : "_ZTIP11FT_FaceRec_"
     },
     {
      "field_name" : "next",
@@ -88140,7 +88142,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -92274,7 +92276,7 @@
    "template_args" :
    [
     "_ZTINSt3__19allocatorIN7android12renderscript13ObjectBaseRefINS2_14ScriptKernelIDEEEEE",
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -101754,17 +101756,17 @@
    [
     {
      "field_name" : "__first_",
-     "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
     },
     {
      "field_name" : "__begin_",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
     },
     {
      "field_name" : "__end_",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+     "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
     },
     {
      "field_name" : "__end_cap_",
@@ -105567,7 +105569,7 @@
    "template_args" :
    [
     "_ZTINSt3__19allocatorIN7android12renderscript13ObjectBaseRefINS2_14ScriptKernelIDEEEEE",
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -105587,7 +105589,7 @@
    "template_args" :
    [
     "_ZTINSt3__19allocatorIN7android12renderscript13ObjectBaseRefINS2_14ScriptKernelIDEEEEE",
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -115395,7 +115397,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -120321,7 +120323,7 @@
    "source_file" : "external/libcxx/include/memory",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump",
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
     "_ZTIRNSt3__19allocatorIN7android12renderscript13ObjectBaseRefINS2_14ScriptKernelIDEEEEE"
    ]
   },
@@ -131196,7 +131198,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -133018,7 +133020,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -141656,7 +141658,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -142319,7 +142321,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -143679,7 +143681,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -147751,7 +147753,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -148467,7 +148469,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -149369,7 +149371,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -150032,7 +150034,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -150922,7 +150924,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -153697,7 +153699,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump"
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE"
    ]
   },
   {
@@ -168676,7 +168678,7 @@
    "source_file" : "external/libcxx/include/type_traits",
    "template_args" :
    [
-    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump",
+    "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
     "_ZTIRNSt3__19allocatorIN7android12renderscript13ObjectBaseRefINS2_14ScriptKernelIDEEEEE"
    ]
   },
@@ -198837,7 +198839,7 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIOPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "name" : "android::renderscript::ObjectBaseRef<android::renderscript::ScriptKernelID> *&&",
-   "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE#ODR:out/soong/.intermediates/frameworks/rs/libRS_internal/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/rsScriptGroup.sdump",
+   "referenced_type" : "_ZTIPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "self_type" : "_ZTIOPN7android12renderscript13ObjectBaseRefINS0_14ScriptKernelIDEEE",
    "size" : 8,
    "source_file" : "external/libcxx/include/type_traits"

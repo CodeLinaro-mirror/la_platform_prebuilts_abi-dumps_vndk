@@ -272,6 +272,7 @@
    "source_file" : "external/lzma/C/Sha256.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_j",
    "name" : "unsigned int[]",
    "referenced_type" : "_ZTIj",
@@ -279,6 +280,7 @@
    "source_file" : "external/lzma/C/7zCrc.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_y",
    "name" : "unsigned long long[]",
    "referenced_type" : "_ZTIy",

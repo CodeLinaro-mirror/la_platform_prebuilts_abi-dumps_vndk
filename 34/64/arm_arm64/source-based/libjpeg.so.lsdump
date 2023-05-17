@@ -254,6 +254,7 @@
    "source_file" : "external/libjpeg-turbo/jpeglib.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_i",
    "name" : "int[]",
    "referenced_type" : "_ZTIi",
@@ -261,6 +262,7 @@
    "source_file" : "external/libjpeg-turbo/jpegint.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_l",
    "name" : "long[]",
    "referenced_type" : "_ZTIl",
@@ -4786,6 +4788,24 @@
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
   },
   {
+   "function_name" : "jsimd_convsamp_neon",
+   "linker_set_key" : "jsimd_convsamp_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_encode_mcu_AC_first_prepare",
    "linker_set_key" : "jsimd_encode_mcu_AC_first_prepare",
    "parameters" :
@@ -4811,6 +4831,33 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_encode_mcu_AC_first_prepare_neon",
+   "linker_set_key" : "jsimd_encode_mcu_AC_first_prepare_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKs"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_encode_mcu_AC_refine_prepare",
@@ -4840,6 +4887,321 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_encode_mcu_AC_refine_prepare_neon",
+   "linker_set_key" : "jsimd_encode_mcu_AC_refine_prepare_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKs"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extbgr_gray_convert_neon",
+   "linker_set_key" : "jsimd_extbgr_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extbgr_ycc_convert_neon",
+   "linker_set_key" : "jsimd_extbgr_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extbgrx_gray_convert_neon",
+   "linker_set_key" : "jsimd_extbgrx_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extbgrx_ycc_convert_neon",
+   "linker_set_key" : "jsimd_extbgrx_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extrgb_gray_convert_neon",
+   "linker_set_key" : "jsimd_extrgb_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extrgb_ycc_convert_neon",
+   "linker_set_key" : "jsimd_extrgb_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extrgbx_gray_convert_neon",
+   "linker_set_key" : "jsimd_extrgbx_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extrgbx_ycc_convert_neon",
+   "linker_set_key" : "jsimd_extrgbx_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extxbgr_gray_convert_neon",
+   "linker_set_key" : "jsimd_extxbgr_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extxbgr_ycc_convert_neon",
+   "linker_set_key" : "jsimd_extxbgr_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extxrgb_gray_convert_neon",
+   "linker_set_key" : "jsimd_extxrgb_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_extxrgb_ycc_convert_neon",
+   "linker_set_key" : "jsimd_extxrgb_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_fdct_float",
    "linker_set_key" : "jsimd_fdct_float",
    "parameters" :
@@ -4864,6 +5226,18 @@
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
   },
   {
+   "function_name" : "jsimd_fdct_ifast_neon",
+   "linker_set_key" : "jsimd_fdct_ifast_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_fdct_islow",
    "linker_set_key" : "jsimd_fdct_islow",
    "parameters" :
@@ -4874,6 +5248,18 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
+  },
+  {
+   "function_name" : "jsimd_fdct_islow_neon",
+   "linker_set_key" : "jsimd_fdct_islow_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_h1v2_fancy_upsample",
@@ -4897,6 +5283,27 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_h1v2_fancy_upsample_neon",
+   "linker_set_key" : "jsimd_h1v2_fancy_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_h2v1_downsample",
    "linker_set_key" : "jsimd_h2v1_downsample",
    "parameters" :
@@ -4916,6 +5323,159 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_downsample_neon",
+   "linker_set_key" : "jsimd_h2v1_downsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_extbgr_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_extbgr_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_extbgrx_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_extbgrx_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_extrgb_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_extrgb_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_extrgbx_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_extrgbx_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_extxbgr_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_extxbgr_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_extxrgb_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_extxrgb_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_h2v1_fancy_upsample",
@@ -4939,6 +5499,27 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_h2v1_fancy_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_fancy_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_h2v1_merged_upsample",
    "linker_set_key" : "jsimd_h2v1_merged_upsample",
    "parameters" :
@@ -4958,6 +5539,27 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v1_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_h2v1_upsample",
@@ -4981,6 +5583,27 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_h2v1_upsample_neon",
+   "linker_set_key" : "jsimd_h2v1_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_h2v2_downsample",
    "linker_set_key" : "jsimd_h2v2_downsample",
    "parameters" :
@@ -5000,6 +5623,159 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_downsample_neon",
+   "linker_set_key" : "jsimd_h2v2_downsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_extbgr_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_extbgr_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_extbgrx_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_extbgrx_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_extrgb_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_extrgb_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_extrgbx_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_extrgbx_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_extxbgr_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_extxbgr_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_extxrgb_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_extxrgb_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_h2v2_fancy_upsample",
@@ -5023,6 +5799,27 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_h2v2_fancy_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_fancy_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_h2v2_merged_upsample",
    "linker_set_key" : "jsimd_h2v2_merged_upsample",
    "parameters" :
@@ -5044,6 +5841,27 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_h2v2_merged_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_merged_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_h2v2_upsample",
    "linker_set_key" : "jsimd_h2v2_upsample",
    "parameters" :
@@ -5063,6 +5881,27 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_h2v2_upsample_neon",
+   "linker_set_key" : "jsimd_h2v2_upsample_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_huff_encode_one_block",
@@ -5092,6 +5931,33 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_huff_encode_one_block_neon",
+   "linker_set_key" : "jsimd_huff_encode_one_block_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIP13c_derived_tbl"
+    },
+    {
+     "referenced_type" : "_ZTIP13c_derived_tbl"
+    }
+   ],
+   "return_type" : "_ZTIPh",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_idct_2x2",
    "linker_set_key" : "jsimd_idct_2x2",
    "parameters" :
@@ -5116,6 +5982,27 @@
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
   },
   {
+   "function_name" : "jsimd_idct_2x2_neon",
+   "linker_set_key" : "jsimd_idct_2x2_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_idct_4x4",
    "linker_set_key" : "jsimd_idct_4x4",
    "parameters" :
@@ -5138,6 +6025,27 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
+  },
+  {
+   "function_name" : "jsimd_idct_4x4_neon",
+   "linker_set_key" : "jsimd_idct_4x4_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_idct_float",
@@ -5188,6 +6096,27 @@
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
   },
   {
+   "function_name" : "jsimd_idct_ifast_neon",
+   "linker_set_key" : "jsimd_idct_ifast_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_idct_islow",
    "linker_set_key" : "jsimd_idct_islow",
    "parameters" :
@@ -5210,6 +6139,27 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
+  },
+  {
+   "function_name" : "jsimd_idct_islow_neon",
+   "linker_set_key" : "jsimd_idct_islow_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_quantize",
@@ -5248,6 +6198,24 @@
    "source_file" : "external/libjpeg-turbo/jsimddct.h"
   },
   {
+   "function_name" : "jsimd_quantize_neon",
+   "linker_set_key" : "jsimd_quantize_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_rgb_gray_convert",
    "linker_set_key" : "jsimd_rgb_gray_convert",
    "parameters" :
@@ -5270,6 +6238,30 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_rgb_gray_convert_neon",
+   "linker_set_key" : "jsimd_rgb_gray_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jsimd_rgb_ycc_convert",
@@ -5296,6 +6288,174 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_rgb_ycc_convert_neon",
+   "linker_set_key" : "jsimd_rgb_ycc_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_extbgr_convert_neon",
+   "linker_set_key" : "jsimd_ycc_extbgr_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_extbgrx_convert_neon",
+   "linker_set_key" : "jsimd_ycc_extbgrx_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_extrgb_convert_neon",
+   "linker_set_key" : "jsimd_ycc_extrgb_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_extrgbx_convert_neon",
+   "linker_set_key" : "jsimd_ycc_extrgbx_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_extxbgr_convert_neon",
+   "linker_set_key" : "jsimd_ycc_extxbgr_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_extxrgb_convert_neon",
+   "linker_set_key" : "jsimd_ycc_extxrgb_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_ycc_rgb565_convert",
    "linker_set_key" : "jsimd_ycc_rgb565_convert",
    "parameters" :
@@ -5320,6 +6480,30 @@
    "source_file" : "external/libjpeg-turbo/jsimd.h"
   },
   {
+   "function_name" : "jsimd_ycc_rgb565_convert_neon",
+   "linker_set_key" : "jsimd_ycc_rgb565_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
+  },
+  {
    "function_name" : "jsimd_ycc_rgb_convert",
    "linker_set_key" : "jsimd_ycc_rgb_convert",
    "parameters" :
@@ -5342,6 +6526,30 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libjpeg-turbo/jsimd.h"
+  },
+  {
+   "function_name" : "jsimd_ycc_rgb_convert_neon",
+   "linker_set_key" : "jsimd_ycc_rgb_convert_neon",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPPh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libjpeg-turbo/simd/jsimd.h"
   },
   {
    "function_name" : "jzero_far",
@@ -6539,6 +7747,68 @@
    "self_type" : "_ZTI13d_derived_tbl",
    "size" : 1172,
    "source_file" : "external/libjpeg-turbo/jdhuff.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "put_buffer",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "free_bits",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "last_dc_val",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIA4_i"
+    }
+   ],
+   "linker_set_key" : "_ZTI13savable_state",
+   "name" : "savable_state",
+   "referenced_type" : "_ZTI13savable_state",
+   "self_type" : "_ZTI13savable_state",
+   "size" : 24,
+   "source_file" : "external/libjpeg-turbo/simd/arm/jchuff.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "next_output_byte",
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "field_name" : "free_in_buffer",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "cur",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTI13savable_state"
+    },
+    {
+     "field_name" : "cinfo",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIP20jpeg_compress_struct"
+    },
+    {
+     "field_name" : "simd",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI13working_state",
+   "name" : "working_state",
+   "referenced_type" : "_ZTI13working_state",
+   "self_type" : "_ZTI13working_state",
+   "size" : 40,
+   "source_file" : "external/libjpeg-turbo/simd/arm/jchuff.h"
   },
   {
    "alignment" : 4,
