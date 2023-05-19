@@ -47,6 +47,7 @@
    "source_file" : "external/minijail/bpf.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_13syscall_entry",
    "name" : "syscall_entry[]",
    "referenced_type" : "_ZTI13syscall_entry",
@@ -54,6 +55,7 @@
    "source_file" : "external/minijail/libsyscalls.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_14constant_entry",
    "name" : "constant_entry[]",
    "referenced_type" : "_ZTI14constant_entry",
@@ -61,6 +63,7 @@
    "source_file" : "external/minijail/libconstants.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_PKc",
    "name" : "const char *[]",
    "referenced_type" : "_ZTIPKc",

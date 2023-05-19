@@ -442,6 +442,7 @@
    "source_file" : "external/libcxx/include/type_traits"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_Pc",
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",

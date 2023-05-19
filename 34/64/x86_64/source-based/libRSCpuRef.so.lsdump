@@ -838,6 +838,7 @@
    "source_file" : "frameworks/rs/rsDefines.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_Pc",
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",
@@ -845,6 +846,7 @@
    "source_file" : "out/soong/.intermediates/bionic/libc/libc/android_vendor.34_x86_64_silvermont_shared/gen/include/time.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_c",
    "name" : "char[]",
    "referenced_type" : "_ZTIc",
@@ -852,6 +854,7 @@
    "source_file" : "frameworks/compile/libbcc/bcinfo/include/bcinfo/MetadataExtractor.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_f",
    "name" : "float[]",
    "referenced_type" : "_ZTIf",
@@ -2566,10 +2569,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE21__push_back_slow_pathIS2_EEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2INS_21__tree_const_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEEET_NS_9enable_ifIXaasr21__is_forward_iteratorISD_EE5valuesr16is_constructibleIS2_NS_15iterator_traitsISD_E9referenceEEE5valueESD_E4typeE"
   },
   {
    "binding" : "weak",
@@ -15140,7 +15139,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIPN7android12renderscript16ScriptExecutableE#ODR:out/soong/.intermediates/frameworks/rs/cpu_ref/libRSCpuRef/android_vendor.34_x86_64_silvermont_shared/obj/frameworks/rs/cpu_ref/rsCpuExecutable.sdump",
+   "return_type" : "_ZTIPN7android12renderscript16ScriptExecutableE",
    "source_file" : "frameworks/rs/cpu_ref/rsCpuExecutable.h"
   },
   {
@@ -19620,29 +19619,6 @@
    "template_args" :
    [
     "_ZTIPKc"
-   ]
-  },
-  {
-   "function_name" : "std::vector<const char *>::vector",
-   "linker_set_key" : "_ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2INS_21__tree_const_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEEET_NS_9enable_ifIXaasr21__is_forward_iteratorISD_EE5valuesr16is_constructibleIS2_NS_15iterator_traitsISD_E9referenceEEE5valueESD_E4typeE",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPNSt3__16vectorIPKcNS_9allocatorIS2_EEEE"
-    },
-    {
-     "referenced_type" : "_ZTINSt3__121__tree_const_iteratorIPKcPNS_11__tree_nodeIS2_PvEElEE"
-    },
-    {
-     "referenced_type" : "_ZTINSt3__121__tree_const_iteratorIPKcPNS_11__tree_nodeIS2_PvEElEE"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libcxx/include/vector",
-   "template_args" :
-   [
-    "_ZTINSt3__121__tree_const_iteratorIPKcPNS_11__tree_nodeIS2_PvEElEE"
    ]
   },
   {

@@ -1,6 +1,87 @@
 {
  "array_types" : [],
- "builtin_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIb",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTId",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIf",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIl",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
+   "size" : 8
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
+  }
+ ],
  "elf_functions" :
  [
   {
@@ -62,6 +143,9 @@
   },
   {
    "name" : "_Z24SetProcessProfilesCachedjiRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
+  },
+  {
+   "name" : "_Z24isProfileValidForProcessRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEii"
   },
   {
    "name" : "_Z24sendSignalToProcessGroupjii"
@@ -1053,7 +1137,13 @@
    "name" : "_ZNK11TaskProfile14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK11TaskProfile14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK11TaskProfile17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK11TaskProfile17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK12TaskProfiles10GetProfileENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEE"
@@ -1071,7 +1161,13 @@
    "name" : "_ZNK15SetCgroupAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK15SetCgroupAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK15SetCgroupAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK15SetCgroupAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK15SetClampsAction14ExecuteForTaskEi"
@@ -1086,10 +1182,16 @@
    "name" : "_ZNK15WriteFileAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK15WriteFileAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK15WriteFileAction16WriteValueToFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEN13ProfileAction17ResourceCacheTypeEiib"
   },
   {
    "name" : "_ZNK15WriteFileAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK15WriteFileAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK16CgroupController12GetTaskGroupEiPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
@@ -1122,7 +1224,13 @@
    "name" : "_ZNK18ApplyProfileAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK18ApplyProfileAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK18ApplyProfileAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK18ApplyProfileAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK18SetAttributeAction13ExecuteForUIDEj"
@@ -1131,7 +1239,13 @@
    "name" : "_ZNK18SetAttributeAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK18SetAttributeAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK18SetAttributeAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK18SetAttributeAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK19SetTimerSlackAction14ExecuteForTaskEi"
@@ -1568,10 +1682,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNKSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE14__count_uniqueIS6_EEmRKT_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_charEc"
   },
   {
@@ -1916,19 +2026,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIN4Json5Value8CZStringES3_EENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJRKS4_EEENSH_IJEEEEEENS_4pairINS_15__tree_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIN4Json5Value8CZStringES3_EENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE30__emplace_hint_unique_key_argsIS4_JRKNS_4pairIKS4_S3_EEEEENS_15__tree_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEENS_21__tree_const_iteratorIS5_SN_lEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIN4Json5Value8CZStringES3_EENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE4findIS4_EENS_15__tree_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEERKT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIN4Json5Value8CZStringES3_EENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE5eraseENS_21__tree_const_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEE"
   },
   {
    "binding" : "weak",
@@ -2276,13 +2374,457 @@
    "name" : "_ZTVNSt3__16__loopIcEE"
   }
  ],
- "enum_types" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : -1,
+     "name" : "SP_DEFAULT"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "SP_BACKGROUND"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "SP_FOREGROUND"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "SP_SYSTEM"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "SP_AUDIO_APP"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "SP_AUDIO_SYS"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "SP_TOP_APP"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "SP_RT_APP"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "SP_RESTRICTED"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "SP_CNT"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "SP_MAX"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "SP_SYSTEM_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI11SchedPolicy",
+   "name" : "SchedPolicy",
+   "referenced_type" : "_ZTI11SchedPolicy",
+   "self_type" : "_ZTI11SchedPolicy",
+   "size" : 4,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
  "function_types" : [],
- "functions" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "CgroupGetAttributePath",
+   "linker_set_key" : "CgroupGetAttributePath",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "CgroupGetAttributePathForTask",
+   "linker_set_key" : "CgroupGetAttributePathForTask",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "CgroupGetControllerFromPath",
+   "linker_set_key" : "CgroupGetControllerFromPath",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "CgroupGetControllerPath",
+   "linker_set_key" : "CgroupGetControllerPath",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "CgroupsAvailable",
+   "linker_set_key" : "CgroupsAvailable",
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetProcessProfiles",
+   "linker_set_key" : "SetProcessProfiles",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetTaskProfiles",
+   "linker_set_key" : "SetTaskProfiles",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetUserProfiles",
+   "linker_set_key" : "SetUserProfiles",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetTaskProfiles",
+   "linker_set_key" : "_Z15SetTaskProfilesiNSt3__14spanIKNS_17basic_string_viewIcNS_11char_traitsIcEEEELln1EEEb",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__14spanIKNS_17basic_string_viewIcNS_11char_traitsIcEEEELln1EEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetTaskProfiles",
+   "linker_set_key" : "_Z15SetTaskProfilesiSt16initializer_listINSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEEb",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTISt16initializer_listINSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetProcessProfiles",
+   "linker_set_key" : "_Z18SetProcessProfilesjiNSt3__14spanIKNS_17basic_string_viewIcNS_11char_traitsIcEEEELln1EEE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__14spanIKNS_17basic_string_viewIcNS_11char_traitsIcEEEELln1EEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "SetProcessProfiles",
+   "linker_set_key" : "_Z18SetProcessProfilesjiSt16initializer_listINSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTISt16initializer_listINSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "function_name" : "cpusets_enabled",
+   "linker_set_key" : "cpusets_enabled",
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "get_cpuset_policy_profile_name",
+   "linker_set_key" : "get_cpuset_policy_profile_name",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTI11SchedPolicy"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "get_sched_policy",
+   "linker_set_key" : "get_sched_policy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIP11SchedPolicy"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "get_sched_policy_name",
+   "linker_set_key" : "get_sched_policy_name",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTI11SchedPolicy"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "get_sched_policy_profile_name",
+   "linker_set_key" : "get_sched_policy_profile_name",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTI11SchedPolicy"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "schedboost_enabled",
+   "linker_set_key" : "schedboost_enabled",
+   "return_type" : "_ZTIb",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "set_cpuset_policy",
+   "linker_set_key" : "set_cpuset_policy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTI11SchedPolicy"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "function_name" : "set_sched_policy",
+   "linker_set_key" : "set_sched_policy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTI11SchedPolicy"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  }
+ ],
  "global_vars" : [],
- "lvalue_reference_types" : [],
- "pointer_types" : [],
- "qualified_types" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
+   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
+   "size" : 8,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP11SchedPolicy",
+   "name" : "SchedPolicy *",
+   "referenced_type" : "_ZTI11SchedPolicy",
+   "self_type" : "_ZTIP11SchedPolicy",
+   "size" : 8,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/sched_policy.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "self_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> *",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 24,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
+   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>",
+   "referenced_type" : "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
+   "size" : 24,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKc",
+   "name" : "const char *const",
+   "referenced_type" : "_ZTIPKc",
+   "self_type" : "_ZTIKPKc",
+   "size" : 8,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIKc",
+   "size" : 1,
+   "source_file" : "system/core/libprocessgroup/include/processgroup/processgroup.h"
+  }
+ ],
  "record_types" : [],
  "rvalue_reference_types" : []
 }

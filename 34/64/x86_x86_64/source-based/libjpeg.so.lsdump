@@ -254,6 +254,7 @@
    "source_file" : "external/libjpeg-turbo/jpeglib.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_i",
    "name" : "int[]",
    "referenced_type" : "_ZTIi",
@@ -261,6 +262,7 @@
    "source_file" : "external/libjpeg-turbo/jpegint.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_l",
    "name" : "long[]",
    "referenced_type" : "_ZTIl",

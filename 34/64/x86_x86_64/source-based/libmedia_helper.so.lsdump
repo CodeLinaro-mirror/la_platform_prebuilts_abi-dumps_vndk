@@ -1,6 +1,132 @@
 {
- "array_types" : [],
- "builtin_types" : [],
+ "array_types" :
+ [
+  {
+   "is_of_unknown_bound" : true,
+   "linker_set_key" : "_ZTIA_N7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE5TableE",
+   "name" : "android::TypeConverter<android::DefaultTraits<audio_mode_t>>::Table[]",
+   "referenced_type" : "_ZTIN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE5TableE",
+   "self_type" : "_ZTIA_N7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE5TableE",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/TypeConverter.h"
+  },
+  {
+   "is_of_unknown_bound" : true,
+   "linker_set_key" : "_ZTIA_N7android13TypeConverterINS_13DefaultTraitsI20audio_content_type_tEEE5TableE",
+   "name" : "android::TypeConverter<android::DefaultTraits<audio_content_type_t>>::Table[]",
+   "referenced_type" : "_ZTIN7android13TypeConverterINS_13DefaultTraitsI20audio_content_type_tEEE5TableE",
+   "self_type" : "_ZTIA_N7android13TypeConverterINS_13DefaultTraitsI20audio_content_type_tEEE5TableE",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/TypeConverter.h"
+  },
+  {
+   "is_of_unknown_bound" : true,
+   "linker_set_key" : "_ZTIA_N7android13TypeConverterINS_15AudioFlagTraitsEE5TableE",
+   "name" : "android::TypeConverter<android::AudioFlagTraits>::Table[]",
+   "referenced_type" : "_ZTIN7android13TypeConverterINS_15AudioFlagTraitsEE5TableE",
+   "self_type" : "_ZTIA_N7android13TypeConverterINS_15AudioFlagTraitsEE5TableE",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/TypeConverter.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIb",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTId",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIf",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "referenced_type" : "_ZTIs",
+   "self_type" : "_ZTIs",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "referenced_type" : "_ZTIt",
+   "self_type" : "_ZTIt",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "referenced_type" : "_ZTIx",
+   "self_type" : "_ZTIx",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIy",
+   "size" : 8
+  }
+ ],
  "elf_functions" :
  [
   {
