@@ -332,9 +332,6 @@
    "name" : "_ZN4piex18GetFullDimension32ERKNS_14tiff_directory13TiffDirectoryEPjS4_"
   },
   {
-   "name" : "_ZN4piex19GetPreviewImageDataEPNS_15StreamInterfaceEPNS_16PreviewImageDataE"
-  },
-  {
    "name" : "_ZN4piex19GetPreviewImageDataEPNS_15StreamInterfaceEPNS_16PreviewImageDataEPNS_22image_type_recognition13RawImageTypesE"
   },
   {

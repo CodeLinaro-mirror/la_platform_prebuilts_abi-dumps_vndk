@@ -1402,6 +1402,9 @@
    "name" : "xmlMemShow"
   },
   {
+   "name" : "xmlMemSize"
+  },
+  {
    "name" : "xmlMemStrdupLoc"
   },
   {
@@ -5383,6 +5386,43 @@
    "size" : 4,
    "source_file" : "external/libxml2/include/libxml/catalog.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "XML_ENC_ERR_SUCCESS"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "XML_ENC_ERR_SPACE"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "XML_ENC_ERR_INPUT"
+    },
+    {
+     "enum_field_value" : -3,
+     "name" : "XML_ENC_ERR_PARTIAL"
+    },
+    {
+     "enum_field_value" : -4,
+     "name" : "XML_ENC_ERR_INTERNAL"
+    },
+    {
+     "enum_field_value" : -5,
+     "name" : "XML_ENC_ERR_MEMORY"
+    }
+   ],
+   "linker_set_key" : "_ZTI15xmlCharEncError",
+   "name" : "xmlCharEncError",
+   "referenced_type" : "_ZTI15xmlCharEncError",
+   "self_type" : "_ZTI15xmlCharEncError",
+   "size" : 4,
+   "source_file" : "external/libxml2/include/libxml/encoding.h",
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -17219,6 +17259,18 @@
    "source_file" : "external/libxml2/include/libxml/xmlmemory.h"
   },
   {
+   "function_name" : "xmlMemSize",
+   "linker_set_key" : "xmlMemSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libxml2/include/libxml/xmlmemory.h"
+  },
+  {
    "function_name" : "xmlMemStrdupLoc",
    "linker_set_key" : "xmlMemStrdupLoc",
    "parameters" :
@@ -22618,7 +22670,7 @@
   {
    "function_name" : "xmlSchemaInitTypes",
    "linker_set_key" : "xmlSchemaInitTypes",
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIi",
    "source_file" : "external/libxml2/include/libxml/xmlschemastypes.h"
   },
   {

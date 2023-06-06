@@ -1268,7 +1268,7 @@
      "name" : "GRALLOC_USAGE_HW_IMAGE_ENCODER"
     },
     {
-     "enum_field_value" : -2097153,
+     "enum_field_value" : 4292870143,
      "name" : "GRALLOC_USAGE_ALLOC_MASK"
     },
     {
@@ -1284,11 +1284,11 @@
      "name" : "GRALLOC_USAGE_PRIVATE_2"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "GRALLOC_USAGE_PRIVATE_3"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "GRALLOC_USAGE_PRIVATE_MASK"
     }
    ],
@@ -1754,7 +1754,7 @@
      "name" : "C2FrameData::FLAG_CORRUPT"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "C2FrameData::FLAG_CODEC_CONFIG"
     }
    ],
@@ -2492,7 +2492,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -16,
+     "enum_field_value" : 18446744073709551600,
      "name" : "C2MemoryUsage::PLATFORM_MASK"
     }
    ],
@@ -3618,7 +3618,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -1073741824,
+     "enum_field_value" : 3221225472,
      "name" : "C2Info::PARAM_KIND"
     }
    ],
@@ -3976,7 +3976,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -1073741824,
+     "enum_field_value" : 3221225472,
      "name" : "C2Param::CoreIndex::KIND_MASK"
     },
     {
@@ -3988,11 +3988,11 @@
      "name" : "C2Param::CoreIndex::KIND_TUNING"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "C2Param::CoreIndex::KIND_SETTING"
     },
     {
-     "enum_field_value" : -1073741824,
+     "enum_field_value" : 3221225472,
      "name" : "C2Param::CoreIndex::KIND_INFO"
     },
     {
@@ -4280,11 +4280,11 @@
      "name" : "C2Config::API_SAME_INPUT_BUFFER"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4294967296,
      "name" : "C2Config::API_STREAMS"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 281474976710656,
      "name" : "C2Config::API_TUNNELING"
     }
    ],
@@ -5895,7 +5895,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "C2Setting::PARAM_KIND"
     }
    ],

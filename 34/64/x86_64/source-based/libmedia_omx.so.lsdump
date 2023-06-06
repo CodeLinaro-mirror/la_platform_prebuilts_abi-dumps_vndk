@@ -5548,7 +5548,7 @@
      "name" : "GRALLOC_USAGE_HW_IMAGE_ENCODER"
     },
     {
-     "enum_field_value" : -2097153,
+     "enum_field_value" : 4292870143,
      "name" : "GRALLOC_USAGE_ALLOC_MASK"
     },
     {
@@ -5564,11 +5564,11 @@
      "name" : "GRALLOC_USAGE_PRIVATE_2"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "GRALLOC_USAGE_PRIVATE_3"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "GRALLOC_USAGE_PRIVATE_MASK"
     }
    ],
@@ -5920,7 +5920,7 @@
      "name" : "AHARDWAREBUFFER_USAGE_GPU_MIPMAP_COMPLETE"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4294967296,
      "name" : "AHARDWAREBUFFER_USAGE_FRONT_BUFFER"
     },
     {
@@ -5936,71 +5936,71 @@
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_2"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_3"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 281474976710656,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_4"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 562949953421312,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_5"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1125899906842624,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_6"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 2251799813685248,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_7"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4503599627370496,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_8"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9007199254740992,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_9"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18014398509481984,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_10"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 36028797018963968,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_11"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 72057594037927936,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_12"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 144115188075855872,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_13"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 288230376151711744,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_14"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 576460752303423488,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_15"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1152921504606846976,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_16"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 2305843009213693952,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_17"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_18"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_19"
     }
    ],
@@ -10605,11 +10605,11 @@
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK_HI"
     }
    ],
@@ -11196,11 +11196,11 @@
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::VENDOR_MASK_HI"
     },
     {
@@ -11781,11 +11781,11 @@
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::VENDOR_MASK_HI"
     },
     {
@@ -15717,15 +15717,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android2spINS_5FenceEEE",
-   "name" : "const android::sp<android::Fence> &",
-   "referenced_type" : "_ZTIKN7android2spINS_5FenceEEE",
-   "self_type" : "_ZTIRKN7android2spINS_5FenceEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7android2spINS_7ABufferEEE",
    "name" : "const android::sp<android::ABuffer> &",
    "referenced_type" : "_ZTIKN7android2spINS_7ABufferEEE",
@@ -17743,15 +17734,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android12LightRefBaseINS_5FenceEEE",
-   "name" : "const android::LightRefBase<android::Fence> *",
-   "referenced_type" : "_ZTIKN7android12LightRefBaseINS_5FenceEEE",
-   "self_type" : "_ZTIPKN7android12LightRefBaseINS_5FenceEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/LightRefBase.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7android12NativeHandleE",
    "name" : "const android::NativeHandle *",
    "referenced_type" : "_ZTIKN7android12NativeHandleE",
@@ -19106,15 +19088,6 @@
    "name" : "android::sp<android::hidl::manager::V1_0::IServiceNotification> *",
    "referenced_type" : "_ZTIN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEE",
    "self_type" : "_ZTIPN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android2spINS_5FenceEEE",
-   "name" : "android::sp<android::Fence> *",
-   "referenced_type" : "_ZTIN7android2spINS_5FenceEEE",
-   "self_type" : "_ZTIPN7android2spINS_5FenceEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -20937,16 +20910,6 @@
    "source_file" : "system/core/libutils/include/utils/LightRefBase.h"
   },
   {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android12LightRefBaseINS_5FenceEEE",
-   "name" : "const android::LightRefBase<android::Fence>",
-   "referenced_type" : "_ZTIN7android12LightRefBaseINS_5FenceEEE",
-   "self_type" : "_ZTIKN7android12LightRefBaseINS_5FenceEEE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/LightRefBase.h"
-  },
-  {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android12NativeHandleE",
@@ -21122,7 +21085,7 @@
    "referenced_type" : "_ZTIN7android2spINS_5FenceEEE",
    "self_type" : "_ZTIKN7android2spINS_5FenceEEE",
    "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+   "source_file" : "frameworks/native/libs/ui/include/ui/Fence.h"
   },
   {
    "alignment" : 8,
