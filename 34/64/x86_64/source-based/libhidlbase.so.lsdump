@@ -3252,10 +3252,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEEC2ERKS7_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIPvNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
   },
   {
