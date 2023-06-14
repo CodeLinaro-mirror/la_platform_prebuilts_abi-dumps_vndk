@@ -938,6 +938,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcPcnLi0EEET0_S4_T1_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN3fmt2v76detail5writeIccNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET1_S8_NS0_17basic_string_viewIT_EERKNS0_18basic_format_specsIT0_EE"
   },
   {
@@ -4062,6 +4066,27 @@
     "_ZTIc",
     "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
     "_ZTIg"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcPcnLi0EEET0_S4_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIn"
+    }
+   ],
+   "return_type" : "_ZTIPc",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIPc",
+    "_ZTIn"
    ]
   },
   {
