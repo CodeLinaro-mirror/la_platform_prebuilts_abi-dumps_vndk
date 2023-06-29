@@ -1957,7 +1957,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "fmt::detail::is_unpacked_bit"
     }
    ],
@@ -2008,7 +2008,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "fmt::detail::has_named_args_bit"
     }
    ],
@@ -2764,7 +2764,7 @@
   },
   {
    "access" : "protected",
-   "function_name" : "fmt::basic_memory_buffer<char, 500>::grow",
+   "function_name" : "fmt::basic_memory_buffer<char>::grow",
    "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIcLm500ENSt3__19allocatorIcEEE4growEm",
    "parameters" :
    [
@@ -2798,7 +2798,7 @@
   },
   {
    "access" : "protected",
-   "function_name" : "fmt::basic_memory_buffer<wchar_t, 500>::grow",
+   "function_name" : "fmt::basic_memory_buffer<wchar_t>::grow",
    "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIwLm500ENSt3__19allocatorIwEEE4growEm",
    "parameters" :
    [

@@ -2640,6 +2640,9 @@
    "name" : "_ZN7android6binder20LazyServiceRegistrar15registerServiceERKNS_2spINS_7IBinderEEERKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEEbi"
   },
   {
+   "name" : "_ZN7android6binder20LazyServiceRegistrar23createExtraTestInstanceEv"
+  },
+  {
    "name" : "_ZN7android6binder20LazyServiceRegistrar25setActiveServicesCallbackERKNSt3__18functionIFbbEEE"
   },
   {
@@ -3177,6 +3180,9 @@
    "name" : "_ZN7android8RpcState23processTransactInternalERKNS_2spINS_10RpcSession13RpcConnectionEEERKNS1_IS2_EENS0_11CommandDataEONSt3__16vectorINSB_7variantIJNS_4base14unique_fd_implINSE_13DefaultCloserEEENSE_11borrowed_fdEEEENSB_9allocatorISJ_EEEE"
   },
   {
+   "name" : "_ZN7android8RpcState23validateProtocolVersionEj"
+  },
+  {
    "name" : "_ZN7android8RpcState4dumpEv"
   },
   {
@@ -3387,7 +3393,10 @@
    "name" : "_ZN7android9RpcServer23recvmsgSocketConnectionERKS0_PNS_14RpcTransportFdE"
   },
   {
-   "name" : "_ZN7android9RpcServer23setPerSessionRootObjectEONSt3__18functionIFNS_2spINS_7IBinderEEEPKvmEEE"
+   "name" : "_ZN7android9RpcServer23setPerSessionRootObjectEONSt3__18functionIFNS_2spINS_7IBinderEEENS_2wpINS_10RpcSessionEEEPKvmEEE"
+  },
+  {
+   "name" : "_ZN7android9RpcServer23setServerSocketModifierEONSt3__18functionIFvNS_4base11borrowed_fdEEEE"
   },
   {
    "name" : "_ZN7android9RpcServer24numUninitializedSessionsEv"
@@ -5545,13 +5554,7 @@
    "name" : "_ZN7android15IResultReceiver12default_implE"
   },
   {
-   "name" : "_ZN7android16kEnableRecordingE"
-  },
-  {
    "name" : "_ZN7android18the_context_objectE"
-  },
-  {
-   "name" : "_ZN7android20kEnableRpcDevServersE"
   },
   {
    "name" : "_ZN7android22SimpleBestFitAllocator12kMemoryAlignE"
@@ -6181,6 +6184,10 @@
    "name" : "_ZTVN7android15IServiceManagerE"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZTVN7android15RpcTransportRawE"
+  },
+  {
    "name" : "_ZTVN7android16BnResultReceiverE"
   },
   {
@@ -6201,6 +6208,10 @@
   },
   {
    "name" : "_ZTVN7android18BufferedTextOutputE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN7android18RpcTransportCtxRawE"
   },
   {
    "binding" : "weak",
@@ -7772,7 +7783,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "fmt::detail::is_unpacked_bit"
     }
    ],
@@ -7823,7 +7834,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "fmt::detail::has_named_args_bit"
     }
    ],
@@ -18620,6 +18631,12 @@
    "source_file" : "frameworks/native/libs/binder/include/binder/LazyServiceRegistrar.h"
   },
   {
+   "function_name" : "android::binder::LazyServiceRegistrar::createExtraTestInstance",
+   "linker_set_key" : "_ZN7android6binder20LazyServiceRegistrar23createExtraTestInstanceEv",
+   "return_type" : "_ZTIN7android6binder20LazyServiceRegistrarE",
+   "source_file" : "frameworks/native/libs/binder/include/binder/LazyServiceRegistrar.h"
+  },
+  {
    "function_name" : "android::binder::LazyServiceRegistrar::setActiveServicesCallback",
    "linker_set_key" : "_ZN7android6binder20LazyServiceRegistrar25setActiveServicesCallbackERKNSt3__18functionIFbbEEE",
    "parameters" :
@@ -19414,6 +19431,7 @@
    "source_file" : "frameworks/native/libs/binder/include/binder/Binder.h"
   },
   {
+   "access" : "private",
    "function_name" : "android::BBinder::stopRecordingTransactions",
    "linker_set_key" : "_ZN7android7BBinder25stopRecordingTransactionsEv",
    "parameters" :
@@ -19427,6 +19445,7 @@
    "source_file" : "frameworks/native/libs/binder/include/binder/Binder.h"
   },
   {
+   "access" : "private",
    "function_name" : "android::BBinder::startRecordingTransactions",
    "linker_set_key" : "_ZN7android7BBinder26startRecordingTransactionsERKNS_6ParcelE",
    "parameters" :
@@ -21227,7 +21246,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIb",
    "source_file" : "frameworks/native/libs/binder/include/binder/RpcServer.h"
   },
   {
@@ -21373,7 +21392,7 @@
   },
   {
    "function_name" : "android::RpcServer::setPerSessionRootObject",
-   "linker_set_key" : "_ZN7android9RpcServer23setPerSessionRootObjectEONSt3__18functionIFNS_2spINS_7IBinderEEEPKvmEEE",
+   "linker_set_key" : "_ZN7android9RpcServer23setPerSessionRootObjectEONSt3__18functionIFNS_2spINS_7IBinderEEENS_2wpINS_10RpcSessionEEEPKvmEEE",
    "parameters" :
    [
     {
@@ -21381,7 +21400,23 @@
      "referenced_type" : "_ZTIPN7android9RpcServerE"
     },
     {
-     "referenced_type" : "_ZTIONSt3__18functionIFN7android2spINS1_7IBinderEEEPKvmEEE"
+     "referenced_type" : "_ZTIONSt3__18functionIFN7android2spINS1_7IBinderEEENS1_2wpINS1_10RpcSessionEEEPKvmEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/include/binder/RpcServer.h"
+  },
+  {
+   "function_name" : "android::RpcServer::setServerSocketModifier",
+   "linker_set_key" : "_ZN7android9RpcServer23setServerSocketModifierEONSt3__18functionIFvNS_4base11borrowed_fdEEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android9RpcServerE"
+    },
+    {
+     "referenced_type" : "_ZTIONSt3__18functionIFvN7android4base11borrowed_fdEEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -32591,6 +32626,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android2wpINS_10RpcSessionEEE",
+   "name" : "android::wp<android::RpcSession> *",
+   "referenced_type" : "_ZTIN7android2wpINS_10RpcSessionEEE",
+   "self_type" : "_ZTIPN7android2wpINS_10RpcSessionEEE",
+   "size" : 8,
+   "source_file" : "system/core/libutils/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android2wpINS_7BBinderEEE",
    "name" : "android::wp<android::BBinder> *",
    "referenced_type" : "_ZTIN7android2wpINS_7BBinderEEE",
@@ -36478,7 +36522,7 @@
    "name" : "const android::RpcServer",
    "referenced_type" : "_ZTIN7android9RpcServerE",
    "self_type" : "_ZTIKN7android9RpcServerE",
-   "size" : 400,
+   "size" : 448,
    "source_file" : "system/core/libutils/include/utils/RefBase.h"
   },
   {
@@ -37880,6 +37924,46 @@
    "self_type" : "_ZTI8log_time",
    "size" : 8,
    "source_file" : "system/logging/liblog/include_vndk/log/log_time.h"
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN16libutilsinternal16is_complete_typeIN7android15RpcTransportRawEvEE",
+   "name" : "libutilsinternal::is_complete_type<android::RpcTransportRaw, void>",
+   "referenced_type" : "_ZTIN16libutilsinternal16is_complete_typeIN7android15RpcTransportRawEvEE",
+   "self_type" : "_ZTIN16libutilsinternal16is_complete_typeIN7android15RpcTransportRawEvEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/RefBase.h",
+   "template_args" :
+   [
+    "_ZTIN7android15RpcTransportRawE",
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN16libutilsinternal16is_complete_typeIN7android18RpcTransportCtxRawEvEE",
+   "name" : "libutilsinternal::is_complete_type<android::RpcTransportCtxRaw, void>",
+   "referenced_type" : "_ZTIN16libutilsinternal16is_complete_typeIN7android18RpcTransportCtxRawEvEE",
+   "self_type" : "_ZTIN16libutilsinternal16is_complete_typeIN7android18RpcTransportCtxRawEvEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/RefBase.h",
+   "template_args" :
+   [
+    "_ZTIN7android18RpcTransportCtxRawE",
+    "_ZTIv"
+   ]
   },
   {
    "alignment" : 1,
@@ -52915,6 +52999,34 @@
     {
      "access" : "private",
      "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android10RpcSessionE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "m_refs",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPN7android7RefBase12weakref_typeE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2wpINS_10RpcSessionEEE",
+   "name" : "android::wp<android::RpcSession>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android2wpINS_10RpcSessionEEE",
+   "self_type" : "_ZTIN7android2wpINS_10RpcSessionEEE",
+   "size" : 16,
+   "source_file" : "system/core/libutils/include/utils/RefBase.h",
+   "template_args" :
+   [
+    "_ZTIN7android10RpcSessionE"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
      "referenced_type" : "_ZTIPN7android7BBinderE"
     },
     {
@@ -62953,7 +63065,7 @@
      "access" : "private",
      "field_name" : "mRootObjectFactory",
      "field_offset" : 1280,
-     "referenced_type" : "_ZTINSt3__18functionIFN7android2spINS1_7IBinderEEEPKvmEEE"
+     "referenced_type" : "_ZTINSt3__18functionIFN7android2spINS1_7IBinderEEENS1_2wpINS1_10RpcSessionEEEPKvmEEE"
     },
     {
      "access" : "private",
@@ -62963,26 +63075,32 @@
     },
     {
      "access" : "private",
-     "field_name" : "mSessions",
+     "field_name" : "mServerSocketModifier",
      "field_offset" : 2048,
+     "referenced_type" : "_ZTINSt3__18functionIFvN7android4base11borrowed_fdEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mSessions",
+     "field_offset" : 2432,
      "referenced_type" : "_ZTINSt3__13mapINS_6vectorIhNS_9allocatorIhEEEEN7android2spINS5_10RpcSessionEEENS_4lessIS4_EENS2_INS_4pairIKS4_S8_EEEEEE"
     },
     {
      "access" : "private",
      "field_name" : "mShutdownTrigger",
-     "field_offset" : 2240,
+     "field_offset" : 2624,
      "referenced_type" : "_ZTINSt3__110unique_ptrIN7android9FdTriggerENS_14default_deleteIS2_EEEE"
     },
     {
      "access" : "private",
      "field_name" : "mShutdownCv",
-     "field_offset" : 2304,
+     "field_offset" : 2688,
      "referenced_type" : "_ZTINSt3__118condition_variableE"
     },
     {
      "access" : "private",
      "field_name" : "mAcceptFn",
-     "field_offset" : 2688,
+     "field_offset" : 3072,
      "referenced_type" : "_ZTINSt3__18functionIFiRKN7android9RpcServerEPNS1_14RpcTransportFdEEEE"
     }
    ],
@@ -62991,12 +63109,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android9RpcServerE",
    "self_type" : "_ZTIN7android9RpcServerE",
-   "size" : 400,
+   "size" : 448,
    "source_file" : "frameworks/native/libs/binder/include/binder/RpcServer.h",
    "vtable_components" :
    [
     {
-     "component_value" : 384,
+     "component_value" : 432,
      "kind" : "vbase_offset"
     },
     {
@@ -63033,11 +63151,11 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -384,
+     "component_value" : -432,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -384,
+     "component_value" : -432,
      "kind" : "offset_to_top"
     },
     {
@@ -64184,10 +64302,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIONSt3__18functionIFN7android2spINS1_7IBinderEEEPKvmEEE",
-   "name" : "std::function<sp<IBinder> (const void *, unsigned long)> &&",
-   "referenced_type" : "_ZTINSt3__18functionIFN7android2spINS1_7IBinderEEEPKvmEEE",
-   "self_type" : "_ZTIONSt3__18functionIFN7android2spINS1_7IBinderEEEPKvmEEE",
+   "linker_set_key" : "_ZTIONSt3__18functionIFN7android2spINS1_7IBinderEEENS1_2wpINS1_10RpcSessionEEEPKvmEEE",
+   "name" : "std::function<sp<IBinder> (wp<RpcSession>, const void *, unsigned long)> &&",
+   "referenced_type" : "_ZTINSt3__18functionIFN7android2spINS1_7IBinderEEENS1_2wpINS1_10RpcSessionEEEPKvmEEE",
+   "self_type" : "_ZTIONSt3__18functionIFN7android2spINS1_7IBinderEEENS1_2wpINS1_10RpcSessionEEEPKvmEEE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/include/binder/RpcServer.h"
   },
@@ -64215,6 +64333,15 @@
    "name" : "std::function<int (const RpcServer &, RpcTransportFd *)> &&",
    "referenced_type" : "_ZTINSt3__18functionIFiRKN7android9RpcServerEPNS1_14RpcTransportFdEEEE",
    "self_type" : "_ZTIONSt3__18functionIFiRKN7android9RpcServerEPNS1_14RpcTransportFdEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/include/binder/RpcServer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIONSt3__18functionIFvN7android4base11borrowed_fdEEEE",
+   "name" : "std::function<void (borrowed_fd)> &&",
+   "referenced_type" : "_ZTINSt3__18functionIFvN7android4base11borrowed_fdEEEE",
+   "self_type" : "_ZTIONSt3__18functionIFvN7android4base11borrowed_fdEEEE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/include/binder/RpcServer.h"
   },

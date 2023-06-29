@@ -2602,6 +2602,10 @@
    "name" : "_ZNSt3__111timed_mutexD2Ev"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNSt3__111unique_lockINS_5mutexEE6unlockEv"
+  },
+  {
    "name" : "_ZNSt3__112__do_nothingEPv"
   },
   {
@@ -2609,6 +2613,14 @@
   },
   {
    "name" : "_ZNSt3__112__next_primeEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__rotate_gcdINS_11__wrap_iterIPcEEEET_S4_S4_S4_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__rotate_gcdINS_11__wrap_iterIPwEEEET_S4_S4_S4_"
   },
   {
    "name" : "_ZNSt3__112__rs_defaultC1ERKS0_"
@@ -3773,6 +3785,10 @@
    "name" : "_ZNSt3__114__num_put_base18__identify_paddingEPcS1_RKNS_8ios_baseE"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__rotate_rightINS_11__wrap_iterIPwEEEET_S4_S4_"
+  },
+  {
    "name" : "_ZNSt3__114__shared_count12__add_sharedEv"
   },
   {
@@ -4412,6 +4428,66 @@
    "name" : "_ZNSt3__117moneypunct_bynameIwLb1EE4initEPKc"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIaaEEPaEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIccEEPcEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIddEEPdEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIeeEEPeEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIffEEPfEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIhhEEPhEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIiiEEPiEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIjjEEPjEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIllEEPlEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessImmEEPmEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIssEEPsEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIttEEPtEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIwwEEPwEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIxxEEPxEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIyyEEPyEEvT0_S5_T_"
+  },
+  {
    "name" : "_ZNSt3__118__time_get_storageIcE4initERKNS_5ctypeIcEE"
   },
   {
@@ -4585,6 +4661,10 @@
   },
   {
    "name" : "_ZNSt3__121undeclare_no_pointersEPcm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__123mersenne_twister_engineImLm32ELm624ELm397ELm31ELm2567483615ELm11ELm4294967295ELm7ELm2636928640ELm15ELm4022730752ELm18ELm1812433253EEclEv"
   },
   {
    "name" : "_ZNSt3__124__libcpp_debug_exceptionC1ERKNS_19__libcpp_debug_infoE"
@@ -4972,6 +5052,126 @@
   },
   {
    "name" : "_ZNSt3__16threadD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIaaEEPaEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIccEEPcEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIddEEPdEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIeeEEPeEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIffEEPfEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIhhEEPhEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIiiEEPiEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIjjEEPjEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIllEEPlEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessImmEEPmEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIssEEPsEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIttEEPtEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIwwEEPwEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIxxEEPxEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIyyEEPyEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIaaEEPaEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIccEEPcEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIddEEPdEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIeeEEPeEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIffEEPfEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIhhEEPhEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIiiEEPiEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIjjEEPjEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIllEEPlEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessImmEEPmEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIssEEPsEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIttEEPtEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIwwEEPwEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIxxEEPxEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIyyEEPyEEjT0_S5_S5_S5_T_"
   },
   {
    "binding" : "weak",
@@ -20080,6 +20280,19 @@
    "source_file" : "external/libcxx/include/mutex"
   },
   {
+   "function_name" : "std::unique_lock<std::mutex>::unlock",
+   "linker_set_key" : "_ZNSt3__111unique_lockINS_5mutexEE6unlockEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPNSt3__111unique_lockINS_5mutexEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/__mutex_base"
+  },
+  {
    "function_name" : "std::__do_nothing",
    "linker_set_key" : "_ZNSt3__112__do_nothingEPv",
    "parameters" :
@@ -20114,6 +20327,50 @@
    ],
    "return_type" : "_ZTIm",
    "source_file" : "external/libcxx/include/__hash_table"
+  },
+  {
+   "function_name" : "std::__rotate_gcd",
+   "linker_set_key" : "_ZNSt3__112__rotate_gcdINS_11__wrap_iterIPcEEEET_S4_S4_S4_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPcEE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPcEE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPcEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__111__wrap_iterIPcEE",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTINSt3__111__wrap_iterIPcEE"
+   ]
+  },
+  {
+   "function_name" : "std::__rotate_gcd",
+   "linker_set_key" : "_ZNSt3__112__rotate_gcdINS_11__wrap_iterIPwEEEET_S4_S4_S4_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPwEE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPwEE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPwEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__111__wrap_iterIPwEE",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTINSt3__111__wrap_iterIPwEE"
+   ]
   },
   {
    "function_name" : "std::__rs_default::__rs_default",
@@ -25546,6 +25803,25 @@
    "source_file" : "external/libcxx/include/locale"
   },
   {
+   "function_name" : "std::__rotate_right",
+   "linker_set_key" : "_ZNSt3__114__rotate_rightINS_11__wrap_iterIPwEEEET_S4_S4_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPwEE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__111__wrap_iterIPwEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__111__wrap_iterIPwEE",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTINSt3__111__wrap_iterIPwEE"
+   ]
+  },
+  {
    "function_name" : "std::__shared_count::__add_shared",
    "linker_set_key" : "_ZNSt3__114__shared_count12__add_sharedEv",
    "parameters" :
@@ -28363,6 +28639,351 @@
    "source_file" : "external/libcxx/include/locale"
   },
   {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIaaEEPaEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIaaEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIaaEE",
+    "_ZTIPa"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIccEEPcEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIccEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIccEE",
+    "_ZTIPc"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIddEEPdEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIddEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIddEE",
+    "_ZTIPd"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIeeEEPeEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIeeEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIeeEE",
+    "_ZTIPe"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIffEEPfEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIffEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIffEE",
+    "_ZTIPf"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIhhEEPhEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIhhEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIhhEE",
+    "_ZTIPh"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIiiEEPiEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIiiEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIiiEE",
+    "_ZTIPi"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIjjEEPjEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIjjEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIjjEE",
+    "_ZTIPj"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIllEEPlEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIllEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIllEE",
+    "_ZTIPl"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessImmEEPmEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessImmEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessImmEE",
+    "_ZTIPm"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIssEEPsEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIssEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIssEE",
+    "_ZTIPs"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIttEEPtEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIttEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIttEE",
+    "_ZTIPt"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIwwEEPwEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIwwEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIwwEE",
+    "_ZTIPw"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIxxEEPxEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIxxEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIxxEE",
+    "_ZTIPx"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIyyEEPyEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIyyEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIyyEE",
+    "_ZTIPy"
+   ]
+  },
+  {
    "access" : "private",
    "function_name" : "std::__time_get_storage<char>::init",
    "linker_set_key" : "_ZNSt3__118__time_get_storageIcE4initERKNS_5ctypeIcEE",
@@ -29172,6 +29793,19 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libcxx/include/memory"
+  },
+  {
+   "function_name" : "std::mersenne_twister_engine<unsigned long, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>::operator()",
+   "linker_set_key" : "_ZNSt3__123mersenne_twister_engineImLm32ELm624ELm397ELm31ELm2567483615ELm11ELm4294967295ELm7ELm2636928640ELm15ELm4022730752ELm18ELm1812433253EEclEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPNSt3__123mersenne_twister_engineImLm32ELm624ELm397ELm31ELm2567483615ELm11ELm4294967295ELm7ELm2636928640ELm15ELm4022730752ELm18ELm1812433253EEE"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/libcxx/include/random"
   },
   {
    "function_name" : "std::__libcpp_debug_exception::__libcpp_debug_exception",
@@ -31211,6 +31845,831 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libcxx/include/thread"
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIaaEEPaEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIaaEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIaaEE",
+    "_ZTIPa"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIccEEPcEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIccEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIccEE",
+    "_ZTIPc"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIddEEPdEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIddEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIddEE",
+    "_ZTIPd"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIeeEEPeEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIeeEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIeeEE",
+    "_ZTIPe"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIffEEPfEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIffEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIffEE",
+    "_ZTIPf"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIhhEEPhEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIhhEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIhhEE",
+    "_ZTIPh"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIiiEEPiEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIiiEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIiiEE",
+    "_ZTIPi"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIjjEEPjEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIjjEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIjjEE",
+    "_ZTIPj"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIllEEPlEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIllEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIllEE",
+    "_ZTIPl"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessImmEEPmEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessImmEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessImmEE",
+    "_ZTIPm"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIssEEPsEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIssEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIssEE",
+    "_ZTIPs"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIttEEPtEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIttEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIttEE",
+    "_ZTIPt"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIwwEEPwEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIwwEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIwwEE",
+    "_ZTIPw"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIxxEEPxEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIxxEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIxxEE",
+    "_ZTIPx"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIyyEEPyEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIyyEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIyyEE",
+    "_ZTIPy"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIaaEEPaEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIPa"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIaaEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIaaEE",
+    "_ZTIPa"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIccEEPcEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIccEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIccEE",
+    "_ZTIPc"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIddEEPdEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIddEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIddEE",
+    "_ZTIPd"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIeeEEPeEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIPe"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIeeEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIeeEE",
+    "_ZTIPe"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIffEEPfEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIffEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIffEE",
+    "_ZTIPf"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIhhEEPhEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIhhEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIhhEE",
+    "_ZTIPh"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIiiEEPiEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIiiEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIiiEE",
+    "_ZTIPi"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIjjEEPjEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIjjEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIjjEE",
+    "_ZTIPj"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIllEEPlEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIllEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIllEE",
+    "_ZTIPl"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessImmEEPmEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessImmEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessImmEE",
+    "_ZTIPm"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIssEEPsEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIssEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIssEE",
+    "_ZTIPs"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIttEEPtEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIttEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIttEE",
+    "_ZTIPt"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIwwEEPwEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIPw"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIwwEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIwwEE",
+    "_ZTIPw"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIxxEEPxEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIPx"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIxxEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIxxEE",
+    "_ZTIPx"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIyyEEPyEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIyyEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIyyEE",
+    "_ZTIPy"
+   ]
   },
   {
    "function_name" : "std::__sort5",

@@ -8321,7 +8321,7 @@
      "name" : "AHARDWAREBUFFER_USAGE_GPU_MIPMAP_COMPLETE"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4294967296,
      "name" : "AHARDWAREBUFFER_USAGE_FRONT_BUFFER"
     },
     {
@@ -8337,71 +8337,71 @@
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_2"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_3"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 281474976710656,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_4"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 562949953421312,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_5"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1125899906842624,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_6"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 2251799813685248,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_7"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4503599627370496,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_8"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9007199254740992,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_9"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18014398509481984,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_10"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 36028797018963968,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_11"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 72057594037927936,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_12"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 144115188075855872,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_13"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 288230376151711744,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_14"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 576460752303423488,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_15"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1152921504606846976,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_16"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 2305843009213693952,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_17"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_18"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_19"
     }
    ],
@@ -74751,7 +74751,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl3600ELl1EEEEEEEE",
-   "name" : "std::common_type<duration<long double, ratio<3600, 1>>>",
+   "name" : "std::common_type<duration<long double, ratio<3600>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl3600ELl1EEEEEEEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl3600ELl1EEEEEEEE",
    "size" : 1,
@@ -74760,7 +74760,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl3600ELl1EEEEES5_EEE",
-   "name" : "std::common_type<duration<long double, ratio<3600, 1>>, duration<long double, ratio<3600, 1>>>",
+   "name" : "std::common_type<duration<long double, ratio<3600>>, duration<long double, ratio<3600>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl3600ELl1EEEEES5_EEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl3600ELl1EEEEES5_EEE",
    "size" : 1,
@@ -74775,7 +74775,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl60ELl1EEEEEEEE",
-   "name" : "std::common_type<duration<long double, ratio<60, 1>>>",
+   "name" : "std::common_type<duration<long double, ratio<60>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl60ELl1EEEEEEEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl60ELl1EEEEEEEE",
    "size" : 1,
@@ -74784,7 +74784,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl60ELl1EEEEES5_EEE",
-   "name" : "std::common_type<duration<long double, ratio<60, 1>>, duration<long double, ratio<60, 1>>>",
+   "name" : "std::common_type<duration<long double, ratio<60>>, duration<long double, ratio<60>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl60ELl1EEEEES5_EEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIgNS_5ratioILl60ELl1EEEEES5_EEE",
    "size" : 1,
@@ -74799,7 +74799,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl3600ELl1EEEEEEEE",
-   "name" : "std::common_type<duration<long, ratio<3600, 1>>>",
+   "name" : "std::common_type<duration<long, ratio<3600>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl3600ELl1EEEEEEEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl3600ELl1EEEEEEEE",
    "size" : 1,
@@ -74808,7 +74808,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl3600ELl1EEEEES5_EEE",
-   "name" : "std::common_type<duration<long, ratio<3600, 1>>, duration<long, ratio<3600, 1>>>",
+   "name" : "std::common_type<duration<long, ratio<3600>>, duration<long, ratio<3600>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl3600ELl1EEEEES5_EEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl3600ELl1EEEEES5_EEE",
    "size" : 1,
@@ -74823,7 +74823,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl60ELl1EEEEEEEE",
-   "name" : "std::common_type<duration<long, ratio<60, 1>>>",
+   "name" : "std::common_type<duration<long, ratio<60>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl60ELl1EEEEEEEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl60ELl1EEEEEEEE",
    "size" : 1,
@@ -74832,7 +74832,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl60ELl1EEEEES5_EEE",
-   "name" : "std::common_type<duration<long, ratio<60, 1>>, duration<long, ratio<60, 1>>>",
+   "name" : "std::common_type<duration<long, ratio<60>>, duration<long, ratio<60>>>",
    "referenced_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl60ELl1EEEEES5_EEE",
    "self_type" : "_ZTINSt3__111common_typeIJNS_6chrono8durationIlNS_5ratioILl60ELl1EEEEES5_EEE",
    "size" : 1,
@@ -141268,7 +141268,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
-   "name" : "std::__make_tuple_indices<0, 0>",
+   "name" : "std::__make_tuple_indices<0>",
    "referenced_type" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
    "self_type" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
    "size" : 1,
@@ -158677,7 +158677,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__15ratioILl1000000000ELl1EEE",
-   "name" : "std::ratio<1000000000, 1>",
+   "name" : "std::ratio<1000000000>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__15ratioILl1000000000ELl1EEE",
    "self_type" : "_ZTINSt3__15ratioILl1000000000ELl1EEE",
@@ -158717,7 +158717,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__15ratioILl1ELl1EEE",
-   "name" : "std::ratio<1, 1>",
+   "name" : "std::ratio<1>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__15ratioILl1ELl1EEE",
    "self_type" : "_ZTINSt3__15ratioILl1ELl1EEE",
@@ -158727,7 +158727,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__15ratioILl3600ELl1EEE",
-   "name" : "std::ratio<3600, 1>",
+   "name" : "std::ratio<3600>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__15ratioILl3600ELl1EEE",
    "self_type" : "_ZTINSt3__15ratioILl3600ELl1EEE",
@@ -158737,7 +158737,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__15ratioILl60ELl1EEE",
-   "name" : "std::ratio<60, 1>",
+   "name" : "std::ratio<60>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__15ratioILl60ELl1EEE",
    "self_type" : "_ZTINSt3__15ratioILl60ELl1EEE",
@@ -159620,7 +159620,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__16chrono8durationInNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1000000000ELb0EEE",
-   "name" : "std::chrono::duration<__int128, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1, 1>, std::ratio<1, 1000000000>>::__mul<1, 1000000000, false>",
+   "name" : "std::chrono::duration<__int128, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1>, std::ratio<1, 1000000000>>::__mul<1, 1000000000, false>",
    "referenced_type" : "_ZTINSt3__16chrono8durationInNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1000000000ELb0EEE",
    "self_type" : "_ZTINSt3__16chrono8durationInNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1000000000ELb0EEE",
    "size" : 1,
@@ -159629,7 +159629,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__16chrono8durationInNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1ELb0EEE",
-   "name" : "std::chrono::duration<__int128, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1, 1>, std::ratio<1, 1000000000>>::__mul<1, 1, false>",
+   "name" : "std::chrono::duration<__int128, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1>, std::ratio<1, 1000000000>>::__mul<1, 1, false>",
    "referenced_type" : "_ZTINSt3__16chrono8durationInNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1ELb0EEE",
    "self_type" : "_ZTINSt3__16chrono8durationInNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1ELb0EEE",
    "size" : 1,
@@ -159721,7 +159721,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__16chrono8durationIxNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1000000000ELb0EEE",
-   "name" : "std::chrono::duration<long long, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1, 1>, std::ratio<1, 1000000000>>::__mul<1, 1000000000, false>",
+   "name" : "std::chrono::duration<long long, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1>, std::ratio<1, 1000000000>>::__mul<1, 1000000000, false>",
    "referenced_type" : "_ZTINSt3__16chrono8durationIxNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1000000000ELb0EEE",
    "self_type" : "_ZTINSt3__16chrono8durationIxNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1000000000ELb0EEE",
    "size" : 1,
@@ -159730,7 +159730,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__16chrono8durationIxNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1ELb0EEE",
-   "name" : "std::chrono::duration<long long, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1, 1>, std::ratio<1, 1000000000>>::__mul<1, 1, false>",
+   "name" : "std::chrono::duration<long long, std::ratio<1, 1000000000>>::__no_overflow<std::ratio<1>, std::ratio<1, 1000000000>>::__mul<1, 1, false>",
    "referenced_type" : "_ZTINSt3__16chrono8durationIxNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1ELb0EEE",
    "self_type" : "_ZTINSt3__16chrono8durationIxNS_5ratioILl1ELl1000000000EEEE13__no_overflowINS2_ILl1ELl1EEES3_E5__mulILl1ELl1ELb0EEE",
    "size" : 1,

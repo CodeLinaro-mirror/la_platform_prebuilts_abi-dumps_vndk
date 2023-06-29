@@ -8872,15 +8872,15 @@
      "referenced_type" : "_ZTIPP13ASN1_VALUE_st"
     },
     {
-     "referenced_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
+     "referenced_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
     },
     {
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "self_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
   {
@@ -10911,7 +10911,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
+     "referenced_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
     },
     {
      "referenced_type" : "_ZTIP13X509_algor_st"
@@ -10941,7 +10941,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
+     "referenced_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
     },
     {
      "referenced_type" : "_ZTIP13X509_algor_st"
@@ -38066,8 +38066,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
    "name" : "int (*)(int, ASN1_VALUE_st **, const ASN1_ITEM_st *, void *)",
-   "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
-   "self_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "self_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
@@ -38336,8 +38336,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
    "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
@@ -38345,8 +38345,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
    "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509v3/v3_pcons.sdump",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509v3/v3_pcons.sdump",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509v3/v3_pcons.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509v3/v3_pcons.sdump",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
@@ -41000,7 +41000,7 @@
     {
      "field_name" : "asn1_cb",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
+     "referenced_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump"
     },
     {
      "field_name" : "enc_offset",
@@ -41010,8 +41010,8 @@
    ],
    "linker_set_key" : "_ZTI11ASN1_AUX_st",
    "name" : "ASN1_AUX_st",
-   "referenced_type" : "_ZTI11ASN1_AUX_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
-   "self_type" : "_ZTI11ASN1_AUX_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a-branchprot_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "referenced_type" : "_ZTI11ASN1_AUX_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
+   "self_type" : "_ZTI11ASN1_AUX_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "size" : 32,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
