@@ -10223,6 +10223,12 @@
   },
   {
    "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__18iteratorINS_26bidirectional_iterator_tagEPN11unwindstack8DwarfFdeElPS4_RS4_EE"
+    }
+   ],
    "fields" :
    [
     {
