@@ -38,5 +38,21 @@
         "allow_adding_removing_weak_symbols": true
       }
     }
-  ]
+  ],
+  "libbase": [
+    {
+      "target_version": "current",
+      "flags": {
+        "allow_adding_removing_weak_symbols": true
+      }
+    }
+  ],
+  "libaudioutils": [
+    {
+      "target_version": "current",
+      "flags": {
+        "allow_adding_removing_weak_symbols": true
+      }
+    }
+  ],
 }
