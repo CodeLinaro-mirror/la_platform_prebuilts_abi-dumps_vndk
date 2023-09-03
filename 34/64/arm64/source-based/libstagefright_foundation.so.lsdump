@@ -6571,10 +6571,6 @@
      "name" : "android::kKeyAlacMagicCookie"
     },
     {
-     "enum_field_value" : 1852596851,
-     "name" : "android::kKeyFeatureNalLengthBitstream"
-    },
-    {
      "enum_field_value" : 1635083344,
      "name" : "android::kKeyAudioPresentationInfo"
     },
@@ -6665,10 +6661,6 @@
     {
      "enum_field_value" : 1633969268,
      "name" : "android::kKeyDvbAudioDescription"
-    },
-    {
-     "enum_field_value" : 1986424428,
-     "name" : "android::kKeyVendorFeatureNalLength"
     },
     {
      "enum_field_value" : 1953790061,
@@ -24081,7 +24073,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm64_armv8-a-branchprot_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm64_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -24123,13 +24115,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 192,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm64_armv8-a-branchprot_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm64_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 256,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm64_armv8-a-branchprot_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm64_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE5_NodeE",

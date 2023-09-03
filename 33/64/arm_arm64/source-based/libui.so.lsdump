@@ -612,6 +612,9 @@
    "name" : "_ZN7android14Gralloc4MapperC2Ev"
   },
   {
+   "name" : "_ZN7android15HdrCapabilities9unflattenEPKvj"
+  },
+  {
    "name" : "_ZN7android16GrallocAllocatorD0Ev"
   },
   {
@@ -619,6 +622,9 @@
   },
   {
    "name" : "_ZN7android16GrallocAllocatorD2Ev"
+  },
+  {
+   "name" : "_ZN7android17DeviceProductInfo9unflattenEPKvj"
   },
   {
    "name" : "_ZN7android17Gralloc2AllocatorC1ERKNS_14Gralloc2MapperE"
@@ -862,7 +868,52 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android2spINS_5FenceEE5clearEv"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android2spINS_5FenceEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_5FenceEEaSEPS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics6mapper4V2_07IMapperEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics6mapper4V3_07IMapperEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEaSEOS6_"
+  },
+  {
+   "name" : "_ZN7android2ui11DisplayMode9unflattenEPKvj"
+  },
+  {
+   "name" : "_ZN7android2ui17StaticDisplayInfo9unflattenEPKvj"
+  },
+  {
+   "name" : "_ZN7android2ui18DynamicDisplayInfo9unflattenEPKvj"
   },
   {
    "name" : "_ZN7android2ui9Transform3setERKNSt3__15arrayIfLj9EEE"
@@ -1160,10 +1211,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android9SingletonINS_19GraphicBufferMapperEE11getInstanceEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android9SingletonINS_19GraphicBufferMapperEE11hasInstanceEv"
   },
   {
@@ -1436,6 +1483,34 @@
    "name" : "_ZNK7android14Gralloc4Mapper17getAllocationSizeEPK13native_handlePy"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperIN4aidl7android8hardware8graphics6common14ExtendableTypeEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpENS6_20StandardMetadataTypeEPFiRKNS8_8hidl_vecIhEEPT_ESM_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperIN4aidl7android8hardware8graphics6common9DataspaceEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpENS6_20StandardMetadataTypeEPFiRKNS8_8hidl_vecIhEEPT_ESM_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperINS_8hardware8graphics6common4V1_211PixelFormatEEEiRKNS3_6mapper4V4_07IMapper10BufferDumpEN4aidl7android8hardware8graphics6common20StandardMetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpEN4aidl7android8hardware8graphics6common20StandardMetadataTypeEPFiRKNS9_8hidl_vecIhEEPT_ESS_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperINSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS2_9allocatorIS9_EEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpENS8_20StandardMetadataTypeEPFiRKNSD_8hidl_vecIhEEPT_ESR_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperIjEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpEN4aidl7android8hardware8graphics6common20StandardMetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESL_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperIyEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpEN4aidl7android8hardware8graphics6common20StandardMetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESL_"
+  },
+  {
    "name" : "_ZNK7android14Gralloc4Mapper18validateBufferSizeEPK13native_handlejjijyj"
   },
   {
@@ -1487,6 +1562,62 @@
    "name" : "_ZNK7android14Gralloc4Mapper29getDefaultPixelFormatModifierEjjijyPy"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIN4aidl7android8hardware8graphics6common14ExtendableTypeEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSB_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIN4aidl7android8hardware8graphics6common9BlendModeEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSB_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIN4aidl7android8hardware8graphics6common9DataspaceEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSB_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINS_8hardware8graphics6common4V1_211PixelFormatEEEiPK13native_handleRKNS3_6mapper4V4_07IMapper12MetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESL_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSC_8hidl_vecIhEEPT_ESP_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__18optionalIN4aidl7android8hardware8graphics6common8Cta861_3EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSE_8hidl_vecIhEEPT_ESR_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__18optionalIN4aidl7android8hardware8graphics6common9Smpte2086EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSE_8hidl_vecIhEEPT_ESR_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__18optionalINS2_6vectorIhNS2_9allocatorIhEEEEEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSC_8hidl_vecIhEEPT_ESP_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIjEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNS5_8hidl_vecIhEEPT_ESI_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIyEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNS5_8hidl_vecIhEEPT_ESI_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setIN4aidl7android8hardware8graphics6common9DataspaceEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSL_PNSB_8hidl_vecIhEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setINSt3__18optionalIN4aidl7android8hardware8graphics6common8Cta861_3EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSO_PNSE_8hidl_vecIhEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setINSt3__18optionalIN4aidl7android8hardware8graphics6common9Smpte2086EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSO_PNSE_8hidl_vecIhEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setINSt3__18optionalINS2_6vectorIhNS2_9allocatorIhEEEEEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSM_PNSC_8hidl_vecIhEEE"
+  },
+  {
    "name" : "_ZNK7android14Gralloc4Mapper4lockEPK13native_handleyRKNS_4RectEiP13android_ycbcr"
   },
   {
@@ -1511,7 +1642,19 @@
    "name" : "_ZNK7android14Gralloc4Mapper9getHeightEPK13native_handlePy"
   },
   {
+   "name" : "_ZNK7android15HdrCapabilities16getFlattenedSizeEv"
+  },
+  {
+   "name" : "_ZNK7android15HdrCapabilities7flattenEPvj"
+  },
+  {
+   "name" : "_ZNK7android17DeviceProductInfo16getFlattenedSizeEv"
+  },
+  {
    "name" : "_ZNK7android17DeviceProductInfo4dumpERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZNK7android17DeviceProductInfo7flattenEPvj"
   },
   {
    "name" : "_ZNK7android17Gralloc2Allocator13dumpDebugInfoEb"
@@ -1550,7 +1693,25 @@
    "name" : "_ZNK7android22GraphicBufferAllocator4dumpERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEb"
   },
   {
+   "name" : "_ZNK7android2ui11DisplayMode16getFlattenedSizeEv"
+  },
+  {
+   "name" : "_ZNK7android2ui11DisplayMode7flattenEPvj"
+  },
+  {
+   "name" : "_ZNK7android2ui17StaticDisplayInfo16getFlattenedSizeEv"
+  },
+  {
+   "name" : "_ZNK7android2ui17StaticDisplayInfo7flattenEPvj"
+  },
+  {
+   "name" : "_ZNK7android2ui18DynamicDisplayInfo16getFlattenedSizeEv"
+  },
+  {
    "name" : "_ZNK7android2ui18DynamicDisplayInfo20getActiveDisplayModeEv"
+  },
+  {
+   "name" : "_ZNK7android2ui18DynamicDisplayInfo7flattenEPvj"
   },
   {
    "name" : "_ZNK7android2ui9Transform10makeBoundsEii"
@@ -2217,6 +2378,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN7android9FenceTimeEE11make_sharedIJRKNS1_2spINS1_5FenceEEEEEES3_DpOT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__110shared_ptrIN7android9FenceTimeEED2Ev"
   },
   {
@@ -2229,6 +2394,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE4findIS4_EENS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISC_PvEEEE"
   },
   {
@@ -2238,6 +2407,62 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE8__rehashEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIN3ndk20ScopedFileDescriptorENS_9allocatorIS2_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIiNS_9allocatorIiEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113unordered_mapIPN7android5FenceENS_6vectorINS_8weak_ptrINS1_9FenceTimeEEENS_9allocatorIS7_EEEENS_4hashIS3_EENS_8equal_toIS3_EENS8_INS_4pairIKS3_SA_EEEEEixEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android2ui11DisplayModeERNS_9allocatorIS3_EEEC2EjjS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android2ui11DisplayModeERNS_9allocatorIS3_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android4RectERNS1_18InlineStdAllocatorIS2_Lj4EEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android8hardware8graphics6common4V1_23HdrERNS_9allocatorIS6_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android8hardware8graphics6common4V1_29ColorModeERNS_9allocatorIS6_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_4pairINS_8functionIFvPvyEEES3_EERNS_9allocatorIS6_EEEC2EjjS9_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_4pairINS_8functionIFvPvyEEES3_EERNS_9allocatorIS6_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS4_EEEC2EjjS7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS4_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2254,6 +2479,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEE9push_backEOS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2297,7 +2526,35 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__15dequeINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE9pop_frontEv"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN3ndk20ScopedFileDescriptorENS_9allocatorIS2_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN3ndk20ScopedFileDescriptorENS_9allocatorIS2_EEEC2Ej"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE12__move_rangeEPS2_S6_S6_"
   },
   {
    "binding" : "weak",
@@ -2306,6 +2563,14 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE21__push_back_slow_pathIS2_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EEPS2_"
   },
   {
    "binding" : "weak",
@@ -2325,7 +2590,47 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEE6resizeEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEE21__push_back_slow_pathIRKS6_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6mapper4V4_07IMapper23MetadataTypeDescriptionENS_9allocatorIS7_EEE11__vallocateEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6mapper4V4_07IMapper23MetadataTypeDescriptionENS_9allocatorIS7_EEE18__construct_at_endEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6mapper4V4_07IMapper23MetadataTypeDescriptionENS_9allocatorIS7_EEEC2Ej"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRS5_RS3_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE"
   },
   {
    "binding" : "weak",
@@ -2333,7 +2638,43 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE5eraseENS_11__wrap_iterIPKS4_EESB_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE13__move_assignERS3_NS_17integral_constantIbLb1EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE21__push_back_slow_pathIRKhEEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE26__swap_out_circular_bufferERNS_14__split_bufferIhRS2_EE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE6assignIPKhEENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIhNS_15iterator_traitsIS8_E9referenceEEE5valueEvE4typeES8_S8_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEEC2ERKS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEEC2Ej"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__18functionIFffEEC2INS_6__bindIRFffRKN7android10ColorSpace18TransferParametersEEJRKNS_12placeholders4__phILi1EEES9_EEEvEET_"
   },
   {
    "binding" : "weak",
@@ -6887,6 +7228,27 @@
    "self_type" : "_ZTIN7android23$PIXEL_FORMAT_BGRA_8888E",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/PixelFormat.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::ui::DisplayConnectionType::Internal"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::ui::DisplayConnectionType::External"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2ui21DisplayConnectionTypeE",
+   "name" : "android::ui::DisplayConnectionType",
+   "referenced_type" : "_ZTIN7android2ui21DisplayConnectionTypeE",
+   "self_type" : "_ZTIN7android2ui21DisplayConnectionTypeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -12526,6 +12888,25 @@
    "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc4.h"
   },
   {
+   "function_name" : "android::HdrCapabilities::unflatten",
+   "linker_set_key" : "_ZN7android15HdrCapabilities9unflattenEPKvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android15HdrCapabilitiesE"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/HdrCapabilities.h"
+  },
+  {
    "function_name" : "android::GrallocAllocator::~GrallocAllocator",
    "linker_set_key" : "_ZN7android16GrallocAllocatorD0Ev",
    "parameters" :
@@ -12563,6 +12944,25 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+  },
+  {
+   "function_name" : "android::DeviceProductInfo::unflatten",
+   "linker_set_key" : "_ZN7android17DeviceProductInfo9unflattenEPKvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android17DeviceProductInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DeviceProductInfo.h"
   },
   {
    "function_name" : "android::Gralloc2Allocator::Gralloc2Allocator",
@@ -14280,6 +14680,19 @@
    "source_file" : "frameworks/native/libs/ui/include/ui/PublicFormat.h"
   },
   {
+   "function_name" : "android::sp<android::Fence>::clear",
+   "linker_set_key" : "_ZN7android2spINS_5FenceEE5clearEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_5FenceEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
    "function_name" : "android::sp<android::Fence>::~sp",
    "linker_set_key" : "_ZN7android2spINS_5FenceEED2Ev",
    "parameters" :
@@ -14291,6 +14704,191 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::Fence>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_5FenceEEaSEPS1_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_5FenceEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPN7android5FenceE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_5FenceEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::mapper::V2_0::IMapper>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics6mapper4V2_07IMapperEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics6mapper4V2_07IMapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics6mapper4V2_07IMapperEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics6mapper4V2_07IMapperEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::mapper::V2_1::IMapper>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::mapper::V3_0::IMapper>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics6mapper4V3_07IMapperEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics6mapper4V3_07IMapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics6mapper4V3_07IMapperEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics6mapper4V3_07IMapperEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::mapper::V4_0::IMapper>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::allocator::V2_0::IAllocator>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::allocator::V3_0::IAllocator>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::allocator::V4_0::IAllocator>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::ui::DisplayMode::unflatten",
+   "linker_set_key" : "_ZN7android2ui11DisplayMode9unflattenEPKvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2ui11DisplayModeE"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DisplayMode.h"
+  },
+  {
+   "function_name" : "android::ui::StaticDisplayInfo::unflatten",
+   "linker_set_key" : "_ZN7android2ui17StaticDisplayInfo9unflattenEPKvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2ui17StaticDisplayInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
+   "function_name" : "android::ui::DynamicDisplayInfo::unflatten",
+   "linker_set_key" : "_ZN7android2ui18DynamicDisplayInfo9unflattenEPKvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2ui18DynamicDisplayInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DynamicDisplayInfo.h"
   },
   {
    "function_name" : "android::ui::Transform::set",
@@ -15909,18 +16507,6 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/ui/include/ui/FenceTime.h"
-  },
-  {
-   "function_name" : "android::Singleton<android::GraphicBufferMapper>::getInstance",
-   "linker_set_key" : "_ZN7android9SingletonINS_19GraphicBufferMapperEE11getInstanceEv",
-   "return_type" : "_ZTIRN7android19GraphicBufferMapperE",
-   "source_file" : "system/core/libutils/include/utils/Singleton.h"
-  },
-  {
-   "function_name" : "android::Singleton<android::GraphicBufferAllocator>::getInstance",
-   "linker_set_key" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv",
-   "return_type" : "_ZTIRN7android22GraphicBufferAllocatorE",
-   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "function_name" : "android::parseEdid",
@@ -17932,6 +18518,51 @@
    "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc4.h"
   },
   {
+   "function_name" : "android::HdrCapabilities::getFlattenedSize",
+   "linker_set_key" : "_ZNK7android15HdrCapabilities16getFlattenedSizeEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android15HdrCapabilitiesE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/libs/ui/include/ui/HdrCapabilities.h"
+  },
+  {
+   "function_name" : "android::HdrCapabilities::flatten",
+   "linker_set_key" : "_ZNK7android15HdrCapabilities7flattenEPvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android15HdrCapabilitiesE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/HdrCapabilities.h"
+  },
+  {
+   "function_name" : "android::DeviceProductInfo::getFlattenedSize",
+   "linker_set_key" : "_ZNK7android17DeviceProductInfo16getFlattenedSizeEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android17DeviceProductInfoE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DeviceProductInfo.h"
+  },
+  {
    "function_name" : "android::DeviceProductInfo::dump",
    "linker_set_key" : "_ZNK7android17DeviceProductInfo4dumpERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE",
    "parameters" :
@@ -17945,6 +18576,25 @@
     }
    ],
    "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DeviceProductInfo.h"
+  },
+  {
+   "function_name" : "android::DeviceProductInfo::flatten",
+   "linker_set_key" : "_ZNK7android17DeviceProductInfo7flattenEPvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android17DeviceProductInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "frameworks/native/libs/ui/include/ui/DeviceProductInfo.h"
   },
   {
@@ -18226,6 +18876,83 @@
    "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
   },
   {
+   "function_name" : "android::ui::DisplayMode::getFlattenedSize",
+   "linker_set_key" : "_ZNK7android2ui11DisplayMode16getFlattenedSizeEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android2ui11DisplayModeE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DisplayMode.h"
+  },
+  {
+   "function_name" : "android::ui::DisplayMode::flatten",
+   "linker_set_key" : "_ZNK7android2ui11DisplayMode7flattenEPvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android2ui11DisplayModeE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DisplayMode.h"
+  },
+  {
+   "function_name" : "android::ui::StaticDisplayInfo::getFlattenedSize",
+   "linker_set_key" : "_ZNK7android2ui17StaticDisplayInfo16getFlattenedSizeEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android2ui17StaticDisplayInfoE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
+   "function_name" : "android::ui::StaticDisplayInfo::flatten",
+   "linker_set_key" : "_ZNK7android2ui17StaticDisplayInfo7flattenEPvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android2ui17StaticDisplayInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
+   "function_name" : "android::ui::DynamicDisplayInfo::getFlattenedSize",
+   "linker_set_key" : "_ZNK7android2ui18DynamicDisplayInfo16getFlattenedSizeEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android2ui18DynamicDisplayInfoE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DynamicDisplayInfo.h"
+  },
+  {
    "function_name" : "android::ui::DynamicDisplayInfo::getActiveDisplayMode",
    "linker_set_key" : "_ZNK7android2ui18DynamicDisplayInfo20getActiveDisplayModeEv",
    "parameters" :
@@ -18236,6 +18963,25 @@
     }
    ],
    "return_type" : "_ZTINSt3__18optionalIN7android2ui11DisplayModeEEE",
+   "source_file" : "frameworks/native/libs/ui/include/ui/DynamicDisplayInfo.h"
+  },
+  {
+   "function_name" : "android::ui::DynamicDisplayInfo::flatten",
+   "linker_set_key" : "_ZNK7android2ui18DynamicDisplayInfo7flattenEPvj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPKN7android2ui18DynamicDisplayInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "frameworks/native/libs/ui/include/ui/DynamicDisplayInfo.h"
   },
   {
@@ -19711,6 +20457,33 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "name" : "const android::LightFlattenable<android::HdrCapabilities> &",
+   "referenced_type" : "_ZTIKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "self_type" : "_ZTIRKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "name" : "const android::LightFlattenable<android::DeviceProductInfo> &",
+   "referenced_type" : "_ZTIKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "self_type" : "_ZTIRKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "name" : "const android::LightFlattenable<android::ui::DisplayMode> &",
+   "referenced_type" : "_ZTIKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "self_type" : "_ZTIRKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android16key_value_pair_tIPK13native_handleNS_22GraphicBufferAllocator11alloc_rec_tEEE",
    "name" : "const android::key_value_pair_t<const native_handle *, android::GraphicBufferAllocator::alloc_rec_t> &",
    "referenced_type" : "_ZTIKN7android16key_value_pair_tIPK13native_handleNS_22GraphicBufferAllocator11alloc_rec_tEEE",
@@ -19783,12 +20556,30 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android2ui21DisplayConnectionTypeE",
+   "name" : "const android::ui::DisplayConnectionType &",
+   "referenced_type" : "_ZTIKN7android2ui21DisplayConnectionTypeE",
+   "self_type" : "_ZTIRKN7android2ui21DisplayConnectionTypeE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android2ui4SizeE",
    "name" : "const android::ui::Size &",
    "referenced_type" : "_ZTIKN7android2ui4SizeE",
    "self_type" : "_ZTIRKN7android2ui4SizeE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/Rect.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android2ui8RotationE",
+   "name" : "const android::ui::Rotation &",
+   "referenced_type" : "_ZTIKN7android2ui8RotationE",
+   "self_type" : "_ZTIRKN7android2ui8RotationE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -20033,6 +20824,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android8hardware8graphics6common4V1_29ColorModeE",
+   "name" : "const android::hardware::graphics::common::V1_2::ColorMode &",
+   "referenced_type" : "_ZTIKN7android8hardware8graphics6common4V1_29ColorModeE",
+   "self_type" : "_ZTIRKN7android8hardware8graphics6common4V1_29ColorModeE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android8hardware8graphics6mapper4V4_07IMapper10BufferDumpE",
    "name" : "const android::hardware::graphics::mapper::V4_0::IMapper::BufferDump &",
    "referenced_type" : "_ZTIKN7android8hardware8graphics6mapper4V4_07IMapper10BufferDumpE",
@@ -20193,6 +20993,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__15arrayIcLj4EEE",
+   "name" : "const std::array<char, 4> &",
+   "referenced_type" : "_ZTIKNSt3__15arrayIcLj4EEE",
+   "self_type" : "_ZTIRKNSt3__15arrayIcLj4EEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__15arrayIfLj9EEE",
    "name" : "const std::array<float, 9> &",
    "referenced_type" : "_ZTIKNSt3__15arrayIfLj9EEE",
@@ -20238,12 +21047,30 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "name" : "const std::vector<android::ui::DisplayMode, std::allocator<android::ui::DisplayMode>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEEE",
    "name" : "const std::vector<android::hardware::graphics::common::V1_2::Hdr, std::allocator<android::hardware::graphics::common::V1_2::Hdr>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/HdrCapabilities.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "name" : "const std::vector<android::hardware::graphics::common::V1_2::ColorMode, std::allocator<android::hardware::graphics::common::V1_2::ColorMode>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -20327,6 +21154,15 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "name" : "const std::variant<ModelYear, ManufactureYear, ManufactureWeekAndYear> &",
+   "referenced_type" : "_ZTIKNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "self_type" : "_ZTIRKNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
    "linker_set_key" : "_ZTIRKNSt3__18functionIFT0_S1_EEE",
    "name" : "const function<type-parameter-0-1 (type-parameter-0-1)> &",
    "referenced_type" : "_ZTIKNSt3__18functionIFT0_S1_EEE",
@@ -20341,6 +21177,15 @@
    "self_type" : "_ZTIRKNSt3__18functionIFffEEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/math/include/math/TVecHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "name" : "const std::optional<android::DeviceProductInfo> &",
+   "referenced_type" : "_ZTIKNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "self_type" : "_ZTIRKNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -20720,6 +21565,33 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android2ui21DisplayConnectionTypeE",
+   "name" : "android::ui::DisplayConnectionType &",
+   "referenced_type" : "_ZTIN7android2ui21DisplayConnectionTypeE",
+   "self_type" : "_ZTIRN7android2ui21DisplayConnectionTypeE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android2ui4SizeE",
+   "name" : "android::ui::Size &",
+   "referenced_type" : "_ZTIN7android2ui4SizeE",
+   "self_type" : "_ZTIRN7android2ui4SizeE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android2ui8RotationE",
+   "name" : "android::ui::Rotation &",
+   "referenced_type" : "_ZTIN7android2ui8RotationE",
+   "self_type" : "_ZTIRN7android2ui8RotationE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRN7android2ui9TransformE",
    "name" : "android::ui::Transform &",
    "referenced_type" : "_ZTIN7android2ui9TransformE",
@@ -21017,6 +21889,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android8hardware8graphics6common4V1_29ColorModeE",
+   "name" : "android::hardware::graphics::common::V1_2::ColorMode &",
+   "referenced_type" : "_ZTIN7android8hardware8graphics6common4V1_29ColorModeE",
+   "self_type" : "_ZTIRN7android8hardware8graphics6common4V1_29ColorModeE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRN7android8hardware8graphics6mapper4V4_07IMapper10BufferDumpE",
    "name" : "android::hardware::graphics::mapper::V4_0::IMapper::BufferDump &",
    "referenced_type" : "_ZTIN7android8hardware8graphics6mapper4V4_07IMapper10BufferDumpE",
@@ -21152,6 +22033,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRNSt3__15arrayIcLj4EEE",
+   "name" : "std::array<char, 4> &",
+   "referenced_type" : "_ZTINSt3__15arrayIcLj4EEE",
+   "self_type" : "_ZTIRNSt3__15arrayIcLj4EEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "name" : "std::variant<ModelYear, ManufactureYear, ManufactureWeekAndYear> &",
+   "referenced_type" : "_ZTINSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "self_type" : "_ZTIRNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRPKi",
    "name" : "const int *&",
    "referenced_type" : "_ZTIPKi",
@@ -21193,7 +22092,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIRb",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/math/include/math/vec2.h"
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -21202,7 +22101,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIRf",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/math/include/math/vec2.h"
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -21211,7 +22110,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIRh",
    "size" : 4,
-   "source_file" : "system/libhidl/base/include/hidl/HidlInternal.h"
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -22001,6 +22900,33 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "name" : "const android::LightFlattenable<android::HdrCapabilities> *",
+   "referenced_type" : "_ZTIKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "self_type" : "_ZTIPKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "name" : "const android::LightFlattenable<android::DeviceProductInfo> *",
+   "referenced_type" : "_ZTIKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "self_type" : "_ZTIPKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "name" : "const android::LightFlattenable<android::ui::DisplayMode> *",
+   "referenced_type" : "_ZTIKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "self_type" : "_ZTIPKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android16key_value_pair_tIPK13native_handleNS_22GraphicBufferAllocator11alloc_rec_tEEE",
    "name" : "const android::key_value_pair_t<const native_handle *, android::GraphicBufferAllocator::alloc_rec_t> *",
    "referenced_type" : "_ZTIKN7android16key_value_pair_tIPK13native_handleNS_22GraphicBufferAllocator11alloc_rec_tEEE",
@@ -22190,6 +23116,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android2ui11DisplayModeE",
+   "name" : "const android::ui::DisplayMode *",
+   "referenced_type" : "_ZTIKN7android2ui11DisplayModeE",
+   "self_type" : "_ZTIPKN7android2ui11DisplayModeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/DisplayMode.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android2ui17StaticDisplayInfoE",
+   "name" : "const android::ui::StaticDisplayInfo *",
+   "referenced_type" : "_ZTIKN7android2ui17StaticDisplayInfoE",
+   "self_type" : "_ZTIPKN7android2ui17StaticDisplayInfoE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android2ui18DynamicDisplayInfoE",
    "name" : "const android::ui::DynamicDisplayInfo *",
    "referenced_type" : "_ZTIKN7android2ui18DynamicDisplayInfoE",
@@ -22322,15 +23266,6 @@
    "self_type" : "_ZTIPKN7android6RegionE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/Region.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android6VectorINS_7String8EEE",
-   "name" : "const android::Vector<android::String8> *",
-   "referenced_type" : "_ZTIKN7android6VectorINS_7String8EEE",
-   "self_type" : "_ZTIPKN7android6VectorINS_7String8EEE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
   },
   {
    "alignment" : 4,
@@ -22700,15 +23635,6 @@
    "self_type" : "_ZTIPKN7android8hardware8hidl_vecIjEE",
    "size" : 4,
    "source_file" : "system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android9CallStackE",
-   "name" : "const android::CallStack *",
-   "referenced_type" : "_ZTIKN7android9CallStackE",
-   "self_type" : "_ZTIPKN7android9CallStackE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/CallStack.h"
   },
   {
    "alignment" : 4,
@@ -23189,6 +24115,33 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "name" : "android::LightFlattenable<android::HdrCapabilities> *",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "self_type" : "_ZTIPN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "name" : "android::LightFlattenable<android::DeviceProductInfo> *",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "self_type" : "_ZTIPN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "name" : "android::LightFlattenable<android::ui::DisplayMode> *",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "self_type" : "_ZTIPN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android16ReferenceRenamerE",
    "name" : "android::ReferenceRenamer *",
    "referenced_type" : "_ZTIN7android16ReferenceRenamerE",
@@ -23222,6 +24175,15 @@
    "self_type" : "_ZTIPN7android17ANativeObjectBaseI19ANativeWindowBufferNS_13GraphicBufferENS_7RefBaseE21android_native_base_tEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/ANativeObjectBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android17DeviceProductInfoE",
+   "name" : "android::DeviceProductInfo *",
+   "referenced_type" : "_ZTIN7android17DeviceProductInfoE",
+   "self_type" : "_ZTIPN7android17DeviceProductInfoE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/DeviceProductInfo.h"
   },
   {
    "alignment" : 4,
@@ -23432,12 +24394,57 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android2ui11DisplayModeE",
+   "name" : "android::ui::DisplayMode *",
+   "referenced_type" : "_ZTIN7android2ui11DisplayModeE",
+   "self_type" : "_ZTIPN7android2ui11DisplayModeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/DisplayMode.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android2ui17StaticDisplayInfoE",
+   "name" : "android::ui::StaticDisplayInfo *",
+   "referenced_type" : "_ZTIN7android2ui17StaticDisplayInfoE",
+   "self_type" : "_ZTIPN7android2ui17StaticDisplayInfoE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android2ui18DynamicDisplayInfoE",
+   "name" : "android::ui::DynamicDisplayInfo *",
+   "referenced_type" : "_ZTIN7android2ui18DynamicDisplayInfoE",
+   "self_type" : "_ZTIPN7android2ui18DynamicDisplayInfoE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/DynamicDisplayInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android2ui21DisplayConnectionTypeE",
+   "name" : "android::ui::DisplayConnectionType *",
+   "referenced_type" : "_ZTIN7android2ui21DisplayConnectionTypeE",
+   "self_type" : "_ZTIPN7android2ui21DisplayConnectionTypeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android2ui4SizeE",
    "name" : "android::ui::Size *",
    "referenced_type" : "_ZTIN7android2ui4SizeE",
    "self_type" : "_ZTIPN7android2ui4SizeE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/Size.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android2ui8RotationE",
+   "name" : "android::ui::Rotation *",
+   "referenced_type" : "_ZTIN7android2ui8RotationE",
+   "self_type" : "_ZTIPN7android2ui8RotationE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -23609,15 +24616,6 @@
    "self_type" : "_ZTIPN7android6ThreadE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android6VectorINS_7String8EEE",
-   "name" : "android::Vector<android::String8> *",
-   "referenced_type" : "_ZTIN7android6VectorINS_7String8EEE",
-   "self_type" : "_ZTIPN7android6VectorINS_7String8EEE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
   },
   {
    "alignment" : 4,
@@ -24044,6 +25042,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android8hardware8graphics6common4V1_29ColorModeE",
+   "name" : "android::hardware::graphics::common::V1_2::ColorMode *",
+   "referenced_type" : "_ZTIN7android8hardware8graphics6common4V1_29ColorModeE",
+   "self_type" : "_ZTIPN7android8hardware8graphics6common4V1_29ColorModeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android8hardware8graphics6common4V1_29DataspaceE",
    "name" : "android::hardware::graphics::common::V1_2::Dataspace *",
    "referenced_type" : "_ZTIN7android8hardware8graphics6common4V1_29DataspaceE",
@@ -24233,24 +25240,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android9CallStack12StackDeleterE",
-   "name" : "android::CallStack::StackDeleter *",
-   "referenced_type" : "_ZTIN7android9CallStack12StackDeleterE",
-   "self_type" : "_ZTIPN7android9CallStack12StackDeleterE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/CallStack.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android9CallStackE",
-   "name" : "android::CallStack *",
-   "referenced_type" : "_ZTIN7android9CallStackE",
-   "self_type" : "_ZTIPN7android9CallStackE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/CallStack.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android9ConditionE",
    "name" : "android::Condition *",
    "referenced_type" : "_ZTIN7android9ConditionE",
@@ -24310,7 +25299,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24341,6 +25330,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__15arrayIcLj4EEE",
+   "name" : "std::array<char, 4> *",
+   "referenced_type" : "_ZTINSt3__15arrayIcLj4EEE",
+   "self_type" : "_ZTIPNSt3__15arrayIcLj4EEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPNSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "name" : "std::vector<char16_t, std::allocator<char16_t>> *",
    "referenced_type" : "_ZTINSt3__16vectorIDsNS_9allocatorIDsEEEE",
@@ -24356,6 +25354,24 @@
    "self_type" : "_ZTIPNSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS_9allocatorIS6_EEEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "name" : "std::vector<android::ui::DisplayMode, std::allocator<android::ui::DisplayMode>> *",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "self_type" : "_ZTIPNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "name" : "std::vector<android::hardware::graphics::common::V1_2::ColorMode, std::allocator<android::hardware::graphics::common::V1_2::ColorMode>> *",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "self_type" : "_ZTIPNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24431,6 +25447,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "name" : "std::variant<ModelYear, ManufactureYear, ManufactureWeekAndYear> *",
+   "referenced_type" : "_ZTINSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "self_type" : "_ZTIPNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPNSt3__18optionalIN4aidl7android8hardware8graphics6common8Cta861_3EEE",
    "name" : "std::optional<aidl::android::hardware::graphics::common::Cta861_3> *",
    "referenced_type" : "_ZTINSt3__18optionalIN4aidl7android8hardware8graphics6common8Cta861_3EEE",
@@ -24446,6 +25471,15 @@
    "self_type" : "_ZTIPNSt3__18optionalIN4aidl7android8hardware8graphics6common9Smpte2086EEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "name" : "std::optional<android::DeviceProductInfo> *",
+   "referenced_type" : "_ZTINSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "self_type" : "_ZTIPNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24566,12 +25600,21 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPPKv",
+   "name" : "const void **",
+   "referenced_type" : "_ZTIPKv",
+   "self_type" : "_ZTIPPKv",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPPv",
    "name" : "void **",
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIPPv",
    "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/AndroidThreads.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24580,7 +25623,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIPb",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24590,6 +25633,15 @@
    "self_type" : "_ZTIPc",
    "size" : 4,
    "source_file" : "system/logging/liblog/include_vndk/log/log_read.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPf",
+   "name" : "float *",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIPf",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24607,7 +25659,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Fence.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24616,7 +25668,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIPj",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24634,7 +25686,7 @@
    "referenced_type" : "_ZTIx",
    "self_type" : "_ZTIPx",
    "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -24643,7 +25695,7 @@
    "referenced_type" : "_ZTIy",
    "self_type" : "_ZTIPy",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Gralloc.h"
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   }
  ],
  "qualified_types" :
@@ -25105,6 +26157,36 @@
    "source_file" : "frameworks/native/libs/ui/include_private/ui/RegionHelper.h"
   },
   {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "name" : "const android::LightFlattenable<android::HdrCapabilities>",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "self_type" : "_ZTIKN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "name" : "const android::LightFlattenable<android::DeviceProductInfo>",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "self_type" : "_ZTIKN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "name" : "const android::LightFlattenable<android::ui::DisplayMode>",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "self_type" : "_ZTIKN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android16key_value_pair_tIPK13native_handleNS_22GraphicBufferAllocator11alloc_rec_tEEE",
@@ -25345,6 +26427,26 @@
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2ui11DisplayModeE",
+   "name" : "const android::ui::DisplayMode",
+   "referenced_type" : "_ZTIN7android2ui11DisplayModeE",
+   "self_type" : "_ZTIKN7android2ui11DisplayModeE",
+   "size" : 56,
+   "source_file" : "frameworks/native/libs/ui/include/ui/DisplayMode.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2ui17StaticDisplayInfoE",
+   "name" : "const android::ui::StaticDisplayInfo",
+   "referenced_type" : "_ZTIN7android2ui17StaticDisplayInfoE",
+   "self_type" : "_ZTIKN7android2ui17StaticDisplayInfoE",
+   "size" : 72,
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android2ui18DynamicDisplayInfoE",
@@ -25353,6 +26455,16 @@
    "self_type" : "_ZTIKN7android2ui18DynamicDisplayInfoE",
    "size" : 64,
    "source_file" : "frameworks/native/libs/ui/include/ui/DynamicDisplayInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2ui21DisplayConnectionTypeE",
+   "name" : "const android::ui::DisplayConnectionType",
+   "referenced_type" : "_ZTIN7android2ui21DisplayConnectionTypeE",
+   "self_type" : "_ZTIKN7android2ui21DisplayConnectionTypeE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -25513,16 +26625,6 @@
    "self_type" : "_ZTIKN7android6RegionE",
    "size" : 84,
    "source_file" : "frameworks/native/libs/ui/include/ui/Region.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android6VectorINS_7String8EEE",
-   "name" : "const android::Vector<android::String8>",
-   "referenced_type" : "_ZTIN7android6VectorINS_7String8EEE",
-   "self_type" : "_ZTIKN7android6VectorINS_7String8EEE",
-   "size" : 20,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
   },
   {
    "alignment" : 4,
@@ -26231,16 +27333,6 @@
    "source_file" : "system/libhidl/base/include/hidl/HidlSupport.h"
   },
   {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android9CallStackE",
-   "name" : "const android::CallStack",
-   "referenced_type" : "_ZTIN7android9CallStackE",
-   "self_type" : "_ZTIKN7android9CallStackE",
-   "size" : 20,
-   "source_file" : "system/core/libutils/include/utils/CallStack.h"
-  },
-  {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android9DisplayIdE",
@@ -26671,6 +27763,16 @@
    "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/mapper/4.0/android.hardware.graphics.mapper@4.0_genc++_headers/gen/android/hardware/graphics/mapper/4.0/types.h"
   },
   {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIcLj4EEE",
+   "name" : "const std::array<char, 4>",
+   "referenced_type" : "_ZTINSt3__15arrayIcLj4EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIcLj4EEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__15arrayIfLj9EEE",
@@ -26723,12 +27825,32 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "name" : "const std::vector<android::ui::DisplayMode, std::allocator<android::ui::DisplayMode>>",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorIN7android2ui11DisplayModeENS_9allocatorIS3_EEEE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEEE",
    "name" : "const std::vector<android::hardware::graphics::common::V1_2::Hdr, std::allocator<android::hardware::graphics::common::V1_2::Hdr>>",
    "referenced_type" : "_ZTINSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIN7android8hardware8graphics6common4V1_23HdrENS_9allocatorIS6_EEEE",
    "size" : 12,
    "source_file" : "frameworks/native/libs/ui/include/ui/HdrCapabilities.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "name" : "const std::vector<android::hardware::graphics::common::V1_2::ColorMode, std::allocator<android::hardware::graphics::common::V1_2::ColorMode>>",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorIN7android8hardware8graphics6common4V1_29ColorModeENS_9allocatorIS6_EEEE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -26821,6 +27943,16 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "name" : "const std::variant<ModelYear, ManufactureYear, ManufactureWeekAndYear>",
+   "referenced_type" : "_ZTINSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "self_type" : "_ZTIKNSt3__17variantIJN7android17DeviceProductInfo9ModelYearENS2_15ManufactureYearENS2_22ManufactureWeekAndYearEEEE",
+   "size" : 12,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
+  },
+  {
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18functionIFT0_S1_EEE",
    "name" : "const function<type-parameter-0-1 (type-parameter-0-1)>",
@@ -26837,6 +27969,16 @@
    "self_type" : "_ZTIKNSt3__18functionIFffEEE",
    "size" : 24,
    "source_file" : "frameworks/native/libs/math/include/math/TVecHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "name" : "const std::optional<android::DeviceProductInfo>",
+   "referenced_type" : "_ZTINSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "self_type" : "_ZTIKNSt3__18optionalIN7android17DeviceProductInfoEEE",
+   "size" : 56,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 4,
@@ -30219,6 +31361,12 @@
   },
   {
    "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android16LightFlattenableINS_15HdrCapabilitiesEEE"
+    }
+   ],
    "fields" :
    [
     {
@@ -30509,6 +31657,76 @@
    "template_args" :
    [
     "_ZTIN7android10FrameStatsE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "name" : "android::LightFlattenable<android::HdrCapabilities>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "self_type" : "_ZTIN7android16LightFlattenableINS_15HdrCapabilitiesEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h",
+   "template_args" :
+   [
+    "_ZTIN7android15HdrCapabilitiesE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "name" : "android::LightFlattenable<android::DeviceProductInfo>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "self_type" : "_ZTIN7android16LightFlattenableINS_17DeviceProductInfoEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h",
+   "template_args" :
+   [
+    "_ZTIN7android17DeviceProductInfoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "name" : "android::LightFlattenable<android::ui::DisplayMode>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "self_type" : "_ZTIN7android16LightFlattenableINS_2ui11DisplayModeEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h",
+   "template_args" :
+   [
+    "_ZTIN7android2ui11DisplayModeE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android16LightFlattenableINS_2ui17StaticDisplayInfoEEE",
+   "name" : "android::LightFlattenable<android::ui::StaticDisplayInfo>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui17StaticDisplayInfoEEE",
+   "self_type" : "_ZTIN7android16LightFlattenableINS_2ui17StaticDisplayInfoEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h",
+   "template_args" :
+   [
+    "_ZTIN7android2ui17StaticDisplayInfoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android16LightFlattenableINS_2ui18DynamicDisplayInfoEEE",
+   "name" : "android::LightFlattenable<android::ui::DynamicDisplayInfo>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui18DynamicDisplayInfoEEE",
+   "self_type" : "_ZTIN7android16LightFlattenableINS_2ui18DynamicDisplayInfoEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Flattenable.h",
+   "template_args" :
+   [
+    "_ZTIN7android2ui18DynamicDisplayInfoE"
    ]
   },
   {
@@ -30830,6 +32048,12 @@
   },
   {
    "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android16LightFlattenableINS_17DeviceProductInfoEEE"
+    }
+   ],
    "fields" :
    [
     {
@@ -31058,6 +32282,15 @@
    "self_type" : "_ZTIN7android17PhysicalDisplayIdE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/ui/include/ui/DisplayId.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18FlattenableHelpersE",
+   "name" : "android::FlattenableHelpers",
+   "referenced_type" : "_ZTIN7android18FlattenableHelpersE",
+   "self_type" : "_ZTIN7android18FlattenableHelpersE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/ui/include_private/ui/FlattenableHelpers.h"
   },
   {
    "alignment" : 1,
@@ -32813,6 +34046,12 @@
   },
   {
    "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui11DisplayModeEEE"
+    }
+   ],
    "fields" :
    [
     {
@@ -32869,6 +34108,54 @@
   },
   {
    "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui17StaticDisplayInfoEEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "field_name" : "connectionType",
+     "referenced_type" : "_ZTIN7android2ui21DisplayConnectionTypeE"
+    },
+    {
+     "field_name" : "density",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "field_name" : "secure",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "deviceProductInfo",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTINSt3__18optionalIN7android17DeviceProductInfoEEE"
+    },
+    {
+     "field_name" : "installOrientation",
+     "field_offset" : 544,
+     "referenced_type" : "_ZTIN7android2ui8RotationE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2ui17StaticDisplayInfoE",
+   "name" : "android::ui::StaticDisplayInfo",
+   "referenced_type" : "_ZTIN7android2ui17StaticDisplayInfoE",
+   "self_type" : "_ZTIN7android2ui17StaticDisplayInfoE",
+   "size" : 72,
+   "source_file" : "frameworks/native/libs/ui/include/ui/StaticDisplayInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android16LightFlattenableINS_2ui18DynamicDisplayInfoEEE"
+    }
+   ],
    "fields" :
    [
     {
@@ -33774,63 +35061,6 @@
     },
     {
      "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
-    }
-   ]
-  },
-  {
-   "alignment" : 4,
-   "base_specifiers" :
-   [
-    {
-     "access" : "private",
-     "referenced_type" : "_ZTIN7android10VectorImplE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6VectorINS_7String8EEE",
-   "name" : "android::Vector<android::String8>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android6VectorINS_7String8EEE",
-   "self_type" : "_ZTIN7android6VectorINS_7String8EEE",
-   "size" : 20,
-   "source_file" : "system/core/libutils/include/utils/Vector.h",
-   "template_args" :
-   [
-    "_ZTIN7android7String8E"
-   ],
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android6VectorINS_7String8EEE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_7String8EED1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_7String8EED0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE12do_constructEPvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE10do_destroyEPvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE7do_copyEPvPKvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE8do_splatEPvPKvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE15do_move_forwardEPvPKvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE16do_move_backwardEPvPKvj"
     }
    ]
   },
@@ -40440,33 +41670,6 @@
    [
     "_ZTINSt3__16vectorIiNS_9allocatorIiEEEE"
    ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android9CallStack12StackDeleterE",
-   "name" : "android::CallStack::StackDeleter",
-   "referenced_type" : "_ZTIN7android9CallStack12StackDeleterE",
-   "self_type" : "_ZTIN7android9CallStack12StackDeleterE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/CallStack.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "mFrameLines",
-     "referenced_type" : "_ZTIN7android6VectorINS_7String8EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android9CallStackE",
-   "name" : "android::CallStack",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android9CallStackE",
-   "self_type" : "_ZTIN7android9CallStackE",
-   "size" : 20,
-   "source_file" : "system/core/libutils/include/utils/CallStack.h"
   },
   {
    "alignment" : 4,

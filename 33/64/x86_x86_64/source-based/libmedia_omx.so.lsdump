@@ -209,11 +209,11 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIA73_PKc",
-   "name" : "const char *[73]",
+   "linker_set_key" : "_ZTIA74_PKc",
+   "name" : "const char *[74]",
    "referenced_type" : "_ZTIPKc",
-   "self_type" : "_ZTIA73_PKc",
-   "size" : 292,
+   "self_type" : "_ZTIA74_PKc",
+   "size" : 296,
    "source_file" : "frameworks/native/libs/binder/include/binder/IInterface.h"
   },
   {
@@ -2654,10 +2654,6 @@
     },
     {
      "enum_field_value" : 1870659592,
-     "name" : "OMX_IndexConfigAndroidTunnelPeekLegacyMode"
-    },
-    {
-     "enum_field_value" : 1870659593,
      "name" : "OMX_IndexExtOtherEndUnused"
     },
     {
@@ -18081,15 +18077,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android6Parcel12KernelFieldsE",
-   "name" : "const android::Parcel::KernelFields *",
-   "referenced_type" : "_ZTIKN7android6Parcel12KernelFieldsE",
-   "self_type" : "_ZTIPKN7android6Parcel12KernelFieldsE",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android6Parcel12ReadableBlobE",
    "name" : "const android::Parcel::ReadableBlob *",
    "referenced_type" : "_ZTIKN7android6Parcel12ReadableBlobE",
@@ -18112,15 +18099,6 @@
    "name" : "const android::Parcel::Blob *",
    "referenced_type" : "_ZTIKN7android6Parcel4BlobE",
    "self_type" : "_ZTIPKN7android6Parcel4BlobE",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android6Parcel9RpcFieldsE",
-   "name" : "const android::Parcel::RpcFields *",
-   "referenced_type" : "_ZTIKN7android6Parcel9RpcFieldsE",
-   "self_type" : "_ZTIPKN7android6Parcel9RpcFieldsE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -19386,15 +19364,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android6Parcel12KernelFieldsE",
-   "name" : "android::Parcel::KernelFields *",
-   "referenced_type" : "_ZTIN7android6Parcel12KernelFieldsE",
-   "self_type" : "_ZTIPN7android6Parcel12KernelFieldsE",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android6Parcel12ReadableBlobE",
    "name" : "android::Parcel::ReadableBlob *",
    "referenced_type" : "_ZTIN7android6Parcel12ReadableBlobE",
@@ -19426,15 +19395,6 @@
    "name" : "android::Parcel::FlattenableHelperInterface *",
    "referenced_type" : "_ZTIN7android6Parcel26FlattenableHelperInterfaceE",
    "self_type" : "_ZTIPN7android6Parcel26FlattenableHelperInterfaceE",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android6Parcel9RpcFieldsE",
-   "name" : "android::Parcel::RpcFields *",
-   "referenced_type" : "_ZTIN7android6Parcel9RpcFieldsE",
-   "self_type" : "_ZTIPN7android6Parcel9RpcFieldsE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -20465,11 +20425,11 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIA73_KPKc",
-   "name" : "const char *const[73]",
-   "referenced_type" : "_ZTIA73_PKc",
-   "self_type" : "_ZTIA73_KPKc",
-   "size" : 292,
+   "linker_set_key" : "_ZTIA74_KPKc",
+   "name" : "const char *const[74]",
+   "referenced_type" : "_ZTIA74_PKc",
+   "self_type" : "_ZTIA74_KPKc",
+   "size" : 296,
    "source_file" : "frameworks/native/libs/binder/include/binder/IInterface.h"
   },
   {
@@ -20931,16 +20891,6 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android2spINS_10RpcSessionEEE",
-   "name" : "const android::sp<android::RpcSession>",
-   "referenced_type" : "_ZTIN7android2spINS_10RpcSessionEEE",
-   "self_type" : "_ZTIKN7android2spINS_10RpcSessionEEE",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android2spINS_12H2BConverterINS_8hardware5media3omx4V1_08IOmxNodeENS_9BnOMXNodeEE8ObituaryEEE",
    "name" : "const android::sp<android::H2BConverter<android::hardware::media::omx::V1_0::IOmxNode, android::BnOMXNode>::Obituary>",
    "referenced_type" : "_ZTIN7android2spINS_12H2BConverterINS_8hardware5media3omx4V1_08IOmxNodeENS_9BnOMXNodeEE8ObituaryEEE",
@@ -21389,16 +21339,6 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android6Parcel12KernelFieldsE",
-   "name" : "const android::Parcel::KernelFields",
-   "referenced_type" : "_ZTIN7android6Parcel12KernelFieldsE",
-   "self_type" : "_ZTIKN7android6Parcel12KernelFieldsE",
-   "size" : 24,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android6Parcel12ReadableBlobE",
    "name" : "const android::Parcel::ReadableBlob",
    "referenced_type" : "_ZTIN7android6Parcel12ReadableBlobE",
@@ -21424,16 +21364,6 @@
    "referenced_type" : "_ZTIN7android6Parcel4BlobE",
    "self_type" : "_ZTIKN7android6Parcel4BlobE",
    "size" : 16,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android6Parcel9RpcFieldsE",
-   "name" : "const android::Parcel::RpcFields",
-   "referenced_type" : "_ZTIN7android6Parcel9RpcFieldsE",
-   "self_type" : "_ZTIKN7android6Parcel9RpcFieldsE",
-   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
   },
   {
@@ -27597,7 +27527,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN35OMX_CONFIG_ANDROID_VENDOR_PARAMTYPEUt_E",
-   "name" : "OMX_CONFIG_ANDROID_VENDOR_PARAMTYPE::(anonymous union at frameworks/native/headers/media_plugin/media/openmax/OMX_IndexExt.h:141:5)",
+   "name" : "OMX_CONFIG_ANDROID_VENDOR_PARAMTYPE::(anonymous union at frameworks/native/headers/media_plugin/media/openmax/OMX_IndexExt.h:140:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN35OMX_CONFIG_ANDROID_VENDOR_PARAMTYPEUt_E",
    "self_type" : "_ZTIN35OMX_CONFIG_ANDROID_VENDOR_PARAMTYPEUt_E",
@@ -34246,7 +34176,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_silvermont_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_x86_64_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7String8EE13_ListIteratorIS1_NS2_18NON_CONST_ITERATOREEE",
@@ -34301,13 +34231,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_silvermont_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_x86_64_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_silvermont_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_x86_64_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7String8EE5_NodeE",
@@ -34820,63 +34750,6 @@
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ADebug.h"
   },
   {
-   "access" : "private",
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "mObjects",
-     "referenced_type" : "_ZTIPy"
-    },
-    {
-     "field_name" : "mObjectsSize",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "mObjectsCapacity",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "mNextObjectHint",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "mWorkSourceRequestHeaderPosition",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "mRequestHeaderPresent",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "field_name" : "mObjectsSorted",
-     "field_offset" : 168,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "field_name" : "mFdsKnown",
-     "field_offset" : 176,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "field_name" : "mHasFds",
-     "field_offset" : 184,
-     "referenced_type" : "_ZTIb"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6Parcel12KernelFieldsE",
-   "name" : "android::Parcel::KernelFields",
-   "referenced_type" : "_ZTIN7android6Parcel12KernelFieldsE",
-   "self_type" : "_ZTIN7android6Parcel12KernelFieldsE",
-   "size" : 24,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
    "alignment" : 4,
    "base_specifiers" :
    [
@@ -35129,23 +35002,6 @@
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
   },
   {
-   "access" : "private",
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "mSession",
-     "referenced_type" : "_ZTIKN7android2spINS_10RpcSessionEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6Parcel9RpcFieldsE",
-   "name" : "android::Parcel::RpcFields",
-   "referenced_type" : "_ZTIN7android6Parcel9RpcFieldsE",
-   "self_type" : "_ZTIN7android6Parcel9RpcFieldsE",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
    "alignment" : 4,
    "fields" :
    [
@@ -35180,27 +35036,81 @@
     },
     {
      "access" : "private",
-     "field_name" : "mVariantFields",
+     "field_name" : "mObjects",
      "field_offset" : 160,
-     "referenced_type" : "_ZTINSt3__17variantIJN7android6Parcel12KernelFieldsENS2_9RpcFieldsEEEE"
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mObjectsSize",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mObjectsCapacity",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mNextObjectHint",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mObjectsSorted",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mRequestHeaderPresent",
+     "field_offset" : 296,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mWorkSourceRequestHeaderPosition",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mFdsKnown",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHasFds",
+     "field_offset" : 360,
+     "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
      "field_name" : "mAllowFds",
-     "field_offset" : 384,
+     "field_offset" : 368,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
      "field_name" : "mDeallocZero",
-     "field_offset" : 392,
+     "field_offset" : 376,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
      "field_name" : "mOwner",
-     "field_offset" : 416,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIPFvPN7android6ParcelEPKhjPKyjE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mSession",
+     "field_offset" : 416,
+     "referenced_type" : "_ZTIN7android2spINS_10RpcSessionEEE"
     },
     {
      "access" : "private",
