@@ -1746,10 +1746,6 @@
      "name" : "AUDIO_FORMAT_DRA"
     },
     {
-     "enum_field_value" : 805306368,
-     "name" : "VX_AUDIO_FORMAT_APTX_ADAPTIVE_QLEA"
-    },
-    {
      "enum_field_value" : 721420288,
      "name" : "VX_AUDIO_FORMAT_LC3"
     },

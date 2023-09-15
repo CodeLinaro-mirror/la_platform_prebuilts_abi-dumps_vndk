@@ -2948,7 +2948,7 @@
     },
     {
      "enum_field_value" : 805306368,
-     "name" : "VX_AUDIO_FORMAT_APTX_ADAPTIVE_QLEA"
+     "name" : "AUDIO_FORMAT_APTX_ADAPTIVE_QLEA"
     },
     {
      "enum_field_value" : 822083584,
