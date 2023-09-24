@@ -34,7 +34,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA12_j",
    "size" : 48,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -52,7 +52,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA25_j",
    "size" : 100,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -142,7 +142,7 @@
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIA7_Pv",
    "size" : 28,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 1,
@@ -160,7 +160,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA7_i",
    "size" : 28,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -862,6 +862,30 @@
    "name" : "_ZN7android2spINS_5FenceEED2Ev"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_5FenceEEaSEPS1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEaSEOS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEaSEOS6_"
+  },
+  {
    "name" : "_ZN7android2ui9Transform3setERKNSt3__15arrayIfLj9EEE"
   },
   {
@@ -1157,10 +1181,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android9SingletonINS_19GraphicBufferMapperEE11getInstanceEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android9SingletonINS_19GraphicBufferMapperEE11hasInstanceEv"
   },
   {
@@ -1424,6 +1444,18 @@
    "name" : "_ZNK7android14Gralloc4Mapper17getAllocationSizeEPK13native_handlePy"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperIN4aidl7android8hardware8graphics6common9DataspaceEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpENS6_20StandardMetadataTypeEPFiRKNS8_8hidl_vecIhEEPT_ESM_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperINS_8hardware8graphics6common4V1_211PixelFormatEEEiRKNS3_6mapper4V4_07IMapper10BufferDumpEN4aidl7android8hardware8graphics6common20StandardMetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper18metadataDumpHelperIjEEiRKNS_8hardware8graphics6mapper4V4_07IMapper10BufferDumpEN4aidl7android8hardware8graphics6common20StandardMetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESL_"
+  },
+  {
    "name" : "_ZNK7android14Gralloc4Mapper18validateBufferSizeEPK13native_handlejjijyj"
   },
   {
@@ -1440,6 +1472,50 @@
   },
   {
    "name" : "_ZNK7android14Gralloc4Mapper26listSupportedMetadataTypesEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIN4aidl7android8hardware8graphics6common14ExtendableTypeEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSB_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIN4aidl7android8hardware8graphics6common9BlendModeEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSB_8hidl_vecIhEEPT_ESO_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINS_8hardware8graphics6common4V1_211PixelFormatEEEiPK13native_handleRKNS3_6mapper4V4_07IMapper12MetadataTypeEPFiRKNS2_8hidl_vecIhEEPT_ESL_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSC_8hidl_vecIhEEPT_ESP_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__18optionalIN4aidl7android8hardware8graphics6common8Cta861_3EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSE_8hidl_vecIhEEPT_ESR_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getINSt3__18optionalIN4aidl7android8hardware8graphics6common9Smpte2086EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNSE_8hidl_vecIhEEPT_ESR_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIjEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNS5_8hidl_vecIhEEPT_ESI_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3getIyEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeEPFiRKNS5_8hidl_vecIhEEPT_ESI_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setIN4aidl7android8hardware8graphics6common9DataspaceEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSL_PNSB_8hidl_vecIhEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setINSt3__18optionalIN4aidl7android8hardware8graphics6common8Cta861_3EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSO_PNSE_8hidl_vecIhEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android14Gralloc4Mapper3setINSt3__18optionalIN4aidl7android8hardware8graphics6common9Smpte2086EEEEEiPK13native_handleRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PFiSO_PNSE_8hidl_vecIhEEE"
   },
   {
    "name" : "_ZNK7android14Gralloc4Mapper4lockEPK13native_handleyRKNS_4RectEiP13android_ycbcr"
@@ -2218,15 +2294,23 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8graphics9allocator10IAllocatorEED2Ev"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__110shared_ptrIN7android9FenceTimeEED2Ev"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE14__erase_uniqueIS4_EEjRKT_"
+   "name" : "_ZNSt3__112__deque_baseINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE3endEv"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJOS4_EEENSR_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE4findIS4_EENS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_"
   },
   {
    "binding" : "weak",
@@ -2242,7 +2326,39 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIN3ndk20ScopedFileDescriptorENS_9allocatorIS2_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIiNS_9allocatorIiEEED2Ev"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIN4aidl7android8hardware8graphics6common11PlaneLayoutERNS_9allocatorIS6_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android4RectERNS1_18InlineStdAllocatorIS2_Lj4EEEEC2EjjS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android4RectERNS1_18InlineStdAllocatorIS2_Lj4EEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS4_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2259,6 +2375,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEE9push_backEOS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2314,15 +2434,19 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJEEEvDpOT_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS_9allocatorIS6_EEE6assignIPS6_EENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIS6_NS_15iterator_traitsISD_E9referenceEEE5valueEvE4typeESD_SD_"
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS_9allocatorIS6_EEE7reserveEj"
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common11PlaneLayoutENS_9allocatorIS6_EEE6assignIPS6_EENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIS6_NS_15iterator_traitsISD_E9referenceEEE5valueEvE4typeESD_SD_"
   },
   {
    "binding" : "weak",
@@ -2338,11 +2462,27 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android16DumpBufferResultENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android16DumpBufferResultENS_9allocatorIS2_EEE7reserveEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE12__move_rangeEPS2_S6_S6_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE21__push_back_slow_pathIRKS2_EEvOT_"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE21__push_back_slow_pathIS2_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EEPS2_"
   },
   {
    "binding" : "weak",
@@ -2362,11 +2502,27 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8hardware8graphics6mapper4V4_07IMapper23MetadataTypeDescriptionENS_9allocatorIS7_EEEC2Ej"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRS5_RS3_EEEvDpOT_"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE21__push_back_slow_pathIS4_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhN7android18InlineStdAllocatorIhLj128EEEE6resizeEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhN7android18InlineStdAllocatorIhLj128EEEE7reserveEj"
   },
   {
    "binding" : "weak",
@@ -2379,6 +2535,14 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEEC2ERKS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEEC2IPKiEET_NS_9enable_ifIXaasr21__is_forward_iteratorIS7_EE5valuesr16is_constructibleIiNS_15iterator_traitsIS7_E9referenceEEE5valueES7_E4typeE"
   },
   {
    "binding" : "weak",
@@ -3728,7 +3892,7 @@
    "referenced_type" : "_ZTI25$GRALLOC_USAGE_ALLOC_MASK",
    "self_type" : "_ZTI25$GRALLOC_USAGE_ALLOC_MASK",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h",
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -10564,7 +10728,7 @@
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP11hw_device_tE",
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -10582,7 +10746,7 @@
    "referenced_type" : "_ZTIFiP14alloc_device_tPK13native_handleE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP14alloc_device_tPK13native_handleE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10615,7 +10779,7 @@
    "referenced_type" : "_ZTIFiP14alloc_device_tiiiiPPK13native_handlePiE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP14alloc_device_tiiiiPPK13native_handlePiE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10630,7 +10794,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP20framebuffer_device_tE",
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -10648,7 +10812,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tPK13native_handleE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP20framebuffer_device_tPK13native_handleE",
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -10666,7 +10830,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tiE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP20framebuffer_device_tiE",
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -10693,7 +10857,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tiiiiE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP20framebuffer_device_tiiiiE",
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -10738,7 +10902,7 @@
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -10756,7 +10920,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10777,7 +10941,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePiE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePiE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10801,7 +10965,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePjS5_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePjS5_E",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10837,7 +11001,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10876,7 +11040,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10912,7 +11076,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10951,7 +11115,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -10984,7 +11148,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlejjiijE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlejjiijE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -11002,7 +11166,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tizE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK16gralloc_module_tizE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -11038,7 +11202,7 @@
    "referenced_type" : "_ZTIFvP14alloc_device_tPciE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP14alloc_device_tPciE",
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -11059,7 +11223,7 @@
    "referenced_type" : "_ZTIFvP20framebuffer_device_tPciE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP20framebuffer_device_tPciE",
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -14218,6 +14382,102 @@
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
+   "function_name" : "android::sp<android::Fence>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_5FenceEEaSEPS1_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_5FenceEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPN7android5FenceE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_5FenceEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::mapper::V2_1::IMapper>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics6mapper4V2_17IMapperEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::mapper::V4_0::IMapper>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics6mapper4V4_07IMapperEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::allocator::V2_0::IAllocator>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics9allocator4V2_010IAllocatorEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::allocator::V3_0::IAllocator>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics9allocator4V3_010IAllocatorEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::graphics::allocator::V4_0::IAllocator>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEaSEOS6_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware8graphics9allocator4V4_010IAllocatorEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
    "function_name" : "android::ui::Transform::set",
    "linker_set_key" : "_ZN7android2ui9Transform3setERKNSt3__15arrayIfLj9EEE",
    "parameters" :
@@ -15834,12 +16094,6 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/ui/include/ui/FenceTime.h"
-  },
-  {
-   "function_name" : "android::Singleton<android::GraphicBufferMapper>::getInstance",
-   "linker_set_key" : "_ZN7android9SingletonINS_19GraphicBufferMapperEE11getInstanceEv",
-   "return_type" : "_ZTIRN7android19GraphicBufferMapperE",
-   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "function_name" : "android::Singleton<android::GraphicBufferAllocator>::getInstance",
@@ -21765,7 +22019,7 @@
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTIP11hw_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -21774,7 +22028,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIP11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -21819,7 +22073,7 @@
    "referenced_type" : "_ZTI14alloc_device_t",
    "self_type" : "_ZTIP14alloc_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -21855,7 +22109,7 @@
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTIP19hw_module_methods_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -21864,7 +22118,7 @@
    "referenced_type" : "_ZTI20framebuffer_device_t",
    "self_type" : "_ZTIP20framebuffer_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -21954,7 +22208,7 @@
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "self_type" : "_ZTIPFiP11hw_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -21963,7 +22217,7 @@
    "referenced_type" : "_ZTIFiP14alloc_device_tPK13native_handleE",
    "self_type" : "_ZTIPFiP14alloc_device_tPK13native_handleE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -21972,7 +22226,7 @@
    "referenced_type" : "_ZTIFiP14alloc_device_tiiiiPPK13native_handlePiE",
    "self_type" : "_ZTIPFiP14alloc_device_tiiiiPPK13native_handlePiE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -21981,7 +22235,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -21990,7 +22244,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tPK13native_handleE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tPK13native_handleE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -21999,7 +22253,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tiE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tiE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -22008,7 +22262,7 @@
    "referenced_type" : "_ZTIFiP20framebuffer_device_tiiiiE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tiiiiE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -22026,7 +22280,7 @@
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "self_type" : "_ZTIPFiPK11hw_module_tPKcPP11hw_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -22035,7 +22289,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22044,7 +22298,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePiE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePiE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22053,7 +22307,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePjS5_E",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePjS5_E",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22062,7 +22316,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22071,7 +22325,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22080,7 +22334,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22089,7 +22343,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22098,7 +22352,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlejjiijE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlejjiijE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22107,7 +22361,7 @@
    "referenced_type" : "_ZTIFiPK16gralloc_module_tizE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tizE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22125,7 +22379,7 @@
    "referenced_type" : "_ZTIFvP14alloc_device_tPciE",
    "self_type" : "_ZTIPFvP14alloc_device_tPciE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -22134,7 +22388,7 @@
    "referenced_type" : "_ZTIFvP20framebuffer_device_tPciE",
    "self_type" : "_ZTIPFvP20framebuffer_device_tPciE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,
@@ -22161,7 +22415,7 @@
    "referenced_type" : "_ZTIK11hw_module_t",
    "self_type" : "_ZTIPK11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -22188,7 +22442,7 @@
    "referenced_type" : "_ZTIK16gralloc_module_t",
    "self_type" : "_ZTIPK16gralloc_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -25113,7 +25367,7 @@
    "referenced_type" : "_ZTIP11hw_device_t",
    "self_type" : "_ZTIPP11hw_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -25244,7 +25498,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIK11hw_module_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -25282,7 +25536,7 @@
    "referenced_type" : "_ZTI16gralloc_module_t",
    "self_type" : "_ZTIK16gralloc_module_t",
    "size" : 176,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -27819,7 +28073,7 @@
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTI11hw_device_t",
    "size" : 64,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -27875,7 +28129,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTI11hw_module_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -28039,7 +28293,7 @@
    "referenced_type" : "_ZTI14alloc_device_t",
    "self_type" : "_ZTI14alloc_device_t",
    "size" : 104,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -28136,7 +28390,7 @@
    "referenced_type" : "_ZTI16gralloc_module_t",
    "self_type" : "_ZTI16gralloc_module_t",
    "size" : 176,
-   "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/gralloc.h"
   },
   {
    "alignment" : 4,
@@ -28295,7 +28549,7 @@
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTI19hw_module_methods_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -28483,7 +28737,7 @@
    "referenced_type" : "_ZTI20framebuffer_device_t",
    "self_type" : "_ZTI20framebuffer_device_t",
    "size" : 184,
-   "source_file" : "hardware/libhardware/include/hardware/fb.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/fb.h"
   },
   {
    "alignment" : 4,

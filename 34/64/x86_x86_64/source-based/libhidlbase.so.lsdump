@@ -255,7 +255,23 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl4base4V1_05IBaseEEaSEPS4_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl4base4V1_05IBaseEEaSERKS5_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEaSEOS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEaSERKS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl7manager4V1_115IServiceManagerEEaSEOS5_"
   },
   {
    "binding" : "weak",
@@ -263,7 +279,31 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl7manager4V1_215IClientCallbackEEaSERKS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl7manager4V1_215IServiceManagerEEaSEOS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_4hidl7manager4V1_215IServiceManagerEEaSINS_8hardware18NoHwServiceManagerEEERS5_ONS0_IT_EE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android2spINS_8hardware25PassthroughServiceManagerEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware7IBinderEEaSEOS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_8hardware7details6WaiterEEaSEPS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2wpINS_8hardware9BHwBinderEEaSERKS3_"
   },
   {
    "name" : "_ZN7android4hidl4base4V1_05IBase11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
@@ -1833,10 +1873,6 @@
    "name" : "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_11hidl_stringEPNS0_6ParcelEjj"
   },
   {
-   "binding" : "weak",
-   "name" : "_ZN7android8hardware21writeEmbeddedToParcelINS0_11hidl_stringEEEiRKNS0_8hidl_vecIT_EEPNS0_6ParcelEjjPj"
-  },
-  {
    "name" : "_ZN7android8hardware22configureRpcThreadpoolEjb"
   },
   {
@@ -1850,10 +1886,6 @@
   },
   {
    "name" : "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_11hidl_stringERKNS0_6ParcelEjj"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8hardware22readEmbeddedFromParcelINS0_11hidl_stringEEEiRKNS0_8hidl_vecIT_EERKNS0_6ParcelEjjPj"
   },
   {
    "name" : "_ZN7android8hardware23getOrCreateCachedBinderEPNS_4hidl4base4V1_05IBaseE"
@@ -2229,6 +2261,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE4pushERKS6_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE8wait_popEv"
   },
   {
@@ -2310,6 +2346,10 @@
   },
   {
    "name" : "_ZN7android8hardware7details40registerPassthroughServiceImplementationERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_NS2_8functionIFiRKNS_2spINS_4hidl4base4V1_05IBaseEEESA_EEESA_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android8hardware7details8StatusOfIvbEENS0_6ReturnIT0_EERKNS3_IT_EE"
   },
   {
    "name" : "_ZN7android8hardware9BHwBinder10onTransactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
@@ -2688,6 +2728,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE21__match_at_start_ecmaINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb"
   },
   {
@@ -2708,10 +2752,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNKSt3__112regex_traitsIcE18__lookup_classnameIPKcEEtT_S5_bc"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNKSt3__112regex_traitsIcE19__transform_primaryINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_c"
   },
   {
@@ -2725,14 +2765,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNKSt3__112regex_traitsIcE9transformINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNKSt3__112regex_traitsIcE9transformIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_"
   },
   {
    "binding" : "weak",
@@ -2792,6 +2824,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNKSt3__16__treeINS_12__value_typeIN7android2wpINS2_4hidl4base4V1_05IBaseEEENS2_8hardware9SchedPrioEEENS_19__map_value_compareIS8_SB_NS_4lessIS8_EELb1EEENS_9allocatorISB_EEE4findIS8_EENS_21__tree_const_iteratorISB_PNS_11__tree_nodeISB_PvEEiEERKT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_4hidl4base4V1_05IBaseEEEPvEEEEENS_19__map_value_compareIS7_SJ_NS_4lessIS7_EELb1EEENS5_ISJ_EEE4findIS7_EENS_21__tree_const_iteratorISJ_PNS_11__tree_nodeISJ_SG_EEiEERKT_"
   },
   {
@@ -2801,6 +2837,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNKSt3__18functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS7_S7_S7_PNS_6vectorIPvNS_9allocatorIS9_EEEEEEclES5_S7_S7_S7_S7_SD_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN7android8hardware7details17SynchronizedQueueINS_8functionIFvvEEEEEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2840,6 +2880,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_DUP_COUNTIPKcEET_S7_S7_Ri"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_assertionIPKcEET_S7_S7_"
   },
   {
@@ -2852,11 +2896,15 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__push_alternationEPNS_16__owns_one_stateIcEES6_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_QUOTED_CHARIPKcEET_S7_S7_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_alternativeIPKcEET_S7_S7_"
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_atom_escapeIPKcEET_S7_S7_"
   },
   {
    "binding" : "weak",
@@ -2865,6 +2913,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_class_escapeIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_20__bracket_expressionIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__push_word_boundaryEb"
   },
   {
    "binding" : "weak",
@@ -2889,6 +2941,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_QUOTED_CHAR_EREIPKcEET_S7_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE"
   },
   {
    "binding" : "weak",
@@ -2924,7 +2980,15 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE31__push_end_marked_subexpressionEj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE32__parse_one_char_or_coll_elem_REIPKcEET_S7_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__push_begin_marked_subexpressionEv"
   },
   {
    "binding" : "weak",
@@ -2936,11 +3000,19 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__112__deque_baseINS_8functionIFvvEEENS_9allocatorIS3_EEE3endEv"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__112__deque_baseINS_8functionIFvvEEENS_9allocatorIS3_EEE5clearEv"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIN7android2spINS1_8hardware27hidl_binder_death_recipientEEENS_9allocatorIS5_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2952,7 +3024,35 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseINS_4pairIjPKcEENS_9allocatorIS4_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseINS_7__stateIcEENS_9allocatorIS2_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS_6vectorIPvNS_9allocatorISA_EEEEEEENSB_ISG_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIPvNS_9allocatorIS1_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__vector_baseIiNS_9allocatorIiEEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4syncEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE5closeEv"
   },
   {
    "binding" : "weak",
@@ -2996,6 +3096,26 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android2spINS1_8hardware27hidl_binder_death_recipientEEERNS_9allocatorIS5_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android2wpINS1_4hidl4base4V1_05IBaseEEERNS_9allocatorIS7_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_4pairIjPKcEERNS_9allocatorIS4_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_9sub_matchIPKcEERNS_9allocatorIS4_EEEC2EjjS7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferINS_9sub_matchIPKcEERNS_9allocatorIS4_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE10push_frontEOS3_"
   },
   {
@@ -3029,6 +3149,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPNS_8functionIFvvEEERNS_9allocatorIS4_EEE9push_backEOS4_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPNS_8functionIFvvEEERNS_9allocatorIS4_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -3096,11 +3220,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS8_4hidl4base4V1_05IBaseEEEPvEEENS_4lessIS6_EENS4_INS_4pairIKS6_SH_EEEEEixEOS6_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS8_8hardware7IBinderEEEPvEEENS_4lessIS6_EENS4_INS_4pairIKS6_SF_EEEEEixEOS6_"
+   "name" : "_ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_3setIiNS_4lessIiEENS4_IiEEEENS8_IS6_EENS4_INS_4pairIKS6_SB_EEEEEixERSE_"
   },
   {
    "binding" : "weak",
@@ -3188,6 +3308,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_4hidl4base4V1_05IBaseEEEPvEEEEENS_19__map_value_compareIS7_SJ_NS_4lessIS7_EELb1EEENS5_ISJ_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseISG_EEEERST_ST_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_4hidl4base4V1_05IBaseEEEPvEEEEENS_19__map_value_compareIS7_SJ_NS_4lessIS7_EELb1EEENS5_ISJ_EEE4findIS7_EENS_15__tree_iteratorISJ_PNS_11__tree_nodeISJ_SG_EEiEERKT_"
   },
   {
@@ -3200,11 +3324,27 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSS_IJEEEEEENS_4pairINS_15__tree_iteratorISH_PNS_11__tree_nodeISH_SE_EEiEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE4findIS7_EENS_15__tree_iteratorISH_PNS_11__tree_nodeISH_SE_EEiEERKT_"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE5eraseENS_21__tree_const_iteratorISH_PNS_11__tree_nodeISH_SE_EEiEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIPKN7android4hidl4base4V1_05IBaseENS2_2wpINS2_8hardware9BHwBinderEEEEENS_19__map_value_compareIS8_SD_NS_4lessIS8_EELb1EEENS_9allocatorISD_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIPKN7android4hidl4base4V1_05IBaseENS2_2wpINS2_8hardware9BHwBinderEEEEENS_19__map_value_compareIS8_SD_NS_4lessIS8_EELb1EEENS_9allocatorISD_EEE25__emplace_unique_key_argsIS8_JRKNS_21piecewise_construct_tENS_5tupleIJRKS8_EEENSP_IJEEEEEENS_4pairINS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEEiEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSA_SA_"
   },
   {
    "binding" : "weak",
@@ -3217,6 +3357,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android2wpINS1_4hidl4base4V1_05IBaseEEENS_9allocatorIS7_EEE21__push_back_slow_pathIRKS7_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android2wpINS1_4hidl4base4V1_05IBaseEEENS_9allocatorIS7_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS7_RS9_EE"
   },
   {
    "binding" : "weak",
@@ -3244,11 +3388,23 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEE6assignIPS4_EENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIS4_NS_15iterator_traitsISB_E9referenceEEE5valueEvE4typeESB_SB_"
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEE6resizeEj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEEC2ERKS7_"
   },
   {
    "binding" : "weak",
@@ -3260,7 +3416,23 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE6resizeEj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE13__vdeallocateEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE"
   },
   {
    "binding" : "weak",
@@ -3272,7 +3444,15 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6resizeEjRKS4_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEjRKS4_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEEC2ERKS7_"
   },
   {
    "binding" : "weak",
@@ -3293,6 +3473,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__17getlineIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__18functionIFvRN7android8hardware6ParcelEEEC2ERKS6_"
   },
   {
    "binding" : "weak",
@@ -3645,6 +3829,14 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZTCN7android4hidl7manager4V1_116BsServiceManagerE0_NS0_4base4V1_05IBaseE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCN7android4hidl7manager4V1_116BsServiceManagerE0_NS1_4V1_015IServiceManagerE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZTCN7android4hidl7manager4V1_116BsServiceManagerE0_NS2_15IServiceManagerE"
   },
   {
@@ -3689,6 +3881,18 @@
   {
    "binding" : "weak",
    "name" : "_ZTCN7android4hidl7manager4V1_216BsClientCallbackE0_NS2_15IClientCallbackE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCN7android4hidl7manager4V1_216BsServiceManagerE0_NS0_4base4V1_05IBaseE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCN7android4hidl7manager4V1_216BsServiceManagerE0_NS1_4V1_015IServiceManagerE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCN7android4hidl7manager4V1_216BsServiceManagerE0_NS1_4V1_115IServiceManagerE"
   },
   {
    "binding" : "weak",
@@ -3850,6 +4054,10 @@
    "name" : "_ZTTN7android4hidl7manager4V1_115IServiceManagerE"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZTTN7android4hidl7manager4V1_116BsServiceManagerE"
+  },
+  {
    "name" : "_ZTTN7android4hidl7manager4V1_118BnHwServiceManagerE"
   },
   {
@@ -3860,6 +4068,10 @@
   },
   {
    "name" : "_ZTTN7android4hidl7manager4V1_215IServiceManagerE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTTN7android4hidl7manager4V1_216BsServiceManagerE"
   },
   {
    "name" : "_ZTTN7android4hidl7manager4V1_218BnHwClientCallbackE"
@@ -8211,6 +8423,38 @@
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
+   "function_name" : "android::sp<android::hidl::base::V1_0::IBase>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl4base4V1_05IBaseEEaSEPS4_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl4base4V1_05IBaseEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPN7android4hidl4base4V1_05IBaseE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl4base4V1_05IBaseEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hidl::base::V1_0::IBase>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl4base4V1_05IBaseEEaSERKS5_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl4base4V1_05IBaseEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_4hidl4base4V1_05IBaseEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl4base4V1_05IBaseEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
    "function_name" : "android::sp<android::hidl::manager::V1_0::IServiceNotification>::operator=",
    "linker_set_key" : "_ZN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEaSEOS5_",
    "parameters" :
@@ -8224,6 +8468,38 @@
     }
    ],
    "return_type" : "_ZTIRN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hidl::manager::V1_0::IServiceNotification>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEaSERKS5_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl7manager4V1_020IServiceNotificationEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hidl::manager::V1_1::IServiceManager>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl7manager4V1_115IServiceManagerEEaSEOS5_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl7manager4V1_115IServiceManagerEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_4hidl7manager4V1_115IServiceManagerEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl7manager4V1_115IServiceManagerEEE",
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
@@ -8243,6 +8519,58 @@
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
+   "function_name" : "android::sp<android::hidl::manager::V1_2::IClientCallback>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl7manager4V1_215IClientCallbackEEaSERKS5_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl7manager4V1_215IClientCallbackEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_4hidl7manager4V1_215IClientCallbackEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl7manager4V1_215IClientCallbackEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hidl::manager::V1_2::IServiceManager>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl7manager4V1_215IServiceManagerEEaSEOS5_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl7manager4V1_215IServiceManagerEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_4hidl7manager4V1_215IServiceManagerEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl7manager4V1_215IServiceManagerEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hidl::manager::V1_2::IServiceManager>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_4hidl7manager4V1_215IServiceManagerEEaSINS_8hardware18NoHwServiceManagerEEERS5_ONS0_IT_EE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_4hidl7manager4V1_215IServiceManagerEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware18NoHwServiceManagerEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_4hidl7manager4V1_215IServiceManagerEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android8hardware18NoHwServiceManagerE"
+   ]
+  },
+  {
    "function_name" : "android::sp<android::hardware::PassthroughServiceManager>::~sp",
    "linker_set_key" : "_ZN7android2spINS_8hardware25PassthroughServiceManagerEED2Ev",
    "parameters" :
@@ -8254,6 +8582,54 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::IBinder>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware7IBinderEEaSEOS3_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware7IBinderEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_8hardware7IBinderEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware7IBinderEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::hardware::details::Waiter>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_8hardware7details6WaiterEEaSEPS3_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_8hardware7details6WaiterEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPN7android8hardware7details6WaiterE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_8hardware7details6WaiterEEE",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::wp<android::hardware::BHwBinder>::operator=",
+   "linker_set_key" : "_ZN7android2wpINS_8hardware9BHwBinderEEaSERKS3_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2wpINS_8hardware9BHwBinderEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2wpINS_8hardware9BHwBinderEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2wpINS_8hardware9BHwBinderEEE",
+   "source_file" : "system/core/libutils/include/utils/RefBase.h"
   },
   {
    "function_name" : "android::hidl::base::V1_0::IBase::linkToDeath",
@@ -16570,34 +16946,6 @@
    "source_file" : "system/libhidl/transport/include/hidl/HidlBinderSupport.h"
   },
   {
-   "function_name" : "android::hardware::writeEmbeddedToParcel",
-   "linker_set_key" : "_ZN7android8hardware21writeEmbeddedToParcelINS0_11hidl_stringEEEiRKNS0_8hidl_vecIT_EEPNS0_6ParcelEjjPj",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIRKN7android8hardware8hidl_vecINS0_11hidl_stringEEE"
-    },
-    {
-     "referenced_type" : "_ZTIPN7android8hardware6ParcelE"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "system/libhidl/transport/include/hidl/HidlBinderSupport.h",
-   "template_args" :
-   [
-    "_ZTIN7android8hardware11hidl_stringE"
-   ]
-  },
-  {
    "function_name" : "android::hardware::configureRpcThreadpool",
    "linker_set_key" : "_ZN7android8hardware22configureRpcThreadpoolEjb",
    "parameters" :
@@ -16686,34 +17034,6 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "system/libhidl/transport/include/hidl/HidlBinderSupport.h"
-  },
-  {
-   "function_name" : "android::hardware::readEmbeddedFromParcel",
-   "linker_set_key" : "_ZN7android8hardware22readEmbeddedFromParcelINS0_11hidl_stringEEEiRKNS0_8hidl_vecIT_EERKNS0_6ParcelEjjPj",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIRKN7android8hardware8hidl_vecINS0_11hidl_stringEEE"
-    },
-    {
-     "referenced_type" : "_ZTIRKN7android8hardware6ParcelE"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "system/libhidl/transport/include/hidl/HidlBinderSupport.h",
-   "template_args" :
-   [
-    "_ZTIN7android8hardware11hidl_stringE"
-   ]
   },
   {
    "function_name" : "android::hardware::getOrCreateCachedBinder",
@@ -18727,6 +19047,23 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "system/libhidl/transport/include/hidl/LegacySupport.h"
+  },
+  {
+   "function_name" : "android::hardware::details::StatusOf",
+   "linker_set_key" : "_ZN7android8hardware7details8StatusOfIvbEENS0_6ReturnIT0_EERKNS3_IT_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKN7android8hardware6ReturnIvEE"
+    }
+   ],
+   "return_type" : "_ZTIN7android8hardware6ReturnIbEE",
+   "source_file" : "system/libhidl/base/include/hidl/Status.h",
+   "template_args" :
+   [
+    "_ZTIv",
+    "_ZTIb"
+   ]
   },
   {
    "access" : "protected",
@@ -21082,8 +21419,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android2spINS_8hardware7IBinder14DeathRecipientEEE",
    "name" : "const android::sp<android::hardware::IBinder::DeathRecipient> &",
-   "referenced_type" : "_ZTIKN7android2spINS_8hardware7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.34_x86_silvermont_static_afdo-libhidlbase/obj/system/libhwbinder/BpHwBinder.sdump",
-   "self_type" : "_ZTIRKN7android2spINS_8hardware7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.34_x86_silvermont_static_afdo-libhidlbase/obj/system/libhwbinder/BpHwBinder.sdump",
+   "referenced_type" : "_ZTIKN7android2spINS_8hardware7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.34_x86_x86_64_static_afdo-libhidlbase/e560d7b19ebf7276b3e850d3d346dec8/obj/system/libhwbinder/BpHwBinder.sdump",
+   "self_type" : "_ZTIRKN7android2spINS_8hardware7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.34_x86_x86_64_static_afdo-libhidlbase/e560d7b19ebf7276b3e850d3d346dec8/obj/system/libhwbinder/BpHwBinder.sdump",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/RefBase.h"
   },
@@ -22433,7 +22770,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android2spINS_8hardware7IBinder14DeathRecipientEEE",
    "name" : "const android::sp<android::hardware::IBinder::DeathRecipient> *",
-   "referenced_type" : "_ZTIKN7android2spINS_8hardware7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.34_x86_silvermont_static_afdo-libhidlbase/obj/system/libhwbinder/BpHwBinder.sdump",
+   "referenced_type" : "_ZTIKN7android2spINS_8hardware7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.34_x86_x86_64_static_afdo-libhidlbase/e560d7b19ebf7276b3e850d3d346dec8/obj/system/libhwbinder/BpHwBinder.sdump",
    "self_type" : "_ZTIPKN7android2spINS_8hardware7IBinder14DeathRecipientEEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"

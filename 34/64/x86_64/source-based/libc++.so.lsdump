@@ -2600,6 +2600,10 @@
    "name" : "_ZNSt3__111timed_mutexD2Ev"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNSt3__111unique_lockINS_5mutexEE6unlockEv"
+  },
+  {
    "name" : "_ZNSt3__112__do_nothingEPv"
   },
   {
@@ -4410,6 +4414,26 @@
    "name" : "_ZNSt3__117moneypunct_bynameIwLb1EE4initEPKc"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIhhEEPhEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIjjEEPjEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIllEEPlEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessImmEEPmEEvT0_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIssEEPsEEvT0_S5_T_"
+  },
+  {
    "name" : "_ZNSt3__118__time_get_storageIcE4initERKNS_5ctypeIcEE"
   },
   {
@@ -4970,6 +4994,46 @@
   },
   {
    "name" : "_ZNSt3__16threadD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIhhEEPhEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIjjEEPjEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIllEEPlEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessImmEEPmEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort3IRNS_6__lessIssEEPsEEjT0_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIhhEEPhEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIjjEEPjEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIllEEPlEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessImmEEPmEEjT0_S5_S5_S5_T_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__17__sort4IRNS_6__lessIssEEPsEEjT0_S5_S5_S5_T_"
   },
   {
    "binding" : "weak",
@@ -20060,6 +20124,19 @@
    "source_file" : "external/libcxx/include/mutex"
   },
   {
+   "function_name" : "std::unique_lock<std::mutex>::unlock",
+   "linker_set_key" : "_ZNSt3__111unique_lockINS_5mutexEE6unlockEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPNSt3__111unique_lockINS_5mutexEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/__mutex_base"
+  },
+  {
    "function_name" : "std::__do_nothing",
    "linker_set_key" : "_ZNSt3__112__do_nothingEPv",
    "parameters" :
@@ -28343,6 +28420,121 @@
    "source_file" : "external/libcxx/include/locale"
   },
   {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIhhEEPhEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIhhEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIhhEE",
+    "_ZTIPh"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIjjEEPjEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIjjEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIjjEE",
+    "_ZTIPj"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIllEEPlEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIllEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIllEE",
+    "_ZTIPl"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessImmEEPmEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessImmEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessImmEE",
+    "_ZTIPm"
+   ]
+  },
+  {
+   "function_name" : "std::__insertion_sort_3",
+   "linker_set_key" : "_ZNSt3__118__insertion_sort_3IRNS_6__lessIssEEPsEEvT0_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIssEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIssEE",
+    "_ZTIPs"
+   ]
+  },
+  {
    "access" : "private",
    "function_name" : "std::__time_get_storage<char>::init",
    "linker_set_key" : "_ZNSt3__118__time_get_storageIcE4initERKNS_5ctypeIcEE",
@@ -31191,6 +31383,281 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/libcxx/include/thread"
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIhhEEPhEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIhhEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIhhEE",
+    "_ZTIPh"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIjjEEPjEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIjjEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIjjEE",
+    "_ZTIPj"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIllEEPlEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIllEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIllEE",
+    "_ZTIPl"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessImmEEPmEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessImmEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessImmEE",
+    "_ZTIPm"
+   ]
+  },
+  {
+   "function_name" : "std::__sort3",
+   "linker_set_key" : "_ZNSt3__17__sort3IRNS_6__lessIssEEPsEEjT0_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIssEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIssEE",
+    "_ZTIPs"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIhhEEPhEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIhhEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIhhEE",
+    "_ZTIPh"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIjjEEPjEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIjjEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIjjEE",
+    "_ZTIPj"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIllEEPlEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIllEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIllEE",
+    "_ZTIPl"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessImmEEPmEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessImmEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessImmEE",
+    "_ZTIPm"
+   ]
+  },
+  {
+   "function_name" : "std::__sort4",
+   "linker_set_key" : "_ZNSt3__17__sort4IRNS_6__lessIssEEPsEEjT0_S5_S5_S5_T_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIPs"
+    },
+    {
+     "referenced_type" : "_ZTIRNSt3__16__lessIssEE"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/libcxx/include/algorithm",
+   "template_args" :
+   [
+    "_ZTIRNSt3__16__lessIssEE",
+    "_ZTIPs"
+   ]
   },
   {
    "function_name" : "std::__sort5",
