@@ -978,6 +978,31 @@
    "underlying_type" : "_ZTIj"
   },
   {
+   "alignment" : 8,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 18446744073709551615,
+     "name" : "BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE"
+    },
+    {
+     "enum_field_value" : 18446744073709551614,
+     "name" : "BIONIC_MULTIBYTE_RESULT_INCOMPLETE_SEQUENCE"
+    },
+    {
+     "enum_field_value" : 18446744073709551613,
+     "name" : "BIONIC_MULTIBYTE_RESULT_NO_BYTES_CONSUMED"
+    }
+   ],
+   "linker_set_key" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "self_type" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/bionic/libc/libc/android_vendor.34_x86_64_shared/gen/include/bits/bionic_multibyte_result.h",
+   "underlying_type" : "_ZTIm"
+  },
+  {
    "alignment" : 4,
    "enum_fields" :
    [

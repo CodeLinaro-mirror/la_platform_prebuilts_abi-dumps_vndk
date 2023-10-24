@@ -1760,6 +1760,14 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjPKNS_5arrayINS2_IfLm5EEELm3EEEEENS_22__unordered_map_hasherIjS7_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS7_NS_8equal_toIjEELb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIjJRKNS_4pairIKjS6_EEEEENSK_INS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjPKNS_5arrayINS2_IfLm5EEELm3EEEEENS_22__unordered_map_hasherIjS7_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS7_NS_8equal_toIjEELb1EEENS_9allocatorIS7_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE21__grow_by_and_replaceEmmmmmmPKh"
   },
   {

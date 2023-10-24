@@ -249,7 +249,7 @@
    "name" : "_ZN16CgroupController8IsUsableEv"
   },
   {
-   "name" : "_ZN16ProfileAttribute5ResetERK16CgroupControllerRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
+   "name" : "_ZN16ProfileAttribute5ResetERK16CgroupControllerRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_"
   },
   {
    "name" : "_ZN17IProfileAttributeD0Ev"
@@ -1221,6 +1221,12 @@
    "name" : "_ZNK16ProfileAttribute14GetPathForTaskEiPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
   },
   {
+   "name" : "_ZNK16ProfileAttribute17GetPathForProcessEjiPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZNK16ProfileAttribute9file_nameEv"
+  },
+  {
    "name" : "_ZNK18ApplyProfileAction14ExecuteForTaskEi"
   },
   {
@@ -1240,6 +1246,9 @@
   },
   {
    "name" : "_ZNK18SetAttributeAction14IsValidForTaskEi"
+  },
+  {
+   "name" : "_ZNK18SetAttributeAction16WriteValueToFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
   },
   {
    "name" : "_ZNK18SetAttributeAction17ExecuteForProcessEji"

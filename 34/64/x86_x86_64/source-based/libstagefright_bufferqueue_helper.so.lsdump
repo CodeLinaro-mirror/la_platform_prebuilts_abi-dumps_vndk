@@ -981,6 +981,9 @@
    "name" : "_ZN7android19GraphicBufferSource7releaseEv"
   },
   {
+   "name" : "_ZN7android19GraphicBufferSource9configureERKNS_2spINS_16ComponentWrapperEEEiijjj"
+  },
+  {
    "name" : "_ZN7android19GraphicBufferSource9configureERKNS_2spINS_16ComponentWrapperEEEiijjy"
   },
   {
@@ -14466,6 +14469,37 @@
     {
      "is_this_ptr" : true,
      "referenced_type" : "_ZTIPN7android19GraphicBufferSourceE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/av/media/module/bqhelper/include/media/stagefright/bqhelper/GraphicBufferSource.h"
+  },
+  {
+   "function_name" : "android::GraphicBufferSource::configure",
+   "linker_set_key" : "_ZN7android19GraphicBufferSource9configureERKNS_2spINS_16ComponentWrapperEEEiijjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android19GraphicBufferSourceE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_16ComponentWrapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
     }
    ],
    "return_type" : "_ZTIi",
