@@ -7745,6 +7745,10 @@
   },
   {
    "name" : "X509_it"
+  },
+  {
+   "binding" : "weak",
+   "name" : "__llvm_fs_discriminator__"
   }
  ],
  "enum_types" :

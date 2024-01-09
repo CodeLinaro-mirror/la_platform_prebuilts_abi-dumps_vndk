@@ -450,23 +450,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 268435456,
-     "name" : "FLAG_PRIVATE_VENDOR"
-    }
-   ],
-   "linker_set_key" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "name" : "(unnamed)",
-   "referenced_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "self_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 0,
      "name" : "STATUS_OK"
     },
@@ -2831,7 +2814,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/suspend/aidl/android.system.suspend-V1-ndk-source/gen/include/aidl/android/system/suspend/IWakeLock.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h"
   },
   {
    "is_const" : true,

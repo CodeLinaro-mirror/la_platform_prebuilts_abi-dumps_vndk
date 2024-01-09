@@ -156,6 +156,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA16_NSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "name" : "std::pair<std::atomic<void *>, std::atomic<android::audio_utils::MutexOrder>>[16]",
+   "referenced_type" : "_ZTINSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "self_type" : "_ZTIA16_NSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "size" : 128,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA16_f",
    "name" : "float[16]",
    "referenced_type" : "_ZTIf",
@@ -315,6 +324,15 @@
    "self_type" : "_ZTIA26_i",
    "size" : 104,
    "source_file" : "system/media/audio_utils/include/audio_utils/channels.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA28_PKc",
+   "name" : "const char *[28]",
+   "referenced_type" : "_ZTIPKc",
+   "self_type" : "_ZTIA28_PKc",
+   "size" : 112,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -888,6 +906,16 @@
   {
    "alignment" : 1,
    "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "referenced_type" : "_ZTIDu",
+   "self_type" : "_ZTIDu",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
    "linker_set_key" : "_ZTIa",
    "name" : "signed char",
    "referenced_type" : "_ZTIa",
@@ -1242,6 +1270,12 @@
    "name" : "_ZN25audio_utils_fifo_writer_TIxED2Ev"
   },
   {
+   "name" : "_ZN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE12get_registryEv"
+  },
+  {
+   "name" : "_ZN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE20get_mutex_stat_arrayEv"
+  },
+  {
    "name" : "_ZN7android11audio_utils12MelProcessor11getDeviceIdEv"
   },
   {
@@ -1324,6 +1358,12 @@
   },
   {
    "name" : "_ZN7android11audio_utils13MelAggregator6getCsdEv"
+  },
+  {
+   "name" : "_ZN7android11audio_utils19get_thread_priorityEi"
+  },
+  {
+   "name" : "_ZN7android11audio_utils19set_thread_priorityEii"
   },
   {
    "name" : "_ZN7android11audio_utils21mutex_get_enable_flagEv"
@@ -2105,6 +2145,12 @@
   },
   {
    "name" : "byte_string_from_audio_metadata"
+  },
+  {
+   "name" : "com_android_media_audioserver_direct_track_reprioritization"
+  },
+  {
+   "name" : "com_android_media_audioserver_fdtostring_timeout_fix"
   },
   {
    "name" : "com_android_media_audioserver_mutex_priority_inheritance"
@@ -4190,7 +4236,7 @@
      "name" : "AUDIO_LATENCY_MODE_INVALID"
     },
     {
-     "enum_field_value" : 2,
+     "enum_field_value" : 4,
      "name" : "AUDIO_LATENCY_MODE_CNT"
     }
    ],
@@ -6416,6 +6462,135 @@
    "self_type" : "_ZTI6log_id",
    "size" : 4,
    "source_file" : "system/logging/liblog/include_vndk/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::audio_utils::MutexOrder::kSpatializer_Mutex"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::audio_utils::MutexOrder::kAudioPolicyEffects_Mutex"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::audio_utils::MutexOrder::kEffectHandle_Mutex"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::audio_utils::MutexOrder::kEffectBase_PolicyMutex"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::audio_utils::MutexOrder::kAudioPolicyService_Mutex"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "android::audio_utils::MutexOrder::kCommandThread_Mutex"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "android::audio_utils::MutexOrder::kAudioCommand_Mutex"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "android::audio_utils::MutexOrder::kUidPolicy_Mutex"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "android::audio_utils::MutexOrder::kAudioFlinger_Mutex"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "android::audio_utils::MutexOrder::kAudioFlinger_HardwareMutex"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "android::audio_utils::MutexOrder::kDeviceEffectManager_Mutex"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "android::audio_utils::MutexOrder::kPatchCommandThread_Mutex"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "android::audio_utils::MutexOrder::kThreadBase_Mutex"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "android::audio_utils::MutexOrder::kAudioFlinger_ClientMutex"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "android::audio_utils::MutexOrder::kMelReporter_Mutex"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "android::audio_utils::MutexOrder::kEffectChain_Mutex"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "android::audio_utils::MutexOrder::kDeviceEffectProxy_ProxyMutex"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "android::audio_utils::MutexOrder::kEffectBase_Mutex"
+    },
+    {
+     "enum_field_value" : 18,
+     "name" : "android::audio_utils::MutexOrder::kAudioFlinger_UnregisteredWritersMutex"
+    },
+    {
+     "enum_field_value" : 19,
+     "name" : "android::audio_utils::MutexOrder::kAsyncCallbackThread_Mutex"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "android::audio_utils::MutexOrder::kConfigEvent_Mutex"
+    },
+    {
+     "enum_field_value" : 21,
+     "name" : "android::audio_utils::MutexOrder::kOutputTrack_TrackMetadataMutex"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "android::audio_utils::MutexOrder::kPassthruPatchRecord_ReadMutex"
+    },
+    {
+     "enum_field_value" : 23,
+     "name" : "android::audio_utils::MutexOrder::kPatchCommandThread_ListenerMutex"
+    },
+    {
+     "enum_field_value" : 24,
+     "name" : "android::audio_utils::MutexOrder::kPlaybackThread_AudioTrackCbMutex"
+    },
+    {
+     "enum_field_value" : 25,
+     "name" : "android::audio_utils::MutexOrder::kAudioPolicyService_NotificationClientsMutex"
+    },
+    {
+     "enum_field_value" : 26,
+     "name" : "android::audio_utils::MutexOrder::kMediaLogNotifier_Mutex"
+    },
+    {
+     "enum_field_value" : 27,
+     "name" : "android::audio_utils::MutexOrder::kOtherMutex"
+    },
+    {
+     "enum_field_value" : 28,
+     "name" : "android::audio_utils::MutexOrder::kSize"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils10MutexOrderE",
+   "name" : "android::audio_utils::MutexOrder",
+   "referenced_type" : "_ZTIN7android11audio_utils10MutexOrderE",
+   "self_type" : "_ZTIN7android11audio_utils10MutexOrderE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -9331,6 +9506,39 @@
    "source_file" : "system/media/audio_utils/include/audio_utils/MelAggregator.h"
   },
   {
+   "function_name" : "android::audio_utils::get_thread_priority",
+   "linker_set_key" : "_ZN7android11audio_utils19get_thread_priorityEi",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/media/audio_utils/include/audio_utils/threads.h"
+  },
+  {
+   "function_name" : "android::audio_utils::set_thread_priority",
+   "linker_set_key" : "_ZN7android11audio_utils19set_thread_priorityEii",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/media/audio_utils/include/audio_utils/threads.h"
+  },
+  {
+   "function_name" : "android::audio_utils::mutex_get_enable_flag",
+   "linker_set_key" : "_ZN7android11audio_utils21mutex_get_enable_flagEv",
+   "return_type" : "_ZTIb",
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
    "function_name" : "android::audio_utils::Balance::setBalance",
    "linker_set_key" : "_ZN7android11audio_utils7Balance10setBalanceEf",
    "parameters" :
@@ -11021,6 +11229,18 @@
    "source_file" : "system/media/audio_utils/include/audio_utils/Metadata.h"
   },
   {
+   "function_name" : "com_android_media_audioserver_direct_track_reprioritization",
+   "linker_set_key" : "com_android_media_audioserver_direct_track_reprioritization",
+   "return_type" : "_ZTIb",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/audio/aconfig/com.android.media.audioserver-aconfig-cc/android_vendor.VanillaIceCream_x86_silvermont_static/gen/include/com_android_media_audioserver.h"
+  },
+  {
+   "function_name" : "com_android_media_audioserver_fdtostring_timeout_fix",
+   "linker_set_key" : "com_android_media_audioserver_fdtostring_timeout_fix",
+   "return_type" : "_ZTIb",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/audio/aconfig/com.android.media.audioserver-aconfig-cc/android_vendor.VanillaIceCream_x86_silvermont_static/gen/include/com_android_media_audioserver.h"
+  },
+  {
    "function_name" : "com_android_media_audioserver_mutex_priority_inheritance",
    "linker_set_key" : "com_android_media_audioserver_mutex_priority_inheritance",
    "return_type" : "_ZTIb",
@@ -12467,6 +12687,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA28_KPKc",
+   "name" : "const char *const (&)[28]",
+   "referenced_type" : "_ZTIA28_KPKc",
+   "self_type" : "_ZTIRA28_KPKc",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA2_A12_f",
    "name" : "float (&)[2][12]",
    "referenced_type" : "_ZTIA2_A12_f",
@@ -12608,6 +12837,15 @@
    "self_type" : "_ZTIRA8_A8_f",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android11audio_utils10MutexOrderE",
+   "name" : "const android::audio_utils::MutexOrder &",
+   "referenced_type" : "_ZTIKN7android11audio_utils10MutexOrderE",
+   "self_type" : "_ZTIRKN7android11audio_utils10MutexOrderE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -12845,6 +13083,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__110shared_ptrIN7android11audio_utils17thread_mutex_infoIPvNS2_10MutexOrderELj16EEEEE",
+   "name" : "const std::shared_ptr<android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16>> &",
+   "referenced_type" : "_ZTIKNSt3__110shared_ptrIN7android11audio_utils17thread_mutex_infoIPvNS2_10MutexOrderELj16EEEEE",
+   "self_type" : "_ZTIRKNSt3__110shared_ptrIN7android11audio_utils17thread_mutex_infoIPvNS2_10MutexOrderELj16EEEEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
@@ -12890,6 +13137,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "name" : "const std::pair<std::atomic<void *>, std::atomic<android::audio_utils::MutexOrder>> &",
+   "referenced_type" : "_ZTIKNSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "self_type" : "_ZTIRKNSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__15arrayIfLj5EEE",
    "name" : "const std::array<float, 5> &",
    "referenced_type" : "_ZTIKNSt3__15arrayIfLj5EEE",
@@ -12932,6 +13188,15 @@
    "self_type" : "_ZTIRKNSt3__18functionIFvRKN7android11audio_utils9MelRecordEEEE",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/MelAggregator.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKPv",
+   "name" : "void *const &",
+   "referenced_type" : "_ZTIKPv",
+   "self_type" : "_ZTIRKPv",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -13034,6 +13299,33 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes> &",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "self_type" : "_ZTIRN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android11audio_utils10mutex_statIydEE",
+   "name" : "android::audio_utils::mutex_stat<unsigned long long, double> &",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_statIydEE",
+   "self_type" : "_ZTIRN7android11audio_utils10mutex_statIydEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android11audio_utils11unique_lockE",
+   "name" : "android::audio_utils::unique_lock &",
+   "referenced_type" : "_ZTIN7android11audio_utils11unique_lockE",
+   "self_type" : "_ZTIRN7android11audio_utils11unique_lockE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRN7android11audio_utils8metadata4DataE",
    "name" : "android::audio_utils::metadata::Data &",
    "referenced_type" : "_ZTIN7android11audio_utils8metadata4DataE",
@@ -13070,6 +13362,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRNSt3__111unique_lockINS_5mutexEEE",
+   "name" : "std::unique_lock<std::mutex> &",
+   "referenced_type" : "_ZTINSt3__111unique_lockINS_5mutexEEE",
+   "self_type" : "_ZTIRNSt3__111unique_lockINS_5mutexEEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
@@ -13094,6 +13395,15 @@
    "self_type" : "_ZTIRNSt3__15mutexE",
    "size" : 4,
    "source_file" : "system/libbase/include/android-base/thread_annotations.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRNSt3__16atomicIdEE",
+   "name" : "std::atomic<double> &",
+   "referenced_type" : "_ZTINSt3__16atomicIdEE",
+   "self_type" : "_ZTIRNSt3__16atomicIdEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -13223,6 +13533,15 @@
    "self_type" : "_ZTIP14hal_smoothness",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/hal_smoothness.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP14pthread_cond_t",
+   "name" : "pthread_cond_t *",
+   "referenced_type" : "_ZTI14pthread_cond_t",
+   "self_type" : "_ZTIP14pthread_cond_t",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -13649,12 +13968,39 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "name" : "const android::audio_utils::atomic_stack<void *, android::audio_utils::MutexOrder, 16> *",
+   "referenced_type" : "_ZTIKN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIPKN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android11audio_utils13MelAggregatorE",
    "name" : "const android::audio_utils::MelAggregator *",
    "referenced_type" : "_ZTIKN7android11audio_utils13MelAggregatorE",
    "self_type" : "_ZTIPKN7android11audio_utils13MelAggregatorE",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/MelAggregator.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android11audio_utils15deadlock_info_tE",
+   "name" : "const android::audio_utils::deadlock_info_t *",
+   "referenced_type" : "_ZTIKN7android11audio_utils15deadlock_info_tE",
+   "self_type" : "_ZTIPKN7android11audio_utils15deadlock_info_tE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "name" : "const android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16> *",
+   "referenced_type" : "_ZTIKN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIPKN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -13883,6 +14229,60 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils10lock_guardE",
+   "name" : "android::audio_utils::lock_guard *",
+   "referenced_type" : "_ZTIN7android11audio_utils10lock_guardE",
+   "self_type" : "_ZTIPN7android11audio_utils10lock_guardE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE24lock_scoped_stat_enabledE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes>::lock_scoped_stat_enabled *",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE24lock_scoped_stat_enabledE",
+   "self_type" : "_ZTIPN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE24lock_scoped_stat_enabledE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE27cv_wait_scoped_stat_enabledE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes>::cv_wait_scoped_stat_enabled *",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE27cv_wait_scoped_stat_enabledE",
+   "self_type" : "_ZTIPN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE27cv_wait_scoped_stat_enabledE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes> *",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "self_type" : "_ZTIPN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils10mutex_statIydEE",
+   "name" : "android::audio_utils::mutex_stat<unsigned long long, double> *",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_statIydEE",
+   "self_type" : "_ZTIPN7android11audio_utils10mutex_statIydEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils11unique_lockE",
+   "name" : "android::audio_utils::unique_lock *",
+   "referenced_type" : "_ZTIN7android11audio_utils11unique_lockE",
+   "self_type" : "_ZTIPN7android11audio_utils11unique_lockE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android11audio_utils12BiquadFilterIfLb1ENS0_7details25DefaultBiquadConstOptionsEEE",
    "name" : "android::audio_utils::BiquadFilter<float, true, android::audio_utils::details::DefaultBiquadConstOptions> *",
    "referenced_type" : "_ZTIN7android11audio_utils12BiquadFilterIfLb1ENS0_7details25DefaultBiquadConstOptionsEEE",
@@ -13919,12 +14319,39 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "name" : "android::audio_utils::atomic_stack<void *, android::audio_utils::MutexOrder, 16> *",
+   "referenced_type" : "_ZTIN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIPN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android11audio_utils13MelAggregatorE",
    "name" : "android::audio_utils::MelAggregator *",
    "referenced_type" : "_ZTIN7android11audio_utils13MelAggregatorE",
    "self_type" : "_ZTIPN7android11audio_utils13MelAggregatorE",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/MelAggregator.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils15deadlock_info_tE",
+   "name" : "android::audio_utils::deadlock_info_t *",
+   "referenced_type" : "_ZTIN7android11audio_utils15deadlock_info_tE",
+   "self_type" : "_ZTIPN7android11audio_utils15deadlock_info_tE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils15thread_registryINS0_17thread_mutex_infoIPvNS0_10MutexOrderELj16EEEEE",
+   "name" : "android::audio_utils::thread_registry<android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16>> *",
+   "referenced_type" : "_ZTIN7android11audio_utils15thread_registryINS0_17thread_mutex_infoIPvNS0_10MutexOrderELj16EEEEE",
+   "self_type" : "_ZTIPN7android11audio_utils15thread_registryINS0_17thread_mutex_infoIPvNS0_10MutexOrderELj16EEEEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -14069,6 +14496,24 @@
    "self_type" : "_ZTIPN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/BiquadFilter.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "name" : "android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16> *",
+   "referenced_type" : "_ZTIN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIPN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils18condition_variableE",
+   "name" : "android::audio_utils::condition_variable *",
+   "referenced_type" : "_ZTIN7android11audio_utils18condition_variableE",
+   "self_type" : "_ZTIPN7android11audio_utils18condition_variableE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -14568,6 +15013,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIA28_KPKc",
+   "name" : "const char *const[28]",
+   "referenced_type" : "_ZTIA28_PKc",
+   "self_type" : "_ZTIA28_KPKc",
+   "size" : 112,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIA29_K15audio_devices_t",
    "name" : "const audio_devices_t[29]",
    "referenced_type" : "_ZTIA29_15audio_devices_t",
@@ -14806,6 +15261,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android11audio_utils10MutexOrderE",
+   "name" : "const android::audio_utils::MutexOrder",
+   "referenced_type" : "_ZTIN7android11audio_utils10MutexOrderE",
+   "self_type" : "_ZTIKN7android11audio_utils10MutexOrderE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android11audio_utils10intrinsics16internal_array_tIfLj10EEE",
    "name" : "const android::audio_utils::intrinsics::internal_array_t<float, 10>",
    "referenced_type" : "_ZTIN7android11audio_utils10intrinsics16internal_array_tIfLj10EEE",
@@ -14986,12 +15451,42 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "name" : "const android::audio_utils::atomic_stack<void *, android::audio_utils::MutexOrder, 16>",
+   "referenced_type" : "_ZTIN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIKN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "size" : 136,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android11audio_utils13MelAggregatorE",
    "name" : "const android::audio_utils::MelAggregator",
    "referenced_type" : "_ZTIN7android11audio_utils13MelAggregatorE",
    "self_type" : "_ZTIKN7android11audio_utils13MelAggregatorE",
    "size" : 52,
    "source_file" : "system/media/audio_utils/include/audio_utils/MelAggregator.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android11audio_utils15deadlock_info_tE",
+   "name" : "const android::audio_utils::deadlock_info_t",
+   "referenced_type" : "_ZTIN7android11audio_utils15deadlock_info_tE",
+   "self_type" : "_ZTIKN7android11audio_utils15deadlock_info_tE",
+   "size" : 20,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "name" : "const android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16>",
+   "referenced_type" : "_ZTIN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIKN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "size" : 144,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 8,
@@ -15186,6 +15681,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__110shared_ptrIN7android11audio_utils17thread_mutex_infoIPvNS2_10MutexOrderELj16EEEEE",
+   "name" : "const std::shared_ptr<android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16>>",
+   "referenced_type" : "_ZTINSt3__110shared_ptrIN7android11audio_utils17thread_mutex_infoIPvNS2_10MutexOrderELj16EEEEE",
+   "self_type" : "_ZTIKNSt3__110shared_ptrIN7android11audio_utils17thread_mutex_infoIPvNS2_10MutexOrderELj16EEEEE",
+   "size" : 8,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
@@ -15232,6 +15737,16 @@
    "self_type" : "_ZTIKNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEE",
    "size" : 28,
    "source_file" : "system/media/audio_utils/include/audio_utils/Metadata.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "name" : "const std::pair<std::atomic<void *>, std::atomic<android::audio_utils::MutexOrder>>",
+   "referenced_type" : "_ZTINSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "self_type" : "_ZTIKNSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE",
+   "size" : 8,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 4,
@@ -17770,6 +18285,14 @@
     },
     {
      "is_pure" : true,
+     "mangled_component_name" : "_ZN3com7android5media11audioserver23flag_provider_interface29direct_track_reprioritizationEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN3com7android5media11audioserver23flag_provider_interface22fdtostring_timeout_fixEv"
+    },
+    {
+     "is_pure" : true,
      "mangled_component_name" : "_ZN3com7android5media11audioserver23flag_provider_interface26mutex_priority_inheritanceEv"
     }
    ]
@@ -18073,6 +18596,177 @@
    [
     "_ZTIf"
    ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mutex_",
+     "referenced_type" : "_ZTIRN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils10lock_guardE",
+   "name" : "android::audio_utils::lock_guard",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils10lock_guardE",
+   "self_type" : "_ZTIN7android11audio_utils10lock_guardE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mutex_",
+     "referenced_type" : "_ZTIRN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "time_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIKx"
+    },
+    {
+     "access" : "private",
+     "field_name" : "discard_wait_time_",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE24lock_scoped_stat_enabledE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes>::lock_scoped_stat_enabled",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE24lock_scoped_stat_enabledE",
+   "self_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE24lock_scoped_stat_enabledE",
+   "size" : 16,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mutex_",
+     "referenced_type" : "_ZTIRN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE27cv_wait_scoped_stat_enabledE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes>::cv_wait_scoped_stat_enabled",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE27cv_wait_scoped_stat_enabledE",
+   "self_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEE27cv_wait_scoped_stat_enabledE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_",
+     "referenced_type" : "_ZTINSt3__15mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "order_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIKN7android11audio_utils10MutexOrderE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "stat_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIRN7android11audio_utils10mutex_statIydEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "name" : "android::audio_utils::mutex_impl<android::audio_utils::AudioMutexAttributes>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "self_type" : "_ZTIN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE",
+   "size" : 12,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h",
+   "template_args" :
+   [
+    "_ZTIN7android11audio_utils20AudioMutexAttributesE"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "locks",
+     "referenced_type" : "_ZTINSt3__16atomicIyEE"
+    },
+    {
+     "field_name" : "unlocks",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__16atomicIyEE"
+    },
+    {
+     "field_name" : "waits",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTINSt3__16atomicIyEE"
+    },
+    {
+     "field_name" : "wait_sum_ns",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTINSt3__16atomicIdEE"
+    },
+    {
+     "field_name" : "wait_sumsq_ns",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTINSt3__16atomicIdEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils10mutex_statIydEE",
+   "name" : "android::audio_utils::mutex_stat<unsigned long long, double>",
+   "referenced_type" : "_ZTIN7android11audio_utils10mutex_statIydEE",
+   "self_type" : "_ZTIN7android11audio_utils10mutex_statIydEE",
+   "size" : 40,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h",
+   "template_args" :
+   [
+    "_ZTIy",
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "ul_",
+     "referenced_type" : "_ZTINSt3__111unique_lockINS_5mutexEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "held",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mutex_",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIRN7android11audio_utils10mutex_implINS0_20AudioMutexAttributesEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils11unique_lockE",
+   "name" : "android::audio_utils::unique_lock",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils11unique_lockE",
+   "self_type" : "_ZTIN7android11audio_utils11unique_lockE",
+   "size" : 16,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 1,
@@ -18758,6 +19452,41 @@
   },
   {
    "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "top_",
+     "referenced_type" : "_ZTINSt3__16atomicIjEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "true_top_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__16atomicIjEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "pairs_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIA16_NSt3__14pairINS_6atomicIPvEENS1_IN7android11audio_utils10MutexOrderEEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "name" : "android::audio_utils::atomic_stack<void *, android::audio_utils::MutexOrder, 16>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE",
+   "size" : 136,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h",
+   "template_args" :
+   [
+    "_ZTIPv",
+    "_ZTIN7android11audio_utils10MutexOrderE"
+   ]
+  },
+  {
+   "alignment" : 4,
    "base_specifiers" :
    [
     {
@@ -18839,6 +19568,60 @@
     {
      "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
     }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "tid",
+     "referenced_type" : "_ZTIKi"
+    },
+    {
+     "field_name" : "has_cycle",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "chain",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__16vectorINS_4pairIiNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils15deadlock_info_tE",
+   "name" : "android::audio_utils::deadlock_info_t",
+   "referenced_type" : "_ZTIN7android11audio_utils15deadlock_info_tE",
+   "self_type" : "_ZTIN7android11audio_utils15deadlock_info_tE",
+   "size" : 20,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mutex_",
+     "referenced_type" : "_ZTINSt3__15mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "registry_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__113unordered_mapIiNS_8weak_ptrIN7android11audio_utils17thread_mutex_infoIPvNS3_10MutexOrderELj16EEEEENS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS8_EEEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils15thread_registryINS0_17thread_mutex_infoIPvNS0_10MutexOrderELj16EEEEE",
+   "name" : "android::audio_utils::thread_registry<android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils15thread_registryINS0_17thread_mutex_infoIPvNS0_10MutexOrderELj16EEEEE",
+   "self_type" : "_ZTIN7android11audio_utils15thread_registryINS0_17thread_mutex_infoIPvNS0_10MutexOrderELj16EEEEE",
+   "size" : 24,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h",
+   "template_args" :
+   [
+    "_ZTIN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE"
    ]
   },
   {
@@ -19256,6 +20039,66 @@
     "_ZTIf",
     "_ZTIf"
    ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "tid_",
+     "referenced_type" : "_ZTIKi"
+    },
+    {
+     "field_name" : "mutex_wait_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__16atomicIPvEE"
+    },
+    {
+     "field_name" : "mutexes_held_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIN7android11audio_utils12atomic_stackIPvNS0_10MutexOrderELj16EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "name" : "android::audio_utils::thread_mutex_info<void *, android::audio_utils::MutexOrder, 16>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "self_type" : "_ZTIN7android11audio_utils17thread_mutex_infoIPvNS0_10MutexOrderELj16EEE",
+   "size" : 144,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h",
+   "template_args" :
+   [
+    "_ZTIPv",
+    "_ZTIN7android11audio_utils10MutexOrderE"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "cv_",
+     "referenced_type" : "_ZTINSt3__118condition_variableE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils18condition_variableE",
+   "name" : "android::audio_utils::condition_variable",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils18condition_variableE",
+   "self_type" : "_ZTIN7android11audio_utils18condition_variableE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android11audio_utils20AudioMutexAttributesE",
+   "name" : "android::audio_utils::AudioMutexAttributes",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils20AudioMutexAttributesE",
+   "self_type" : "_ZTIN7android11audio_utils20AudioMutexAttributesE",
+   "size" : 1,
+   "source_file" : "system/media/audio_utils/include/audio_utils/mutex.h"
   },
   {
    "alignment" : 8,

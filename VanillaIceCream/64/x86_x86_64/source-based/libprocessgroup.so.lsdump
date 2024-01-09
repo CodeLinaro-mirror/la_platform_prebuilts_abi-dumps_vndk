@@ -136,9 +136,6 @@
    "name" : "_Z20setProcessGroupLimitjix"
   },
   {
-   "name" : "_Z22removeAllProcessGroupsv"
-  },
-  {
    "name" : "_Z23getAttributePathForTaskRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiPS5_"
   },
   {
@@ -214,9 +211,6 @@
   },
   {
    "name" : "_ZN13FdCacheHelper5CacheERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERN7android4base14unique_fd_implINSA_13DefaultCloserEEE"
-  },
-  {
-   "name" : "_ZN15SetCgroupAction14AddTidToCgroupEiiPKc"
   },
   {
    "name" : "_ZN15SetCgroupAction19DropResourceCachingEN13ProfileAction17ResourceCacheTypeE"
@@ -1155,6 +1149,9 @@
    "name" : "_ZNK15SetCgroupAction11UseCachedFdEN13ProfileAction17ResourceCacheTypeEi"
   },
   {
+   "name" : "_ZNK15SetCgroupAction14AddTidToCgroupEiiN13ProfileAction17ResourceCacheTypeE"
+  },
+  {
    "name" : "_ZNK15SetCgroupAction14ExecuteForTaskEi"
   },
   {
@@ -1968,10 +1965,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__125__lexicographical_compareIRNS_6__lessINS_4pairIKN4Json5Value8CZStringES4_EES7_EENS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS5_S4_EEPNS_11__tree_nodeISD_PvEEiEEEESJ_EEbT0_SK_T1_SL_T_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
   },
   {
@@ -2177,6 +2170,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__1lsIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_ostreamIT_T0_EES9_RKNS_12basic_stringIS6_S7_T1_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_S6_"
   },
   {
    "name" : "android_set_process_profiles"

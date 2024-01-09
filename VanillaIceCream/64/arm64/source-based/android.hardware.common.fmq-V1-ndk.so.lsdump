@@ -188,23 +188,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 268435456,
-     "name" : "FLAG_PRIVATE_VENDOR"
-    }
-   ],
-   "linker_set_key" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "name" : "(unnamed)",
-   "referenced_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "self_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 0,
      "name" : "STATUS_OK"
     },
@@ -1495,6 +1478,16 @@
    "self_type" : "_ZTIKi",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIKj",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h"
   },
   {
    "alignment" : 8,

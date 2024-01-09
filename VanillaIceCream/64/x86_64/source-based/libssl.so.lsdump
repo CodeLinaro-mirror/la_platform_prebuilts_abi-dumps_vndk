@@ -3000,7 +3000,7 @@
    "referenced_type" : "_ZTIFP13DIST_POINT_stPKS_E",
    "return_type" : "_ZTIP13DIST_POINT_st",
    "self_type" : "_ZTIFP13DIST_POINT_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3015,7 +3015,7 @@
    "referenced_type" : "_ZTIFP13POLICYINFO_stPKS_E",
    "return_type" : "_ZTIP13POLICYINFO_st",
    "self_type" : "_ZTIFP13POLICYINFO_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3060,7 +3060,7 @@
    "referenced_type" : "_ZTIFP13v3_ext_methodPKS_E",
    "return_type" : "_ZTIP13v3_ext_method",
    "self_type" : "_ZTIFP13v3_ext_methodPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3133,21 +3133,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFP14x509_lookup_stPKS_E",
-   "name" : "x509_lookup_st *(const x509_lookup_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK14x509_lookup_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFP14x509_lookup_stPKS_E",
-   "return_type" : "_ZTIP14x509_lookup_st",
-   "self_type" : "_ZTIFP14x509_lookup_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFP14x509_object_stPKS_E",
    "name" : "x509_object_st *(const x509_object_st *)",
    "parameters" :
@@ -3174,7 +3159,7 @@
    "referenced_type" : "_ZTIFP15GENERAL_NAME_stPKS_E",
    "return_type" : "_ZTIP15GENERAL_NAME_st",
    "self_type" : "_ZTIFP15GENERAL_NAME_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3189,7 +3174,7 @@
    "referenced_type" : "_ZTIFP15x509_purpose_stPKS_E",
    "return_type" : "_ZTIP15x509_purpose_st",
    "self_type" : "_ZTIFP15x509_purpose_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3234,7 +3219,7 @@
    "referenced_type" : "_ZTIFP17POLICYQUALINFO_stPKS_E",
    "return_type" : "_ZTIP17POLICYQUALINFO_st",
    "self_type" : "_ZTIFP17POLICYQUALINFO_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3249,7 +3234,7 @@
    "referenced_type" : "_ZTIFP17POLICY_MAPPING_stPKS_E",
    "return_type" : "_ZTIP17POLICY_MAPPING_st",
    "self_type" : "_ZTIFP17POLICY_MAPPING_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3279,7 +3264,7 @@
    "referenced_type" : "_ZTIFP18GENERAL_SUBTREE_stPKS_E",
    "return_type" : "_ZTIP18GENERAL_SUBTREE_st",
    "self_type" : "_ZTIFP18GENERAL_SUBTREE_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3330,21 +3315,6 @@
    "referenced_type" : "_ZTIFP19stack_st_CONF_VALUEPK13v3_ext_methodPvS0_E",
    "return_type" : "_ZTIP19stack_st_CONF_VALUE",
    "self_type" : "_ZTIFP19stack_st_CONF_VALUEPK13v3_ext_methodPvS0_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFP20X509_VERIFY_PARAM_stPKS_E",
-   "name" : "X509_VERIFY_PARAM_st *(const X509_VERIFY_PARAM_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK20X509_VERIFY_PARAM_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFP20X509_VERIFY_PARAM_stPKS_E",
-   "return_type" : "_ZTIP20X509_VERIFY_PARAM_st",
-   "self_type" : "_ZTIFP20X509_VERIFY_PARAM_stPKS_E",
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -3360,22 +3330,7 @@
    "referenced_type" : "_ZTIFP21ACCESS_DESCRIPTION_stPKS_E",
    "return_type" : "_ZTIP21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTIFP21ACCESS_DESCRIPTION_stPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFP21stack_st_GENERAL_NAMEPKS_E",
-   "name" : "stack_st_GENERAL_NAME *(const stack_st_GENERAL_NAME *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK21stack_st_GENERAL_NAME"
-    }
-   ],
-   "referenced_type" : "_ZTIFP21stack_st_GENERAL_NAMEPKS_E",
-   "return_type" : "_ZTIP21stack_st_GENERAL_NAME",
-   "self_type" : "_ZTIFP21stack_st_GENERAL_NAMEPKS_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3495,7 +3450,7 @@
    "referenced_type" : "_ZTIFPcPK13v3_ext_methodPvE",
    "return_type" : "_ZTIPc",
    "self_type" : "_ZTIFPcPK13v3_ext_methodPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3531,7 +3486,7 @@
    "referenced_type" : "_ZTIFPvPK13v3_ext_methodPK10v3_ext_ctxPK19stack_st_CONF_VALUEE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvPK13v3_ext_methodPK10v3_ext_ctxPK19stack_st_CONF_VALUEE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3552,7 +3507,7 @@
    "referenced_type" : "_ZTIFPvPK13v3_ext_methodPK10v3_ext_ctxPKcE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvPK13v3_ext_methodPK10v3_ext_ctxPKcE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3588,7 +3543,7 @@
    "referenced_type" : "_ZTIFPvS_PPKhlE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvS_PPKhlE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3597,7 +3552,7 @@
    "referenced_type" : "_ZTIFPvvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3705,7 +3660,7 @@
    "referenced_type" : "_ZTIFiP13DIST_POINT_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP13DIST_POINT_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3723,7 +3678,7 @@
    "referenced_type" : "_ZTIFiP13POLICYINFO_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP13POLICYINFO_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3777,27 +3732,6 @@
    "referenced_type" : "_ZTIFiP13v3_ext_methodPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP13v3_ext_methodPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP13x509_trust_stP7x509_stiE",
-   "name" : "int (x509_trust_st *, x509_st *, int)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13x509_trust_st"
-    },
-    {
-     "referenced_type" : "_ZTIP7x509_st"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP13x509_trust_stP7x509_stiE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13x509_trust_stP7x509_stiE",
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -3856,24 +3790,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP14x509_lookup_stPvE",
-   "name" : "int (x509_lookup_st *, void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP14x509_lookup_st"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP14x509_lookup_stPvE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP14x509_lookup_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFiP14x509_object_stPvE",
    "name" : "int (x509_object_st *, void *)",
    "parameters" :
@@ -3906,7 +3822,7 @@
    "referenced_type" : "_ZTIFiP15GENERAL_NAME_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP15GENERAL_NAME_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3924,7 +3840,7 @@
    "referenced_type" : "_ZTIFiP15x509_purpose_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP15x509_purpose_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3978,7 +3894,7 @@
    "referenced_type" : "_ZTIFiP17POLICYQUALINFO_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP17POLICYQUALINFO_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -3996,7 +3912,7 @@
    "referenced_type" : "_ZTIFiP17POLICY_MAPPING_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP17POLICY_MAPPING_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -4080,7 +3996,7 @@
    "referenced_type" : "_ZTIFiP18GENERAL_SUBTREE_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP18GENERAL_SUBTREE_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -4120,24 +4036,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP20X509_VERIFY_PARAM_stPvE",
-   "name" : "int (X509_VERIFY_PARAM_st *, void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP20X509_VERIFY_PARAM_st"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP20X509_VERIFY_PARAM_stPvE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP20X509_VERIFY_PARAM_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFiP21ACCESS_DESCRIPTION_stPvE",
    "name" : "int (ACCESS_DESCRIPTION_st *, void *)",
    "parameters" :
@@ -4152,25 +4050,7 @@
    "referenced_type" : "_ZTIFiP21ACCESS_DESCRIPTION_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP21ACCESS_DESCRIPTION_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP21stack_st_GENERAL_NAMEPvE",
-   "name" : "int (stack_st_GENERAL_NAME *, void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21stack_st_GENERAL_NAME"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP21stack_st_GENERAL_NAMEPvE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP21stack_st_GENERAL_NAMEPvE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -4770,7 +4650,28 @@
    "referenced_type" : "_ZTIFiPK13v3_ext_methodPvP6bio_stiE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK13v3_ext_methodPvP6bio_stiE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFiPK13x509_trust_stP7x509_stiE",
+   "name" : "int (const x509_trust_st *, x509_st *, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK13x509_trust_st"
+    },
+    {
+     "referenced_type" : "_ZTIP7x509_st"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "referenced_type" : "_ZTIFiPK13x509_trust_stP7x509_stiE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiPK13x509_trust_stP7x509_stiE",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -4791,7 +4692,7 @@
    "referenced_type" : "_ZTIFiPK15x509_purpose_stPK7x509_stiE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK15x509_purpose_stPK7x509_stiE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -4932,7 +4833,7 @@
    "referenced_type" : "_ZTIFiPKPK13DIST_POINT_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK13DIST_POINT_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -4950,7 +4851,7 @@
    "referenced_type" : "_ZTIFiPKPK13POLICYINFO_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK13POLICYINFO_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5022,7 +4923,7 @@
    "referenced_type" : "_ZTIFiPKPK13v3_ext_methodS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK13v3_ext_methodS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5080,24 +4981,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiPKPK14x509_lookup_stS3_E",
-   "name" : "int (const x509_lookup_st *const *, const x509_lookup_st *const *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKPK14x509_lookup_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKPK14x509_lookup_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFiPKPK14x509_lookup_stS3_E",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPKPK14x509_lookup_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFiPKPK14x509_object_stS3_E",
    "name" : "int (const x509_object_st *const *, const x509_object_st *const *)",
    "parameters" :
@@ -5130,7 +5013,7 @@
    "referenced_type" : "_ZTIFiPKPK15GENERAL_NAME_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK15GENERAL_NAME_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5148,7 +5031,7 @@
    "referenced_type" : "_ZTIFiPKPK15x509_purpose_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK15x509_purpose_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5202,7 +5085,7 @@
    "referenced_type" : "_ZTIFiPKPK17POLICYQUALINFO_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK17POLICYQUALINFO_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5220,7 +5103,7 @@
    "referenced_type" : "_ZTIFiPKPK17POLICY_MAPPING_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK17POLICY_MAPPING_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5256,7 +5139,7 @@
    "referenced_type" : "_ZTIFiPKPK18GENERAL_SUBTREE_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK18GENERAL_SUBTREE_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5296,24 +5179,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiPKPK20X509_VERIFY_PARAM_stS3_E",
-   "name" : "int (const X509_VERIFY_PARAM_st *const *, const X509_VERIFY_PARAM_st *const *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKPK20X509_VERIFY_PARAM_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKPK20X509_VERIFY_PARAM_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFiPKPK20X509_VERIFY_PARAM_stS3_E",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPKPK20X509_VERIFY_PARAM_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFiPKPK21ACCESS_DESCRIPTION_stS3_E",
    "name" : "int (const ACCESS_DESCRIPTION_st *const *, const ACCESS_DESCRIPTION_st *const *)",
    "parameters" :
@@ -5328,25 +5193,7 @@
    "referenced_type" : "_ZTIFiPKPK21ACCESS_DESCRIPTION_stS3_E",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPKPK21ACCESS_DESCRIPTION_stS3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFiPKPK21stack_st_GENERAL_NAMES3_E",
-   "name" : "int (const stack_st_GENERAL_NAME *const *, const stack_st_GENERAL_NAME *const *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKPK21stack_st_GENERAL_NAME"
-    },
-    {
-     "referenced_type" : "_ZTIPKPK21stack_st_GENERAL_NAME"
-    }
-   ],
-   "referenced_type" : "_ZTIFiPKPK21stack_st_GENERAL_NAMES3_E",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPKPK21stack_st_GENERAL_NAMES3_E",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5541,7 +5388,7 @@
    "referenced_type" : "_ZTIFiPvPPhE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPvPPhE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5919,7 +5766,7 @@
    "referenced_type" : "_ZTIFvP13DIST_POINT_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP13DIST_POINT_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5934,7 +5781,7 @@
    "referenced_type" : "_ZTIFvP13POLICYINFO_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP13POLICYINFO_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -5979,7 +5826,7 @@
    "referenced_type" : "_ZTIFvP13v3_ext_methodE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP13v3_ext_methodE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -6028,21 +5875,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFvP14x509_lookup_stE",
-   "name" : "void (x509_lookup_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP14x509_lookup_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFvP14x509_lookup_stE",
-   "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvP14x509_lookup_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFvP14x509_object_stE",
    "name" : "void (x509_object_st *)",
    "parameters" :
@@ -6069,7 +5901,7 @@
    "referenced_type" : "_ZTIFvP15GENERAL_NAME_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP15GENERAL_NAME_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -6084,7 +5916,7 @@
    "referenced_type" : "_ZTIFvP15x509_purpose_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP15x509_purpose_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -6129,7 +5961,7 @@
    "referenced_type" : "_ZTIFvP17POLICYQUALINFO_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP17POLICYQUALINFO_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -6144,7 +5976,7 @@
    "referenced_type" : "_ZTIFvP17POLICY_MAPPING_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP17POLICY_MAPPING_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -6174,7 +6006,7 @@
    "referenced_type" : "_ZTIFvP18GENERAL_SUBTREE_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP18GENERAL_SUBTREE_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -6208,21 +6040,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFvP20X509_VERIFY_PARAM_stE",
-   "name" : "void (X509_VERIFY_PARAM_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP20X509_VERIFY_PARAM_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFvP20X509_VERIFY_PARAM_stE",
-   "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvP20X509_VERIFY_PARAM_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFvP21ACCESS_DESCRIPTION_stE",
    "name" : "void (ACCESS_DESCRIPTION_st *)",
    "parameters" :
@@ -6234,22 +6051,7 @@
    "referenced_type" : "_ZTIFvP21ACCESS_DESCRIPTION_stE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP21ACCESS_DESCRIPTION_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFvP21stack_st_GENERAL_NAMEE",
-   "name" : "void (stack_st_GENERAL_NAME *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21stack_st_GENERAL_NAME"
-    }
-   ],
-   "referenced_type" : "_ZTIFvP21stack_st_GENERAL_NAMEE",
-   "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvP21stack_st_GENERAL_NAMEE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -15151,7 +14953,7 @@
    "referenced_type" : "_ZTI12NOTICEREF_st",
    "self_type" : "_ZTIP12NOTICEREF_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15205,7 +15007,7 @@
    "referenced_type" : "_ZTI12otherName_st",
    "self_type" : "_ZTIP12otherName_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15232,7 +15034,7 @@
    "referenced_type" : "_ZTI13DIST_POINT_st",
    "self_type" : "_ZTIP13DIST_POINT_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15241,7 +15043,7 @@
    "referenced_type" : "_ZTI13POLICYINFO_st",
    "self_type" : "_ZTIP13POLICYINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15250,7 +15052,7 @@
    "referenced_type" : "_ZTI13USERNOTICE_st",
    "self_type" : "_ZTIP13USERNOTICE_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15331,7 +15133,7 @@
    "referenced_type" : "_ZTI13v3_ext_method",
    "self_type" : "_ZTIP13v3_ext_method",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15430,7 +15232,7 @@
    "referenced_type" : "_ZTI15EDIPartyName_st",
    "self_type" : "_ZTIP15EDIPartyName_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15439,7 +15241,7 @@
    "referenced_type" : "_ZTI15GENERAL_NAME_st",
    "self_type" : "_ZTIP15GENERAL_NAME_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15493,7 +15295,7 @@
    "referenced_type" : "_ZTI15x509_purpose_st",
    "self_type" : "_ZTIP15x509_purpose_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15538,7 +15340,7 @@
    "referenced_type" : "_ZTI17POLICYQUALINFO_st",
    "self_type" : "_ZTIP17POLICYQUALINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15547,7 +15349,7 @@
    "referenced_type" : "_ZTI17POLICY_MAPPING_st",
    "self_type" : "_ZTIP17POLICY_MAPPING_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15628,7 +15430,7 @@
    "referenced_type" : "_ZTI18AUTHORITY_KEYID_st",
    "self_type" : "_ZTIP18AUTHORITY_KEYID_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15637,7 +15439,7 @@
    "referenced_type" : "_ZTI18DIST_POINT_NAME_st",
    "self_type" : "_ZTIP18DIST_POINT_NAME_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15646,7 +15448,7 @@
    "referenced_type" : "_ZTI18GENERAL_SUBTREE_st",
    "self_type" : "_ZTIP18GENERAL_SUBTREE_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15700,7 +15502,7 @@
    "referenced_type" : "_ZTI19NAME_CONSTRAINTS_st",
    "self_type" : "_ZTIP19NAME_CONSTRAINTS_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15727,7 +15529,7 @@
    "referenced_type" : "_ZTI19stack_st_DIST_POINT",
    "self_type" : "_ZTIP19stack_st_DIST_POINT",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15736,7 +15538,7 @@
    "referenced_type" : "_ZTI19stack_st_POLICYINFO",
    "self_type" : "_ZTIP19stack_st_POLICYINFO",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15772,7 +15574,7 @@
    "referenced_type" : "_ZTI20BASIC_CONSTRAINTS_st",
    "self_type" : "_ZTIP20BASIC_CONSTRAINTS_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15803,15 +15605,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIP20stack_st_X509_LOOKUP",
-   "name" : "stack_st_X509_LOOKUP *",
-   "referenced_type" : "_ZTI20stack_st_X509_LOOKUP",
-   "self_type" : "_ZTIP20stack_st_X509_LOOKUP",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIP20stack_st_X509_OBJECT",
    "name" : "stack_st_X509_OBJECT *",
    "referenced_type" : "_ZTI20stack_st_X509_OBJECT",
@@ -15826,7 +15619,7 @@
    "referenced_type" : "_ZTI21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTIP21ACCESS_DESCRIPTION_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15853,7 +15646,7 @@
    "referenced_type" : "_ZTI21stack_st_GENERAL_NAME",
    "self_type" : "_ZTIP21stack_st_GENERAL_NAME",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15862,7 +15655,7 @@
    "referenced_type" : "_ZTI21stack_st_X509_PURPOSE",
    "self_type" : "_ZTIP21stack_st_X509_PURPOSE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15893,15 +15686,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIP22stack_st_GENERAL_NAMES",
-   "name" : "stack_st_GENERAL_NAMES *",
-   "referenced_type" : "_ZTI22stack_st_GENERAL_NAMES",
-   "self_type" : "_ZTIP22stack_st_GENERAL_NAMES",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIP23stack_st_OPENSSL_STRING",
    "name" : "stack_st_OPENSSL_STRING *",
    "referenced_type" : "_ZTI23stack_st_OPENSSL_STRING",
@@ -15916,7 +15700,7 @@
    "referenced_type" : "_ZTI23stack_st_POLICYQUALINFO",
    "self_type" : "_ZTIP23stack_st_POLICYQUALINFO",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15925,7 +15709,7 @@
    "referenced_type" : "_ZTI23stack_st_POLICY_MAPPING",
    "self_type" : "_ZTIP23stack_st_POLICY_MAPPING",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15952,7 +15736,7 @@
    "referenced_type" : "_ZTI24stack_st_GENERAL_SUBTREE",
    "self_type" : "_ZTIP24stack_st_GENERAL_SUBTREE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -15970,15 +15754,6 @@
    "referenced_type" : "_ZTI26stack_st_X509V3_EXT_METHOD",
    "self_type" : "_ZTIP26stack_st_X509V3_EXT_METHOD",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIP26stack_st_X509_VERIFY_PARAM",
-   "name" : "stack_st_X509_VERIFY_PARAM *",
-   "referenced_type" : "_ZTI26stack_st_X509_VERIFY_PARAM",
-   "self_type" : "_ZTIP26stack_st_X509_VERIFY_PARAM",
-   "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -15988,7 +15763,7 @@
    "referenced_type" : "_ZTI27stack_st_ACCESS_DESCRIPTION",
    "self_type" : "_ZTIP27stack_st_ACCESS_DESCRIPTION",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16240,7 +16015,7 @@
    "referenced_type" : "_ZTIFP13DIST_POINT_stPKS_E",
    "self_type" : "_ZTIPFP13DIST_POINT_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16249,7 +16024,7 @@
    "referenced_type" : "_ZTIFP13POLICYINFO_stPKS_E",
    "self_type" : "_ZTIPFP13POLICYINFO_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16276,7 +16051,7 @@
    "referenced_type" : "_ZTIFP13v3_ext_methodPKS_E",
    "self_type" : "_ZTIPFP13v3_ext_methodPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16316,15 +16091,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFP14x509_lookup_stPKS_E",
-   "name" : "x509_lookup_st *(*)(const x509_lookup_st *)",
-   "referenced_type" : "_ZTIFP14x509_lookup_stPKS_E",
-   "self_type" : "_ZTIPFP14x509_lookup_stPKS_E",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFP14x509_object_stPKS_E",
    "name" : "x509_object_st *(*)(const x509_object_st *)",
    "referenced_type" : "_ZTIFP14x509_object_stPKS_E",
@@ -16339,7 +16105,7 @@
    "referenced_type" : "_ZTIFP15GENERAL_NAME_stPKS_E",
    "self_type" : "_ZTIPFP15GENERAL_NAME_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16348,7 +16114,7 @@
    "referenced_type" : "_ZTIFP15x509_purpose_stPKS_E",
    "self_type" : "_ZTIPFP15x509_purpose_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16375,7 +16141,7 @@
    "referenced_type" : "_ZTIFP17POLICYQUALINFO_stPKS_E",
    "self_type" : "_ZTIPFP17POLICYQUALINFO_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16384,7 +16150,7 @@
    "referenced_type" : "_ZTIFP17POLICY_MAPPING_stPKS_E",
    "self_type" : "_ZTIPFP17POLICY_MAPPING_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16402,7 +16168,7 @@
    "referenced_type" : "_ZTIFP18GENERAL_SUBTREE_stPKS_E",
    "self_type" : "_ZTIPFP18GENERAL_SUBTREE_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16429,15 +16195,6 @@
    "referenced_type" : "_ZTIFP19stack_st_CONF_VALUEPK13v3_ext_methodPvS0_E",
    "self_type" : "_ZTIPFP19stack_st_CONF_VALUEPK13v3_ext_methodPvS0_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFP20X509_VERIFY_PARAM_stPKS_E",
-   "name" : "X509_VERIFY_PARAM_st *(*)(const X509_VERIFY_PARAM_st *)",
-   "referenced_type" : "_ZTIFP20X509_VERIFY_PARAM_stPKS_E",
-   "self_type" : "_ZTIPFP20X509_VERIFY_PARAM_stPKS_E",
-   "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -16447,16 +16204,7 @@
    "referenced_type" : "_ZTIFP21ACCESS_DESCRIPTION_stPKS_E",
    "self_type" : "_ZTIPFP21ACCESS_DESCRIPTION_stPKS_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFP21stack_st_GENERAL_NAMEPKS_E",
-   "name" : "stack_st_GENERAL_NAME *(*)(const stack_st_GENERAL_NAME *)",
-   "referenced_type" : "_ZTIFP21stack_st_GENERAL_NAMEPKS_E",
-   "self_type" : "_ZTIPFP21stack_st_GENERAL_NAMEPKS_E",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16519,7 +16267,7 @@
    "referenced_type" : "_ZTIFPcPK13v3_ext_methodPvE",
    "self_type" : "_ZTIPFPcPK13v3_ext_methodPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16537,7 +16285,7 @@
    "referenced_type" : "_ZTIFPvPK13v3_ext_methodPK10v3_ext_ctxPK19stack_st_CONF_VALUEE",
    "self_type" : "_ZTIPFPvPK13v3_ext_methodPK10v3_ext_ctxPK19stack_st_CONF_VALUEE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16546,7 +16294,7 @@
    "referenced_type" : "_ZTIFPvPK13v3_ext_methodPK10v3_ext_ctxPKcE",
    "self_type" : "_ZTIPFPvPK13v3_ext_methodPK10v3_ext_ctxPKcE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16564,7 +16312,7 @@
    "referenced_type" : "_ZTIFPvS_PPKhlE",
    "self_type" : "_ZTIPFPvS_PPKhlE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16573,7 +16321,7 @@
    "referenced_type" : "_ZTIFPvvE",
    "self_type" : "_ZTIPFPvvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16627,7 +16375,7 @@
    "referenced_type" : "_ZTIFiP13DIST_POINT_stPvE",
    "self_type" : "_ZTIPFiP13DIST_POINT_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16636,7 +16384,7 @@
    "referenced_type" : "_ZTIFiP13POLICYINFO_stPvE",
    "self_type" : "_ZTIPFiP13POLICYINFO_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16662,15 +16410,6 @@
    "name" : "int (*)(v3_ext_method *, void *)",
    "referenced_type" : "_ZTIFiP13v3_ext_methodPvE",
    "self_type" : "_ZTIPFiP13v3_ext_methodPvE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP13x509_trust_stP7x509_stiE",
-   "name" : "int (*)(x509_trust_st *, x509_st *, int)",
-   "referenced_type" : "_ZTIFiP13x509_trust_stP7x509_stiE",
-   "self_type" : "_ZTIPFiP13x509_trust_stP7x509_stiE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
@@ -16703,15 +16442,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP14x509_lookup_stPvE",
-   "name" : "int (*)(x509_lookup_st *, void *)",
-   "referenced_type" : "_ZTIFiP14x509_lookup_stPvE",
-   "self_type" : "_ZTIPFiP14x509_lookup_stPvE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP14x509_object_stPvE",
    "name" : "int (*)(x509_object_st *, void *)",
    "referenced_type" : "_ZTIFiP14x509_object_stPvE",
@@ -16726,7 +16456,7 @@
    "referenced_type" : "_ZTIFiP15GENERAL_NAME_stPvE",
    "self_type" : "_ZTIPFiP15GENERAL_NAME_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16735,7 +16465,7 @@
    "referenced_type" : "_ZTIFiP15x509_purpose_stPvE",
    "self_type" : "_ZTIPFiP15x509_purpose_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16762,7 +16492,7 @@
    "referenced_type" : "_ZTIFiP17POLICYQUALINFO_stPvE",
    "self_type" : "_ZTIPFiP17POLICYQUALINFO_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16771,7 +16501,7 @@
    "referenced_type" : "_ZTIFiP17POLICY_MAPPING_stPvE",
    "self_type" : "_ZTIPFiP17POLICY_MAPPING_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16807,7 +16537,7 @@
    "referenced_type" : "_ZTIFiP18GENERAL_SUBTREE_stPvE",
    "self_type" : "_ZTIPFiP18GENERAL_SUBTREE_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -16829,30 +16559,12 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP20X509_VERIFY_PARAM_stPvE",
-   "name" : "int (*)(X509_VERIFY_PARAM_st *, void *)",
-   "referenced_type" : "_ZTIFiP20X509_VERIFY_PARAM_stPvE",
-   "self_type" : "_ZTIPFiP20X509_VERIFY_PARAM_stPvE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP21ACCESS_DESCRIPTION_stPvE",
    "name" : "int (*)(ACCESS_DESCRIPTION_st *, void *)",
    "referenced_type" : "_ZTIFiP21ACCESS_DESCRIPTION_stPvE",
    "self_type" : "_ZTIPFiP21ACCESS_DESCRIPTION_stPvE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP21stack_st_GENERAL_NAMEPvE",
-   "name" : "int (*)(stack_st_GENERAL_NAME *, void *)",
-   "referenced_type" : "_ZTIFiP21stack_st_GENERAL_NAMEPvE",
-   "self_type" : "_ZTIPFiP21stack_st_GENERAL_NAMEPvE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17095,7 +16807,16 @@
    "referenced_type" : "_ZTIFiPK13v3_ext_methodPvP6bio_stiE",
    "self_type" : "_ZTIPFiPK13v3_ext_methodPvP6bio_stiE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFiPK13x509_trust_stP7x509_stiE",
+   "name" : "int (*)(const x509_trust_st *, x509_st *, int)",
+   "referenced_type" : "_ZTIFiPK13x509_trust_stP7x509_stiE",
+   "self_type" : "_ZTIPFiPK13x509_trust_stP7x509_stiE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17104,7 +16825,7 @@
    "referenced_type" : "_ZTIFiPK15x509_purpose_stPK7x509_stiE",
    "self_type" : "_ZTIPFiPK15x509_purpose_stPK7x509_stiE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17176,7 +16897,7 @@
    "referenced_type" : "_ZTIFiPKPK13DIST_POINT_stS3_E",
    "self_type" : "_ZTIPFiPKPK13DIST_POINT_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17185,7 +16906,7 @@
    "referenced_type" : "_ZTIFiPKPK13POLICYINFO_stS3_E",
    "self_type" : "_ZTIPFiPKPK13POLICYINFO_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17221,7 +16942,7 @@
    "referenced_type" : "_ZTIFiPKPK13v3_ext_methodS3_E",
    "self_type" : "_ZTIPFiPKPK13v3_ext_methodS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17252,15 +16973,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiPKPK14x509_lookup_stS3_E",
-   "name" : "int (*)(const x509_lookup_st *const *, const x509_lookup_st *const *)",
-   "referenced_type" : "_ZTIFiPKPK14x509_lookup_stS3_E",
-   "self_type" : "_ZTIPFiPKPK14x509_lookup_stS3_E",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPKPK14x509_object_stS3_E",
    "name" : "int (*)(const x509_object_st *const *, const x509_object_st *const *)",
    "referenced_type" : "_ZTIFiPKPK14x509_object_stS3_E",
@@ -17275,7 +16987,7 @@
    "referenced_type" : "_ZTIFiPKPK15GENERAL_NAME_stS3_E",
    "self_type" : "_ZTIPFiPKPK15GENERAL_NAME_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17284,7 +16996,7 @@
    "referenced_type" : "_ZTIFiPKPK15x509_purpose_stS3_E",
    "self_type" : "_ZTIPFiPKPK15x509_purpose_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17311,7 +17023,7 @@
    "referenced_type" : "_ZTIFiPKPK17POLICYQUALINFO_stS3_E",
    "self_type" : "_ZTIPFiPKPK17POLICYQUALINFO_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17320,7 +17032,7 @@
    "referenced_type" : "_ZTIFiPKPK17POLICY_MAPPING_stS3_E",
    "self_type" : "_ZTIPFiPKPK17POLICY_MAPPING_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17338,7 +17050,7 @@
    "referenced_type" : "_ZTIFiPKPK18GENERAL_SUBTREE_stS3_E",
    "self_type" : "_ZTIPFiPKPK18GENERAL_SUBTREE_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17360,30 +17072,12 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiPKPK20X509_VERIFY_PARAM_stS3_E",
-   "name" : "int (*)(const X509_VERIFY_PARAM_st *const *, const X509_VERIFY_PARAM_st *const *)",
-   "referenced_type" : "_ZTIFiPKPK20X509_VERIFY_PARAM_stS3_E",
-   "self_type" : "_ZTIPFiPKPK20X509_VERIFY_PARAM_stS3_E",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPKPK21ACCESS_DESCRIPTION_stS3_E",
    "name" : "int (*)(const ACCESS_DESCRIPTION_st *const *, const ACCESS_DESCRIPTION_st *const *)",
    "referenced_type" : "_ZTIFiPKPK21ACCESS_DESCRIPTION_stS3_E",
    "self_type" : "_ZTIPFiPKPK21ACCESS_DESCRIPTION_stS3_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiPKPK21stack_st_GENERAL_NAMES3_E",
-   "name" : "int (*)(const stack_st_GENERAL_NAME *const *, const stack_st_GENERAL_NAME *const *)",
-   "referenced_type" : "_ZTIFiPKPK21stack_st_GENERAL_NAMES3_E",
-   "self_type" : "_ZTIPFiPKPK21stack_st_GENERAL_NAMES3_E",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17473,7 +17167,7 @@
    "referenced_type" : "_ZTIFiPvPPhE",
    "self_type" : "_ZTIPFiPvPPhE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17653,7 +17347,7 @@
    "referenced_type" : "_ZTIFvP13DIST_POINT_stE",
    "self_type" : "_ZTIPFvP13DIST_POINT_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17662,7 +17356,7 @@
    "referenced_type" : "_ZTIFvP13POLICYINFO_stE",
    "self_type" : "_ZTIPFvP13POLICYINFO_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17689,7 +17383,7 @@
    "referenced_type" : "_ZTIFvP13v3_ext_methodE",
    "self_type" : "_ZTIPFvP13v3_ext_methodE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17720,15 +17414,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFvP14x509_lookup_stE",
-   "name" : "void (*)(x509_lookup_st *)",
-   "referenced_type" : "_ZTIFvP14x509_lookup_stE",
-   "self_type" : "_ZTIPFvP14x509_lookup_stE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFvP14x509_object_stE",
    "name" : "void (*)(x509_object_st *)",
    "referenced_type" : "_ZTIFvP14x509_object_stE",
@@ -17743,7 +17428,7 @@
    "referenced_type" : "_ZTIFvP15GENERAL_NAME_stE",
    "self_type" : "_ZTIPFvP15GENERAL_NAME_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17752,7 +17437,7 @@
    "referenced_type" : "_ZTIFvP15x509_purpose_stE",
    "self_type" : "_ZTIPFvP15x509_purpose_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17779,7 +17464,7 @@
    "referenced_type" : "_ZTIFvP17POLICYQUALINFO_stE",
    "self_type" : "_ZTIPFvP17POLICYQUALINFO_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17788,7 +17473,7 @@
    "referenced_type" : "_ZTIFvP17POLICY_MAPPING_stE",
    "self_type" : "_ZTIPFvP17POLICY_MAPPING_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17806,7 +17491,7 @@
    "referenced_type" : "_ZTIFvP18GENERAL_SUBTREE_stE",
    "self_type" : "_ZTIPFvP18GENERAL_SUBTREE_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17828,30 +17513,12 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPFvP20X509_VERIFY_PARAM_stE",
-   "name" : "void (*)(X509_VERIFY_PARAM_st *)",
-   "referenced_type" : "_ZTIFvP20X509_VERIFY_PARAM_stE",
-   "self_type" : "_ZTIPFvP20X509_VERIFY_PARAM_stE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPFvP21ACCESS_DESCRIPTION_stE",
    "name" : "void (*)(ACCESS_DESCRIPTION_st *)",
    "referenced_type" : "_ZTIFvP21ACCESS_DESCRIPTION_stE",
    "self_type" : "_ZTIPFvP21ACCESS_DESCRIPTION_stE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFvP21stack_st_GENERAL_NAMEE",
-   "name" : "void (*)(stack_st_GENERAL_NAME *)",
-   "referenced_type" : "_ZTIFvP21stack_st_GENERAL_NAMEE",
-   "self_type" : "_ZTIPFvP21stack_st_GENERAL_NAMEE",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -17995,7 +17662,7 @@
    "referenced_type" : "_ZTIK10v3_ext_ctx",
    "self_type" : "_ZTIPK10v3_ext_ctx",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18013,7 +17680,7 @@
    "referenced_type" : "_ZTIK11X509_req_st",
    "self_type" : "_ZTIPK11X509_req_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18040,7 +17707,7 @@
    "referenced_type" : "_ZTIK12ASN1_ITEM_st",
    "self_type" : "_ZTIPK12ASN1_ITEM_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18085,7 +17752,7 @@
    "referenced_type" : "_ZTIK13DIST_POINT_st",
    "self_type" : "_ZTIPK13DIST_POINT_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18094,7 +17761,7 @@
    "referenced_type" : "_ZTIK13POLICYINFO_st",
    "self_type" : "_ZTIPK13POLICYINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18184,7 +17851,7 @@
    "referenced_type" : "_ZTIK13v3_ext_method",
    "self_type" : "_ZTIPK13v3_ext_method",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18224,15 +17891,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK14x509_lookup_st",
-   "name" : "const x509_lookup_st *",
-   "referenced_type" : "_ZTIK14x509_lookup_st",
-   "self_type" : "_ZTIPK14x509_lookup_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK14x509_object_st",
    "name" : "const x509_object_st *",
    "referenced_type" : "_ZTIK14x509_object_st",
@@ -18247,7 +17905,7 @@
    "referenced_type" : "_ZTIK15GENERAL_NAME_st",
    "self_type" : "_ZTIPK15GENERAL_NAME_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18310,7 +17968,7 @@
    "referenced_type" : "_ZTIK15x509_purpose_st",
    "self_type" : "_ZTIPK15x509_purpose_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18346,7 +18004,7 @@
    "referenced_type" : "_ZTIK17POLICYQUALINFO_st",
    "self_type" : "_ZTIPK17POLICYQUALINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18355,7 +18013,7 @@
    "referenced_type" : "_ZTIK17POLICY_MAPPING_st",
    "self_type" : "_ZTIPK17POLICY_MAPPING_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18400,7 +18058,7 @@
    "referenced_type" : "_ZTIK18GENERAL_SUBTREE_st",
    "self_type" : "_ZTIPK18GENERAL_SUBTREE_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18472,7 +18130,7 @@
    "referenced_type" : "_ZTIK19stack_st_DIST_POINT",
    "self_type" : "_ZTIPK19stack_st_DIST_POINT",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18481,7 +18139,7 @@
    "referenced_type" : "_ZTIK19stack_st_POLICYINFO",
    "self_type" : "_ZTIPK19stack_st_POLICYINFO",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18517,7 +18175,7 @@
    "referenced_type" : "_ZTIK20X509_VERIFY_PARAM_st",
    "self_type" : "_ZTIPK20X509_VERIFY_PARAM_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
    "alignment" : 8,
@@ -18527,15 +18185,6 @@
    "self_type" : "_ZTIPK20stack_st_ASN1_OBJECT",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/asn1.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK20stack_st_X509_LOOKUP",
-   "name" : "const stack_st_X509_LOOKUP *",
-   "referenced_type" : "_ZTIK20stack_st_X509_LOOKUP",
-   "self_type" : "_ZTIPK20stack_st_X509_LOOKUP",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18553,7 +18202,7 @@
    "referenced_type" : "_ZTIK21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTIPK21ACCESS_DESCRIPTION_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18580,7 +18229,7 @@
    "referenced_type" : "_ZTIK21stack_st_GENERAL_NAME",
    "self_type" : "_ZTIPK21stack_st_GENERAL_NAME",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18589,7 +18238,7 @@
    "referenced_type" : "_ZTIK21stack_st_X509_PURPOSE",
    "self_type" : "_ZTIPK21stack_st_X509_PURPOSE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18629,15 +18278,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK22stack_st_GENERAL_NAMES",
-   "name" : "const stack_st_GENERAL_NAMES *",
-   "referenced_type" : "_ZTIK22stack_st_GENERAL_NAMES",
-   "self_type" : "_ZTIPK22stack_st_GENERAL_NAMES",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK23stack_st_OPENSSL_STRING",
    "name" : "const stack_st_OPENSSL_STRING *",
    "referenced_type" : "_ZTIK23stack_st_OPENSSL_STRING",
@@ -18652,7 +18292,7 @@
    "referenced_type" : "_ZTIK23stack_st_POLICYQUALINFO",
    "self_type" : "_ZTIPK23stack_st_POLICYQUALINFO",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18661,7 +18301,7 @@
    "referenced_type" : "_ZTIK23stack_st_POLICY_MAPPING",
    "self_type" : "_ZTIPK23stack_st_POLICY_MAPPING",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18688,7 +18328,7 @@
    "referenced_type" : "_ZTIK24stack_st_GENERAL_SUBTREE",
    "self_type" : "_ZTIPK24stack_st_GENERAL_SUBTREE",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18733,15 +18373,6 @@
    "referenced_type" : "_ZTIK26stack_st_X509V3_EXT_METHOD",
    "self_type" : "_ZTIPK26stack_st_X509V3_EXT_METHOD",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK26stack_st_X509_VERIFY_PARAM",
-   "name" : "const stack_st_X509_VERIFY_PARAM *",
-   "referenced_type" : "_ZTIK26stack_st_X509_VERIFY_PARAM",
-   "self_type" : "_ZTIPK26stack_st_X509_VERIFY_PARAM",
-   "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -18751,7 +18382,7 @@
    "referenced_type" : "_ZTIK27stack_st_ACCESS_DESCRIPTION",
    "self_type" : "_ZTIPK27stack_st_ACCESS_DESCRIPTION",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -18814,7 +18445,7 @@
    "referenced_type" : "_ZTIK7conf_st",
    "self_type" : "_ZTIPK7conf_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19102,7 +18733,7 @@
    "referenced_type" : "_ZTIKPK13DIST_POINT_st",
    "self_type" : "_ZTIPKPK13DIST_POINT_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19111,7 +18742,7 @@
    "referenced_type" : "_ZTIKPK13POLICYINFO_st",
    "self_type" : "_ZTIPKPK13POLICYINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19147,7 +18778,7 @@
    "referenced_type" : "_ZTIKPK13v3_ext_method",
    "self_type" : "_ZTIPKPK13v3_ext_method",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19178,15 +18809,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK14x509_lookup_st",
-   "name" : "const x509_lookup_st *const *",
-   "referenced_type" : "_ZTIKPK14x509_lookup_st",
-   "self_type" : "_ZTIPKPK14x509_lookup_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPKPK14x509_object_st",
    "name" : "const x509_object_st *const *",
    "referenced_type" : "_ZTIKPK14x509_object_st",
@@ -19201,7 +18823,7 @@
    "referenced_type" : "_ZTIKPK15GENERAL_NAME_st",
    "self_type" : "_ZTIPKPK15GENERAL_NAME_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19210,7 +18832,7 @@
    "referenced_type" : "_ZTIKPK15x509_purpose_st",
    "self_type" : "_ZTIPKPK15x509_purpose_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19237,7 +18859,7 @@
    "referenced_type" : "_ZTIKPK17POLICYQUALINFO_st",
    "self_type" : "_ZTIPKPK17POLICYQUALINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19246,7 +18868,7 @@
    "referenced_type" : "_ZTIKPK17POLICY_MAPPING_st",
    "self_type" : "_ZTIPKPK17POLICY_MAPPING_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19264,7 +18886,7 @@
    "referenced_type" : "_ZTIKPK18GENERAL_SUBTREE_st",
    "self_type" : "_ZTIPKPK18GENERAL_SUBTREE_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19286,30 +18908,12 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK20X509_VERIFY_PARAM_st",
-   "name" : "const X509_VERIFY_PARAM_st *const *",
-   "referenced_type" : "_ZTIKPK20X509_VERIFY_PARAM_st",
-   "self_type" : "_ZTIPKPK20X509_VERIFY_PARAM_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPKPK21ACCESS_DESCRIPTION_st",
    "name" : "const ACCESS_DESCRIPTION_st *const *",
    "referenced_type" : "_ZTIKPK21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTIPKPK21ACCESS_DESCRIPTION_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK21stack_st_GENERAL_NAME",
-   "name" : "const stack_st_GENERAL_NAME *const *",
-   "referenced_type" : "_ZTIKPK21stack_st_GENERAL_NAME",
-   "self_type" : "_ZTIPKPK21stack_st_GENERAL_NAME",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19831,7 +19435,7 @@
    "referenced_type" : "_ZTIPKh",
    "self_type" : "_ZTIPPKh",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -19849,7 +19453,7 @@
    "referenced_type" : "_ZTIPh",
    "self_type" : "_ZTIPPh",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -20124,7 +19728,7 @@
    "referenced_type" : "_ZTI10v3_ext_ctx",
    "self_type" : "_ZTIK10v3_ext_ctx",
    "size" : 48,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20140,7 +19744,7 @@
    "name" : "const X509_req_st",
    "referenced_type" : "_ZTI11X509_req_st",
    "self_type" : "_ZTIK11X509_req_st",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20211,8 +19815,8 @@
    "name" : "const DIST_POINT_st",
    "referenced_type" : "_ZTI13DIST_POINT_st",
    "self_type" : "_ZTIK13DIST_POINT_st",
-   "size" : 32,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "size" : 24,
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -20222,7 +19826,7 @@
    "referenced_type" : "_ZTI13POLICYINFO_st",
    "self_type" : "_ZTIK13POLICYINFO_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -20314,7 +19918,7 @@
    "referenced_type" : "_ZTI13v3_ext_method",
    "self_type" : "_ZTIK13v3_ext_method",
    "size" : 104,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -20356,14 +19960,6 @@
   },
   {
    "is_const" : true,
-   "linker_set_key" : "_ZTIK14x509_lookup_st",
-   "name" : "const x509_lookup_st",
-   "referenced_type" : "_ZTI14x509_lookup_st",
-   "self_type" : "_ZTIK14x509_lookup_st",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "is_const" : true,
    "linker_set_key" : "_ZTIK14x509_object_st",
    "name" : "const x509_object_st",
    "referenced_type" : "_ZTI14x509_object_st",
@@ -20378,7 +19974,7 @@
    "referenced_type" : "_ZTI15GENERAL_NAME_st",
    "self_type" : "_ZTIK15GENERAL_NAME_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -20442,7 +20038,7 @@
    "referenced_type" : "_ZTI15x509_purpose_st",
    "self_type" : "_ZTIK15x509_purpose_st",
    "size" : 48,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20476,7 +20072,7 @@
    "referenced_type" : "_ZTI17POLICYQUALINFO_st",
    "self_type" : "_ZTIK17POLICYQUALINFO_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -20486,7 +20082,7 @@
    "referenced_type" : "_ZTI17POLICY_MAPPING_st",
    "self_type" : "_ZTIK17POLICY_MAPPING_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20530,7 +20126,7 @@
    "referenced_type" : "_ZTI18GENERAL_SUBTREE_st",
    "self_type" : "_ZTIK18GENERAL_SUBTREE_st",
    "size" : 24,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20596,7 +20192,7 @@
    "name" : "const stack_st_DIST_POINT",
    "referenced_type" : "_ZTI19stack_st_DIST_POINT",
    "self_type" : "_ZTIK19stack_st_DIST_POINT",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20604,7 +20200,7 @@
    "name" : "const stack_st_POLICYINFO",
    "referenced_type" : "_ZTI19stack_st_POLICYINFO",
    "self_type" : "_ZTIK19stack_st_POLICYINFO",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20636,7 +20232,7 @@
    "name" : "const X509_VERIFY_PARAM_st",
    "referenced_type" : "_ZTI20X509_VERIFY_PARAM_st",
    "self_type" : "_ZTIK20X509_VERIFY_PARAM_st",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
    "is_const" : true,
@@ -20645,14 +20241,6 @@
    "referenced_type" : "_ZTI20stack_st_ASN1_OBJECT",
    "self_type" : "_ZTIK20stack_st_ASN1_OBJECT",
    "source_file" : "external/boringssl/src/include/openssl/asn1.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK20stack_st_X509_LOOKUP",
-   "name" : "const stack_st_X509_LOOKUP",
-   "referenced_type" : "_ZTI20stack_st_X509_LOOKUP",
-   "self_type" : "_ZTIK20stack_st_X509_LOOKUP",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20670,7 +20258,7 @@
    "referenced_type" : "_ZTI21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTIK21ACCESS_DESCRIPTION_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20694,7 +20282,7 @@
    "name" : "const stack_st_GENERAL_NAME",
    "referenced_type" : "_ZTI21stack_st_GENERAL_NAME",
    "self_type" : "_ZTIK21stack_st_GENERAL_NAME",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20702,7 +20290,7 @@
    "name" : "const stack_st_X509_PURPOSE",
    "referenced_type" : "_ZTI21stack_st_X509_PURPOSE",
    "self_type" : "_ZTIK21stack_st_X509_PURPOSE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20742,14 +20330,6 @@
   },
   {
    "is_const" : true,
-   "linker_set_key" : "_ZTIK22stack_st_GENERAL_NAMES",
-   "name" : "const stack_st_GENERAL_NAMES",
-   "referenced_type" : "_ZTI22stack_st_GENERAL_NAMES",
-   "self_type" : "_ZTIK22stack_st_GENERAL_NAMES",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "is_const" : true,
    "linker_set_key" : "_ZTIK23stack_st_OPENSSL_STRING",
    "name" : "const stack_st_OPENSSL_STRING",
    "referenced_type" : "_ZTI23stack_st_OPENSSL_STRING",
@@ -20762,7 +20342,7 @@
    "name" : "const stack_st_POLICYQUALINFO",
    "referenced_type" : "_ZTI23stack_st_POLICYQUALINFO",
    "self_type" : "_ZTIK23stack_st_POLICYQUALINFO",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20770,7 +20350,7 @@
    "name" : "const stack_st_POLICY_MAPPING",
    "referenced_type" : "_ZTI23stack_st_POLICY_MAPPING",
    "self_type" : "_ZTIK23stack_st_POLICY_MAPPING",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20794,7 +20374,7 @@
    "name" : "const stack_st_GENERAL_SUBTREE",
    "referenced_type" : "_ZTI24stack_st_GENERAL_SUBTREE",
    "self_type" : "_ZTIK24stack_st_GENERAL_SUBTREE",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20840,14 +20420,6 @@
    "name" : "const stack_st_X509V3_EXT_METHOD",
    "referenced_type" : "_ZTI26stack_st_X509V3_EXT_METHOD",
    "self_type" : "_ZTIK26stack_st_X509V3_EXT_METHOD",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK26stack_st_X509_VERIFY_PARAM",
-   "name" : "const stack_st_X509_VERIFY_PARAM",
-   "referenced_type" : "_ZTI26stack_st_X509_VERIFY_PARAM",
-   "self_type" : "_ZTIK26stack_st_X509_VERIFY_PARAM",
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -20856,7 +20428,7 @@
    "name" : "const stack_st_ACCESS_DESCRIPTION",
    "referenced_type" : "_ZTI27stack_st_ACCESS_DESCRIPTION",
    "self_type" : "_ZTIK27stack_st_ACCESS_DESCRIPTION",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -20881,7 +20453,7 @@
    "name" : "const bio_st",
    "referenced_type" : "_ZTI6bio_st",
    "self_type" : "_ZTIK6bio_st",
-   "size" : 64,
+   "size" : 72,
    "source_file" : "external/boringssl/src/include/openssl/bio.h"
   },
   {
@@ -20918,7 +20490,7 @@
    "name" : "const conf_st",
    "referenced_type" : "_ZTI7conf_st",
    "self_type" : "_ZTIK7conf_st",
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "is_const" : true,
@@ -21392,7 +20964,7 @@
    "referenced_type" : "_ZTIPK13DIST_POINT_st",
    "self_type" : "_ZTIKPK13DIST_POINT_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21402,7 +20974,7 @@
    "referenced_type" : "_ZTIPK13POLICYINFO_st",
    "self_type" : "_ZTIKPK13POLICYINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21442,7 +21014,7 @@
    "referenced_type" : "_ZTIPK13v3_ext_method",
    "self_type" : "_ZTIKPK13v3_ext_method",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21477,16 +21049,6 @@
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKPK14x509_lookup_st",
-   "name" : "const x509_lookup_st *const",
-   "referenced_type" : "_ZTIPK14x509_lookup_st",
-   "self_type" : "_ZTIKPK14x509_lookup_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
    "linker_set_key" : "_ZTIKPK14x509_object_st",
    "name" : "const x509_object_st *const",
    "referenced_type" : "_ZTIPK14x509_object_st",
@@ -21502,7 +21064,7 @@
    "referenced_type" : "_ZTIPK15GENERAL_NAME_st",
    "self_type" : "_ZTIKPK15GENERAL_NAME_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21512,7 +21074,7 @@
    "referenced_type" : "_ZTIPK15x509_purpose_st",
    "self_type" : "_ZTIKPK15x509_purpose_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21542,7 +21104,7 @@
    "referenced_type" : "_ZTIPK17POLICYQUALINFO_st",
    "self_type" : "_ZTIKPK17POLICYQUALINFO_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21552,7 +21114,7 @@
    "referenced_type" : "_ZTIPK17POLICY_MAPPING_st",
    "self_type" : "_ZTIKPK17POLICY_MAPPING_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21572,7 +21134,7 @@
    "referenced_type" : "_ZTIPK18GENERAL_SUBTREE_st",
    "self_type" : "_ZTIKPK18GENERAL_SUBTREE_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21597,32 +21159,12 @@
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKPK20X509_VERIFY_PARAM_st",
-   "name" : "const X509_VERIFY_PARAM_st *const",
-   "referenced_type" : "_ZTIPK20X509_VERIFY_PARAM_st",
-   "self_type" : "_ZTIKPK20X509_VERIFY_PARAM_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
    "linker_set_key" : "_ZTIKPK21ACCESS_DESCRIPTION_st",
    "name" : "const ACCESS_DESCRIPTION_st *const",
    "referenced_type" : "_ZTIPK21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTIKPK21ACCESS_DESCRIPTION_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK21stack_st_GENERAL_NAME",
-   "name" : "const stack_st_GENERAL_NAME *const",
-   "referenced_type" : "_ZTIPK21stack_st_GENERAL_NAME",
-   "self_type" : "_ZTIKPK21stack_st_GENERAL_NAME",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -21831,7 +21373,7 @@
    "referenced_type" : "_ZTI10v3_ext_ctx",
    "self_type" : "_ZTI10v3_ext_ctx",
    "size" : 48,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22022,7 +21564,7 @@
    "referenced_type" : "_ZTI12NOTICEREF_st",
    "self_type" : "_ZTI12NOTICEREF_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22214,7 +21756,7 @@
    "referenced_type" : "_ZTI12otherName_st",
    "self_type" : "_ZTI12otherName_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22262,7 +21804,8 @@
    "fields" :
    [
     {
-     "referenced_type" : "_ZTIN12sha_state_stUt_E"
+     "field_name" : "h",
+     "referenced_type" : "_ZTIA5_j"
     },
     {
      "field_name" : "Nl",
@@ -22309,19 +21852,14 @@
      "field_name" : "CRLissuer",
      "field_offset" : 128,
      "referenced_type" : "_ZTIP21stack_st_GENERAL_NAME"
-    },
-    {
-     "field_name" : "dp_reasons",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIi"
     }
    ],
    "linker_set_key" : "_ZTI13DIST_POINT_st",
    "name" : "DIST_POINT_st",
    "referenced_type" : "_ZTI13DIST_POINT_st",
    "self_type" : "_ZTI13DIST_POINT_st",
-   "size" : 32,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "size" : 24,
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22342,7 +21880,7 @@
    "referenced_type" : "_ZTI13POLICYINFO_st",
    "self_type" : "_ZTI13POLICYINFO_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22363,7 +21901,7 @@
    "referenced_type" : "_ZTI13USERNOTICE_st",
    "self_type" : "_ZTI13USERNOTICE_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22619,7 +22157,7 @@
    "referenced_type" : "_ZTI13v3_ext_method",
    "self_type" : "_ZTI13v3_ext_method",
    "size" : 104,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22637,7 +22175,7 @@
     {
      "field_name" : "check_trust",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPFiP13x509_trust_stP7x509_stiE"
+     "referenced_type" : "_ZTIPFiPK13x509_trust_stP7x509_stiE"
     },
     {
      "field_name" : "name",
@@ -22745,50 +22283,15 @@
    "fields" :
    [
     {
-     "field_name" : "version",
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "enc_algor",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIP13X509_algor_st"
-    },
-    {
-     "field_name" : "enc_pkey",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIP14asn1_string_st"
-    },
-    {
      "field_name" : "dec_pkey",
-     "field_offset" : 192,
      "referenced_type" : "_ZTIP11evp_pkey_st"
-    },
-    {
-     "field_name" : "key_length",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "key_data",
-     "field_offset" : 320,
-     "referenced_type" : "_ZTIPc"
-    },
-    {
-     "field_name" : "key_free",
-     "field_offset" : 384,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "cipher",
-     "field_offset" : 448,
-     "referenced_type" : "_ZTI18evp_cipher_info_st"
     }
    ],
    "linker_set_key" : "_ZTI14private_key_st",
    "name" : "private_key_st",
    "referenced_type" : "_ZTI14private_key_st",
    "self_type" : "_ZTI14private_key_st",
-   "size" : 80,
+   "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -22810,7 +22313,7 @@
    "referenced_type" : "_ZTI15EDIPartyName_st",
    "self_type" : "_ZTI15EDIPartyName_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -22831,7 +22334,7 @@
    "referenced_type" : "_ZTI15GENERAL_NAME_st",
    "self_type" : "_ZTI15GENERAL_NAME_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 1,
@@ -23124,7 +22627,7 @@
    "referenced_type" : "_ZTI15x509_purpose_st",
    "self_type" : "_ZTI15x509_purpose_st",
    "size" : 48,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23261,7 +22764,7 @@
    "referenced_type" : "_ZTI17POLICYQUALINFO_st",
    "self_type" : "_ZTI17POLICYQUALINFO_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23282,7 +22785,7 @@
    "referenced_type" : "_ZTI17POLICY_MAPPING_st",
    "self_type" : "_ZTI17POLICY_MAPPING_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23472,7 +22975,7 @@
    "referenced_type" : "_ZTI18AUTHORITY_KEYID_st",
    "self_type" : "_ZTI18AUTHORITY_KEYID_st",
    "size" : 24,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23498,7 +23001,7 @@
    "referenced_type" : "_ZTI18DIST_POINT_NAME_st",
    "self_type" : "_ZTI18DIST_POINT_NAME_st",
    "size" : 24,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23524,7 +23027,7 @@
    "referenced_type" : "_ZTI18GENERAL_SUBTREE_st",
    "self_type" : "_ZTI18GENERAL_SUBTREE_st",
    "size" : 24,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23602,7 +23105,7 @@
    "referenced_type" : "_ZTI19NAME_CONSTRAINTS_st",
    "self_type" : "_ZTI19NAME_CONSTRAINTS_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23644,7 +23147,7 @@
    "referenced_type" : "_ZTI20BASIC_CONSTRAINTS_st",
    "self_type" : "_ZTI20BASIC_CONSTRAINTS_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23665,7 +23168,7 @@
    "referenced_type" : "_ZTI21ACCESS_DESCRIPTION_st",
    "self_type" : "_ZTI21ACCESS_DESCRIPTION_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23706,7 +23209,7 @@
    "referenced_type" : "_ZTI21ISSUING_DIST_POINT_st",
    "self_type" : "_ZTI21ISSUING_DIST_POINT_st",
    "size" : 32,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23727,7 +23230,7 @@
    "referenced_type" : "_ZTI21POLICY_CONSTRAINTS_st",
    "self_type" : "_ZTI21POLICY_CONSTRAINTS_st",
    "size" : 16,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -23965,53 +23468,58 @@
      "referenced_type" : "_ZTIPK13bio_method_st"
     },
     {
-     "field_name" : "init",
+     "field_name" : "ex_data",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIi"
+     "referenced_type" : "_ZTI17crypto_ex_data_st"
     },
     {
-     "field_name" : "shutdown",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "flags",
+     "field_name" : "init",
      "field_offset" : 128,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "retry_reason",
+     "field_name" : "shutdown",
      "field_offset" : 160,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "num",
+     "field_name" : "flags",
      "field_offset" : 192,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "references",
+     "field_name" : "retry_reason",
      "field_offset" : 224,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "num",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "references",
+     "field_offset" : 288,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "ptr",
-     "field_offset" : 256,
+     "field_offset" : 320,
      "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "next_bio",
-     "field_offset" : 320,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIP6bio_st"
     },
     {
      "field_name" : "num_read",
-     "field_offset" : 384,
+     "field_offset" : 448,
      "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "num_write",
-     "field_offset" : 448,
+     "field_offset" : 512,
      "referenced_type" : "_ZTIm"
     }
    ],
@@ -24019,7 +23527,7 @@
    "name" : "bio_st",
    "referenced_type" : "_ZTI6bio_st",
    "self_type" : "_ZTI6bio_st",
-   "size" : 64,
+   "size" : 72,
    "source_file" : "external/boringssl/src/include/openssl/bio.h"
   },
   {
@@ -24204,64 +23712,6 @@
    "source_file" : "external/boringssl/src/include/openssl/asn1.h"
   },
   {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "h",
-     "referenced_type" : "_ZTIA5_j"
-    },
-    {
-     "referenced_type" : "_ZTIN12sha_state_stUt_Ut_E"
-    }
-   ],
-   "is_anonymous" : true,
-   "linker_set_key" : "_ZTIN12sha_state_stUt_E",
-   "name" : "sha_state_st::(anonymous)",
-   "record_kind" : "union",
-   "referenced_type" : "_ZTIN12sha_state_stUt_E",
-   "self_type" : "_ZTIN12sha_state_stUt_E",
-   "size" : 20,
-   "source_file" : "external/boringssl/src/include/openssl/sha.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "h0",
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "h1",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "h2",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "h3",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "h4",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "is_anonymous" : true,
-   "linker_set_key" : "_ZTIN12sha_state_stUt_Ut_E",
-   "name" : "sha_state_st::(anonymous)::(anonymous)",
-   "referenced_type" : "_ZTIN12sha_state_stUt_Ut_E",
-   "self_type" : "_ZTIN12sha_state_stUt_Ut_E",
-   "size" : 20,
-   "source_file" : "external/boringssl/src/include/openssl/sha.h"
-  },
-  {
    "alignment" : 8,
    "fields" :
    [
@@ -24329,7 +23779,7 @@
    "referenced_type" : "_ZTIN15GENERAL_NAME_stUt_E",
    "self_type" : "_ZTIN15GENERAL_NAME_stUt_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 2,
@@ -24399,7 +23849,7 @@
    "referenced_type" : "_ZTIN17POLICYQUALINFO_stUt_E",
    "self_type" : "_ZTIN17POLICYQUALINFO_stUt_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -24421,7 +23871,7 @@
    "referenced_type" : "_ZTIN18DIST_POINT_NAME_stUt_E",
    "self_type" : "_ZTIN18DIST_POINT_NAME_stUt_E",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 8,
@@ -25078,7 +24528,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI13DIST_POINT_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI13DIST_POINT_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI13DIST_POINT_st",
@@ -25092,7 +24542,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI13POLICYINFO_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI13POLICYINFO_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI13POLICYINFO_st",
@@ -25134,7 +24584,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI13conf_value_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI13conf_value_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI13conf_value_st",
@@ -25255,20 +24705,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN4bssl8internal11DeleterImplI14private_key_stvEE",
-   "name" : "bssl::internal::DeleterImpl<X509_PKEY>",
-   "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI14private_key_stvEE",
-   "self_type" : "_ZTIN4bssl8internal11DeleterImplI14private_key_stvEE",
-   "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h",
-   "template_args" :
-   [
-    "_ZTI14private_key_st",
-    "_ZTIv"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN4bssl8internal11DeleterImplI14ssl_session_stvEE",
    "name" : "bssl::internal::DeleterImpl<SSL_SESSION>",
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI14ssl_session_stvEE",
@@ -25302,7 +24738,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI15GENERAL_NAME_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI15GENERAL_NAME_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI15GENERAL_NAME_st",
@@ -25428,7 +24864,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI17POLICY_MAPPING_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI17POLICY_MAPPING_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI17POLICY_MAPPING_st",
@@ -25498,7 +24934,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI18AUTHORITY_KEYID_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI18AUTHORITY_KEYID_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI18AUTHORITY_KEYID_st",
@@ -25512,7 +24948,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI18GENERAL_SUBTREE_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI18GENERAL_SUBTREE_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI18GENERAL_SUBTREE_st",
@@ -25568,7 +25004,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI19NAME_CONSTRAINTS_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI19NAME_CONSTRAINTS_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI19NAME_CONSTRAINTS_st",
@@ -25596,7 +25032,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI20BASIC_CONSTRAINTS_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI20BASIC_CONSTRAINTS_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI20BASIC_CONSTRAINTS_st",
@@ -25624,7 +25060,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI21ACCESS_DESCRIPTION_stvEE",
    "self_type" : "_ZTIN4bssl8internal11DeleterImplI21ACCESS_DESCRIPTION_stvEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI21ACCESS_DESCRIPTION_st",
@@ -25979,7 +25415,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI19stack_st_DIST_POINTEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI19stack_st_DIST_POINTEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI19stack_st_DIST_POINT"
@@ -25992,7 +25428,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI19stack_st_POLICYINFOEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI19stack_st_POLICYINFOEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI19stack_st_POLICYINFO"
@@ -26052,19 +25488,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN4bssl8internal11StackTraitsI20stack_st_X509_LOOKUPEE",
-   "name" : "bssl::internal::StackTraits<struct stack_st_X509_LOOKUP>",
-   "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI20stack_st_X509_LOOKUPEE",
-   "self_type" : "_ZTIN4bssl8internal11StackTraitsI20stack_st_X509_LOOKUPEE",
-   "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h",
-   "template_args" :
-   [
-    "_ZTI20stack_st_X509_LOOKUP"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN4bssl8internal11StackTraitsI20stack_st_X509_OBJECTEE",
    "name" : "bssl::internal::StackTraits<struct stack_st_X509_OBJECT>",
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI20stack_st_X509_OBJECTEE",
@@ -26096,7 +25519,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI21stack_st_GENERAL_NAMEEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI21stack_st_GENERAL_NAMEEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI21stack_st_GENERAL_NAME"
@@ -26109,7 +25532,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI21stack_st_X509_PURPOSEEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI21stack_st_X509_PURPOSEEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI21stack_st_X509_PURPOSE"
@@ -26143,19 +25566,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN4bssl8internal11StackTraitsI22stack_st_GENERAL_NAMESEE",
-   "name" : "bssl::internal::StackTraits<struct stack_st_GENERAL_NAMES>",
-   "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI22stack_st_GENERAL_NAMESEE",
-   "self_type" : "_ZTIN4bssl8internal11StackTraitsI22stack_st_GENERAL_NAMESEE",
-   "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
-   "template_args" :
-   [
-    "_ZTI22stack_st_GENERAL_NAMES"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN4bssl8internal11StackTraitsI23stack_st_OPENSSL_STRINGEE",
    "name" : "bssl::internal::StackTraits<struct stack_st_OPENSSL_STRING>",
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI23stack_st_OPENSSL_STRINGEE",
@@ -26174,7 +25584,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI23stack_st_POLICYQUALINFOEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI23stack_st_POLICYQUALINFOEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI23stack_st_POLICYQUALINFO"
@@ -26187,7 +25597,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI23stack_st_POLICY_MAPPINGEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI23stack_st_POLICY_MAPPINGEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI23stack_st_POLICY_MAPPING"
@@ -26226,7 +25636,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI24stack_st_GENERAL_SUBTREEEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI24stack_st_GENERAL_SUBTREEEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI24stack_st_GENERAL_SUBTREE"
@@ -26252,23 +25662,10 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI26stack_st_X509V3_EXT_METHODEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI26stack_st_X509V3_EXT_METHODEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
-   "template_args" :
-   [
-    "_ZTI26stack_st_X509V3_EXT_METHOD"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN4bssl8internal11StackTraitsI26stack_st_X509_VERIFY_PARAMEE",
-   "name" : "bssl::internal::StackTraits<struct stack_st_X509_VERIFY_PARAM>",
-   "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI26stack_st_X509_VERIFY_PARAMEE",
-   "self_type" : "_ZTIN4bssl8internal11StackTraitsI26stack_st_X509_VERIFY_PARAMEE",
-   "size" : 1,
    "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
-    "_ZTI26stack_st_X509_VERIFY_PARAM"
+    "_ZTI26stack_st_X509V3_EXT_METHOD"
    ]
   },
   {
@@ -26278,7 +25675,7 @@
    "referenced_type" : "_ZTIN4bssl8internal11StackTraitsI27stack_st_ACCESS_DESCRIPTIONEE",
    "self_type" : "_ZTIN4bssl8internal11StackTraitsI27stack_st_ACCESS_DESCRIPTIONEE",
    "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509v3.h",
+   "source_file" : "external/boringssl/src/include/openssl/x509.h",
    "template_args" :
    [
     "_ZTI27stack_st_ACCESS_DESCRIPTION"
