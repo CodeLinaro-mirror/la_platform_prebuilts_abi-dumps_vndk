@@ -230,6 +230,16 @@
   {
    "alignment" : 1,
    "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "referenced_type" : "_ZTIDu",
+   "self_type" : "_ZTIDu",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
    "linker_set_key" : "_ZTIa",
    "name" : "signed char",
    "referenced_type" : "_ZTIa",
@@ -565,6 +575,9 @@
    "name" : "_ZN7android11BufferQueue21ProxyConsumerListener12onDisconnectEv"
   },
   {
+   "name" : "_ZN7android11BufferQueue21ProxyConsumerListener14onSetFrameRateEfaa"
+  },
+  {
    "name" : "_ZN7android11BufferQueue21ProxyConsumerListener15onFrameDequeuedEm"
   },
   {
@@ -709,6 +722,9 @@
    "name" : "_ZN7android17FrameEventHistoryD2Ev"
   },
   {
+   "name" : "_ZN7android17ValidateFrameRateEfaaPKcb"
+  },
+  {
    "name" : "_ZN7android18LWProducerListener16onBufferReleasedEv"
   },
   {
@@ -827,6 +843,9 @@
   },
   {
    "name" : "_ZN7android19BufferQueueProducer12setAsyncModeEb"
+  },
+  {
+   "name" : "_ZN7android19BufferQueueProducer12setFrameRateEfaa"
   },
   {
    "name" : "_ZN7android19BufferQueueProducer13dequeueBufferEPiPNS_2spINS_5FenceEEEjjimPmPNS_22FrameEventHistoryDeltaE"
@@ -16394,6 +16413,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator &",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIRN7android22GraphicBufferAllocatorE",
+   "size" : 8,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN7android2spINS_12FrameDropperEEE",
    "name" : "android::sp<android::FrameDropper> &",
    "referenced_type" : "_ZTIN7android2spINS_12FrameDropperEEE",
@@ -18581,6 +18609,15 @@
    "self_type" : "_ZTIPN7android19VirtualLightRefBaseE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/LightRefBase.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator *",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIPN7android22GraphicBufferAllocatorE",
+   "size" : 8,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "alignment" : 8,
@@ -39870,6 +39907,20 @@
    "template_args" :
    [
     "_ZTIN7android19GraphicBufferMapperE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "name" : "android::Singleton<android::GraphicBufferAllocator>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "self_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h",
+   "template_args" :
+   [
+    "_ZTIN7android22GraphicBufferAllocatorE"
    ]
   },
   {

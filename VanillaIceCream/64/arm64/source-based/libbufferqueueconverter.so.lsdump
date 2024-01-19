@@ -33,6 +33,16 @@
   {
    "alignment" : 1,
    "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "referenced_type" : "_ZTIDu",
+   "self_type" : "_ZTIDu",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
    "linker_set_key" : "_ZTIa",
    "name" : "signed char",
    "referenced_type" : "_ZTIa",
@@ -334,6 +344,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN3com7android8graphics6libgui5flags23flag_provider_interface15bq_setframerateEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN3com7android8graphics6libgui5flags23flag_provider_interface31frametimestamps_previousreleaseEv"
     }
    ]
   }

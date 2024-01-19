@@ -119,10 +119,40 @@
    "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser19startElementHandlerEPKcPS4_"
   },
   {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser20parseOverrideXmlFileEv"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser21parseXmlFile_overrideEv"
+  },
+  {
    "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser24EndElementHandlerWrapperEPvPKc"
   },
   {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser25endOverrideElementHandlerEPKc"
+  },
+  {
    "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser26StartElementHandlerWrapperEPvPKcPS5_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser26endElementHandler_overrideEPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser27startOverrideElementHandlerEPKcPS4_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser28startElementHandler_overrideEPKcPS4_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser32EndOverrideElementHandlerWrapperEPvPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser33EndElementHandlerWrapper_overrideEPvPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser34StartOverrideElementHandlerWrapperEPvPKcPS5_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser35StartElementHandlerWrapper_overrideEPvPKcPS5_"
   },
   {
    "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser8addAliasEPPKc"
@@ -369,6 +399,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl7SectionENS_9allocatorIS4_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_"
   },
   {
    "binding" : "weak",

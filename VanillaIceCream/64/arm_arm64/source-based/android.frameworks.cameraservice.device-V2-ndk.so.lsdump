@@ -32,6 +32,7 @@
   {
    "alignment" : 1,
    "is_integral" : true,
+   "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "_ZTIc",
@@ -74,7 +75,7 @@
    "self_type" : "_ZTIv"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_integral" : true,
    "linker_set_key" : "_ZTIx",
    "name" : "long long",
@@ -123,6 +124,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware12NativeWindowEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiPK7AParcelPvj"
   },
   {
@@ -148,6 +153,10 @@
   {
    "binding" : "weak",
    "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoEEEiP7AParcelPKvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware12NativeWindowEEEiP7AParcelPKvj"
   },
   {
    "binding" : "weak",
@@ -551,6 +560,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEE8__appendEj"
   },
   {
@@ -769,23 +782,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 268435456,
-     "name" : "FLAG_PRIVATE_VENDOR"
-    }
-   ],
-   "linker_set_key" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "name" : "(unnamed)",
-   "referenced_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "self_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 0,
      "name" : "STATUS_OK"
     },
@@ -946,7 +942,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device10TemplateIdE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device10TemplateIdE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/TemplateId.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/TemplateId.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -967,7 +963,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo3TagE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -984,7 +980,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration13WindowGroupIdE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration13WindowGroupIdE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -1013,7 +1009,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration8RotationE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration8RotationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -1066,7 +1062,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device23StreamConfigurationModeE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device23StreamConfigurationModeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamConfigurationMode.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamConfigurationMode.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -1115,7 +1111,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device9ErrorCodeE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device9ErrorCodeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ErrorCode.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ErrorCode.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -1199,6 +1195,23 @@
    "name" : "android::internal::details::IsIterable<std::vector<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings, std::allocator<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings>>>::(unnamed)",
    "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::IsIterable<std::vector<aidl::android::hardware::NativeWindow>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::IsIterable<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -1379,6 +1392,23 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<aidl::android::hardware::NativeWindow>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware12NativeWindowEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<aidl::android::hardware::NativeWindow>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware12NativeWindowEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware12NativeWindowEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::IsPointerLike<aidl::android::hardware::common::NativeHandle>::value"
     }
    ],
@@ -1454,6 +1484,23 @@
    "name" : "android::internal::details::IsPointerLike<std::vector<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings, std::allocator<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings>>>::(unnamed)",
    "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<std::vector<aidl::android::hardware::NativeWindow>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -1634,6 +1681,23 @@
    [
     {
      "enum_field_value" : 1,
+     "name" : "android::internal::details::HasToStringMethod<aidl::android::hardware::NativeWindow>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware12NativeWindowEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<aidl::android::hardware::NativeWindow>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware12NativeWindowEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware12NativeWindowEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
      "name" : "android::internal::details::HasToStringMethod<aidl::android::hardware::common::NativeHandle>::value"
     }
    ],
@@ -1709,6 +1773,23 @@
    "name" : "android::internal::details::HasToStringMethod<std::vector<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings, std::allocator<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings>>>::(unnamed)",
    "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<std::vector<aidl::android::hardware::NativeWindow>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -1862,6 +1943,23 @@
    "name" : "android::internal::details::HasToStringFunction<std::vector<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings, std::allocator<aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings>>>::(unnamed)",
    "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringFunction<std::vector<aidl::android::hardware::NativeWindow>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -2111,6 +2209,28 @@
   },
   {
    "function_name" : "ndk::AParcel_readStdVectorParcelableElement",
+   "linker_set_key" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware12NativeWindowEEEiPK7AParcelPvj",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK7AParcel"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "function_name" : "ndk::AParcel_readStdVectorParcelableElement",
    "linker_set_key" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiPK7AParcelPvj",
    "parameters" :
    [
@@ -2265,6 +2385,28 @@
   },
   {
    "function_name" : "ndk::AParcel_writeStdVectorParcelableElement",
+   "linker_set_key" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware12NativeWindowEEEiP7AParcelPKvj",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7AParcel"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "function_name" : "ndk::AParcel_writeStdVectorParcelableElement",
    "linker_set_key" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware6common12NativeHandleEEEiP7AParcelPKvj",
    "parameters" :
    [
@@ -2321,7 +2463,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CameraMetadata::readFromParcel",
@@ -2337,7 +2479,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CaptureRequest::readFromParcel",
@@ -2353,7 +2495,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::fromBinder",
@@ -2365,7 +2507,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::writeToParcel",
@@ -2380,13 +2522,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::readFromParcel",
@@ -2401,7 +2543,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::setDefaultImpl",
@@ -2413,7 +2555,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::ICameraDeviceUser",
@@ -2426,7 +2568,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::~ICameraDeviceUser",
@@ -2439,7 +2581,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::~ICameraDeviceUser",
@@ -2452,7 +2594,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::~ICameraDeviceUser",
@@ -2465,7 +2607,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::StreamAndWindowId::readFromParcel",
@@ -2481,7 +2623,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
   },
   {
    "access" : "protected",
@@ -2495,7 +2637,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceUser::getInterfaceHash",
@@ -2511,7 +2653,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceUser::getInterfaceVersion",
@@ -2527,7 +2669,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceUser::BnCameraDeviceUser",
@@ -2540,7 +2682,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceUser::~BnCameraDeviceUser",
@@ -2553,7 +2695,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceUser::~BnCameraDeviceUser",
@@ -2566,7 +2708,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceUser::~BnCameraDeviceUser",
@@ -2579,7 +2721,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::disconnect",
@@ -2592,7 +2734,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::createStream",
@@ -2611,7 +2753,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::deleteStream",
@@ -2627,7 +2769,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::endConfigure",
@@ -2649,7 +2791,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::waitUntilIdle",
@@ -2662,7 +2804,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::beginConfigure",
@@ -2675,7 +2817,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::getInterfaceHash",
@@ -2691,7 +2833,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::submitRequestList",
@@ -2713,7 +2855,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::getInterfaceVersion",
@@ -2729,7 +2871,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::createDefaultRequest",
@@ -2748,7 +2890,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::cancelRepeatingRequest",
@@ -2764,7 +2906,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::updateOutputConfiguration",
@@ -2783,7 +2925,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::getCaptureResultMetadataQueue",
@@ -2799,7 +2941,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::getCaptureRequestMetadataQueue",
@@ -2815,7 +2957,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::isSessionConfigurationSupported",
@@ -2834,7 +2976,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::flush",
@@ -2850,7 +2992,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::prepare",
@@ -2866,7 +3008,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::BpCameraDeviceUser",
@@ -2882,7 +3024,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::BpCameraDeviceUser",
@@ -2898,7 +3040,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::~BpCameraDeviceUser",
@@ -2911,7 +3053,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::~BpCameraDeviceUser",
@@ -2924,7 +3066,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceUser::~BpCameraDeviceUser",
@@ -2937,7 +3079,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CaptureMetadataInfo::readFromParcel",
@@ -2953,7 +3095,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CaptureResultExtras::readFromParcel",
@@ -2969,7 +3111,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::OutputConfiguration::readFromParcel",
@@ -2985,7 +3127,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::SessionConfiguration::readFromParcel",
@@ -3001,7 +3143,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::fromBinder",
@@ -3013,7 +3155,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::writeToParcel",
@@ -3028,13 +3170,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::readFromParcel",
@@ -3049,7 +3191,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::setDefaultImpl",
@@ -3061,7 +3203,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::ICameraDeviceCallback",
@@ -3074,7 +3216,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::~ICameraDeviceCallback",
@@ -3087,7 +3229,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::~ICameraDeviceCallback",
@@ -3100,7 +3242,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::~ICameraDeviceCallback",
@@ -3113,7 +3255,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "access" : "protected",
@@ -3127,7 +3269,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceCallback::getInterfaceHash",
@@ -3143,7 +3285,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceCallback::getInterfaceVersion",
@@ -3159,7 +3301,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceCallback::BnCameraDeviceCallback",
@@ -3172,7 +3314,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceCallback::~BnCameraDeviceCallback",
@@ -3185,7 +3327,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceCallback::~BnCameraDeviceCallback",
@@ -3198,7 +3340,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BnCameraDeviceCallback::~BnCameraDeviceCallback",
@@ -3211,7 +3353,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::onPrepared",
@@ -3227,7 +3369,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::onDeviceIdle",
@@ -3240,7 +3382,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::onDeviceError",
@@ -3259,7 +3401,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::getInterfaceHash",
@@ -3275,7 +3417,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::onCaptureStarted",
@@ -3294,7 +3436,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::onResultReceived",
@@ -3316,7 +3458,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::getInterfaceVersion",
@@ -3332,7 +3474,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::onRepeatingRequestError",
@@ -3351,7 +3493,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::BpCameraDeviceCallback",
@@ -3367,7 +3509,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::BpCameraDeviceCallback",
@@ -3383,7 +3525,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::~BpCameraDeviceCallback",
@@ -3396,7 +3538,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::~BpCameraDeviceCallback",
@@ -3409,7 +3551,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::BpCameraDeviceCallback::~BpCameraDeviceCallback",
@@ -3422,7 +3564,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings::readFromParcel",
@@ -3438,7 +3580,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::disconnect",
@@ -3451,7 +3593,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::createStream",
@@ -3470,7 +3612,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::deleteStream",
@@ -3486,7 +3628,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::endConfigure",
@@ -3508,7 +3650,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::waitUntilIdle",
@@ -3521,7 +3663,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::beginConfigure",
@@ -3534,7 +3676,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::getInterfaceHash",
@@ -3550,7 +3692,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::submitRequestList",
@@ -3572,7 +3714,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::getInterfaceVersion",
@@ -3588,7 +3730,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::createDefaultRequest",
@@ -3607,7 +3749,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::cancelRepeatingRequest",
@@ -3623,7 +3765,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::updateOutputConfiguration",
@@ -3642,7 +3784,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::getCaptureResultMetadataQueue",
@@ -3658,7 +3800,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::getCaptureRequestMetadataQueue",
@@ -3674,7 +3816,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::isSessionConfigurationSupported",
@@ -3693,7 +3835,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::flush",
@@ -3709,7 +3851,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::prepare",
@@ -3725,7 +3867,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::asBinder",
@@ -3738,7 +3880,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUserDefault::isRemote",
@@ -3751,7 +3893,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::PhysicalCaptureResultInfo::readFromParcel",
@@ -3767,7 +3909,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::onPrepared",
@@ -3783,7 +3925,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::onDeviceIdle",
@@ -3796,7 +3938,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::onDeviceError",
@@ -3815,7 +3957,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::getInterfaceHash",
@@ -3831,7 +3973,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::onCaptureStarted",
@@ -3850,7 +3992,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::onResultReceived",
@@ -3872,7 +4014,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::getInterfaceVersion",
@@ -3888,7 +4030,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::onRepeatingRequestError",
@@ -3907,7 +4049,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::asBinder",
@@ -3920,7 +4062,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallbackDefault::isRemote",
@@ -3933,7 +4075,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "function_name" : "aidl::android::hardware::common::fmq::MQDescriptor<signed char, aidl::android::hardware::common::fmq::SynchronizedReadWrite>::readFromParcel",
@@ -3965,7 +4107,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CameraMetadata::writeToParcel",
@@ -3981,7 +4123,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CaptureRequest::writeToParcel",
@@ -3997,7 +4139,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::StreamAndWindowId::writeToParcel",
@@ -4013,7 +4155,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CaptureMetadataInfo::writeToParcel",
@@ -4029,7 +4171,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::CaptureResultExtras::writeToParcel",
@@ -4045,7 +4187,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::OutputConfiguration::writeToParcel",
@@ -4061,7 +4203,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::SessionConfiguration::writeToParcel",
@@ -4077,7 +4219,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings::writeToParcel",
@@ -4093,7 +4235,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
   },
   {
    "function_name" : "aidl::android::frameworks::cameraservice::device::PhysicalCaptureResultInfo::writeToParcel",
@@ -4109,7 +4251,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
   },
   {
    "function_name" : "aidl::android::hardware::common::fmq::MQDescriptor<signed char, aidl::android::hardware::common::fmq::SynchronizedReadWrite>::writeToParcel",
@@ -4134,99 +4276,99 @@
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device10SubmitInfo10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::SubmitInfo::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device14CameraMetadata10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::CameraMetadata::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device14CaptureRequest10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::CaptureRequest::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser12default_implE",
    "name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUser4hashE",
    "name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceUser::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device17StreamAndWindowId10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::StreamAndWindowId::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::CaptureMetadataInfo::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device19CaptureResultExtras10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::CaptureResultExtras::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device19OutputConfiguration10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::OutputConfiguration::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device20SessionConfiguration10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::SessionConfiguration::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback12default_implE",
    "name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallback4hashE",
    "name" : "aidl::android::frameworks::cameraservice::device::ICameraDeviceCallback::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettings10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfo10descriptorE",
    "name" : "aidl::android::frameworks::cameraservice::device::PhysicalCaptureResultInfo::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
   }
  ],
  "lvalue_reference_types" :
@@ -4274,7 +4416,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "alignment" : 4,
@@ -4283,7 +4425,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "alignment" : 4,
@@ -4292,7 +4434,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "alignment" : 4,
@@ -4310,7 +4452,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "alignment" : 4,
@@ -4319,7 +4461,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "alignment" : 4,
@@ -4346,7 +4488,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -4373,7 +4515,16 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "self_type" : "_ZTIRKN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN4aidl7android8hardware12NativeWindowE",
+   "name" : "const aidl::android::hardware::NativeWindow &",
+   "referenced_type" : "_ZTIKN4aidl7android8hardware12NativeWindowE",
+   "self_type" : "_ZTIRKN4aidl7android8hardware12NativeWindowE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -4400,7 +4551,7 @@
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -4409,7 +4560,7 @@
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -4445,7 +4596,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device14CaptureRequestENS_9allocatorIS6_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device14CaptureRequestENS_9allocatorIS6_EEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -4481,7 +4632,16 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoENS_9allocatorIS6_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoENS_9allocatorIS6_EEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE",
+   "name" : "const std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -4760,7 +4920,7 @@
    "referenced_type" : "_ZTIx",
    "self_type" : "_ZTIRx",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   }
  ],
  "pointer_types" :
@@ -4925,7 +5085,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "alignment" : 4,
@@ -4934,7 +5094,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "alignment" : 4,
@@ -4943,7 +5103,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "alignment" : 4,
@@ -4952,7 +5112,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
   },
   {
    "alignment" : 4,
@@ -4961,7 +5121,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "alignment" : 4,
@@ -4970,7 +5130,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "alignment" : 4,
@@ -4979,7 +5139,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -4988,7 +5148,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -4997,7 +5157,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
   },
   {
    "alignment" : 4,
@@ -5006,7 +5166,7 @@
    "referenced_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "self_type" : "_ZTIPKN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
   },
   {
    "alignment" : 4,
@@ -5213,7 +5373,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5222,7 +5382,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "alignment" : 4,
@@ -5231,7 +5391,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "alignment" : 4,
@@ -5240,7 +5400,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5249,7 +5409,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
   },
   {
    "alignment" : 4,
@@ -5258,7 +5418,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5267,7 +5427,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5276,7 +5436,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "alignment" : 4,
@@ -5285,7 +5445,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "alignment" : 4,
@@ -5294,7 +5454,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -5303,7 +5463,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -5312,7 +5472,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5321,7 +5481,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5330,7 +5490,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5339,7 +5499,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
   },
   {
    "alignment" : 4,
@@ -5348,7 +5508,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefaultE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefaultE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5357,7 +5517,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
   },
   {
    "alignment" : 4,
@@ -5366,7 +5526,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device26ICameraDeviceUserDelegatorE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device26ICameraDeviceUserDelegatorE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5375,7 +5535,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefaultE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefaultE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5384,7 +5544,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device30ICameraDeviceCallbackDelegatorE",
    "self_type" : "_ZTIPN4aidl7android10frameworks13cameraservice6device30ICameraDeviceCallbackDelegatorE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5402,7 +5562,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5411,7 +5571,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5420,7 +5580,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5627,7 +5787,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIPb",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5636,7 +5796,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5654,7 +5814,7 @@
    "referenced_type" : "_ZTIx",
    "self_type" : "_ZTIPx",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   }
  ],
  "qualified_types" :
@@ -5758,14 +5918,14 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "name" : "const aidl::android::frameworks::cameraservice::device::SubmitInfo",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
-   "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "size" : 16,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "alignment" : 4,
@@ -5775,7 +5935,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "alignment" : 4,
@@ -5785,7 +5945,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "alignment" : 4,
@@ -5805,27 +5965,27 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo3TagE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "name" : "const aidl::android::frameworks::cameraservice::device::CaptureMetadataInfo",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
-   "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "size" : 24,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "name" : "const aidl::android::frameworks::cameraservice::device::CaptureResultExtras",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
-   "size" : 36,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "size" : 40,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "alignment" : 4,
@@ -5844,7 +6004,7 @@
    "name" : "const aidl::android::frameworks::cameraservice::device::OutputConfiguration",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
-   "size" : 44,
+   "size" : 56,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -5855,16 +6015,16 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "size" : 28,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "name" : "const aidl::android::frameworks::cameraservice::device::PhysicalCameraSettings",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
-   "size" : 28,
+   "size" : 40,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -5878,14 +6038,24 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "name" : "const aidl::android::frameworks::cameraservice::device::PhysicalCaptureResultInfo",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "self_type" : "_ZTIKN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
-   "size" : 28,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "size" : 40,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN4aidl7android8hardware12NativeWindowE",
+   "name" : "const aidl::android::hardware::NativeWindow",
+   "referenced_type" : "_ZTIN4aidl7android8hardware12NativeWindowE",
+   "self_type" : "_ZTIKN4aidl7android8hardware12NativeWindowE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -5908,7 +6078,7 @@
    "source_file" : "out/soong/.intermediates/hardware/interfaces/common/fmq/aidl/android.hardware.common.fmq-V1-ndk-source/gen/include/aidl/android/hardware/common/fmq/MQDescriptor.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android8hardware6common3fmq17GrantorDescriptorE",
    "name" : "const aidl::android::hardware::common::fmq::GrantorDescriptor",
@@ -5925,7 +6095,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -5935,7 +6105,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
   },
   {
    "alignment" : 4,
@@ -5955,7 +6125,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android10frameworks13cameraservice6device10TemplateIdELj6EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android10frameworks13cameraservice6device10TemplateIdELj6EEE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/TemplateId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/TemplateId.h"
   },
   {
    "alignment" : 4,
@@ -5965,7 +6135,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo3TagELj2EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfo3TagELj2EEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
    "alignment" : 4,
@@ -5975,7 +6145,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration13WindowGroupIdELj1EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration13WindowGroupIdELj1EEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -5985,7 +6155,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration8RotationELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android10frameworks13cameraservice6device19OutputConfiguration8RotationELj4EEE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -5995,7 +6165,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android10frameworks13cameraservice6device23StreamConfigurationModeELj10EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android10frameworks13cameraservice6device23StreamConfigurationModeELj10EEE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamConfigurationMode.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamConfigurationMode.h"
   },
   {
    "alignment" : 4,
@@ -6005,7 +6175,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android10frameworks13cameraservice6device9ErrorCodeELj9EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android10frameworks13cameraservice6device9ErrorCodeELj9EEE",
    "size" : 36,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ErrorCode.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ErrorCode.h"
   },
   {
    "alignment" : 1,
@@ -6045,7 +6215,7 @@
    "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device14CaptureRequestENS_9allocatorIS6_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device14CaptureRequestENS_9allocatorIS6_EEEE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h"
   },
   {
    "alignment" : 4,
@@ -6085,7 +6255,17 @@
    "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoENS_9allocatorIS6_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoENS_9allocatorIS6_EEEE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE",
+   "name" : "const std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>",
+   "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -6335,7 +6515,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "alignment" : 4,
@@ -6345,7 +6525,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h"
   },
   {
    "is_const" : true,
@@ -6356,7 +6536,7 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKx",
    "name" : "const long long",
@@ -7163,7 +7343,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -7172,7 +7352,7 @@
     },
     {
      "field_name" : "lastFrameNumber",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTIx"
     }
    ],
@@ -7181,8 +7361,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device10SubmitInfoE",
-   "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
+   "size" : 16,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SubmitInfo.h"
   },
   {
    "alignment" : 4,
@@ -7199,7 +7379,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CameraMetadata.h"
   },
   {
    "alignment" : 4,
@@ -7221,7 +7401,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CaptureRequestE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureRequest.h"
   },
   {
    "alignment" : 4,
@@ -7237,7 +7417,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device17ICameraDeviceUserE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h",
    "vtable_components" :
    [
     {
@@ -7359,7 +7539,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device17StreamAndWindowIdE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/StreamAndWindowId.h"
   },
   {
    "alignment" : 4,
@@ -7375,7 +7555,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device18BnCameraDeviceUserE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h",
    "vtable_components" :
    [
     {
@@ -7508,7 +7688,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device18BpCameraDeviceUserE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceUser.h",
    "vtable_components" :
    [
     {
@@ -7592,7 +7772,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -7606,11 +7786,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE",
-   "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "size" : 24,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -7648,8 +7828,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureResultExtrasE",
-   "size" : 36,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
+   "size" : 40,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureResultExtras.h"
   },
   {
    "alignment" : 4,
@@ -7688,6 +7868,11 @@
      "field_name" : "isDeferred",
      "field_offset" : 320,
      "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "surfaces",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
@@ -7695,8 +7880,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19OutputConfigurationE",
-   "size" : 44,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
+   "size" : 56,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/OutputConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -7733,7 +7918,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device20SessionConfigurationE",
    "size" : 28,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/SessionConfiguration.h"
   },
   {
    "alignment" : 4,
@@ -7749,7 +7934,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device21ICameraDeviceCallbackE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h",
    "vtable_components" :
    [
     {
@@ -7829,7 +8014,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22BnCameraDeviceCallbackE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h",
    "vtable_components" :
    [
     {
@@ -7926,7 +8111,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22BpCameraDeviceCallbackE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BpCameraDeviceCallback.h",
    "vtable_components" :
    [
     {
@@ -7983,7 +8168,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -7992,7 +8177,7 @@
     },
     {
      "field_name" : "settings",
-     "field_offset" : 96,
+     "field_offset" : 128,
      "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE"
     }
    ],
@@ -8001,8 +8186,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsE",
-   "size" : 28,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
+   "size" : 40,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCameraSettings.h"
   },
   {
    "alignment" : 4,
@@ -8018,7 +8203,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefaultE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device24ICameraDeviceUserDefaultE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceUser.h",
    "vtable_components" :
    [
     {
@@ -8102,7 +8287,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -8111,7 +8296,7 @@
     },
     {
      "field_name" : "physicalCameraMetadata",
-     "field_offset" : 96,
+     "field_offset" : 128,
      "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device19CaptureMetadataInfoE"
     }
    ],
@@ -8120,8 +8305,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device25PhysicalCaptureResultInfoE",
-   "size" : 28,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
+   "size" : 40,
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/PhysicalCaptureResultInfo.h"
   },
   {
    "alignment" : 4,
@@ -8146,7 +8331,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device26ICameraDeviceUserDelegatorE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device26ICameraDeviceUserDelegatorE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceUser.h",
    "vtable_components" :
    [
     {
@@ -8246,7 +8431,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefaultE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device28ICameraDeviceCallbackDefaultE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/ICameraDeviceCallback.h",
    "vtable_components" :
    [
     {
@@ -8325,7 +8510,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device30ICameraDeviceCallbackDelegatorE",
    "self_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device30ICameraDeviceCallbackDelegatorE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h",
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/BnCameraDeviceCallback.h",
    "vtable_components" :
    [
     {
@@ -8444,7 +8629,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -8524,6 +8709,20 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::IsIterable<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
    ]
   },
   {
@@ -8668,6 +8867,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware12NativeWindowEEE",
+   "name" : "android::internal::details::IsPointerLike<aidl::android::hardware::NativeWindow>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware12NativeWindowEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware12NativeWindowEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeIN4aidl7android8hardware6common12NativeHandleEEE",
    "name" : "android::internal::details::IsPointerLike<aidl::android::hardware::common::NativeHandle>",
    "record_kind" : "class",
@@ -8734,6 +8947,20 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::IsPointerLike<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
    ]
   },
   {
@@ -8878,6 +9105,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware12NativeWindowEEE",
+   "name" : "android::internal::details::HasToStringMethod<aidl::android::hardware::NativeWindow>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware12NativeWindowEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware12NativeWindowEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodIN4aidl7android8hardware6common12NativeHandleEEE",
    "name" : "android::internal::details::HasToStringMethod<aidl::android::hardware::common::NativeHandle>",
    "record_kind" : "class",
@@ -8944,6 +9185,20 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android10frameworks13cameraservice6device22PhysicalCameraSettingsENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::HasToStringMethod<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
    ]
   },
   {
@@ -9395,6 +9650,63 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<aidl::android::hardware::NativeWindow, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__110shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__110shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__110unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<aidl::android::hardware::NativeWindow, std::unique_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__110unique_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__110unique_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<aidl::android::hardware::NativeWindow, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__18optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware12NativeWindowENSt3__18optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN4aidl7android8hardware12NativeWindowE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware6common12NativeHandleENSt3__110shared_ptrEEE",
    "name" : "android::internal::details::IsInstantiationOf<aidl::android::hardware::common::NativeHandle, std::shared_ptr>",
    "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfIN4aidl7android8hardware6common12NativeHandleENSt3__110shared_ptrEEE",
@@ -9680,6 +9992,63 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_10shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_10shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_10shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_10unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>, std::unique_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_10unique_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_10unique_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_8optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_8optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEENS3_8optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS3_9allocatorIS9_EEEENS3_10shared_ptrEEE",
    "name" : "android::internal::details::IsInstantiationOf<std::vector<aidl::android::hardware::common::NativeHandle, std::allocator<aidl::android::hardware::common::NativeHandle>>, std::shared_ptr>",
    "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS3_9allocatorIS9_EEEENS3_10shared_ptrEEE",
@@ -9929,6 +10298,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::HasToStringFunction<std::vector<aidl::android::hardware::NativeWindow, std::allocator<aidl::android::hardware::NativeWindow>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS3_9allocatorIS8_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN4aidl7android8hardware12NativeWindowENS_9allocatorIS4_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware6common12NativeHandleENS3_9allocatorIS9_EEEEEE",
    "name" : "android::internal::details::HasToStringFunction<std::vector<aidl::android::hardware::common::NativeHandle, std::allocator<aidl::android::hardware::common::NativeHandle>>>",
    "record_kind" : "class",
@@ -10042,7 +10425,7 @@
    "referenced_type" : "_ZTIN4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "self_type" : "_ZTION4aidl7android10frameworks13cameraservice6device14CameraMetadataE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V1-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/hardware/interfaces/cameraservice/device/aidl/android.frameworks.cameraservice.device-V2-ndk-source/gen/include/aidl/android/frameworks/cameraservice/device/CaptureMetadataInfo.h"
   }
  ]
 }

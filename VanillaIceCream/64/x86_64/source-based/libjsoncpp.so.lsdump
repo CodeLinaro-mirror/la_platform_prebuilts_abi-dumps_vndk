@@ -1297,10 +1297,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__125__lexicographical_compareIRNS_6__lessINS_4pairIKN4Json5Value8CZStringES4_EES7_EENS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS5_S4_EEPNS_11__tree_nodeISD_PvEElEEEESJ_EEbT0_SK_T1_SL_T_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
   },
   {

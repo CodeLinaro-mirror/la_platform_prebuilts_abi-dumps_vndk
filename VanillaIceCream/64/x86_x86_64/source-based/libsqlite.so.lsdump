@@ -793,6 +793,10 @@
  "elf_objects" :
  [
   {
+   "binding" : "weak",
+   "name" : "__llvm_fs_discriminator__"
+  },
+  {
    "name" : "sqlite3_data_directory"
   },
   {

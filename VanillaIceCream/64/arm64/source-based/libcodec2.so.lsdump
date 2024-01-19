@@ -2079,6 +2079,14 @@
      "name" : "(anonymous namespace)::kParamIndexEncryptedBuffer"
     },
     {
+     "enum_field_value" : 2087,
+     "name" : "(anonymous namespace)::kParamIndexLargeFrame"
+    },
+    {
+     "enum_field_value" : 2088,
+     "name" : "(anonymous namespace)::kParamIndexAccessUnitInfos"
+    },
+    {
      "enum_field_value" : 133134,
      "name" : "(anonymous namespace)::kParamIndexDelayRequest"
     },
@@ -3090,6 +3098,23 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 2087,
+     "name" : "C2LargeFrameStruct::CORE_INDEX"
+    }
+   ],
+   "linker_set_key" : "_ZTIN18C2LargeFrameStruct11$CORE_INDEXE",
+   "name" : "C2LargeFrameStruct::(unnamed)",
+   "referenced_type" : "_ZTIN18C2LargeFrameStruct11$CORE_INDEXE",
+   "self_type" : "_ZTIN18C2LargeFrameStruct11$CORE_INDEXE",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 10240,
      "name" : "C2TileLayoutStruct::CORE_INDEX"
     }
@@ -3362,6 +3387,23 @@
    "self_type" : "_ZTIN22C2FieldSupportedValues6type_tE",
    "size" : 4,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 2088,
+     "name" : "C2AccessUnitInfosStruct::CORE_INDEX"
+    }
+   ],
+   "linker_set_key" : "_ZTIN23C2AccessUnitInfosStruct11$CORE_INDEXE",
+   "name" : "C2AccessUnitInfosStruct::(unnamed)",
+   "referenced_type" : "_ZTIN23C2AccessUnitInfosStruct11$CORE_INDEXE",
+   "self_type" : "_ZTIN23C2AccessUnitInfosStruct11$CORE_INDEXE",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -6887,6 +6929,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIP18C2LargeFrameStruct",
+   "name" : "C2LargeFrameStruct *",
+   "referenced_type" : "_ZTI18C2LargeFrameStruct",
+   "self_type" : "_ZTIP18C2LargeFrameStruct",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP18C2LinearAllocation",
    "name" : "C2LinearAllocation *",
    "referenced_type" : "_ZTI18C2LinearAllocation",
@@ -7046,6 +7097,15 @@
    "self_type" : "_ZTIP22_C2PlanarSectionAspect",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP23C2AccessUnitInfosStruct",
+   "name" : "C2AccessUnitInfosStruct *",
+   "referenced_type" : "_ZTI23C2AccessUnitInfosStruct",
+   "self_type" : "_ZTIP23C2AccessUnitInfosStruct",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
    "alignment" : 8,
@@ -10201,6 +10261,27 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "maxSize",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "thresholdSize",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI18C2LargeFrameStruct",
+   "name" : "C2LargeFrameStruct",
+   "referenced_type" : "_ZTI18C2LargeFrameStruct",
+   "self_type" : "_ZTI18C2LargeFrameStruct",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
+  },
+  {
    "alignment" : 8,
    "base_specifiers" :
    [
@@ -11102,6 +11183,32 @@
    [
     "_ZTIm"
    ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "flags",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "timestamp",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTI23C2AccessUnitInfosStruct",
+   "name" : "C2AccessUnitInfosStruct",
+   "referenced_type" : "_ZTI23C2AccessUnitInfosStruct",
+   "self_type" : "_ZTI23C2AccessUnitInfosStruct",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
    "alignment" : 4,

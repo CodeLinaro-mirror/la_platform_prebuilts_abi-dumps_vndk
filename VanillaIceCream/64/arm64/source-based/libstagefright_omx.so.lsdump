@@ -1800,6 +1800,207 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ADATASPACE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 4128768,
+     "name" : "ADATASPACE_STANDARD_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_STANDARD_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 65536,
+     "name" : "ADATASPACE_STANDARD_BT709"
+    },
+    {
+     "enum_field_value" : 131072,
+     "name" : "ADATASPACE_STANDARD_BT601_625"
+    },
+    {
+     "enum_field_value" : 196608,
+     "name" : "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 262144,
+     "name" : "ADATASPACE_STANDARD_BT601_525"
+    },
+    {
+     "enum_field_value" : 327680,
+     "name" : "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 393216,
+     "name" : "ADATASPACE_STANDARD_BT2020"
+    },
+    {
+     "enum_field_value" : 458752,
+     "name" : "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
+    },
+    {
+     "enum_field_value" : 524288,
+     "name" : "ADATASPACE_STANDARD_BT470M"
+    },
+    {
+     "enum_field_value" : 589824,
+     "name" : "ADATASPACE_STANDARD_FILM"
+    },
+    {
+     "enum_field_value" : 655360,
+     "name" : "ADATASPACE_STANDARD_DCI_P3"
+    },
+    {
+     "enum_field_value" : 720896,
+     "name" : "ADATASPACE_STANDARD_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 130023424,
+     "name" : "ADATASPACE_TRANSFER_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_TRANSFER_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 4194304,
+     "name" : "ADATASPACE_TRANSFER_LINEAR"
+    },
+    {
+     "enum_field_value" : 8388608,
+     "name" : "ADATASPACE_TRANSFER_SRGB"
+    },
+    {
+     "enum_field_value" : 12582912,
+     "name" : "ADATASPACE_TRANSFER_SMPTE_170M"
+    },
+    {
+     "enum_field_value" : 16777216,
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_2"
+    },
+    {
+     "enum_field_value" : 20971520,
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_6"
+    },
+    {
+     "enum_field_value" : 25165824,
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_8"
+    },
+    {
+     "enum_field_value" : 29360128,
+     "name" : "ADATASPACE_TRANSFER_ST2084"
+    },
+    {
+     "enum_field_value" : 33554432,
+     "name" : "ADATASPACE_TRANSFER_HLG"
+    },
+    {
+     "enum_field_value" : 939524096,
+     "name" : "ADATASPACE_RANGE_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_RANGE_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 134217728,
+     "name" : "ADATASPACE_RANGE_FULL"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "ADATASPACE_RANGE_LIMITED"
+    },
+    {
+     "enum_field_value" : 402653184,
+     "name" : "ADATASPACE_RANGE_EXTENDED"
+    },
+    {
+     "enum_field_value" : 406913024,
+     "name" : "ADATASPACE_SCRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 142671872,
+     "name" : "ADATASPACE_SRGB"
+    },
+    {
+     "enum_field_value" : 411107328,
+     "name" : "ADATASPACE_SCRGB"
+    },
+    {
+     "enum_field_value" : 143261696,
+     "name" : "ADATASPACE_DISPLAY_P3"
+    },
+    {
+     "enum_field_value" : 163971072,
+     "name" : "ADATASPACE_BT2020_PQ"
+    },
+    {
+     "enum_field_value" : 298188800,
+     "name" : "ADATASPACE_BT2020_ITU_PQ"
+    },
+    {
+     "enum_field_value" : 151715840,
+     "name" : "ADATASPACE_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 146931712,
+     "name" : "ADATASPACE_JFIF"
+    },
+    {
+     "enum_field_value" : 281149440,
+     "name" : "ADATASPACE_BT601_625"
+    },
+    {
+     "enum_field_value" : 281280512,
+     "name" : "ADATASPACE_BT601_525"
+    },
+    {
+     "enum_field_value" : 147193856,
+     "name" : "ADATASPACE_BT2020"
+    },
+    {
+     "enum_field_value" : 281083904,
+     "name" : "ADATASPACE_BT709"
+    },
+    {
+     "enum_field_value" : 155844608,
+     "name" : "ADATASPACE_DCI_P3"
+    },
+    {
+     "enum_field_value" : 138477568,
+     "name" : "ADATASPACE_SRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 168165376,
+     "name" : "ADATASPACE_BT2020_HLG"
+    },
+    {
+     "enum_field_value" : 302383104,
+     "name" : "ADATASPACE_BT2020_ITU_HLG"
+    },
+    {
+     "enum_field_value" : 4096,
+     "name" : "ADATASPACE_DEPTH"
+    },
+    {
+     "enum_field_value" : 4098,
+     "name" : "ADATASPACE_DYNAMIC_DEPTH"
+    }
+   ],
+   "linker_set_key" : "_ZTI10ADataSpace",
+   "name" : "ADataSpace",
+   "referenced_type" : "_ZTI10ADataSpace",
+   "self_type" : "_ZTI10ADataSpace",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/data_space.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "OMX_DirInput"
     },
     {
@@ -25834,6 +26035,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator &",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIRN7android22GraphicBufferAllocatorE",
+   "size" : 8,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN7android26DescribeColorFormat2ParamsE",
    "name" : "android::DescribeColorFormat2Params &",
    "referenced_type" : "_ZTIN7android26DescribeColorFormat2ParamsE",
@@ -29389,6 +29599,24 @@
    "self_type" : "_ZTIPN7android19VirtualLightRefBaseE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/LightRefBase.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android22GraphicBufferAllocator16AllocationResultE",
+   "name" : "android::GraphicBufferAllocator::AllocationResult *",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "self_type" : "_ZTIPN7android22GraphicBufferAllocator16AllocationResultE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator *",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIPN7android22GraphicBufferAllocatorE",
+   "size" : 8,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "alignment" : 8,
@@ -52173,6 +52401,186 @@
    "source_file" : "frameworks/native/headers/media_plugin/media/hardware/HardwareAPI.h"
   },
   {
+   "access" : "protected",
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "width",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "height",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "format",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "layerCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "usage",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "requestorName",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator11alloc_rec_tE",
+   "name" : "android::GraphicBufferAllocator::alloc_rec_t",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator11alloc_rec_tE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator11alloc_rec_tE",
+   "size" : 64,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "status",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "handle",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPK13native_handle"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "name" : "android::GraphicBufferAllocator::AllocationResult",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "size" : 24,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "value",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator17AdditionalOptionsE",
+   "name" : "android::GraphicBufferAllocator::AdditionalOptions",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator17AdditionalOptionsE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator17AdditionalOptionsE",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "importBuffer",
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "width",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "height",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "format",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "layerCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "usage",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "requestorName",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "extras",
+     "field_offset" : 448,
+     "referenced_type" : "_ZTINSt3__16vectorIN7android22GraphicBufferAllocator17AdditionalOptionsENS_9allocatorIS3_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator17AllocationRequestE",
+   "name" : "android::GraphicBufferAllocator::AllocationRequest",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator17AllocationRequestE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator17AllocationRequestE",
+   "size" : 80,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "protected",
+     "field_name" : "mMapper",
+     "referenced_type" : "_ZTIRN7android19GraphicBufferMapperE"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mAllocator",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__110unique_ptrIKN7android16GrallocAllocatorENS_14default_deleteIS3_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
    "alignment" : 8,
    "base_specifiers" :
    [
@@ -64313,6 +64721,20 @@
    "template_args" :
    [
     "_ZTIN7android19GraphicBufferMapperE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "name" : "android::Singleton<android::GraphicBufferAllocator>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "self_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h",
+   "template_args" :
+   [
+    "_ZTIN7android22GraphicBufferAllocatorE"
    ]
   },
   {

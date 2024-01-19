@@ -797,9 +797,6 @@
    "name" : "xmlDictCleanup"
   },
   {
-   "name" : "xmlDictComputeHash"
-  },
-  {
    "name" : "xmlDictCreate"
   },
   {
@@ -816,9 +813,6 @@
   },
   {
    "name" : "xmlDictLookup"
-  },
-  {
-   "name" : "xmlDictLookupHashed"
   },
   {
    "name" : "xmlDictOwns"
@@ -10798,20 +10792,20 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFvPvP9_xmlErrorE",
-   "name" : "void (void *, _xmlError *)",
+   "linker_set_key" : "_ZTIFvPvPK9_xmlErrorE",
+   "name" : "void (void *, const _xmlError *)",
    "parameters" :
    [
     {
      "referenced_type" : "_ZTIPv"
     },
     {
-     "referenced_type" : "_ZTIP9_xmlError"
+     "referenced_type" : "_ZTIPK9_xmlError"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP9_xmlErrorE",
+   "referenced_type" : "_ZTIFvPvPK9_xmlErrorE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP9_xmlErrorE",
+   "self_type" : "_ZTIFvPvPK9_xmlErrorE",
    "source_file" : "external/libxml2/include/libxml/parser.h"
   },
   {
@@ -11354,7 +11348,7 @@
   {
    "function_name" : "__xmlStructuredError",
    "linker_set_key" : "__xmlStructuredError",
-   "return_type" : "_ZTIPPFvPvP9_xmlErrorE",
+   "return_type" : "_ZTIPPFvPvPK9_xmlErrorE",
    "source_file" : "external/libxml2/include/libxml/xmlerror.h"
   },
   {
@@ -13868,7 +13862,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "return_type" : "_ZTIP9_xmlError",
+   "return_type" : "_ZTIPK9_xmlError",
    "source_file" : "external/libxml2/include/libxml/xmlerror.h"
   },
   {
@@ -14439,21 +14433,6 @@
    "source_file" : "external/libxml2/include/libxml/dict.h"
   },
   {
-   "function_name" : "xmlDictComputeHash",
-   "linker_set_key" : "xmlDictComputeHash",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8_xmlDict"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    }
-   ],
-   "return_type" : "_ZTIj",
-   "source_file" : "external/libxml2/include/private/dict.h"
-  },
-  {
    "function_name" : "xmlDictCreate",
    "linker_set_key" : "xmlDictCreate",
    "return_type" : "_ZTIP8_xmlDict",
@@ -14530,24 +14509,6 @@
    ],
    "return_type" : "_ZTIPKh",
    "source_file" : "external/libxml2/include/libxml/dict.h"
-  },
-  {
-   "function_name" : "xmlDictLookupHashed",
-   "linker_set_key" : "xmlDictLookupHashed",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8_xmlDict"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTI15xmlHashedString",
-   "source_file" : "external/libxml2/include/private/dict.h"
   },
   {
    "function_name" : "xmlDictOwns",
@@ -21197,7 +21158,7 @@
      "referenced_type" : "_ZTIP21_xmlRelaxNGParserCtxt"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -21236,7 +21197,7 @@
      "referenced_type" : "_ZTIP20_xmlRelaxNGValidCtxt"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -22982,7 +22943,7 @@
      "referenced_type" : "_ZTIP20_xmlSchemaParserCtxt"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -23036,7 +22997,7 @@
      "referenced_type" : "_ZTIP19_xmlSchemaValidCtxt"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -23528,7 +23489,7 @@
      "referenced_type" : "_ZTIP23_xmlSchematronValidCtxt"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -23732,7 +23693,7 @@
      "referenced_type" : "_ZTIPv"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -25622,7 +25583,7 @@
      "referenced_type" : "_ZTIP14_xmlTextReader"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -27212,7 +27173,7 @@
      "referenced_type" : "_ZTIPv"
     },
     {
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -33214,7 +33175,7 @@
    "referenced_type" : "_ZTI9_xmlError",
    "self_type" : "_ZTIP9_xmlError",
    "size" : 4,
-   "source_file" : "external/libxml2/include/libxml/parser.h"
+   "source_file" : "external/libxml2/include/libxml/xmlerror.h"
   },
   {
    "alignment" : 4,
@@ -33569,10 +33530,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFvPvP9_xmlErrorE",
-   "name" : "void (*)(void *, _xmlError *)",
-   "referenced_type" : "_ZTIFvPvP9_xmlErrorE",
-   "self_type" : "_ZTIPFvPvP9_xmlErrorE",
+   "linker_set_key" : "_ZTIPFvPvPK9_xmlErrorE",
+   "name" : "void (*)(void *, const _xmlError *)",
+   "referenced_type" : "_ZTIFvPvPK9_xmlErrorE",
+   "self_type" : "_ZTIPFvPvPK9_xmlErrorE",
    "size" : 4,
    "source_file" : "external/libxml2/include/libxml/parser.h"
   },
@@ -33799,7 +33760,7 @@
    "referenced_type" : "_ZTIK9_xmlError",
    "self_type" : "_ZTIPK9_xmlError",
    "size" : 4,
-   "source_file" : "external/libxml2/include/libxml/xmlerror.h"
+   "source_file" : "external/libxml2/include/libxml/parser.h"
   },
   {
    "alignment" : 4,
@@ -34001,10 +33962,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPPFvPvP9_xmlErrorE",
-   "name" : "void (**)(void *, _xmlError *)",
-   "referenced_type" : "_ZTIPFvPvP9_xmlErrorE",
-   "self_type" : "_ZTIPPFvPvP9_xmlErrorE",
+   "linker_set_key" : "_ZTIPPFvPvPK9_xmlErrorE",
+   "name" : "void (**)(void *, const _xmlError *)",
+   "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE",
+   "self_type" : "_ZTIPPFvPvPK9_xmlErrorE",
    "size" : 4,
    "source_file" : "external/libxml2/include/libxml/xmlerror.h"
   },
@@ -34245,7 +34206,7 @@
    "referenced_type" : "_ZTI9_xmlError",
    "self_type" : "_ZTIK9_xmlError",
    "size" : 52,
-   "source_file" : "external/libxml2/include/libxml/xmlerror.h"
+   "source_file" : "external/libxml2/include/libxml/parser.h"
   },
   {
    "alignment" : 4,
@@ -35744,7 +35705,7 @@
     {
      "field_name" : "serror",
      "field_offset" : 992,
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     }
    ],
    "linker_set_key" : "_ZTI14_xmlSAXHandler",
@@ -36678,7 +36639,7 @@
     {
      "field_name" : "error",
      "field_offset" : 1056,
-     "referenced_type" : "_ZTIPFvPvP9_xmlErrorE"
+     "referenced_type" : "_ZTIPFvPvPK9_xmlErrorE"
     },
     {
      "field_name" : "lastError",

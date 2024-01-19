@@ -698,6 +698,9 @@
    "name" : "_ZN7android14AudioParameter13keyMonoOutputE"
   },
   {
+   "name" : "_ZN7android14AudioParameter13keyReconfigLeE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter14keyBtHfpEnableE"
   },
   {
@@ -762,6 +765,9 @@
   },
   {
    "name" : "_ZN7android14AudioParameter20keyBtHfpSamplingRateE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter22keyReconfigLeSupportedE"
   },
   {
    "name" : "_ZN7android14AudioParameter23keyOffloadCodecChannelsE"
@@ -1510,6 +1516,12 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
+   "linker_set_key" : "_ZN7android14AudioParameter13keyReconfigLeE",
+   "name" : "android::AudioParameter::keyReconfigLe",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
    "linker_set_key" : "_ZN7android14AudioParameter14keyBtHfpEnableE",
    "name" : "android::AudioParameter::keyBtHfpEnable",
    "referenced_type" : "_ZTIKPKc",
@@ -1638,6 +1650,12 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter20keyBtHfpSamplingRateE",
    "name" : "android::AudioParameter::keyBtHfpSamplingRate",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter22keyReconfigLeSupportedE",
+   "name" : "android::AudioParameter::keyReconfigLeSupported",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },

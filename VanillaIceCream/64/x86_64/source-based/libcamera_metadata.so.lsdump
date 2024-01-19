@@ -593,6 +593,14 @@
     },
     {
      "enum_field_value" : 65594,
+     "name" : "ANDROID_CONTROL_LOW_LIGHT_BOOST_INFO_LUMINANCE_RANGE"
+    },
+    {
+     "enum_field_value" : 65595,
+     "name" : "ANDROID_CONTROL_LOW_LIGHT_BOOST_STATE"
+    },
+    {
+     "enum_field_value" : 65596,
      "name" : "ANDROID_CONTROL_END"
     },
     {
@@ -1405,6 +1413,14 @@
     },
     {
      "enum_field_value" : 1114133,
+     "name" : "ANDROID_STATISTICS_LENS_INTRINSIC_TIMESTAMPS"
+    },
+    {
+     "enum_field_value" : 1114134,
+     "name" : "ANDROID_STATISTICS_LENS_INTRINSIC_SAMPLES"
+    },
+    {
+     "enum_field_value" : 1114135,
      "name" : "ANDROID_STATISTICS_END"
     },
     {
@@ -1513,6 +1529,10 @@
     },
     {
      "enum_field_value" : 1376260,
+     "name" : "ANDROID_INFO_SESSION_CONFIGURATION_QUERY_VERSION"
+    },
+    {
+     "enum_field_value" : 1376261,
      "name" : "ANDROID_INFO_END"
     },
     {
@@ -1625,6 +1645,10 @@
     },
     {
      "enum_field_value" : 1703939,
+     "name" : "ANDROID_LOGICAL_MULTI_CAMERA_ACTIVE_PHYSICAL_SENSOR_CROP_REGION"
+    },
+    {
+     "enum_field_value" : 1703940,
      "name" : "ANDROID_LOGICAL_MULTI_CAMERA_END"
     },
     {
@@ -2435,6 +2459,10 @@
     {
      "enum_field_value" : 5,
      "name" : "ANDROID_CONTROL_AE_MODE_ON_EXTERNAL_FLASH"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_CONTROL_AE_MODE_ON_LOW_LIGHT_BOOST_BRIGHTNESS_PRIORITY"
     }
    ],
    "linker_set_key" : "_ZTI44camera_metadata_enum_android_control_ae_mode",
@@ -4072,6 +4100,27 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ANDROID_CONTROL_LOW_LIGHT_BOOST_STATE_INACTIVE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_CONTROL_LOW_LIGHT_BOOST_STATE_ACTIVE"
+    }
+   ],
+   "linker_set_key" : "_ZTI58camera_metadata_enum_android_control_low_light_boost_state",
+   "name" : "camera_metadata_enum_android_control_low_light_boost_state",
+   "referenced_type" : "_ZTI58camera_metadata_enum_android_control_low_light_boost_state",
+   "self_type" : "_ZTI58camera_metadata_enum_android_control_low_light_boost_state",
+   "size" : 4,
+   "source_file" : "system/media/camera/include/system/camera_metadata_tags.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "ANDROID_INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED"
     },
     {
@@ -4530,8 +4579,33 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 34,
+     "name" : "ANDROID_INFO_SESSION_CONFIGURATION_QUERY_VERSION_UPSIDE_DOWN_CAKE"
+    },
+    {
+     "enum_field_value" : 35,
+     "name" : "ANDROID_INFO_SESSION_CONFIGURATION_QUERY_VERSION_VANILLA_ICE_CREAM"
+    }
+   ],
+   "linker_set_key" : "_ZTI69camera_metadata_enum_android_info_session_configuration_query_version",
+   "name" : "camera_metadata_enum_android_info_session_configuration_query_version",
+   "referenced_type" : "_ZTI69camera_metadata_enum_android_info_session_configuration_query_version",
+   "self_type" : "_ZTI69camera_metadata_enum_android_info_session_configuration_query_version",
+   "size" : 4,
+   "source_file" : "system/media/camera/include/system/camera_metadata_tags.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 0,
      "name" : "ANDROID_INFO_SUPPORTED_BUFFER_MANAGEMENT_VERSION_HIDL_DEVICE_3_5"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_INFO_SUPPORTED_BUFFER_MANAGEMENT_VERSION_SESSION_CONFIGURABLE"
     }
    ],
    "linker_set_key" : "_ZTI69camera_metadata_enum_android_info_supported_buffer_management_version",

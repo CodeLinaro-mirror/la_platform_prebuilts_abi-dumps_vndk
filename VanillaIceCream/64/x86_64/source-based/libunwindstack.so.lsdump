@@ -220,366 +220,6 @@
    "name" : "AsmGetRegs"
   },
   {
-   "name" : "_RNvCs3UTCDl7BFcY_14rustc_demangle12try_demangle"
-  },
-  {
-   "name" : "_RNvCs3UTCDl7BFcY_14rustc_demangle8demangle"
-  },
-  {
-   "name" : "_RNvMNtCs7OFl3vvIFY1_4core4charNtB2_13EscapeUnicode3new"
-  },
-  {
-   "name" : "_RNvMNtNtCs7OFl3vvIFY1_4core3str5lossyNtB2_9Utf8Chunk5valid"
-  },
-  {
-   "name" : "_RNvMNtNtCs7OFl3vvIFY1_4core3str5lossyNtB2_9Utf8Chunk7invalid"
-  },
-  {
-   "name" : "_RNvMNtNtCs7OFl3vvIFY1_4core5panic10panic_infoNtB2_9PanicInfo10can_unwind"
-  },
-  {
-   "name" : "_RNvMNtNtCs7OFl3vvIFY1_4core5panic10panic_infoNtB2_9PanicInfo7message"
-  },
-  {
-   "name" : "_RNvMNtNtCs7OFl3vvIFY1_4core5panic10panic_infoNtB2_9PanicInfo7payload"
-  },
-  {
-   "name" : "_RNvMNtNtCs7OFl3vvIFY1_4core5panic10panic_infoNtB2_9PanicInfo8location"
-  },
-  {
-   "name" : "_RNvMNtNtCscMo2NQ4hP4y_3std10sys_common16thread_local_keyNtB2_9StaticKey9lazy_init"
-  },
-  {
-   "name" : "_RNvMNtNtNtNtCscMo2NQ4hP4y_3std3sys4unix5locks11futex_mutexNtB2_5Mutex14lock_contended"
-  },
-  {
-   "name" : "_RNvMNtNtNtNtCscMo2NQ4hP4y_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock14read_contended"
-  },
-  {
-   "name" : "_RNvMNtNtNtNtCscMo2NQ4hP4y_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock22wake_writer_or_readers"
-  },
-  {
-   "name" : "_RNvMs0_NtNtCs7OFl3vvIFY1_4core3str5lossyNtB5_10Utf8Chunks3new"
-  },
-  {
-   "name" : "_RNvMs1_NtNtCs7OFl3vvIFY1_4core3fmt8buildersNtB5_11DebugStruct5field"
-  },
-  {
-   "name" : "_RNvMs1_NtNtCs7OFl3vvIFY1_4core3fmt8buildersNtB5_11DebugStruct6finish"
-  },
-  {
-   "name" : "_RNvMs4_NtNtCs7OFl3vvIFY1_4core3ffi5c_strNtB5_4CStr6to_str"
-  },
-  {
-   "name" : "_RNvMs4_NtNtCs7OFl3vvIFY1_4core3fmt8buildersNtB5_8DebugSet5entry"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter10debug_list"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter12debug_struct"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter12pad_integral"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter15debug_lower_hex"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter15debug_upper_hex"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter3pad"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter9alternate"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter9write_fmt"
-  },
-  {
-   "name" : "_RNvMs5_NtCs7OFl3vvIFY1_4core3fmtNtB5_9Formatter9write_str"
-  },
-  {
-   "name" : "_RNvMs5_NtNtCs7OFl3vvIFY1_4core3fmt8buildersNtB5_9DebugList5entry"
-  },
-  {
-   "name" : "_RNvMs5_NtNtCs7OFl3vvIFY1_4core3fmt8buildersNtB5_9DebugList6finish"
-  },
-  {
-   "name" : "_RNvMs6_NtCs7OFl3vvIFY1_4core3numm14from_str_radix"
-  },
-  {
-   "name" : "_RNvMs8_NtCs7OFl3vvIFY1_4core4charNtB5_11EscapeDebug12from_unicode"
-  },
-  {
-   "name" : "_RNvMs8_NtCs7OFl3vvIFY1_4core4charNtB5_11EscapeDebug5clear"
-  },
-  {
-   "name" : "_RNvMs8_NtCs7OFl3vvIFY1_4core4charNtB5_11EscapeDebug9backslash"
-  },
-  {
-   "name" : "_RNvMs8_NtCs7OFl3vvIFY1_4core4charNtB5_11EscapeDebug9printable"
-  },
-  {
-   "name" : "_RNvMs8_NtCscMo2NQ4hP4y_3std4pathNtB5_10Components7as_path"
-  },
-  {
-   "name" : "_RNvMsZ_NtCscMo2NQ4hP4y_3std4pathNtB5_4Path13__strip_prefix"
-  },
-  {
-   "name" : "_RNvMsr_NtNtCs7OFl3vvIFY1_4core3str7patternNtB5_11StrSearcher3new"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core3fmt17pointer_fmt_inner"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core3fmt5write"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core3str16slice_error_fail"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core3str19slice_error_fail_rt"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core6result13unwrap_failed"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core9panicking18panic_bounds_check"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core9panicking19assert_failed_inner"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core9panicking5panic"
-  },
-  {
-   "name" : "_RNvNtCs7OFl3vvIFY1_4core9panicking9panic_fmt"
-  },
-  {
-   "name" : "_RNvNtCscMo2NQ4hP4y_3std3env11current_dir"
-  },
-  {
-   "name" : "_RNvNtCscMo2NQ4hP4y_3std5alloc8rust_oom"
-  },
-  {
-   "name" : "_RNvNtCscMo2NQ4hP4y_3std7process5abort"
-  },
-  {
-   "name" : "_RNvNtCscMo2NQ4hP4y_3std9panicking12default_hook"
-  },
-  {
-   "name" : "_RNvNtCscMo2NQ4hP4y_3std9panicking20rust_panic_with_hook"
-  },
-  {
-   "name" : "_RNvNtCscYuFExZwtGH_5alloc4sync32arcinner_layout_for_value_layout"
-  },
-  {
-   "name" : "_RNvNtCscYuFExZwtGH_5alloc5alloc18handle_alloc_error"
-  },
-  {
-   "name" : "_RNvNtCscYuFExZwtGH_5alloc7raw_vec17capacity_overflow"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core3str5count14do_count_chars"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core3str5count23char_count_general_case"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core3str6traits23str_index_overflow_fail"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core3str8converts9from_utf8"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core5slice5index22slice_index_order_fail"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core5slice5index24slice_end_index_len_fail"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core5slice5index26slice_start_index_len_fail"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core5slice6memchr14memchr_aligned"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core7unicode9printable12is_printable"
-  },
-  {
-   "name" : "_RNvNtNtCscMo2NQ4hP4y_3std3sys4unix14abort_internal"
-  },
-  {
-   "name" : "_RNvNtNtCscMo2NQ4hP4y_3std3sys4unix17decode_error_kind"
-  },
-  {
-   "name" : "_RNvNtNtCscMo2NQ4hP4y_3std9panicking11panic_count17is_zero_slow_path"
-  },
-  {
-   "name" : "_RNvNtNtNtCs7OFl3vvIFY1_4core7unicode12unicode_data15grapheme_extend6lookup"
-  },
-  {
-   "name" : "_RNvNtNtNtCs7OFl3vvIFY1_4core7unicode12unicode_data2cc6lookup"
-  },
-  {
-   "name" : "_RNvNtNtNtCscMo2NQ4hP4y_3std3sys6common5alloc16realloc_fallback"
-  },
-  {
-   "name" : "_RNvNvMs4_NtNtCs7OFl3vvIFY1_4core3ffi5c_strNtB7_4CStr8from_ptr9strlen_rt"
-  },
-  {
-   "name" : "_RNvNvNtCscYuFExZwtGH_5alloc5alloc18handle_alloc_error8rt_error"
-  },
-  {
-   "name" : "_RNvXNtCs3UTCDl7BFcY_14rustc_demangle6legacyNtB2_8DemangleNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXNtCs6qZqokwYxQS_14rustc_demangle6legacyNtB2_8DemangleNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXNvNtNtCscMo2NQ4hP4y_3std10sys_common9backtrace6__printNtB2_16DisplayBacktraceNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs0_NtCs3UTCDl7BFcY_14rustc_demangle2v0NtB5_5IdentNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs0_NtCs6qZqokwYxQS_14rustc_demangle2v0NtB5_5IdentNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs0_NtNtCs7OFl3vvIFY1_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str"
-  },
-  {
-   "name" : "_RNvXs0_NtNtCs7OFl3vvIFY1_4core5panic8locationNtB5_8LocationNtNtB9_3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs0_NvNtCscMo2NQ4hP4y_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCs7OFl3vvIFY1_4core5panic7BoxMeUp3get"
-  },
-  {
-   "name" : "_RNvXs0_NvNtCscMo2NQ4hP4y_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCs7OFl3vvIFY1_4core5panic7BoxMeUp8take_box"
-  },
-  {
-   "name" : "_RNvXs10_NtNtCs7OFl3vvIFY1_4core3fmt3numxNtB8_8LowerHex3fmt"
-  },
-  {
-   "name" : "_RNvXs14_NtNtCs7OFl3vvIFY1_4core3fmt3numyNtB8_8LowerHex3fmt"
-  },
-  {
-   "name" : "_RNvXs1_Cs3UTCDl7BFcY_14rustc_demangleNtB5_8DemangleNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs1_Cs6qZqokwYxQS_14rustc_demangleNtB5_8DemangleNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs1_NtNtCs7OFl3vvIFY1_4core3str5lossyNtB5_10Utf8ChunksNtNtNtNtB9_4iter6traits8iterator8Iterator4next"
-  },
-  {
-   "name" : "_RNvXs2_NtNtNtCs7OFl3vvIFY1_4core3fmt3num3implNtB9_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs3_NtCs7OFl3vvIFY1_4core3fmtNtB5_9ArgumentsNtB5_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs3_NtNtCscMo2NQ4hP4y_3std12backtrace_rs9symbolizeNtB5_10SymbolNameNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs3_NtNtNtCs7OFl3vvIFY1_4core3fmt3num3impmNtB9_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs3_NtNtNtCscMo2NQ4hP4y_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write14write_vectored"
-  },
-  {
-   "name" : "_RNvXs3_NtNtNtCscMo2NQ4hP4y_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5flush"
-  },
-  {
-   "name" : "_RNvXs3_NtNtNtCscMo2NQ4hP4y_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5write"
-  },
-  {
-   "name" : "_RNvXs5_NtNtNtCs7OFl3vvIFY1_4core3fmt3num3impyNtB9_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs6_NtCs7OFl3vvIFY1_4core3fmtNtB5_9FormatterNtB5_5Write10write_char"
-  },
-  {
-   "name" : "_RNvXs6_NtCs7OFl3vvIFY1_4core3fmtNtB5_9FormatterNtB5_5Write9write_str"
-  },
-  {
-   "name" : "_RNvXs6_NtNtNtCs7OFl3vvIFY1_4core3fmt3num3impjNtB9_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs7_Cs3UTCDl7BFcY_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCs7OFl3vvIFY1_4core3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXs7_Cs6qZqokwYxQS_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCs7OFl3vvIFY1_4core3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsC_NtNtCs7OFl3vvIFY1_4core3fmt3numaNtB7_8LowerHex3fmt"
-  },
-  {
-   "name" : "_RNvXsD_NtNtCs7OFl3vvIFY1_4core3fmt3numaNtB7_8UpperHex3fmt"
-  },
-  {
-   "name" : "_RNvXsE_NtCs7OFl3vvIFY1_4core3fmtNtB5_5ErrorNtB5_5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsG_NtNtCs7OFl3vvIFY1_4core3fmt3numhNtB7_8LowerHex3fmt"
-  },
-  {
-   "name" : "_RNvXsH_NtNtCs7OFl3vvIFY1_4core3fmt3numhNtB7_8UpperHex3fmt"
-  },
-  {
-   "name" : "_RNvXsS_NtNtCs7OFl3vvIFY1_4core3fmt3numlNtB7_8LowerHex3fmt"
-  },
-  {
-   "name" : "_RNvXsT_NtNtCs7OFl3vvIFY1_4core3fmt3numlNtB7_8UpperHex3fmt"
-  },
-  {
-   "name" : "_RNvXs_NtNtCs7OFl3vvIFY1_4core5panic10panic_infoNtB4_9PanicInfoNtNtB8_3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs_NtNtCscMo2NQ4hP4y_3std6thread5localNtB4_11AccessErrorNtNtCs7OFl3vvIFY1_4core3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXs_NtNtNtCs7OFl3vvIFY1_4core3fmt3num3imphNtB8_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs_NtNtNtCscMo2NQ4hP4y_3std3sys4unix6os_strNtB4_5SliceNtNtCs7OFl3vvIFY1_4core3fmt7Display3fmt"
-  },
-  {
-   "name" : "_RNvXs_NvNtCscMo2NQ4hP4y_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCs7OFl3vvIFY1_4core5panic7BoxMeUp3get"
-  },
-  {
-   "name" : "_RNvXs_NvNtCscMo2NQ4hP4y_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCs7OFl3vvIFY1_4core5panic7BoxMeUp8take_box"
-  },
-  {
-   "name" : "_RNvXsc_NtCs7OFl3vvIFY1_4core3fmteNtB5_5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsc_NtNtCs7OFl3vvIFY1_4core3num5errorNtB5_13ParseIntErrorNtNtB9_3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsd_NtCs7OFl3vvIFY1_4core3fmteNtB5_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXse_NtCs7OFl3vvIFY1_4core3fmtcNtB5_5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXse_NtNtCs7OFl3vvIFY1_4core5alloc6layoutNtB5_11LayoutErrorNtNtB9_3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsf_NtCs7OFl3vvIFY1_4core3fmtcNtB5_7Display3fmt"
-  },
-  {
-   "name" : "_RNvXsh_NtCs7OFl3vvIFY1_4core4cellNtB5_14BorrowMutErrorNtNtB7_3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsi_NtCscMo2NQ4hP4y_3std4pathNtB5_10ComponentsNtNtNtNtCs7OFl3vvIFY1_4core4iter6traits8iterator8Iterator4next"
-  },
-  {
-   "name" : "_RNvXso_NtCs7OFl3vvIFY1_4core3numjNtNtNtB7_3str6traits7FromStr8from_str"
-  },
-  {
    "name" : "_ZN11unwindstack10BufferMaps5ParseEv"
   },
   {
@@ -760,25 +400,25 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack12DwarfEhFrameIjEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack12DwarfEhFrameIjEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack12DwarfEhFrameIjEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack12DwarfEhFrameIjEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack12DwarfEhFrameImEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack12DwarfEhFrameImEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack12DwarfEhFrameImEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack12DwarfEhFrameImEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "name" : "_ZN11unwindstack12DwarfSection4StepEmPNS_4RegsEPNS_6MemoryEPbS5_"
   },
   {
-   "name" : "_ZN11unwindstack12DwarfSectionC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack12DwarfSectionC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
@@ -905,19 +545,19 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack15DwarfDebugFrameIjEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack15DwarfDebugFrameIjEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack15DwarfDebugFrameIjEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack15DwarfDebugFrameIjEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack15DwarfDebugFrameImEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack15DwarfDebugFrameImEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack15DwarfDebugFrameImEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack15DwarfDebugFrameImEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "name" : "_ZN11unwindstack15ElfInterfaceArm13GetPrel31AddrEjPj"
@@ -1002,7 +642,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16DwarfSectionImplIjE4InitEmml"
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjE4InitERKNS_11SectionInfoE"
   },
   {
    "binding" : "weak",
@@ -1018,7 +658,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16DwarfSectionImplIjEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack16DwarfSectionImplIjEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
@@ -1070,7 +710,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16DwarfSectionImplImE4InitEmml"
+   "name" : "_ZN11unwindstack16DwarfSectionImplImE4InitERKNS_11SectionInfoE"
   },
   {
    "binding" : "weak",
@@ -1086,7 +726,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16DwarfSectionImplImEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack16DwarfSectionImplImEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
@@ -1126,11 +766,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
@@ -1170,11 +810,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "name" : "_ZN11unwindstack17MemoryThreadCache10CachedReadEmPvm"
@@ -1250,7 +890,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE11EhFrameInitEmml"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE11EhFrameInitERKNS_11SectionInfoE"
   },
   {
    "binding" : "weak",
@@ -1266,7 +906,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE4InitEmml"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjE4InitERKNS_11SectionInfoE"
   },
   {
    "binding" : "weak",
@@ -1274,15 +914,15 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrIjEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE11EhFrameInitEmml"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE11EhFrameInitERKNS_11SectionInfoE"
   },
   {
    "binding" : "weak",
@@ -1298,7 +938,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE4InitEmml"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImE4InitERKNS_11SectionInfoE"
   },
   {
    "binding" : "weak",
@@ -1306,11 +946,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImEC1EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImEC1ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImEC2EPNS_6MemoryE"
+   "name" : "_ZN11unwindstack19DwarfEhFrameWithHdrImEC2ERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "name" : "_ZN11unwindstack19MemoryOfflineBuffer4ReadEmPvm"
@@ -1401,7 +1041,7 @@
    "name" : "_ZN11unwindstack3Elf23GetGlobalVariableOffsetERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPm"
   },
   {
-   "name" : "_ZN11unwindstack3Elf25CreateInterfaceFromMemoryEPNS_6MemoryE"
+   "name" : "_ZN11unwindstack3Elf25CreateInterfaceFromMemoryERNSt3__110shared_ptrINS_6MemoryEEE"
   },
   {
    "name" : "_ZN11unwindstack3Elf4InitEv"
@@ -1994,9 +1634,6 @@
    "name" : "_ZN11unwindstack7MapInfo12GetElfFieldsEv"
   },
   {
-   "name" : "_ZN11unwindstack7MapInfo13GetFileMemoryEv"
-  },
-  {
    "name" : "_ZN11unwindstack7MapInfo14GetNextRealMapEv"
   },
   {
@@ -2004,6 +1641,9 @@
   },
   {
    "name" : "_ZN11unwindstack7MapInfo15GetFunctionNameEmPNS_12SharedStringEPm"
+  },
+  {
+   "name" : "_ZN11unwindstack7MapInfo16CreateFileMemoryEv"
   },
   {
    "name" : "_ZN11unwindstack7MapInfo18ElfFileNotReadableEv"
@@ -2568,23 +2208,15 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN11unwindstack6MemoryEED2Ev"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__110shared_ptrIN11unwindstack7MapInfoEED2Ev"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__deque_baseIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE5clearEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__deque_baseIhNS_9allocatorIhEEED2Ev"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__deque_baseIjNS_9allocatorIjEEED2Ev"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__deque_baseImNS_9allocatorImEEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2597,26 +2229,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapImNS_10shared_ptrIN11unwindstack3ElfEEENS_4hashImEENS_8equal_toImEENS5_INS_4pairIKmSC_EEEEEEEENS_22__unordered_map_hasherIS7_SM_NSD_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_NSF_IS7_EELb1EEENS5_ISM_EEE8__rehashEm"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKS7_RjEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKS7_RyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKS7_S9_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8optionalImEEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_NS_8equal_toIS7_EELb1EEENS5_ISA_EEE8__rehashEm"
   },
   {
    "binding" : "weak",
@@ -2645,22 +2257,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjN11unwindstack13DwarfLocationEEENS_22__unordered_map_hasherIjS4_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS4_NS_8equal_toIjEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE14__erase_uniqueImEEmRKT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImA4096_hEENS_22__unordered_map_hasherImS3_NS_4hashImEELb1EEENS_21__unordered_map_equalImS3_NS_8equal_toImEELb1EEENS_9allocatorIS3_EEE8__rehashEm"
   },
   {
    "binding" : "weak",
@@ -2752,18 +2348,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImjEENS_22__unordered_map_hasherImS2_NS_4hashImEELb1EEENS_21__unordered_map_equalImS2_NS_8equal_toImEELb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImjEENS_22__unordered_map_hasherImS2_NS_4hashImEELb1EEENS_21__unordered_map_equalImS2_NS_8equal_toImEELb1EEENS_9allocatorIS2_EEE8__rehashEm"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPN11unwindstack14DwarfLocationsENS_9allocatorIS3_EEE10push_frontEOS3_"
   },
   {
@@ -2780,62 +2364,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPhNS_9allocatorIS1_EEE10push_frontEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPhNS_9allocatorIS1_EEE9push_backEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPhRNS_9allocatorIS1_EEE10push_frontERKS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPhRNS_9allocatorIS1_EEE9push_backEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE10push_frontEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE10push_frontERKS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE9push_backEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPjRNS_9allocatorIS1_EEE9push_backEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPmNS_9allocatorIS1_EEE10push_frontEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPmNS_9allocatorIS1_EEE10push_frontERKS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPmNS_9allocatorIS1_EEE9push_backEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIPmRNS_9allocatorIS1_EEE9push_backEOS1_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__120__shared_ptr_emplaceIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS7_EEE16__on_zero_sharedEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__120__shared_ptr_emplaceIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS7_EEE21__on_zero_shared_weakEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack18MemoryFileAtOffsetENS_9allocatorIS2_EEE16__on_zero_sharedEv"
   },
   {
@@ -2849,6 +2377,14 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack7MapInfoENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack8MemoryXzENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN11unwindstack8MemoryXzENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
   },
   {
    "binding" : "weak",
@@ -2873,6 +2409,30 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryLocalENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryRangeENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryRangeENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryBufferENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryBufferENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryRangesENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryRangesENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
   },
   {
    "binding" : "weak",
@@ -2924,10 +2484,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__127__insertion_sort_incompleteIRNS_6__lessINS_4pairImmEES3_EEPS3_EEbT0_S7_T_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__127__insertion_sort_incompleteIRZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEbT0_SA_T_"
   },
   {
@@ -2944,39 +2500,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__15dequeIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE19__add_back_capacityEv"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__15dequeIN11unwindstack14DwarfLocationsENS_9allocatorIS2_EEE8pop_backEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeIhNS_9allocatorIhEEE19__add_back_capacityEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeIhNS_9allocatorIhEEE9push_backEOh"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeIhNS_9allocatorIhEEE9push_backERKh"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeIjNS_9allocatorIjEEE20__add_front_capacityEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeImNS_9allocatorImEEE20__add_front_capacityEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__sortIRNS_6__lessINS_4pairImmEES3_EEPS3_EEvT0_S7_T_"
   },
   {
    "binding" : "weak",
@@ -3017,10 +2545,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIN11unwindstack15GlobalDebugImplINS2_3ElfEmNS2_8Uint64_AEE3UIDENS_10shared_ptrIS4_EEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS_9allocatorISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIhiEENS_19__map_value_compareIhS2_NS_4lessIhEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE"
   },
   {
    "binding" : "weak",
@@ -3068,22 +2592,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKPKcEEEvDpOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEE21__push_back_slow_pathIS2_EEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKmS8_EEEvDpOT_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIPKN11unwindstack8DwarfFdeENS_9allocatorIS4_EEE21__push_back_slow_pathIRKS4_EEvOT_"
   },
   {
@@ -3104,26 +2612,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE21__push_back_slow_pathIRKcEEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIjNS_9allocatorIjEEE21__push_back_slow_pathIjEEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorImNS_9allocatorImEEE21__push_back_slow_pathIRKmEEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorImNS_9allocatorImEEE21__push_back_slow_pathImEEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__17__sort3IRNS_6__lessINS_4pairImmEES3_EEPS3_EEjT0_S7_S7_T_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__17__sort3IRZN11unwindstack16DwarfSectionImplIjE13BuildFdeIndexEvEUlRKZNS3_13BuildFdeIndexEvE7FdeInfoS6_E_PS4_EEjT0_SA_SA_T_"
   },
   {
@@ -3137,92 +2625,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__17__sort3IRZN11unwindstack7Symbols15BuildRemapTableI9elf64_symEEvPNS1_6MemoryEEUlT_T0_E_PjEEjS8_S8_S8_S7_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__17__sort4IRNS_6__lessINS_4pairImmEES3_EEPS3_EEjT0_S7_S7_S7_T_"
-  },
-  {
-   "name" : "__cxa_demangle"
-  },
-  {
-   "name" : "__rdl_alloc"
-  },
-  {
-   "name" : "__rdl_dealloc"
-  },
-  {
-   "name" : "__rdl_realloc"
-  },
-  {
-   "name" : "__rg_oom"
-  },
-  {
-   "name" : "__rust_alloc"
-  },
-  {
-   "name" : "__rust_alloc_error_handler"
-  },
-  {
-   "name" : "__rust_dealloc"
-  },
-  {
-   "name" : "__rust_realloc"
-  },
-  {
-   "name" : "__rust_start_panic"
-  },
-  {
-   "name" : "async_safe_fatal_no_abort"
-  },
-  {
-   "name" : "async_safe_fatal_va_list"
-  },
-  {
-   "name" : "async_safe_format_buffer"
-  },
-  {
-   "name" : "async_safe_format_buffer_va_list"
-  },
-  {
-   "name" : "async_safe_format_fd"
-  },
-  {
-   "name" : "async_safe_format_fd_va_list"
-  },
-  {
-   "name" : "async_safe_format_log"
-  },
-  {
-   "name" : "async_safe_format_log_va_list"
-  },
-  {
-   "name" : "async_safe_write_log"
-  },
-  {
-   "name" : "rust_begin_unwind"
-  },
-  {
-   "name" : "rust_eh_personality"
-  },
-  {
-   "name" : "rust_panic"
-  },
-  {
-   "name" : "rustc_demangle"
   }
  ],
  "elf_objects" :
  [
-  {
-   "name" : "_RNvNtCscMo2NQ4hP4y_3std9panicking4HOOK"
-  },
-  {
-   "name" : "_RNvNtNtCs7OFl3vvIFY1_4core3fmt2rt12USIZE_MARKER"
-  },
-  {
-   "name" : "_RNvNtNtCscMo2NQ4hP4y_3std9panicking11panic_count18GLOBAL_PANIC_COUNT"
-  },
   {
    "binding" : "weak",
    "name" : "_ZGVZNK11unwindstack12SharedStringcvRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEvE5empty"
@@ -3484,15 +2890,15 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS7_EEEE"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN11unwindstack18MemoryFileAtOffsetENS_9allocatorIS2_EEEE"
   },
   {
    "binding" : "weak",
    "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN11unwindstack7MapInfoENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN11unwindstack8MemoryXzENS_9allocatorIS2_EEEE"
   },
   {
    "binding" : "weak",
@@ -3505,6 +2911,18 @@
   {
    "binding" : "weak",
    "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryLocalENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack11MemoryRangeENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryBufferENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN11unwindstack12MemoryRangesENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
   },
   {
    "binding" : "weak",
@@ -3533,12 +2951,6 @@
   {
    "binding" : "weak",
    "name" : "_ZZNK11unwindstack12SharedStringcvRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEvE5empty"
-  },
-  {
-   "name" : "__rust_alloc_error_handler_should_panic"
-  },
-  {
-   "name" : "__rust_no_alloc_shim_is_unstable"
   }
  ],
  "enum_types" :
@@ -4928,7 +4340,7 @@
   },
   {
    "function_name" : "unwindstack::DwarfSection::DwarfSection",
-   "linker_set_key" : "_ZN11unwindstack12DwarfSectionC2EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack12DwarfSectionC2ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -4936,7 +4348,7 @@
      "referenced_type" : "_ZTIPN11unwindstack12DwarfSectionE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -4971,7 +4383,7 @@
      "referenced_type" : "_ZTIPN11unwindstack12ElfInterfaceE"
     }
    ],
-   "return_type" : "_ZTINSt3__110unique_ptrIN11unwindstack6MemoryENS_14default_deleteIS2_EEEE",
+   "return_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
   },
   {
@@ -5439,7 +4851,7 @@
   },
   {
    "function_name" : "unwindstack::DwarfSectionImpl<unsigned int>::DwarfSectionImpl",
-   "linker_set_key" : "_ZN11unwindstack16DwarfSectionImplIjEC2EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack16DwarfSectionImplIjEC2ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5447,7 +4859,7 @@
      "referenced_type" : "_ZTIPN11unwindstack16DwarfSectionImplIjEE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5455,7 +4867,7 @@
   },
   {
    "function_name" : "unwindstack::DwarfSectionImpl<unsigned long>::DwarfSectionImpl",
-   "linker_set_key" : "_ZN11unwindstack16DwarfSectionImplImEC2EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack16DwarfSectionImplImEC2ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5463,7 +4875,7 @@
      "referenced_type" : "_ZTIPN11unwindstack16DwarfSectionImplImEE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5471,7 +4883,7 @@
   },
   {
    "function_name" : "unwindstack::ElfInterfaceImpl<unwindstack::ElfTypes32>::ElfInterfaceImpl",
-   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC1EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC1ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5479,7 +4891,7 @@
      "referenced_type" : "_ZTIPN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5487,7 +4899,7 @@
   },
   {
    "function_name" : "unwindstack::ElfInterfaceImpl<unwindstack::ElfTypes32>::ElfInterfaceImpl",
-   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC2EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEC2ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5495,7 +4907,7 @@
      "referenced_type" : "_ZTIPN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5503,7 +4915,7 @@
   },
   {
    "function_name" : "unwindstack::ElfInterfaceImpl<unwindstack::ElfTypes64>::ElfInterfaceImpl",
-   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC1EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC1ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5511,7 +4923,7 @@
      "referenced_type" : "_ZTIPN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5519,7 +4931,7 @@
   },
   {
    "function_name" : "unwindstack::ElfInterfaceImpl<unwindstack::ElfTypes64>::ElfInterfaceImpl",
-   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC2EPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEC2ERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5527,7 +4939,7 @@
      "referenced_type" : "_ZTIPN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5961,7 +5373,7 @@
   },
   {
    "function_name" : "unwindstack::Elf::CreateInterfaceFromMemory",
-   "linker_set_key" : "_ZN11unwindstack3Elf25CreateInterfaceFromMemoryEPNS_6MemoryE",
+   "linker_set_key" : "_ZN11unwindstack3Elf25CreateInterfaceFromMemoryERNSt3__110shared_ptrINS_6MemoryEEE",
    "parameters" :
    [
     {
@@ -5969,7 +5381,7 @@
      "referenced_type" : "_ZTIPN11unwindstack3ElfE"
     },
     {
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
    "return_type" : "_ZTIPN11unwindstack12ElfInterfaceE",
@@ -6446,7 +5858,7 @@
      "referenced_type" : "_ZTIm"
     }
    ],
-   "return_type" : "_ZTINSt3__110unique_ptrIN11unwindstack6MemoryENS_14default_deleteIS2_EEEE",
+   "return_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Memory.h"
   },
   {
@@ -6609,7 +6021,7 @@
      "referenced_type" : "_ZTIRKNSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     }
    ],
-   "return_type" : "_ZTIPN11unwindstack6MemoryE",
+   "return_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MapInfo.h"
   },
   {
@@ -6623,20 +6035,6 @@
     }
    ],
    "return_type" : "_ZTIRN11unwindstack7MapInfo9ElfFieldsE",
-   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MapInfo.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "unwindstack::MapInfo::GetFileMemory",
-   "linker_set_key" : "_ZN11unwindstack7MapInfo13GetFileMemoryEv",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN11unwindstack7MapInfoE"
-    }
-   ],
-   "return_type" : "_ZTIPN11unwindstack6MemoryE",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MapInfo.h"
   },
   {
@@ -6685,6 +6083,20 @@
     }
    ],
    "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MapInfo.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "unwindstack::MapInfo::CreateFileMemory",
+   "linker_set_key" : "_ZN11unwindstack7MapInfo16CreateFileMemoryEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack7MapInfoE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MapInfo.h"
   },
   {
@@ -7719,6 +7131,15 @@
  [
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN11unwindstack11SectionInfoE",
+   "name" : "const unwindstack::SectionInfo &",
+   "referenced_type" : "_ZTIKN11unwindstack11SectionInfoE",
+   "self_type" : "_ZTIRKN11unwindstack11SectionInfoE",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN11unwindstack12DwarfSection8iteratorE",
    "name" : "const unwindstack::DwarfSection::iterator &",
    "referenced_type" : "_ZTIKN11unwindstack12DwarfSection8iteratorE",
@@ -7877,7 +7298,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE",
    "self_type" : "_ZTIRNSt3__110shared_ptrIN11unwindstack6MemoryEEE",
    "size" : 8,
-   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Unwinder.h"
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfMemory.h"
   },
   {
    "alignment" : 8,
@@ -8402,7 +7823,7 @@
    "referenced_type" : "_ZTIN11unwindstack6MemoryE",
    "self_type" : "_ZTIPN11unwindstack6MemoryE",
    "size" : 8,
-   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfMemory.h"
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Memory.h"
   },
   {
    "alignment" : 8,
@@ -8623,6 +8044,16 @@
    "self_type" : "_ZTIKN11unwindstack10RemoteMapsE",
    "size" : 40,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Maps.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN11unwindstack11SectionInfoE",
+   "name" : "const unwindstack::SectionInfo",
+   "referenced_type" : "_ZTIN11unwindstack11SectionInfoE",
+   "self_type" : "_ZTIKN11unwindstack11SectionInfoE",
+   "size" : 32,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
   },
   {
    "alignment" : 8,
@@ -9113,36 +8544,36 @@
      "access" : "private",
      "field_name" : "memory_",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     },
     {
      "access" : "private",
      "field_name" : "cur_offset_",
-     "field_offset" : 128,
+     "field_offset" : 192,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
      "field_name" : "pc_offset_",
-     "field_offset" : 192,
+     "field_offset" : 256,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "private",
      "field_name" : "data_offset_",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "private",
-     "field_name" : "func_offset_",
      "field_offset" : 320,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
-     "field_name" : "text_offset_",
+     "field_name" : "func_offset_",
      "field_offset" : 384,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "text_offset_",
+     "field_offset" : 448,
      "referenced_type" : "_ZTIm"
     }
    ],
@@ -9151,7 +8582,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack11DwarfMemoryE",
    "self_type" : "_ZTIN11unwindstack11DwarfMemoryE",
-   "size" : 56,
+   "size" : 64,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfMemory.h",
    "vtable_components" :
    [
@@ -9249,6 +8680,37 @@
    ]
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "offset",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "bias",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack11SectionInfoE",
+   "name" : "unwindstack::SectionInfo",
+   "referenced_type" : "_ZTIN11unwindstack11SectionInfoE",
+   "self_type" : "_ZTIN11unwindstack11SectionInfoE",
+   "size" : 32,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -9337,43 +8799,43 @@
     {
      "access" : "protected",
      "field_name" : "last_error_",
-     "field_offset" : 512,
+     "field_offset" : 576,
      "referenced_type" : "_ZTIN11unwindstack14DwarfErrorDataE"
     },
     {
      "access" : "protected",
      "field_name" : "cie32_value_",
-     "field_offset" : 640,
+     "field_offset" : 704,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "cie64_value_",
-     "field_offset" : 704,
+     "field_offset" : 768,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
      "field_name" : "fde_entries_",
-     "field_offset" : 768,
+     "field_offset" : 832,
      "referenced_type" : "_ZTINSt3__113unordered_mapImN11unwindstack8DwarfFdeENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEEE"
     },
     {
      "access" : "protected",
      "field_name" : "cie_entries_",
-     "field_offset" : 1088,
+     "field_offset" : 1152,
      "referenced_type" : "_ZTINSt3__113unordered_mapImN11unwindstack8DwarfCieENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEEE"
     },
     {
      "access" : "protected",
      "field_name" : "cie_loc_regs_",
-     "field_offset" : 1408,
+     "field_offset" : 1472,
      "referenced_type" : "_ZTINSt3__113unordered_mapImN11unwindstack14DwarfLocationsENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEEE"
     },
     {
      "access" : "protected",
      "field_name" : "loc_regs_",
-     "field_offset" : 1728,
+     "field_offset" : 1792,
      "referenced_type" : "_ZTINSt3__13mapImN11unwindstack14DwarfLocationsENS_4lessImEENS_9allocatorINS_4pairIKmS2_EEEEEE"
     }
    ],
@@ -9382,7 +8844,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack12DwarfSectionE",
    "self_type" : "_ZTIN11unwindstack12DwarfSectionE",
-   "size" : 240,
+   "size" : 248,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfSection.h",
    "vtable_components" :
    [
@@ -9403,7 +8865,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN11unwindstack12DwarfSection4InitEmml"
+     "mangled_component_name" : "_ZN11unwindstack12DwarfSection4InitERKNS_11SectionInfoE"
     },
     {
      "is_pure" : true,
@@ -9447,186 +8909,150 @@
      "access" : "protected",
      "field_name" : "memory_",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+     "referenced_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     },
     {
      "access" : "protected",
      "field_name" : "pt_loads_",
-     "field_offset" : 128,
+     "field_offset" : 192,
      "referenced_type" : "_ZTINSt3__113unordered_mapImN11unwindstack8LoadInfoENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEEE"
     },
     {
      "access" : "protected",
      "field_name" : "dynamic_offset_",
-     "field_offset" : 448,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "dynamic_vaddr_start_",
      "field_offset" : 512,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "dynamic_vaddr_end_",
+     "field_name" : "dynamic_vaddr_start_",
      "field_offset" : 576,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "data_offset_",
+     "field_name" : "dynamic_vaddr_end_",
      "field_offset" : 640,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "data_vaddr_start_",
+     "field_name" : "data_offset_",
      "field_offset" : 704,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "data_vaddr_end_",
+     "field_name" : "data_vaddr_start_",
      "field_offset" : 768,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "eh_frame_hdr_offset_",
+     "field_name" : "data_vaddr_end_",
      "field_offset" : 832,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "eh_frame_hdr_section_bias_",
+     "field_name" : "eh_frame_hdr_info_",
      "field_offset" : 896,
-     "referenced_type" : "_ZTIl"
+     "referenced_type" : "_ZTIN11unwindstack11SectionInfoE"
     },
     {
      "access" : "protected",
-     "field_name" : "eh_frame_hdr_size_",
-     "field_offset" : 960,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "eh_frame_offset_",
-     "field_offset" : 1024,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "eh_frame_section_bias_",
-     "field_offset" : 1088,
-     "referenced_type" : "_ZTIl"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "eh_frame_size_",
+     "field_name" : "eh_frame_info_",
      "field_offset" : 1152,
-     "referenced_type" : "_ZTIm"
+     "referenced_type" : "_ZTIN11unwindstack11SectionInfoE"
     },
     {
      "access" : "protected",
-     "field_name" : "debug_frame_offset_",
-     "field_offset" : 1216,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "debug_frame_section_bias_",
-     "field_offset" : 1280,
-     "referenced_type" : "_ZTIl"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "debug_frame_size_",
-     "field_offset" : 1344,
-     "referenced_type" : "_ZTIm"
+     "field_name" : "debug_frame_info_",
+     "field_offset" : 1408,
+     "referenced_type" : "_ZTIN11unwindstack11SectionInfoE"
     },
     {
      "access" : "protected",
      "field_name" : "gnu_debugdata_offset_",
-     "field_offset" : 1408,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "gnu_debugdata_size_",
-     "field_offset" : 1472,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "gnu_build_id_offset_",
-     "field_offset" : 1536,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "gnu_build_id_size_",
-     "field_offset" : 1600,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "text_addr_",
      "field_offset" : 1664,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "text_size_",
+     "field_name" : "gnu_debugdata_size_",
      "field_offset" : 1728,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "soname_type_",
+     "field_name" : "gnu_build_id_offset_",
      "field_offset" : 1792,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "gnu_build_id_size_",
+     "field_offset" : 1856,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "text_addr_",
+     "field_offset" : 1920,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "text_size_",
+     "field_offset" : 1984,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "soname_type_",
+     "field_offset" : 2048,
      "referenced_type" : "_ZTIh"
     },
     {
      "access" : "protected",
      "field_name" : "soname_",
-     "field_offset" : 1856,
+     "field_offset" : 2112,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "access" : "protected",
      "field_name" : "last_error_",
-     "field_offset" : 2048,
+     "field_offset" : 2304,
      "referenced_type" : "_ZTIN11unwindstack9ErrorDataE"
     },
     {
      "access" : "protected",
      "field_name" : "eh_frame_",
-     "field_offset" : 2176,
+     "field_offset" : 2432,
      "referenced_type" : "_ZTINSt3__110unique_ptrIN11unwindstack12DwarfSectionENS_14default_deleteIS2_EEEE"
     },
     {
      "access" : "protected",
      "field_name" : "debug_frame_",
-     "field_offset" : 2240,
+     "field_offset" : 2496,
      "referenced_type" : "_ZTINSt3__110unique_ptrIN11unwindstack12DwarfSectionENS_14default_deleteIS2_EEEE"
     },
     {
      "access" : "protected",
      "field_name" : "gnu_debugdata_interface_",
-     "field_offset" : 2304,
+     "field_offset" : 2560,
      "referenced_type" : "_ZTIPN11unwindstack12ElfInterfaceE"
     },
     {
      "access" : "protected",
      "field_name" : "symbols_",
-     "field_offset" : 2368,
+     "field_offset" : 2624,
      "referenced_type" : "_ZTINSt3__16vectorIPN11unwindstack7SymbolsENS_9allocatorIS3_EEEE"
     },
     {
      "access" : "protected",
      "field_name" : "strtabs_",
-     "field_offset" : 2560,
+     "field_offset" : 2816,
      "referenced_type" : "_ZTINSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEEE"
     }
    ],
@@ -9635,7 +9061,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack12ElfInterfaceE",
    "self_type" : "_ZTIN11unwindstack12ElfInterfaceE",
-   "size" : 344,
+   "size" : 376,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h",
    "vtable_components" :
    [
@@ -10458,31 +9884,31 @@
     {
      "access" : "protected",
      "field_name" : "section_bias_",
-     "field_offset" : 1920,
+     "field_offset" : 1984,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "protected",
      "field_name" : "entries_offset_",
-     "field_offset" : 1984,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "entries_end_",
      "field_offset" : 2048,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "pc_offset_",
+     "field_name" : "entries_end_",
      "field_offset" : 2112,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "fde_index_",
+     "field_name" : "pc_offset_",
      "field_offset" : 2176,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "fde_index_",
+     "field_offset" : 2240,
      "referenced_type" : "_ZTINSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEEE"
     }
    ],
@@ -10491,7 +9917,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack16DwarfSectionImplIjEE",
    "self_type" : "_ZTIN11unwindstack16DwarfSectionImplIjEE",
-   "size" : 296,
+   "size" : 304,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfSection.h",
    "template_args" :
    [
@@ -10515,7 +9941,7 @@
      "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplIjED0Ev"
     },
     {
-     "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplIjE4InitEmml"
+     "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplIjE4InitERKNS_11SectionInfoE"
     },
     {
      "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplIjE4EvalEPKNS_8DwarfCieEPNS_6MemoryERKNS_14DwarfLocationsEPNS_4RegsEPb"
@@ -10559,31 +9985,31 @@
     {
      "access" : "protected",
      "field_name" : "section_bias_",
-     "field_offset" : 1920,
+     "field_offset" : 1984,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "protected",
      "field_name" : "entries_offset_",
-     "field_offset" : 1984,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "entries_end_",
      "field_offset" : 2048,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "pc_offset_",
+     "field_name" : "entries_end_",
      "field_offset" : 2112,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
-     "field_name" : "fde_index_",
+     "field_name" : "pc_offset_",
      "field_offset" : 2176,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "fde_index_",
+     "field_offset" : 2240,
      "referenced_type" : "_ZTINSt3__16vectorINS_4pairImmEENS_9allocatorIS2_EEEE"
     }
    ],
@@ -10592,7 +10018,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack16DwarfSectionImplImEE",
    "self_type" : "_ZTIN11unwindstack16DwarfSectionImplImEE",
-   "size" : 296,
+   "size" : 304,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfSection.h",
    "template_args" :
    [
@@ -10616,7 +10042,7 @@
      "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplImED0Ev"
     },
     {
-     "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplImE4InitEmml"
+     "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplImE4InitERKNS_11SectionInfoE"
     },
     {
      "mangled_component_name" : "_ZN11unwindstack16DwarfSectionImplImE4EvalEPKNS_8DwarfCieEPNS_6MemoryERKNS_14DwarfLocationsEPNS_4RegsEPb"
@@ -10660,7 +10086,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEE",
    "self_type" : "_ZTIN11unwindstack16ElfInterfaceImplINS_10ElfTypes32EEE",
-   "size" : 344,
+   "size" : 376,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h",
    "template_args" :
    [
@@ -10725,7 +10151,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEE",
    "self_type" : "_ZTIN11unwindstack16ElfInterfaceImplINS_10ElfTypes64EEE",
-   "size" : 344,
+   "size" : 376,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h",
    "template_args" :
    [
@@ -11608,37 +11034,31 @@
      "access" : "protected",
      "field_name" : "memory_",
      "field_offset" : 256,
-     "referenced_type" : "_ZTINSt3__110unique_ptrIN11unwindstack6MemoryENS_14default_deleteIS2_EEEE"
+     "referenced_type" : "_ZTINSt3__110shared_ptrIN11unwindstack6MemoryEEE"
     },
     {
      "access" : "protected",
      "field_name" : "machine_type_",
-     "field_offset" : 320,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "class_type_",
-     "field_offset" : 352,
+     "field_offset" : 416,
      "referenced_type" : "_ZTIh"
     },
     {
      "access" : "protected",
      "field_name" : "arch_",
-     "field_offset" : 360,
+     "field_offset" : 424,
      "referenced_type" : "_ZTIN11unwindstack8ArchEnumE"
     },
     {
      "access" : "protected",
      "field_name" : "lock_",
-     "field_offset" : 384,
+     "field_offset" : 448,
      "referenced_type" : "_ZTINSt3__15mutexE"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "gnu_debugdata_memory_",
-     "field_offset" : 704,
-     "referenced_type" : "_ZTINSt3__110unique_ptrIN11unwindstack6MemoryENS_14default_deleteIS2_EEEE"
     },
     {
      "access" : "protected",
