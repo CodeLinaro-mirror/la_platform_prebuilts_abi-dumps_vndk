@@ -1730,6 +1730,10 @@
      "name" : "AUDIO_FORMAT_DRA"
     },
     {
+     "enum_field_value" : 805306368,
+     "name" : "VX_AUDIO_FORMAT_APTX_ADAPTIVE_QLEA"
+    },
+    {
      "enum_field_value" : 721420288,
      "name" : "VX_AUDIO_FORMAT_LC3"
     },
@@ -2543,7 +2547,7 @@
    "underlying_type" : "_ZTIi"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "enum_fields" :
    [
     {
@@ -2583,6 +2587,10 @@
      "name" : "AUDIO_USAGE_CNT"
     },
     {
+     "enum_field_value" : -1,
+     "name" : "AUDIO_LATENCY_MODE_INVALID"
+    },
+    {
      "enum_field_value" : 2,
      "name" : "AUDIO_LATENCY_MODE_CNT"
     }
@@ -2591,9 +2599,9 @@
    "name" : "(unnamed enum at system/media/audio/include/system/audio-base-utils.h:54:1)",
    "referenced_type" : "_ZTI20$AUDIO_DEVICE_IN_ALL",
    "self_type" : "_ZTI20$AUDIO_DEVICE_IN_ALL",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "system/media/audio/include/system/audio-base-utils.h",
-   "underlying_type" : "_ZTIj"
+   "underlying_type" : "_ZTIx"
   },
   {
    "alignment" : 4,
@@ -3434,7 +3442,7 @@
     }
    ],
    "linker_set_key" : "_ZTI22$AUDIO_INTERLEAVE_LEFT",
-   "name" : "(unnamed enum at system/media/audio/include/system/audio.h:357:1)",
+   "name" : "(unnamed enum at system/media/audio/include/system/audio.h:392:1)",
    "referenced_type" : "_ZTI22$AUDIO_INTERLEAVE_LEFT",
    "self_type" : "_ZTI22$AUDIO_INTERLEAVE_LEFT",
    "size" : 4,
@@ -3471,7 +3479,7 @@
     }
    ],
    "linker_set_key" : "_ZTI22$AUDIO_PORT_CONFIG_ALL",
-   "name" : "(unnamed enum at system/media/audio/include/system/audio.h:599:1)",
+   "name" : "(unnamed enum at system/media/audio/include/system/audio.h:634:1)",
    "referenced_type" : "_ZTI22$AUDIO_PORT_CONFIG_ALL",
    "self_type" : "_ZTI22$AUDIO_PORT_CONFIG_ALL",
    "size" : 4,
@@ -8974,7 +8982,7 @@
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIK4$_12",
-   "name" : "const (lambda at system/media/audio/include/system/audio.h:1313:41)",
+   "name" : "const (lambda at system/media/audio/include/system/audio.h:1348:41)",
    "referenced_type" : "_ZTI4$_12",
    "self_type" : "_ZTIK4$_12",
    "size" : 1,
@@ -11045,7 +11053,7 @@
    "alignment" : 1,
    "is_anonymous" : true,
    "linker_set_key" : "_ZTI4$_12",
-   "name" : "(lambda at system/media/audio/include/system/audio.h:1313:41)",
+   "name" : "(lambda at system/media/audio/include/system/audio.h:1348:41)",
    "record_kind" : "class",
    "referenced_type" : "_ZTI4$_12",
    "self_type" : "_ZTI4$_12",
@@ -11107,7 +11115,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN10audio_portUt_E",
-   "name" : "audio_port::(unnamed union at system/media/audio/include/system/audio.h:695:5)",
+   "name" : "audio_port::(unnamed union at system/media/audio/include/system/audio.h:730:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN10audio_portUt_E",
    "self_type" : "_ZTIN10audio_portUt_E",
@@ -11133,7 +11141,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN13audio_port_v7Ut_E",
-   "name" : "audio_port_v7::(unnamed union at system/media/audio/include/system/audio.h:743:5)",
+   "name" : "audio_port_v7::(unnamed union at system/media/audio/include/system/audio.h:778:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN13audio_port_v7Ut_E",
    "self_type" : "_ZTIN13audio_port_v7Ut_E",
@@ -11185,7 +11193,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN17audio_port_configUt_E",
-   "name" : "audio_port_config::(unnamed union at system/media/audio/include/system/audio.h:629:5)",
+   "name" : "audio_port_config::(unnamed union at system/media/audio/include/system/audio.h:664:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN17audio_port_configUt_E",
    "self_type" : "_ZTIN17audio_port_configUt_E",
@@ -11207,7 +11215,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN25audio_port_config_mix_extUt_E",
-   "name" : "audio_port_config_mix_ext::(unnamed union at system/media/audio/include/system/audio.h:573:5)",
+   "name" : "audio_port_config_mix_ext::(unnamed union at system/media/audio/include/system/audio.h:608:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN25audio_port_config_mix_extUt_E",
    "self_type" : "_ZTIN25audio_port_config_mix_extUt_E",
