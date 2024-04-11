@@ -3785,6 +3785,18 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE11__vallocateEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2ERKS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIPvNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16vectorIPvNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE"
   },
   {
