@@ -181,15 +181,6 @@
    "name" : "ANativeWindow_getHeight"
   },
   {
-   "name" : "ANativeWindow_getLastDequeueDuration"
-  },
-  {
-   "name" : "ANativeWindow_getLastDequeueStartTime"
-  },
-  {
-   "name" : "ANativeWindow_getLastQueueDuration"
-  },
-  {
    "name" : "ANativeWindow_getWidth"
   },
   {
@@ -238,25 +229,10 @@
    "name" : "ANativeWindow_setBuffersTransform"
   },
   {
-   "name" : "ANativeWindow_setCancelBufferInterceptor"
-  },
-  {
-   "name" : "ANativeWindow_setDequeueBufferInterceptor"
-  },
-  {
-   "name" : "ANativeWindow_setDequeueTimeout"
-  },
-  {
    "name" : "ANativeWindow_setFrameRate"
   },
   {
    "name" : "ANativeWindow_setFrameRateWithChangeStrategy"
-  },
-  {
-   "name" : "ANativeWindow_setPerformInterceptor"
-  },
-  {
-   "name" : "ANativeWindow_setQueueBufferInterceptor"
   },
   {
    "name" : "ANativeWindow_setSharedBufferMode"
@@ -2215,42 +2191,6 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
-   "function_name" : "ANativeWindow_getLastDequeueDuration",
-   "linker_set_key" : "ANativeWindow_getLastDequeueDuration",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    }
-   ],
-   "return_type" : "_ZTIl",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "function_name" : "ANativeWindow_getLastDequeueStartTime",
-   "linker_set_key" : "ANativeWindow_getLastDequeueStartTime",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    }
-   ],
-   "return_type" : "_ZTIl",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "function_name" : "ANativeWindow_getLastQueueDuration",
-   "linker_set_key" : "ANativeWindow_getLastQueueDuration",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    }
-   ],
-   "return_type" : "_ZTIl",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
    "function_name" : "ANativeWindow_getWidth",
    "linker_set_key" : "ANativeWindow_getWidth",
    "parameters" :
@@ -2506,57 +2446,6 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
-   "function_name" : "ANativeWindow_setCancelBufferInterceptor",
-   "linker_set_key" : "ANativeWindow_setCancelBufferInterceptor",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "function_name" : "ANativeWindow_setDequeueBufferInterceptor",
-   "linker_set_key" : "ANativeWindow_setDequeueBufferInterceptor",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "function_name" : "ANativeWindow_setDequeueTimeout",
-   "linker_set_key" : "ANativeWindow_setDequeueTimeout",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    },
-    {
-     "referenced_type" : "_ZTIl"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
    "function_name" : "ANativeWindow_setFrameRate",
    "linker_set_key" : "ANativeWindow_setFrameRate",
    "parameters" :
@@ -2594,42 +2483,6 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
-  },
-  {
-   "function_name" : "ANativeWindow_setPerformInterceptor",
-   "linker_set_key" : "ANativeWindow_setPerformInterceptor",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_iP13__va_list_tagEPviS2_E"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "function_name" : "ANativeWindow_setQueueBufferInterceptor",
-   "linker_set_key" : "ANativeWindow_setQueueBufferInterceptor",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
   },
   {
    "function_name" : "ANativeWindow_setSharedBufferMode",

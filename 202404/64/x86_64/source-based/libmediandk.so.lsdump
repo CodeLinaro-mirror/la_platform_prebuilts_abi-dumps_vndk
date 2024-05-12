@@ -269,19 +269,10 @@
    "name" : "AMediaCodec_createCodecByName"
   },
   {
-   "name" : "AMediaCodec_createCodecByNameForClient"
-  },
-  {
    "name" : "AMediaCodec_createDecoderByType"
   },
   {
-   "name" : "AMediaCodec_createDecoderByTypeForClient"
-  },
-  {
    "name" : "AMediaCodec_createEncoderByType"
-  },
-  {
-   "name" : "AMediaCodec_createEncoderByTypeForClient"
   },
   {
    "name" : "AMediaCodec_createInputSurface"
@@ -2545,24 +2536,6 @@
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
-   "function_name" : "AMediaCodec_createCodecByNameForClient",
-   "linker_set_key" : "AMediaCodec_createCodecByNameForClient",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIP11AMediaCodec",
-   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h"
-  },
-  {
    "function_name" : "AMediaCodec_createDecoderByType",
    "linker_set_key" : "AMediaCodec_createDecoderByType",
    "parameters" :
@@ -2575,24 +2548,6 @@
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
-   "function_name" : "AMediaCodec_createDecoderByTypeForClient",
-   "linker_set_key" : "AMediaCodec_createDecoderByTypeForClient",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIP11AMediaCodec",
-   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h"
-  },
-  {
    "function_name" : "AMediaCodec_createEncoderByType",
    "linker_set_key" : "AMediaCodec_createEncoderByType",
    "parameters" :
@@ -2603,24 +2558,6 @@
    ],
    "return_type" : "_ZTIP11AMediaCodec",
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "function_name" : "AMediaCodec_createEncoderByTypeForClient",
-   "linker_set_key" : "AMediaCodec_createEncoderByTypeForClient",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIP11AMediaCodec",
-   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h"
   },
   {
    "function_name" : "AMediaCodec_createInputSurface",

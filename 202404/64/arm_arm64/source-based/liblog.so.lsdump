@@ -103,25 +103,13 @@
    "name" : "__android_log_assert"
   },
   {
-   "name" : "__android_log_bswrite"
-  },
-  {
-   "name" : "__android_log_btwrite"
-  },
-  {
    "name" : "__android_log_buf_print"
   },
   {
    "name" : "__android_log_buf_write"
   },
   {
-   "name" : "__android_log_bwrite"
-  },
-  {
    "name" : "__android_log_call_aborter"
-  },
-  {
-   "name" : "__android_log_close"
   },
   {
    "name" : "__android_log_default_aborter"
@@ -146,12 +134,6 @@
   },
   {
    "name" : "__android_log_print"
-  },
-  {
-   "name" : "__android_log_security"
-  },
-  {
-   "name" : "__android_log_security_bswrite"
   },
   {
    "name" : "__android_log_set_aborter"
