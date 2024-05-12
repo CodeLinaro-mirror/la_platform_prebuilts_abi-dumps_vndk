@@ -77,7 +77,7 @@
    "alignment" : 16,
    "linker_set_key" : "_ZTIA129_3$_0",
    "name" : "(unnamed)[129]",
-   "referenced_type" : "_ZTI3$_0#ODR:out/soong/.intermediates/bionic/libm/libm/android_arm64_armv8-a-branchprot_static_apex10000/0e7aadb4ccf134e3003f27a606ef3a68/obj/bionic/libm/upstream-freebsd/lib/msun/ld128/s_logl.sdump",
+   "referenced_type" : "_ZTI3$_0#ODR:out/soong/.intermediates/bionic/libm/libm/android_arm64_armv8-a_static_apex10000/0e7aadb4ccf134e3003f27a606ef3a68/obj/bionic/libm/upstream-freebsd/lib/msun/ld128/s_logl.sdump",
    "size" : 4128,
    "source_file" : "bionic/libm/upstream-freebsd/lib/msun/ld128/s_logl.c"
   },
@@ -5609,7 +5609,7 @@
    "linker_set_key" : "_ZTI10IEEEl2bits",
    "name" : "IEEEl2bits",
    "record_kind" : "union",
-   "self_type" : "_ZTI10IEEEl2bits#ODR:out/soong/.intermediates/bionic/libm/libm/android_arm64_armv8-a-branchprot_static_apex10000/0e7aadb4ccf134e3003f27a606ef3a68/obj/bionic/libm/builtins.sdump",
+   "self_type" : "_ZTI10IEEEl2bits#ODR:out/soong/.intermediates/bionic/libm/libm/android_arm64_armv8-a_static_apex10000/0e7aadb4ccf134e3003f27a606ef3a68/obj/bionic/libm/builtins.sdump",
    "size" : 16,
    "source_file" : "bionic/libm/fpmath.h"
   },
@@ -6087,7 +6087,7 @@
    "is_anonymous" : true,
    "linker_set_key" : "_ZTI3$_0",
    "name" : "(unnamed)",
-   "self_type" : "_ZTI3$_0#ODR:out/soong/.intermediates/bionic/libm/libm/android_arm64_armv8-a-branchprot_static_apex10000/0e7aadb4ccf134e3003f27a606ef3a68/obj/bionic/libm/upstream-freebsd/lib/msun/ld128/s_logl.sdump",
+   "self_type" : "_ZTI3$_0#ODR:out/soong/.intermediates/bionic/libm/libm/android_arm64_armv8-a_static_apex10000/0e7aadb4ccf134e3003f27a606ef3a68/obj/bionic/libm/upstream-freebsd/lib/msun/ld128/s_logl.sdump",
    "size" : 32,
    "source_file" : "bionic/libm/upstream-freebsd/lib/msun/ld128/s_logl.c"
   },
