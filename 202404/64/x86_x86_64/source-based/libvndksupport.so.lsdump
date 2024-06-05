@@ -24,9 +24,6 @@
  "elf_functions" :
  [
   {
-   "name" : "android_is_in_vendor_process"
-  },
-  {
    "name" : "android_load_sphal_library"
   },
   {
@@ -38,12 +35,6 @@
  "function_types" : [],
  "functions" :
  [
-  {
-   "function_name" : "android_is_in_vendor_process",
-   "linker_set_key" : "android_is_in_vendor_process",
-   "return_type" : "_ZTIi",
-   "source_file" : "system/core/libvndksupport/include/vndksupport/linker.h"
-  },
   {
    "function_name" : "android_load_sphal_library",
    "linker_set_key" : "android_load_sphal_library",
