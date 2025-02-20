@@ -916,6 +916,10 @@
     {
      "enum_field_value" : 16,
      "name" : "ADD_SERVICE_DUMP_FLAG_PRIORITY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "ADD_SERVICE_DUMP_FLAG_PROTO"
     }
    ],
    "linker_set_key" : "_ZTI30AServiceManager_AddServiceFlag",
