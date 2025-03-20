@@ -1,0 +1,16 @@
+{
+  "libc": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+        "_ZTI3FTS"
+      ]
+    },
+    {
+      "target_version": "202604",
+      "ignore_linker_set_keys": [
+        "_ZTI3FTS"
+      ]
+    }
+  ]
+}
