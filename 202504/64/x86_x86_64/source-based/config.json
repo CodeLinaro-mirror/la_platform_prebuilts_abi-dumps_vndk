@@ -14,5 +14,37 @@
         "_ZTI7siginfo"
       ]
     }
+  ],
+  "libvulkan": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+	"_ZTI8VkFormat",
+	"_ZTI21VkResolveModeFlagBits",
+        "_ZTI15VkStructureType",
+        "_ZTI12VkObjectType",
+        "_ZTI13VkImageLayout",
+        "_ZTI16VkDescriptorType",
+        "_ZTI23VkPipelineStageFlagBits",
+        "_ZTI14VkDynamicState",
+        "_ZTI16VkPresentModeKHR",
+        "_ZTI34VkExternalMemoryHandleTypeFlagBits"
+      ]
+    },
+    {
+      "target_version": "202604",
+      "ignore_linker_set_keys": [
+	"_ZTI8VkFormat",
+	"_ZTI21VkResolveModeFlagBits",
+        "_ZTI15VkStructureType",
+        "_ZTI12VkObjectType",
+        "_ZTI13VkImageLayout",
+        "_ZTI16VkDescriptorType",
+        "_ZTI23VkPipelineStageFlagBits",
+        "_ZTI14VkDynamicState",
+        "_ZTI16VkPresentModeKHR",
+        "_ZTI34VkExternalMemoryHandleTypeFlagBits"
+      ]
+    }
   ]
 }
