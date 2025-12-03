@@ -1553,6 +1553,10 @@
      "name" : "VK_DRIVER_ID_VULKAN_SC_EMULATION_ON_VULKAN"
     },
     {
+     "enum_field_value" : 28,
+     "name" : "VK_DRIVER_ID_MESA_KOSMICKRISP"
+    },
+    {
      "enum_field_value" : 1,
      "name" : "VK_DRIVER_ID_AMD_PROPRIETARY_KHR"
     },
@@ -2084,12 +2088,12 @@
      "name" : "VK_OBJECT_TYPE_COMMAND_POOL"
     },
     {
-     "enum_field_value" : 1000156000,
-     "name" : "VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION"
-    },
-    {
      "enum_field_value" : 1000085000,
      "name" : "VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE"
+    },
+    {
+     "enum_field_value" : 1000156000,
+     "name" : "VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION"
     },
     {
      "enum_field_value" : 1000295000,
@@ -3416,20 +3420,12 @@
      "name" : "VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO"
     },
     {
-     "enum_field_value" : 1000094000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES"
-    },
-    {
      "enum_field_value" : 1000157000,
      "name" : "VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO"
     },
     {
      "enum_field_value" : 1000157001,
      "name" : "VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO"
-    },
-    {
-     "enum_field_value" : 1000083000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES"
     },
     {
      "enum_field_value" : 1000127000,
@@ -3442,10 +3438,6 @@
     {
      "enum_field_value" : 1000060000,
      "name" : "VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO"
-    },
-    {
-     "enum_field_value" : 1000060003,
-     "name" : "VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO"
     },
     {
      "enum_field_value" : 1000060004,
@@ -3532,36 +3524,8 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2"
     },
     {
-     "enum_field_value" : 1000117000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000117001,
-     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO"
-    },
-    {
      "enum_field_value" : 1000117002,
      "name" : "VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000117003,
-     "name" : "VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000053000,
-     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000053001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000053002,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000120000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES"
     },
     {
      "enum_field_value" : 1000145000,
@@ -3578,34 +3542,6 @@
     {
      "enum_field_value" : 1000145003,
      "name" : "VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2"
-    },
-    {
-     "enum_field_value" : 1000156000,
-     "name" : "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000156001,
-     "name" : "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO"
-    },
-    {
-     "enum_field_value" : 1000156002,
-     "name" : "VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO"
-    },
-    {
-     "enum_field_value" : 1000156003,
-     "name" : "VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO"
-    },
-    {
-     "enum_field_value" : 1000156004,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000156005,
-     "name" : "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000085000,
-     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO"
     },
     {
      "enum_field_value" : 1000071000,
@@ -3664,12 +3600,80 @@
      "name" : "VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES"
     },
     {
+     "enum_field_value" : 1000094000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000083000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000120000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000085000,
+     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO"
+    },
+    {
      "enum_field_value" : 1000168000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES"
     },
     {
      "enum_field_value" : 1000168001,
      "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT"
+    },
+    {
+     "enum_field_value" : 1000156000,
+     "name" : "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000156001,
+     "name" : "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO"
+    },
+    {
+     "enum_field_value" : 1000156002,
+     "name" : "VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO"
+    },
+    {
+     "enum_field_value" : 1000156003,
+     "name" : "VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO"
+    },
+    {
+     "enum_field_value" : 1000156004,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000156005,
+     "name" : "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000060003,
+     "name" : "VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO"
+    },
+    {
+     "enum_field_value" : 1000117000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000117001,
+     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000117003,
+     "name" : "VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000053000,
+     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000053001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000053002,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES"
     },
     {
      "enum_field_value" : 1000063000,
@@ -3696,136 +3700,12 @@
      "name" : "VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO"
     },
     {
-     "enum_field_value" : 1000109000,
-     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2"
-    },
-    {
-     "enum_field_value" : 1000109001,
-     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2"
-    },
-    {
-     "enum_field_value" : 1000109002,
-     "name" : "VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2"
-    },
-    {
-     "enum_field_value" : 1000109003,
-     "name" : "VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2"
-    },
-    {
-     "enum_field_value" : 1000109004,
-     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2"
-    },
-    {
-     "enum_field_value" : 1000109005,
-     "name" : "VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO"
-    },
-    {
-     "enum_field_value" : 1000109006,
-     "name" : "VK_STRUCTURE_TYPE_SUBPASS_END_INFO"
-    },
-    {
-     "enum_field_value" : 1000177000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES"
-    },
-    {
      "enum_field_value" : 1000196000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES"
     },
     {
-     "enum_field_value" : 1000180000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000082000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000197000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000161000,
-     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000161001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000161002,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000161003,
-     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000161004,
-     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT"
-    },
-    {
-     "enum_field_value" : 1000199000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000199001,
-     "name" : "VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE"
-    },
-    {
-     "enum_field_value" : 1000221000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000246000,
-     "name" : "VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000130000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000130001,
-     "name" : "VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO"
-    },
-    {
      "enum_field_value" : 1000211000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000108000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000108001,
-     "name" : "VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000108002,
-     "name" : "VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO"
-    },
-    {
-     "enum_field_value" : 1000108003,
-     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO"
-    },
-    {
-     "enum_field_value" : 1000253000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000175000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000241000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000241001,
-     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT"
-    },
-    {
-     "enum_field_value" : 1000241002,
-     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT"
     },
     {
      "enum_field_value" : 1000261000,
@@ -3876,6 +3756,130 @@
      "name" : "VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO"
     },
     {
+     "enum_field_value" : 1000177000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000180000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000082000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000197000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000161000,
+     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000161001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000161002,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000161003,
+     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000161004,
+     "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT"
+    },
+    {
+     "enum_field_value" : 1000221000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000130000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000130001,
+     "name" : "VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000253000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000175000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000109000,
+     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2"
+    },
+    {
+     "enum_field_value" : 1000109001,
+     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2"
+    },
+    {
+     "enum_field_value" : 1000109002,
+     "name" : "VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2"
+    },
+    {
+     "enum_field_value" : 1000109003,
+     "name" : "VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2"
+    },
+    {
+     "enum_field_value" : 1000109004,
+     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2"
+    },
+    {
+     "enum_field_value" : 1000109005,
+     "name" : "VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO"
+    },
+    {
+     "enum_field_value" : 1000109006,
+     "name" : "VK_STRUCTURE_TYPE_SUBPASS_END_INFO"
+    },
+    {
+     "enum_field_value" : 1000199000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000199001,
+     "name" : "VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE"
+    },
+    {
+     "enum_field_value" : 1000246000,
+     "name" : "VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000108000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000108001,
+     "name" : "VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000108002,
+     "name" : "VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO"
+    },
+    {
+     "enum_field_value" : 1000108003,
+     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO"
+    },
+    {
+     "enum_field_value" : 1000241000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000241001,
+     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT"
+    },
+    {
+     "enum_field_value" : 1000241002,
+     "name" : "VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT"
+    },
+    {
      "enum_field_value" : 53,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_FEATURES"
     },
@@ -3884,20 +3888,8 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_PROPERTIES"
     },
     {
-     "enum_field_value" : 1000192000,
-     "name" : "VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000215000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES"
-    },
-    {
      "enum_field_value" : 1000245000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000276000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES"
     },
     {
      "enum_field_value" : 1000295000,
@@ -3910,10 +3902,6 @@
     {
      "enum_field_value" : 1000295002,
      "name" : "VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000297000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES"
     },
     {
      "enum_field_value" : 1000314000,
@@ -3948,14 +3936,6 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES"
     },
     {
-     "enum_field_value" : 1000325000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000335000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES"
-    },
-    {
      "enum_field_value" : 1000337000,
      "name" : "VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2"
     },
@@ -3972,14 +3952,6 @@
      "name" : "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2"
     },
     {
-     "enum_field_value" : 1000337004,
-     "name" : "VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2"
-    },
-    {
-     "enum_field_value" : 1000337005,
-     "name" : "VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2"
-    },
-    {
      "enum_field_value" : 1000337006,
      "name" : "VK_STRUCTURE_TYPE_BUFFER_COPY_2"
     },
@@ -3988,16 +3960,56 @@
      "name" : "VK_STRUCTURE_TYPE_IMAGE_COPY_2"
     },
     {
-     "enum_field_value" : 1000337008,
-     "name" : "VK_STRUCTURE_TYPE_IMAGE_BLIT_2"
-    },
-    {
      "enum_field_value" : 1000337009,
      "name" : "VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2"
     },
     {
-     "enum_field_value" : 1000337010,
-     "name" : "VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2"
+     "enum_field_value" : 1000066000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000360000,
+     "name" : "VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3"
+    },
+    {
+     "enum_field_value" : 1000413000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000413001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000413002,
+     "name" : "VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS"
+    },
+    {
+     "enum_field_value" : 1000413003,
+     "name" : "VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS"
+    },
+    {
+     "enum_field_value" : 1000192000,
+     "name" : "VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000215000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000276000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000297000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000325000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000335000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES"
     },
     {
      "enum_field_value" : 1000225000,
@@ -4028,8 +4040,32 @@
      "name" : "VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO"
     },
     {
-     "enum_field_value" : 1000066000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES"
+     "enum_field_value" : 1000280000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000280001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000281001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000337004,
+     "name" : "VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2"
+    },
+    {
+     "enum_field_value" : 1000337005,
+     "name" : "VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2"
+    },
+    {
+     "enum_field_value" : 1000337008,
+     "name" : "VK_STRUCTURE_TYPE_IMAGE_BLIT_2"
+    },
+    {
+     "enum_field_value" : 1000337010,
+     "name" : "VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2"
     },
     {
      "enum_field_value" : 1000044000,
@@ -4052,38 +4088,6 @@
      "name" : "VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO"
     },
     {
-     "enum_field_value" : 1000280000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000280001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000281001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000360000,
-     "name" : "VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3"
-    },
-    {
-     "enum_field_value" : 1000413000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000413001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000413002,
-     "name" : "VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS"
-    },
-    {
-     "enum_field_value" : 1000413003,
-     "name" : "VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS"
-    },
-    {
      "enum_field_value" : 55,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_4_FEATURES"
     },
@@ -4102,42 +4106,6 @@
     {
      "enum_field_value" : 1000388001,
      "name" : "VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000416000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_ROTATE_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000528000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT_CONTROLS_2_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000544000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_EXPECT_ASSUME_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000259000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000259001,
-     "name" : "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000259002,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000525000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000190001,
-     "name" : "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000190002,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES"
     },
     {
      "enum_field_value" : 1000265000,
@@ -4160,10 +4128,6 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_PROPERTIES"
     },
     {
-     "enum_field_value" : 1000470003,
-     "name" : "VK_STRUCTURE_TYPE_RENDERING_AREA_INFO"
-    },
-    {
      "enum_field_value" : 1000470004,
      "name" : "VK_STRUCTURE_TYPE_DEVICE_IMAGE_SUBRESOURCE_INFO"
     },
@@ -4176,28 +4140,8 @@
      "name" : "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2"
     },
     {
-     "enum_field_value" : 1000470005,
-     "name" : "VK_STRUCTURE_TYPE_PIPELINE_CREATE_FLAGS_2_CREATE_INFO"
-    },
-    {
      "enum_field_value" : 1000470006,
      "name" : "VK_STRUCTURE_TYPE_BUFFER_USAGE_FLAGS_2_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000080000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES"
-    },
-    {
-     "enum_field_value" : 1000232000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_LOCAL_READ_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000232001,
-     "name" : "VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_LOCATION_INFO"
-    },
-    {
-     "enum_field_value" : 1000232002,
-     "name" : "VK_STRUCTURE_TYPE_RENDERING_INPUT_ATTACHMENT_INDEX_INFO"
     },
     {
      "enum_field_value" : 1000545000,
@@ -4210,38 +4154,6 @@
     {
      "enum_field_value" : 1000545002,
      "name" : "VK_STRUCTURE_TYPE_BIND_MEMORY_STATUS"
-    },
-    {
-     "enum_field_value" : 1000545003,
-     "name" : "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_SETS_INFO"
-    },
-    {
-     "enum_field_value" : 1000545004,
-     "name" : "VK_STRUCTURE_TYPE_PUSH_CONSTANTS_INFO"
-    },
-    {
-     "enum_field_value" : 1000545005,
-     "name" : "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_INFO"
-    },
-    {
-     "enum_field_value" : 1000545006,
-     "name" : "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000466000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_PROTECTED_ACCESS_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000068000,
-     "name" : "VK_STRUCTURE_TYPE_PIPELINE_ROBUSTNESS_CREATE_INFO"
-    },
-    {
-     "enum_field_value" : 1000068001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_FEATURES"
-    },
-    {
-     "enum_field_value" : 1000068002,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_PROPERTIES"
     },
     {
      "enum_field_value" : 1000270000,
@@ -4282,6 +4194,98 @@
     {
      "enum_field_value" : 1000270009,
      "name" : "VK_STRUCTURE_TYPE_HOST_IMAGE_COPY_DEVICE_PERFORMANCE_QUERY"
+    },
+    {
+     "enum_field_value" : 1000416000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_ROTATE_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000528000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT_CONTROLS_2_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000544000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_EXPECT_ASSUME_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000470005,
+     "name" : "VK_STRUCTURE_TYPE_PIPELINE_CREATE_FLAGS_2_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000080000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000545003,
+     "name" : "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_SETS_INFO"
+    },
+    {
+     "enum_field_value" : 1000545004,
+     "name" : "VK_STRUCTURE_TYPE_PUSH_CONSTANTS_INFO"
+    },
+    {
+     "enum_field_value" : 1000545005,
+     "name" : "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_INFO"
+    },
+    {
+     "enum_field_value" : 1000545006,
+     "name" : "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000466000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_PROTECTED_ACCESS_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000068000,
+     "name" : "VK_STRUCTURE_TYPE_PIPELINE_ROBUSTNESS_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000068001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000068002,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000259000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000259001,
+     "name" : "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000259002,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000525000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES"
+    },
+    {
+     "enum_field_value" : 1000190001,
+     "name" : "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO"
+    },
+    {
+     "enum_field_value" : 1000190002,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000470003,
+     "name" : "VK_STRUCTURE_TYPE_RENDERING_AREA_INFO"
+    },
+    {
+     "enum_field_value" : 1000232000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_LOCAL_READ_FEATURES"
+    },
+    {
+     "enum_field_value" : 1000232001,
+     "name" : "VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_LOCATION_INFO"
+    },
+    {
+     "enum_field_value" : 1000232002,
+     "name" : "VK_STRUCTURE_TYPE_RENDERING_INPUT_ATTACHMENT_INDEX_INFO"
     },
     {
      "enum_field_value" : 1000001000,
@@ -5308,6 +5312,46 @@
      "name" : "VK_STRUCTURE_TYPE_CHECKPOINT_DATA_2_NV"
     },
     {
+     "enum_field_value" : 1000208000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_TIMING_FEATURES_EXT"
+    },
+    {
+     "enum_field_value" : 1000208001,
+     "name" : "VK_STRUCTURE_TYPE_SWAPCHAIN_TIMING_PROPERTIES_EXT"
+    },
+    {
+     "enum_field_value" : 1000208002,
+     "name" : "VK_STRUCTURE_TYPE_SWAPCHAIN_TIME_DOMAIN_PROPERTIES_EXT"
+    },
+    {
+     "enum_field_value" : 1000208003,
+     "name" : "VK_STRUCTURE_TYPE_PRESENT_TIMINGS_INFO_EXT"
+    },
+    {
+     "enum_field_value" : 1000208004,
+     "name" : "VK_STRUCTURE_TYPE_PRESENT_TIMING_INFO_EXT"
+    },
+    {
+     "enum_field_value" : 1000208005,
+     "name" : "VK_STRUCTURE_TYPE_PAST_PRESENTATION_TIMING_INFO_EXT"
+    },
+    {
+     "enum_field_value" : 1000208006,
+     "name" : "VK_STRUCTURE_TYPE_PAST_PRESENTATION_TIMING_PROPERTIES_EXT"
+    },
+    {
+     "enum_field_value" : 1000208007,
+     "name" : "VK_STRUCTURE_TYPE_PAST_PRESENTATION_TIMING_EXT"
+    },
+    {
+     "enum_field_value" : 1000208008,
+     "name" : "VK_STRUCTURE_TYPE_PRESENT_TIMING_SURFACE_CAPABILITIES_EXT"
+    },
+    {
+     "enum_field_value" : 1000208009,
+     "name" : "VK_STRUCTURE_TYPE_SWAPCHAIN_CALIBRATED_TIMESTAMP_INFO_EXT"
+    },
+    {
      "enum_field_value" : 1000209000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL"
     },
@@ -6144,6 +6188,22 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_UNTYPED_POINTERS_FEATURES_KHR"
     },
     {
+     "enum_field_value" : 1000390000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VIDEO_ENCODE_RGB_CONVERSION_FEATURES_VALVE"
+    },
+    {
+     "enum_field_value" : 1000390001,
+     "name" : "VK_STRUCTURE_TYPE_VIDEO_ENCODE_RGB_CONVERSION_CAPABILITIES_VALVE"
+    },
+    {
+     "enum_field_value" : 1000390002,
+     "name" : "VK_STRUCTURE_TYPE_VIDEO_ENCODE_PROFILE_RGB_CONVERSION_INFO_VALVE"
+    },
+    {
+     "enum_field_value" : 1000390003,
+     "name" : "VK_STRUCTURE_TYPE_VIDEO_ENCODE_SESSION_RGB_CONVERSION_CREATE_INFO_VALVE"
+    },
+    {
      "enum_field_value" : 1000391000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_MIN_LOD_FEATURES_EXT"
     },
@@ -6300,18 +6360,6 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COPY_MEMORY_INDIRECT_FEATURES_NV"
     },
     {
-     "enum_field_value" : 1000426001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COPY_MEMORY_INDIRECT_PROPERTIES_NV"
-    },
-    {
-     "enum_field_value" : 1000427000,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_DECOMPRESSION_FEATURES_NV"
-    },
-    {
-     "enum_field_value" : 1000427001,
-     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_DECOMPRESSION_PROPERTIES_NV"
-    },
-    {
      "enum_field_value" : 1000428000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_COMPUTE_FEATURES_NV"
     },
@@ -6366,6 +6414,30 @@
     {
      "enum_field_value" : 1000451001,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_NESTED_COMMAND_BUFFER_PROPERTIES_EXT"
+    },
+    {
+     "enum_field_value" : 1000452000,
+     "name" : "VK_STRUCTURE_TYPE_NATIVE_BUFFER_USAGE_OHOS"
+    },
+    {
+     "enum_field_value" : 1000452001,
+     "name" : "VK_STRUCTURE_TYPE_NATIVE_BUFFER_PROPERTIES_OHOS"
+    },
+    {
+     "enum_field_value" : 1000452002,
+     "name" : "VK_STRUCTURE_TYPE_NATIVE_BUFFER_FORMAT_PROPERTIES_OHOS"
+    },
+    {
+     "enum_field_value" : 1000452003,
+     "name" : "VK_STRUCTURE_TYPE_IMPORT_NATIVE_BUFFER_INFO_OHOS"
+    },
+    {
+     "enum_field_value" : 1000452004,
+     "name" : "VK_STRUCTURE_TYPE_MEMORY_GET_NATIVE_BUFFER_INFO_OHOS"
+    },
+    {
+     "enum_field_value" : 1000452005,
+     "name" : "VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_OHOS"
     },
     {
      "enum_field_value" : 1000453000,
@@ -7124,6 +7196,34 @@
      "name" : "VK_STRUCTURE_TYPE_TILE_MEMORY_SIZE_INFO_QCOM"
     },
     {
+     "enum_field_value" : 1000549000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COPY_MEMORY_INDIRECT_FEATURES_KHR"
+    },
+    {
+     "enum_field_value" : 1000426001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COPY_MEMORY_INDIRECT_PROPERTIES_KHR"
+    },
+    {
+     "enum_field_value" : 1000549002,
+     "name" : "VK_STRUCTURE_TYPE_COPY_MEMORY_INDIRECT_INFO_KHR"
+    },
+    {
+     "enum_field_value" : 1000549003,
+     "name" : "VK_STRUCTURE_TYPE_COPY_MEMORY_TO_IMAGE_INDIRECT_INFO_KHR"
+    },
+    {
+     "enum_field_value" : 1000427000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_DECOMPRESSION_FEATURES_EXT"
+    },
+    {
+     "enum_field_value" : 1000427001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_DECOMPRESSION_PROPERTIES_EXT"
+    },
+    {
+     "enum_field_value" : 1000550002,
+     "name" : "VK_STRUCTURE_TYPE_DECOMPRESS_MEMORY_INFO_EXT"
+    },
+    {
      "enum_field_value" : 1000551000,
      "name" : "VK_STRUCTURE_TYPE_DISPLAY_SURFACE_STEREO_CREATE_INFO_NV"
     },
@@ -7388,6 +7488,18 @@
      "name" : "VK_STRUCTURE_TYPE_IMAGE_ALIGNMENT_CONTROL_CREATE_INFO_MESA"
     },
     {
+     "enum_field_value" : 1000579000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FMA_FEATURES_KHR"
+    },
+    {
+     "enum_field_value" : 1000581000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_INVOCATION_REORDER_FEATURES_EXT"
+    },
+    {
+     "enum_field_value" : 1000581001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_INVOCATION_REORDER_PROPERTIES_EXT"
+    },
+    {
      "enum_field_value" : 1000582000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLAMP_CONTROL_FEATURES_EXT"
     },
@@ -7426,6 +7538,18 @@
     {
      "enum_field_value" : 1000685000,
      "name" : "VK_STRUCTURE_TYPE_SURFACE_CREATE_INFO_OHOS"
+    },
+    {
+     "enum_field_value" : 1000453001,
+     "name" : "VK_STRUCTURE_TYPE_NATIVE_BUFFER_OHOS"
+    },
+    {
+     "enum_field_value" : 1000453002,
+     "name" : "VK_STRUCTURE_TYPE_SWAPCHAIN_IMAGE_CREATE_INFO_OHOS"
+    },
+    {
+     "enum_field_value" : 1000453003,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENTATION_PROPERTIES_OHOS"
     },
     {
      "enum_field_value" : 1000590000,
@@ -7468,6 +7592,26 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLAMP_ZERO_ONE_FEATURES_KHR"
     },
     {
+     "enum_field_value" : 1000605000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_COUNTERS_BY_REGION_FEATURES_ARM"
+    },
+    {
+     "enum_field_value" : 1000605001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_COUNTERS_BY_REGION_PROPERTIES_ARM"
+    },
+    {
+     "enum_field_value" : 1000605002,
+     "name" : "VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_ARM"
+    },
+    {
+     "enum_field_value" : 1000605003,
+     "name" : "VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_ARM"
+    },
+    {
+     "enum_field_value" : 1000605004,
+     "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_PERFORMANCE_COUNTERS_BY_REGION_BEGIN_INFO_ARM"
+    },
+    {
      "enum_field_value" : 1000608000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_ROBUSTNESS_FEATURES_EXT"
     },
@@ -7508,10 +7652,6 @@
      "name" : "VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_OFFSET_END_INFO_EXT"
     },
     {
-     "enum_field_value" : 1000619003,
-     "name" : "VK_STRUCTURE_TYPE_RENDERING_END_INFO_EXT"
-    },
-    {
      "enum_field_value" : 1000620000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_DEVICE_MEMORY_FEATURES_EXT"
     },
@@ -7520,8 +7660,56 @@
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_MODE_FIFO_LATEST_READY_FEATURES_KHR"
     },
     {
+     "enum_field_value" : 1000627000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_64_BIT_INDEXING_FEATURES_EXT"
+    },
+    {
+     "enum_field_value" : 1000628000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_RESOLVE_FEATURES_EXT"
+    },
+    {
+     "enum_field_value" : 1000628001,
+     "name" : "VK_STRUCTURE_TYPE_BEGIN_CUSTOM_RESOLVE_INFO_EXT"
+    },
+    {
+     "enum_field_value" : 1000628002,
+     "name" : "VK_STRUCTURE_TYPE_CUSTOM_RESOLVE_CREATE_INFO_EXT"
+    },
+    {
+     "enum_field_value" : 1000629000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DATA_GRAPH_MODEL_FEATURES_QCOM"
+    },
+    {
+     "enum_field_value" : 1000629001,
+     "name" : "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_BUILTIN_MODEL_CREATE_INFO_QCOM"
+    },
+    {
+     "enum_field_value" : 1000630000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_10_FEATURES_KHR"
+    },
+    {
+     "enum_field_value" : 1000630001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_10_PROPERTIES_KHR"
+    },
+    {
+     "enum_field_value" : 1000630002,
+     "name" : "VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_FLAGS_INFO_KHR"
+    },
+    {
+     "enum_field_value" : 1000619003,
+     "name" : "VK_STRUCTURE_TYPE_RENDERING_END_INFO_KHR"
+    },
+    {
+     "enum_field_value" : 1000630004,
+     "name" : "VK_STRUCTURE_TYPE_RESOLVE_IMAGE_MODE_INFO_KHR"
+    },
+    {
      "enum_field_value" : 1000637000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CACHE_INCREMENTAL_MODE_FEATURES_SEC"
+    },
+    {
+     "enum_field_value" : 1000642000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_UNIFORM_BUFFER_UNSIZED_ARRAY_FEATURES_EXT"
     },
     {
      "enum_field_value" : 1000120000,
@@ -8412,6 +8600,18 @@
      "name" : "VK_STRUCTURE_TYPE_SUBPASS_FRAGMENT_DENSITY_MAP_OFFSET_END_INFO_QCOM"
     },
     {
+     "enum_field_value" : 1000426001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COPY_MEMORY_INDIRECT_PROPERTIES_NV"
+    },
+    {
+     "enum_field_value" : 1000427000,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_DECOMPRESSION_FEATURES_NV"
+    },
+    {
+     "enum_field_value" : 1000427001,
+     "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_DECOMPRESSION_PROPERTIES_NV"
+    },
+    {
      "enum_field_value" : 1000466000,
      "name" : "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_PROTECTED_ACCESS_FEATURES_EXT"
     },
@@ -8516,6 +8716,10 @@
      "name" : "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO_KHR"
     },
     {
+     "enum_field_value" : 1000619003,
+     "name" : "VK_STRUCTURE_TYPE_RENDERING_END_INFO_EXT"
+    },
+    {
      "enum_field_value" : 2147483647,
      "name" : "VK_STRUCTURE_TYPE_MAX_ENUM"
     }
@@ -8545,6 +8749,14 @@
     {
      "enum_field_value" : 3,
      "name" : "VK_TIME_DOMAIN_QUERY_PERFORMANCE_COUNTER_KHR"
+    },
+    {
+     "enum_field_value" : 1000208000,
+     "name" : "VK_TIME_DOMAIN_PRESENT_STAGE_LOCAL_EXT"
+    },
+    {
+     "enum_field_value" : 1000208001,
+     "name" : "VK_TIME_DOMAIN_SWAPCHAIN_LOCAL_EXT"
     },
     {
      "enum_field_value" : 0,
@@ -9975,6 +10187,18 @@
     {
      "enum_field_value" : 32,
      "name" : "VK_RENDERING_PER_LAYER_FRAGMENT_DENSITY_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 64,
+     "name" : "VK_RENDERING_FRAGMENT_REGION_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 128,
+     "name" : "VK_RENDERING_CUSTOM_RESOLVE_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 256,
+     "name" : "VK_RENDERING_LOCAL_READ_CONCURRENT_ACCESS_CONTROL_BIT_KHR"
     },
     {
      "enum_field_value" : 1,
@@ -11458,6 +11682,10 @@
     {
      "enum_field_value" : 16,
      "name" : "VK_RESOLVE_MODE_EXTERNAL_FORMAT_DOWNSAMPLE_BIT_ANDROID"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "VK_RESOLVE_MODE_CUSTOM_BIT_EXT"
     },
     {
      "enum_field_value" : 0,
@@ -12970,6 +13198,33 @@
    [
     {
      "enum_field_value" : 1,
+     "name" : "VK_ADDRESS_COPY_DEVICE_LOCAL_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_ADDRESS_COPY_SPARSE_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_ADDRESS_COPY_PROTECTED_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_ADDRESS_COPY_FLAG_BITS_MAX_ENUM_KHR"
+    }
+   ],
+   "linker_set_key" : "_ZTI24VkAddressCopyFlagBitsKHR",
+   "name" : "VkAddressCopyFlagBitsKHR",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
      "name" : "VK_COLOR_COMPONENT_R_BIT"
     },
     {
@@ -13210,12 +13465,12 @@
      "name" : "VK_PIPELINE_CREATE_DERIVATIVE_BIT"
     },
     {
-     "enum_field_value" : 8,
-     "name" : "VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT"
-    },
-    {
      "enum_field_value" : 16,
      "name" : "VK_PIPELINE_CREATE_DISPATCH_BASE_BIT"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT"
     },
     {
      "enum_field_value" : 256,
@@ -13618,6 +13873,37 @@
    [
     {
      "enum_field_value" : 1,
+     "name" : "VK_PRESENT_STAGE_QUEUE_OPERATIONS_END_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_PRESENT_STAGE_REQUEST_DEQUEUED_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_PRESENT_STAGE_IMAGE_FIRST_PIXEL_OUT_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "VK_PRESENT_STAGE_IMAGE_FIRST_PIXEL_VISIBLE_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_PRESENT_STAGE_FLAG_BITS_MAX_ENUM_EXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI25VkPresentStageFlagBitsEXT",
+   "name" : "VkPresentStageFlagBitsEXT",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
      "name" : "VK_QUERY_POOL_CREATE_RESET_BIT_KHR"
     },
     {
@@ -13627,6 +13913,29 @@
    ],
    "linker_set_key" : "_ZTI25VkQueryPoolCreateFlagBits",
    "name" : "VkQueryPoolCreateFlagBits",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "VK_RESOLVE_IMAGE_SKIP_TRANSFER_FUNCTION_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_RESOLVE_IMAGE_ENABLE_TRANSFER_FUNCTION_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_RESOLVE_IMAGE_FLAG_BITS_MAX_ENUM_KHR"
+    }
+   ],
+   "linker_set_key" : "_ZTI25VkResolveImageFlagBitsKHR",
+   "name" : "VkResolveImageFlagBitsKHR",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
    "underlying_type" : "_ZTIj"
@@ -13689,6 +13998,10 @@
     {
      "enum_field_value" : 128,
      "name" : "VK_SHADER_CREATE_INDIRECT_BINDABLE_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 32768,
+     "name" : "VK_SHADER_CREATE_64_BIT_INDEXING_BIT_EXT"
     },
     {
      "enum_field_value" : 2147483647,
@@ -15291,6 +15604,10 @@
      "name" : "VK_PIPELINE_CACHE_HEADER_VERSION_ONE"
     },
     {
+     "enum_field_value" : 1000629000,
+     "name" : "VK_PIPELINE_CACHE_HEADER_VERSION_DATA_GRAPH_QCOM"
+    },
+    {
      "enum_field_value" : 2147483647,
      "name" : "VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM"
     }
@@ -15333,14 +15650,6 @@
      "name" : "VK_SUBPASS_DESCRIPTION_PER_VIEW_POSITION_X_ONLY_BIT_NVX"
     },
     {
-     "enum_field_value" : 4,
-     "name" : "VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_QCOM"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "VK_SUBPASS_DESCRIPTION_SHADER_RESOLVE_BIT_QCOM"
-    },
-    {
      "enum_field_value" : 256,
      "name" : "VK_SUBPASS_DESCRIPTION_TILE_SHADING_APRON_BIT_QCOM"
     },
@@ -15359,6 +15668,22 @@
     {
      "enum_field_value" : 128,
      "name" : "VK_SUBPASS_DESCRIPTION_ENABLE_LEGACY_DITHERING_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "VK_SUBPASS_DESCRIPTION_CUSTOM_RESOLVE_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_QCOM"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "VK_SUBPASS_DESCRIPTION_SHADER_RESOLVE_BIT_QCOM"
     },
     {
      "enum_field_value" : 16,
@@ -15398,6 +15723,10 @@
     {
      "enum_field_value" : 4,
      "name" : "VK_SWAPCHAIN_CREATE_MUTABLE_FORMAT_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 512,
+     "name" : "VK_SWAPCHAIN_CREATE_PRESENT_TIMING_BIT_EXT"
     },
     {
      "enum_field_value" : 64,
@@ -15592,6 +15921,25 @@
    "name" : "StdVideoH264WeightedBipredIdc",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vk_video/vulkan_video_codec_h264std.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "VK_DATA_GRAPH_MODEL_CACHE_TYPE_GENERIC_BINARY_QCOM"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_DATA_GRAPH_MODEL_CACHE_TYPE_MAX_ENUM_QCOM"
+    }
+   ],
+   "linker_set_key" : "_ZTI29VkDataGraphModelCacheTypeQCOM",
+   "name" : "VkDataGraphModelCacheTypeQCOM",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -16577,6 +16925,29 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 1,
+     "name" : "VK_PRESENT_TIMING_INFO_PRESENT_AT_RELATIVE_TIME_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_PRESENT_TIMING_INFO_PRESENT_AT_NEAREST_REFRESH_CYCLE_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_PRESENT_TIMING_INFO_FLAG_BITS_MAX_ENUM_EXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI30VkPresentTimingInfoFlagBitsEXT",
+   "name" : "VkPresentTimingInfoFlagBitsEXT",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 0,
      "name" : "VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_KHR"
     },
@@ -16719,6 +17090,14 @@
     {
      "enum_field_value" : 1,
      "name" : "VK_ATTACHMENT_DESCRIPTION_MAY_ALIAS_BIT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_ATTACHMENT_DESCRIPTION_RESOLVE_SKIP_TRANSFER_FUNCTION_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_ATTACHMENT_DESCRIPTION_RESOLVE_ENABLE_TRANSFER_FUNCTION_BIT_KHR"
     },
     {
      "enum_field_value" : 2147483647,
@@ -17356,6 +17735,33 @@
    ],
    "linker_set_key" : "_ZTI32VkQueryPipelineStatisticFlagBits",
    "name" : "VkQueryPipelineStatisticFlagBits",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "VK_RENDERING_ATTACHMENT_INPUT_ATTACHMENT_FEEDBACK_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_RENDERING_ATTACHMENT_RESOLVE_SKIP_TRANSFER_FUNCTION_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_RENDERING_ATTACHMENT_RESOLVE_ENABLE_TRANSFER_FUNCTION_BIT_KHR"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_RENDERING_ATTACHMENT_FLAG_BITS_MAX_ENUM_KHR"
+    }
+   ],
+   "linker_set_key" : "_ZTI32VkRenderingAttachmentFlagBitsKHR",
+   "name" : "VkRenderingAttachmentFlagBitsKHR",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
    "underlying_type" : "_ZTIj"
@@ -18092,6 +18498,10 @@
      "name" : "VK_EXTERNAL_MEMORY_HANDLE_TYPE_RDMA_ADDRESS_BIT_NV"
     },
     {
+     "enum_field_value" : 32768,
+     "name" : "VK_EXTERNAL_MEMORY_HANDLE_TYPE_OH_NATIVE_BUFFER_BIT_OHOS"
+    },
+    {
      "enum_field_value" : 16384,
      "name" : "VK_EXTERNAL_MEMORY_HANDLE_TYPE_SCREEN_BUFFER_BIT_QNX"
     },
@@ -18575,6 +18985,29 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 1,
+     "name" : "VK_PAST_PRESENTATION_TIMING_ALLOW_PARTIAL_RESULTS_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_PAST_PRESENTATION_TIMING_ALLOW_OUT_OF_ORDER_RESULTS_BIT_EXT"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_PAST_PRESENTATION_TIMING_FLAG_BITS_MAX_ENUM_EXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI35VkPastPresentationTimingFlagBitsEXT",
+   "name" : "VkPastPresentationTimingFlagBitsEXT",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 0,
      "name" : "VK_PERFORMANCE_CONFIGURATION_TYPE_COMMAND_QUEUE_METRICS_DISCOVERY_ACTIVATED_INTEL"
     },
@@ -18616,29 +19049,6 @@
    ],
    "linker_set_key" : "_ZTI35VkPipelineShaderStageCreateFlagBits",
    "name" : "VkPipelineShaderStageCreateFlagBits",
-   "size" : 4,
-   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_NONE_NV"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_REORDER_NV"
-    },
-    {
-     "enum_field_value" : 2147483647,
-     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_MAX_ENUM_NV"
-    }
-   ],
-   "linker_set_key" : "_ZTI35VkRayTracingInvocationReorderModeNV",
-   "name" : "VkRayTracingInvocationReorderModeNV",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
    "underlying_type" : "_ZTIj"
@@ -18956,6 +19366,37 @@
    ],
    "linker_set_key" : "_ZTI36VkPipelineCompilerControlFlagBitsAMD",
    "name" : "VkPipelineCompilerControlFlagBitsAMD",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_NONE_EXT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_REORDER_EXT"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_NONE_NV"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_REORDER_NV"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_RAY_TRACING_INVOCATION_REORDER_MODE_MAX_ENUM_EXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI36VkRayTracingInvocationReorderModeEXT",
+   "name" : "VkRayTracingInvocationReorderModeEXT",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
    "underlying_type" : "_ZTIj"
@@ -19936,6 +20377,14 @@
      "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_OPERATION_TYPE_SPIRV_EXTENDED_INSTRUCTION_SET_ARM"
     },
     {
+     "enum_field_value" : 1000629000,
+     "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_OPERATION_TYPE_NEURAL_MODEL_QCOM"
+    },
+    {
+     "enum_field_value" : 1000629001,
+     "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_OPERATION_TYPE_BUILTIN_MODEL_QCOM"
+    },
+    {
      "enum_field_value" : 2147483647,
      "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_OPERATION_TYPE_MAX_ENUM_ARM"
     }
@@ -20023,6 +20472,29 @@
    ],
    "linker_set_key" : "_ZTI41VkVideoEncodeAV1SuperblockSizeFlagBitsKHR",
    "name" : "VkVideoEncodeAV1SuperblockSizeFlagBitsKHR",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "VK_VIDEO_ENCODE_RGB_CHROMA_OFFSET_COSITED_EVEN_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_VIDEO_ENCODE_RGB_CHROMA_OFFSET_MIDPOINT_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_VIDEO_ENCODE_RGB_CHROMA_OFFSET_FLAG_BITS_MAX_ENUM_VALVE"
+    }
+   ],
+   "linker_set_key" : "_ZTI41VkVideoEncodeRgbChromaOffsetFlagBitsVALVE",
+   "name" : "VkVideoEncodeRgbChromaOffsetFlagBitsVALVE",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
    "underlying_type" : "_ZTIj"
@@ -20156,6 +20628,64 @@
    [
     {
      "enum_field_value" : 1,
+     "name" : "VK_VIDEO_ENCODE_RGB_MODEL_CONVERSION_RGB_IDENTITY_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_VIDEO_ENCODE_RGB_MODEL_CONVERSION_YCBCR_IDENTITY_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "VK_VIDEO_ENCODE_RGB_MODEL_CONVERSION_YCBCR_709_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "VK_VIDEO_ENCODE_RGB_MODEL_CONVERSION_YCBCR_601_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "VK_VIDEO_ENCODE_RGB_MODEL_CONVERSION_YCBCR_2020_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_VIDEO_ENCODE_RGB_MODEL_CONVERSION_FLAG_BITS_MAX_ENUM_VALVE"
+    }
+   ],
+   "linker_set_key" : "_ZTI44VkVideoEncodeRgbModelConversionFlagBitsVALVE",
+   "name" : "VkVideoEncodeRgbModelConversionFlagBitsVALVE",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "VK_VIDEO_ENCODE_RGB_RANGE_COMPRESSION_FULL_RANGE_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "VK_VIDEO_ENCODE_RGB_RANGE_COMPRESSION_NARROW_RANGE_BIT_VALVE"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "VK_VIDEO_ENCODE_RGB_RANGE_COMPRESSION_FLAG_BITS_MAX_ENUM_VALVE"
+    }
+   ],
+   "linker_set_key" : "_ZTI45VkVideoEncodeRgbRangeCompressionFlagBitsVALVE",
+   "name" : "VkVideoEncodeRgbRangeCompressionFlagBitsVALVE",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
      "name" : "VK_VIDEO_ENCODE_H265_TRANSFORM_BLOCK_SIZE_4_BIT_KHR"
     },
     {
@@ -20261,6 +20791,14 @@
     {
      "enum_field_value" : 0,
      "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_PROCESSING_ENGINE_TYPE_DEFAULT_ARM"
+    },
+    {
+     "enum_field_value" : 1000629000,
+     "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_PROCESSING_ENGINE_TYPE_NEURAL_QCOM"
+    },
+    {
+     "enum_field_value" : 1000629001,
+     "name" : "VK_PHYSICAL_DEVICE_DATA_GRAPH_PROCESSING_ENGINE_TYPE_COMPUTE_QCOM"
     },
     {
      "enum_field_value" : 2147483647,
@@ -21805,12 +22343,12 @@
      "name" : "VK_ERROR_INVALID_EXTERNAL_HANDLE"
     },
     {
-     "enum_field_value" : -1000161000,
-     "name" : "VK_ERROR_FRAGMENTATION"
-    },
-    {
      "enum_field_value" : -1000257000,
      "name" : "VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS"
+    },
+    {
+     "enum_field_value" : -1000161000,
+     "name" : "VK_ERROR_FRAGMENTATION"
     },
     {
      "enum_field_value" : 1000297000,
@@ -21871,6 +22409,10 @@
     {
      "enum_field_value" : -1000158000,
      "name" : "VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT"
+    },
+    {
+     "enum_field_value" : -1000208000,
+     "name" : "VK_ERROR_PRESENT_TIMING_QUEUE_FULL_EXT"
     },
     {
      "enum_field_value" : -1000255000,
@@ -27378,6 +27920,14 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP15VkTimeDomainKHR",
+   "name" : "VkTimeDomainKHR *",
+   "referenced_type" : "_ZTI15VkTimeDomainKHR",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP16VkPresentModeKHR",
    "name" : "VkPresentModeKHR *",
    "referenced_type" : "_ZTI16VkPresentModeKHR",
@@ -27482,6 +28032,14 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP21VkPresentStageTimeEXT",
+   "name" : "VkPresentStageTimeEXT *",
+   "referenced_type" : "_ZTI21VkPresentStageTimeEXT",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP23VkImageFormatProperties",
    "name" : "VkImageFormatProperties *",
    "referenced_type" : "_ZTI23VkImageFormatProperties",
@@ -27581,6 +28139,14 @@
    "linker_set_key" : "_ZTIP27VkDeviceFaultAddressInfoEXT",
    "name" : "VkDeviceFaultAddressInfoEXT *",
    "referenced_type" : "_ZTI27VkDeviceFaultAddressInfoEXT",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP27VkPastPresentationTimingEXT",
+   "name" : "VkPastPresentationTimingEXT *",
+   "referenced_type" : "_ZTI27VkPastPresentationTimingEXT",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
@@ -28762,6 +29328,14 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPK22VkPresentTimingInfoEXT",
+   "name" : "const VkPresentTimingInfoEXT *",
+   "referenced_type" : "_ZTIK22VkPresentTimingInfoEXT",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPK22VkRenderPassCreateInfo",
    "name" : "const VkRenderPassCreateInfo *",
    "referenced_type" : "_ZTIK22VkRenderPassCreateInfo",
@@ -28994,6 +29568,14 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPK24VkImageSubresourceLayers",
+   "name" : "const VkImageSubresourceLayers *",
+   "referenced_type" : "_ZTIK24VkImageSubresourceLayers",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPK24VkPhysicalDeviceFeatures",
    "name" : "const VkPhysicalDeviceFeatures *",
    "referenced_type" : "_ZTIK24VkPhysicalDeviceFeatures",
@@ -29165,6 +29747,14 @@
    "linker_set_key" : "_ZTIPK27VkComputePipelineCreateInfo",
    "name" : "const VkComputePipelineCreateInfo *",
    "referenced_type" : "_ZTIK27VkComputePipelineCreateInfo",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK27VkDecompressMemoryRegionEXT",
+   "name" : "const VkDecompressMemoryRegionEXT *",
+   "referenced_type" : "_ZTIK27VkDecompressMemoryRegionEXT",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
@@ -30103,6 +30693,14 @@
    "referenced_type" : "_ZTIK43VkMemoryGetAndroidHardwareBufferInfoANDROID",
    "size" : 4,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_android.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK44VkPhysicalDeviceDataGraphOperationSupportARM",
+   "name" : "const VkPhysicalDeviceDataGraphOperationSupportARM *",
+   "referenced_type" : "_ZTIK44VkPhysicalDeviceDataGraphOperationSupportARM",
+   "size" : 4,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
    "alignment" : 4,
@@ -31362,6 +31960,15 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK22VkPresentTimingInfoEXT",
+   "name" : "const VkPresentTimingInfoEXT",
+   "referenced_type" : "_ZTI22VkPresentTimingInfoEXT",
+   "size" : 40,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIK22VkRenderPassCreateInfo",
@@ -31625,6 +32232,15 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIK24VkImageSubresourceLayers",
+   "name" : "const VkImageSubresourceLayers",
+   "referenced_type" : "_ZTI24VkImageSubresourceLayers",
+   "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIK24VkPhysicalDeviceFeatures",
    "name" : "const VkPhysicalDeviceFeatures",
    "referenced_type" : "_ZTI24VkPhysicalDeviceFeatures",
@@ -31818,6 +32434,15 @@
    "name" : "const VkComputePipelineCreateInfo",
    "referenced_type" : "_ZTI27VkComputePipelineCreateInfo",
    "size" : 72,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK27VkDecompressMemoryRegionEXT",
+   "name" : "const VkDecompressMemoryRegionEXT",
+   "referenced_type" : "_ZTI27VkDecompressMemoryRegionEXT",
+   "size" : 32,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -32872,6 +33497,15 @@
    "referenced_type" : "_ZTI43VkMemoryGetAndroidHardwareBufferInfoANDROID",
    "size" : 16,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_android.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK44VkPhysicalDeviceDataGraphOperationSupportARM",
+   "name" : "const VkPhysicalDeviceDataGraphOperationSupportARM",
+   "referenced_type" : "_ZTI44VkPhysicalDeviceDataGraphOperationSupportARM",
+   "size" : 136,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
    "alignment" : 4,
@@ -39116,6 +39750,25 @@
    "fields" :
    [
     {
+     "field_name" : "stage",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "time",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI21VkPresentStageTimeEXT",
+   "name" : "VkPresentStageTimeEXT",
+   "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "sType",
      "referenced_type" : "_ZTI15VkStructureType"
     },
@@ -39261,8 +39914,8 @@
      "referenced_type" : "_ZTIPKv"
     }
    ],
-   "linker_set_key" : "_ZTI21VkRenderingEndInfoEXT",
-   "name" : "VkRenderingEndInfoEXT",
+   "linker_set_key" : "_ZTI21VkRenderingEndInfoKHR",
+   "name" : "VkRenderingEndInfoKHR",
    "size" : 8,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
@@ -40797,6 +41450,50 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "targetTime",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "timeDomainId",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "presentStageQueries",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "targetTimeDomainPresentStage",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI22VkPresentTimingInfoEXT",
+   "name" : "VkPresentTimingInfoEXT",
+   "size" : 40,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -42094,6 +42791,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "counterID",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI23VkPerformanceCounterARM",
+   "name" : "VkPerformanceCounterARM",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "unit",
      "field_offset" : 64,
      "referenced_type" : "_ZTI27VkPerformanceCounterUnitKHR"
@@ -42203,6 +42924,35 @@
    "linker_set_key" : "_ZTI23VkPipelineCreateInfoKHR",
    "name" : "VkPipelineCreateInfoKHR",
    "size" : 8,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "swapchainCount",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pTimingInfos",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPK22VkPresentTimingInfoEXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI23VkPresentTimingsInfoEXT",
+   "name" : "VkPresentTimingsInfoEXT",
+   "size" : 16,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -44315,6 +45065,40 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "decompressionMethod",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "regionCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pRegions",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIPK27VkDecompressMemoryRegionEXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI25VkDecompressMemoryInfoEXT",
+   "name" : "VkDecompressMemoryInfoEXT",
+   "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -44677,6 +45461,40 @@
    "linker_set_key" : "_ZTI25VkRenderingAttachmentInfo",
    "name" : "VkRenderingAttachmentInfo",
    "size" : 64,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "resolveMode",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTI21VkResolveModeFlagBits"
+    },
+    {
+     "field_name" : "stencilResolveMode",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI21VkResolveModeFlagBits"
+    }
+   ],
+   "linker_set_key" : "_ZTI25VkResolveImageModeInfoKHR",
+   "name" : "VkResolveImageModeInfoKHR",
+   "size" : 20,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -46046,6 +46864,25 @@
    "fields" :
    [
     {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "linker_set_key" : "_ZTI27VkBeginCustomResolveInfoEXT",
+   "name" : "VkBeginCustomResolveInfoEXT",
+   "size" : 8,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "shadingRate",
      "referenced_type" : "_ZTI27VkShadingRatePaletteEntryNV"
     },
@@ -46146,6 +46983,74 @@
    "linker_set_key" : "_ZTI27VkComputePipelineCreateInfo",
    "name" : "VkComputePipelineCreateInfo",
    "size" : 72,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "srcCopyFlags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "dstCopyFlags",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "copyCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "copyAddressRange",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTI30VkStridedDeviceAddressRangeKHR"
+    }
+   ],
+   "linker_set_key" : "_ZTI27VkCopyMemoryIndirectInfoKHR",
+   "name" : "VkCopyMemoryIndirectInfoKHR",
+   "size" : 48,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "srcAddress",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "dstAddress",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "compressedSize",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "decompressedSize",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI27VkDecompressMemoryRegionEXT",
+   "name" : "VkDecompressMemoryRegionEXT",
+   "size" : 32,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -46404,6 +47309,60 @@
    "fields" :
    [
     {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "presentId",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "targetTime",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "presentStageCount",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pPresentStages",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIP21VkPresentStageTimeEXT"
+    },
+    {
+     "field_name" : "timeDomain",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTI15VkTimeDomainKHR"
+    },
+    {
+     "field_name" : "timeDomainId",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "reportComplete",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI27VkPastPresentationTimingEXT",
+   "name" : "VkPastPresentationTimingEXT",
+   "size" : 56,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "value32",
      "referenced_type" : "_ZTIj"
     },
@@ -46638,7 +47597,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "optimalTilingTensorFeatures",
@@ -47294,6 +48253,50 @@
    "linker_set_key" : "_ZTI28VkCalibratedTimestampInfoKHR",
    "name" : "VkCalibratedTimestampInfoKHR",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "customResolve",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "colorAttachmentCount",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pColorAttachmentFormats",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPK8VkFormat"
+    },
+    {
+     "field_name" : "depthAttachmentFormat",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTI8VkFormat"
+    },
+    {
+     "field_name" : "stencilAttachmentFormat",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTI8VkFormat"
+    }
+   ],
+   "linker_set_key" : "_ZTI28VkCustomResolveCreateInfoEXT",
+   "name" : "VkCustomResolveCreateInfoEXT",
+   "size" : 28,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -48642,30 +49645,6 @@
    "fields" :
    [
     {
-     "field_name" : "srcAddress",
-     "referenced_type" : "_ZTIy"
-    },
-    {
-     "field_name" : "dstAddress",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIy"
-    },
-    {
-     "field_name" : "size",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIy"
-    }
-   ],
-   "linker_set_key" : "_ZTI29VkCopyMemoryIndirectCommandNV",
-   "name" : "VkCopyMemoryIndirectCommandNV",
-   "size" : 24,
-   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
      "field_name" : "sType",
      "referenced_type" : "_ZTI15VkStructureType"
     },
@@ -49128,7 +50107,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "presentID",
@@ -50056,6 +51035,30 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "srcAddress",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "dstAddress",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI30VkCopyMemoryIndirectCommandKHR",
+   "name" : "VkCopyMemoryIndirectCommandKHR",
+   "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -50735,6 +51738,30 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "address",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI30VkStridedDeviceAddressRangeKHR",
+   "name" : "VkStridedDeviceAddressRangeKHR",
+   "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -50785,6 +51812,35 @@
    "linker_set_key" : "_ZTI30VkSwapchainPresentFenceInfoKHR",
    "name" : "VkSwapchainPresentFenceInfoKHR",
    "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "refreshDuration",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "refreshInterval",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI30VkSwapchainTimingPropertiesEXT",
+   "name" : "VkSwapchainTimingPropertiesEXT",
+   "size" : 24,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -51955,7 +53011,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "hdmi3DSupported",
@@ -52248,6 +53304,35 @@
    "linker_set_key" : "_ZTI31VkMemoryPriorityAllocateInfoEXT",
    "name" : "VkMemoryPriorityAllocateInfoEXT",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "swapchain",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI31VkPastPresentationTimingInfoEXT",
+   "name" : "VkPastPresentationTimingInfoEXT",
+   "size" : 24,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -56730,6 +57815,30 @@
      "referenced_type" : "_ZTIPKv"
     },
     {
+     "field_name" : "flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI33VkRenderingAttachmentFlagsInfoKHR",
+   "name" : "VkRenderingAttachmentFlagsInfoKHR",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
      "field_name" : "colorAttachmentCount",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -56780,7 +57889,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "supportsProtected",
@@ -57427,6 +58536,55 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "srcCopyFlags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "copyCount",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "copyAddressRange",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI30VkStridedDeviceAddressRangeKHR"
+    },
+    {
+     "field_name" : "dstImage",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "dstImageLayout",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTI13VkImageLayout"
+    },
+    {
+     "field_name" : "pImageSubresources",
+     "field_offset" : 416,
+     "referenced_type" : "_ZTIPK24VkImageSubresourceLayers"
+    }
+   ],
+   "linker_set_key" : "_ZTI34VkCopyMemoryToImageIndirectInfoKHR",
+   "name" : "VkCopyMemoryToImageIndirectInfoKHR",
+   "size" : 56,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
      "referenced_type" : "_ZTIPv"
     },
     {
@@ -57699,6 +58857,35 @@
    "linker_set_key" : "_ZTI34VkImagePlaneMemoryRequirementsInfo",
    "name" : "VkImagePlaneMemoryRequirementsInfo",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "name",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIA256_c"
+    }
+   ],
+   "linker_set_key" : "_ZTI34VkPerformanceCounterDescriptionARM",
+   "name" : "VkPerformanceCounterDescriptionARM",
+   "size" : 268,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -58775,6 +59962,40 @@
    "linker_set_key" : "_ZTI34VkSurfaceCapabilitiesPresentId2KHR",
    "name" : "VkSurfaceCapabilitiesPresentId2KHR",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "timeDomainCount",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pTimeDomains",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIP15VkTimeDomainKHR"
+    },
+    {
+     "field_name" : "pTimeDomainIds",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPy"
+    }
+   ],
+   "linker_set_key" : "_ZTI34VkSwapchainTimeDomainPropertiesEXT",
+   "name" : "VkSwapchainTimeDomainPropertiesEXT",
+   "size" : 20,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -60947,45 +62168,6 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "srcAddress",
-     "referenced_type" : "_ZTIy"
-    },
-    {
-     "field_name" : "bufferRowLength",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "bufferImageHeight",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "imageSubresource",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTI24VkImageSubresourceLayers"
-    },
-    {
-     "field_name" : "imageOffset",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTI10VkOffset3D"
-    },
-    {
-     "field_name" : "imageExtent",
-     "field_offset" : 352,
-     "referenced_type" : "_ZTI10VkExtent3D"
-    }
-   ],
-   "linker_set_key" : "_ZTI36VkCopyMemoryToImageIndirectCommandNV",
-   "name" : "VkCopyMemoryToImageIndirectCommandNV",
-   "size" : 56,
-   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
-  },
-  {
    "alignment" : 4,
    "fields" :
    [
@@ -61332,7 +62514,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "format",
@@ -61575,6 +62757,40 @@
    "linker_set_key" : "_ZTI36VkPhysicalDevicePresentIdFeaturesKHR",
    "name" : "VkPhysicalDevicePresentIdFeaturesKHR",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "shaderFmaFloat16",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "shaderFmaFloat32",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "shaderFmaFloat64",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI36VkPhysicalDeviceShaderFmaFeaturesKHR",
+   "name" : "VkPhysicalDeviceShaderFmaFeaturesKHR",
+   "size" : 20,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -62072,6 +63288,45 @@
    "fields" :
    [
     {
+     "field_name" : "srcAddress",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "bufferRowLength",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "bufferImageHeight",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "imageSubresource",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI24VkImageSubresourceLayers"
+    },
+    {
+     "field_name" : "imageOffset",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTI10VkOffset3D"
+    },
+    {
+     "field_name" : "imageExtent",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTI10VkExtent3D"
+    }
+   ],
+   "linker_set_key" : "_ZTI37VkCopyMemoryToImageIndirectCommandKHR",
+   "name" : "VkCopyMemoryToImageIndirectCommandKHR",
+   "size" : 56,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "sType",
      "referenced_type" : "_ZTI15VkStructureType"
     },
@@ -62408,6 +63663,45 @@
    "linker_set_key" : "_ZTI37VkIndirectExecutionSetPipelineInfoEXT",
    "name" : "VkIndirectExecutionSetPipelineInfoEXT",
    "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "timingPropertiesCounter",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "timeDomainsCounter",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "presentationTimingCount",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pPresentationTimings",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIP27VkPastPresentationTimingEXT"
+    }
+   ],
+   "linker_set_key" : "_ZTI37VkPastPresentationTimingPropertiesEXT",
+   "name" : "VkPastPresentationTimingPropertiesEXT",
+   "size" : 32,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -62800,6 +64094,45 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "presentTimingSupported",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "presentAtAbsoluteTimeSupported",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "presentAtRelativeTimeSupported",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "presentStageQueries",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI37VkPresentTimingSurfaceCapabilitiesEXT",
+   "name" : "VkPresentTimingSurfaceCapabilitiesEXT",
+   "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "priorityCount",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -62914,6 +64247,40 @@
    "linker_set_key" : "_ZTI37VkSurfaceCapabilitiesPresentBarrierNV",
    "name" : "VkSurfaceCapabilitiesPresentBarrierNV",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "swapchain",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "presentStage",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "timeDomainId",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI37VkSwapchainCalibratedTimestampInfoEXT",
+   "name" : "VkSwapchainCalibratedTimestampInfoEXT",
+   "size" : 32,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -65794,7 +67161,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "accelerationStructureSize",
@@ -66009,6 +67376,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "customResolve",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI40VkPhysicalDeviceCustomResolveFeaturesEXT",
+   "name" : "VkPhysicalDeviceCustomResolveFeaturesEXT",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "dynamicRendering",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -66057,6 +67448,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "maintenance10",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI40VkPhysicalDeviceMaintenance10FeaturesKHR",
+   "name" : "VkPhysicalDeviceMaintenance10FeaturesKHR",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "presentBarrier",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -66065,6 +67480,40 @@
    "linker_set_key" : "_ZTI40VkPhysicalDevicePresentBarrierFeaturesNV",
    "name" : "VkPhysicalDevicePresentBarrierFeaturesNV",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "presentTiming",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "presentAtAbsoluteTime",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "presentAtRelativeTime",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI40VkPhysicalDevicePresentTimingFeaturesEXT",
+   "name" : "VkPhysicalDevicePresentTimingFeaturesEXT",
+   "size" : 20,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -67597,6 +69046,40 @@
    "fields" :
    [
     {
+     "field_name" : "headerSize",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "headerVersion",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTI28VkPipelineCacheHeaderVersion"
+    },
+    {
+     "field_name" : "cacheType",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTI29VkDataGraphModelCacheTypeQCOM"
+    },
+    {
+     "field_name" : "cacheVersion",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "toolchainVersion",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIA3_j"
+    }
+   ],
+   "linker_set_key" : "_ZTI41VkPipelineCacheHeaderVersionDataGraphQCOM",
+   "name" : "VkPipelineCacheHeaderVersionDataGraphQCOM",
+   "size" : 28,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "sType",
      "referenced_type" : "_ZTI15VkStructureType"
     },
@@ -68091,6 +69574,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "dataGraphModel",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI42VkPhysicalDeviceDataGraphModelFeaturesQCOM",
+   "name" : "VkPhysicalDeviceDataGraphModelFeaturesQCOM",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "depthClipEnable",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -68348,6 +69855,40 @@
    "linker_set_key" : "_ZTI42VkPhysicalDeviceLegacyDitheringFeaturesEXT",
    "name" : "VkPhysicalDeviceLegacyDitheringFeaturesEXT",
    "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "rgba4OpaqueBlackSwizzled",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "resolveSrgbFormatAppliesTransferFunction",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "resolveSrgbFormatSupportsTransferFunctionControl",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI42VkPhysicalDeviceMaintenance10PropertiesKHR",
+   "name" : "VkPhysicalDeviceMaintenance10PropertiesKHR",
+   "size" : 20,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -68959,6 +70500,30 @@
    "linker_set_key" : "_ZTI42VkVideoEncodeH265QualityLevelPropertiesKHR",
    "name" : "VkVideoEncodeH265QualityLevelPropertiesKHR",
    "size" : 48,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "performEncodeRgbConversion",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI42VkVideoEncodeProfileRgbConversionInfoVALVE",
+   "name" : "VkVideoEncodeProfileRgbConversionInfoVALVE",
+   "size" : 12,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -70085,6 +71650,45 @@
    "linker_set_key" : "_ZTI43VkVideoEncodeQuantizationMapCapabilitiesKHR",
    "name" : "VkVideoEncodeQuantizationMapCapabilitiesKHR",
    "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "rgbModels",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "rgbRanges",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "xChromaOffsets",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "yChromaOffsets",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI43VkVideoEncodeRgbConversionCapabilitiesVALVE",
+   "name" : "VkVideoEncodeRgbConversionCapabilitiesVALVE",
+   "size" : 24,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -72065,6 +73669,30 @@
      "referenced_type" : "_ZTIPKv"
     },
     {
+     "field_name" : "pOperation",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPK44VkPhysicalDeviceDataGraphOperationSupportARM"
+    }
+   ],
+   "linker_set_key" : "_ZTI45VkDataGraphPipelineBuiltinModelCreateInfoQCOM",
+   "name" : "VkDataGraphPipelineBuiltinModelCreateInfoQCOM",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
      "field_name" : "disableInternalCache",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -72199,6 +73827,35 @@
    "linker_set_key" : "_ZTI45VkPhysicalDeviceCooperativeVectorPropertiesNV",
    "name" : "VkPhysicalDeviceCooperativeVectorPropertiesNV",
    "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "indirectMemoryCopy",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "indirectMemoryToImageCopy",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI45VkPhysicalDeviceCopyMemoryIndirectFeaturesKHR",
+   "name" : "VkPhysicalDeviceCopyMemoryIndirectFeaturesKHR",
+   "size" : 16,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -72606,30 +74263,6 @@
    "linker_set_key" : "_ZTI45VkPhysicalDeviceLayeredApiVulkanPropertiesKHR",
    "name" : "VkPhysicalDeviceLayeredApiVulkanPropertiesKHR",
    "size" : 832,
-   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "sType",
-     "referenced_type" : "_ZTI15VkStructureType"
-    },
-    {
-     "field_name" : "pNext",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "memoryDecompression",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "linker_set_key" : "_ZTI45VkPhysicalDeviceMemoryDecompressionFeaturesNV",
-   "name" : "VkPhysicalDeviceMemoryDecompressionFeaturesNV",
-   "size" : 12,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -73321,30 +74954,6 @@
      "referenced_type" : "_ZTIPv"
     },
     {
-     "field_name" : "supportedQueues",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "linker_set_key" : "_ZTI46VkPhysicalDeviceCopyMemoryIndirectPropertiesNV",
-   "name" : "VkPhysicalDeviceCopyMemoryIndirectPropertiesNV",
-   "size" : 12,
-   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "sType",
-     "referenced_type" : "_ZTI15VkStructureType"
-    },
-    {
-     "field_name" : "pNext",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
-    },
-    {
      "field_name" : "maxCustomBorderColorSamplers",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -73458,6 +75067,30 @@
    ],
    "linker_set_key" : "_ZTI46VkPhysicalDeviceImageSlicedViewOf3DFeaturesEXT",
    "name" : "VkPhysicalDeviceImageSlicedViewOf3DFeaturesEXT",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "memoryDecompression",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI46VkPhysicalDeviceMemoryDecompressionFeaturesEXT",
+   "name" : "VkPhysicalDeviceMemoryDecompressionFeaturesEXT",
    "size" : 12,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
@@ -73598,6 +75231,30 @@
    ],
    "linker_set_key" : "_ZTI46VkPhysicalDeviceSamplerYcbcrConversionFeatures",
    "name" : "VkPhysicalDeviceSamplerYcbcrConversionFeatures",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "shader64BitIndexing",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI46VkPhysicalDeviceShader64BitIndexingFeaturesEXT",
+   "name" : "VkPhysicalDeviceShader64BitIndexingFeaturesEXT",
    "size" : 12,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
@@ -74362,6 +76019,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "supportedQueues",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI47VkPhysicalDeviceCopyMemoryIndirectPropertiesKHR",
+   "name" : "VkPhysicalDeviceCopyMemoryIndirectPropertiesKHR",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "coverageReductionMode",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -74476,35 +76157,6 @@
    "linker_set_key" : "_ZTI47VkPhysicalDeviceLinearColorAttachmentFeaturesNV",
    "name" : "VkPhysicalDeviceLinearColorAttachmentFeaturesNV",
    "size" : 12,
-   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "sType",
-     "referenced_type" : "_ZTI15VkStructureType"
-    },
-    {
-     "field_name" : "pNext",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "decompressionMethods",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIy"
-    },
-    {
-     "field_name" : "maxDecompressionIndirectCount",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIy"
-    }
-   ],
-   "linker_set_key" : "_ZTI47VkPhysicalDeviceMemoryDecompressionPropertiesNV",
-   "name" : "VkPhysicalDeviceMemoryDecompressionPropertiesNV",
-   "size" : 24,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -75591,6 +77243,35 @@
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "decompressionMethods",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "maxDecompressionIndirectCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI48VkPhysicalDeviceMemoryDecompressionPropertiesEXT",
+   "name" : "VkPhysicalDeviceMemoryDecompressionPropertiesEXT",
+   "size" : 24,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -75766,6 +77447,45 @@
    "linker_set_key" : "_ZTI48VkPipelineViewportDepthClampControlCreateInfoEXT",
    "name" : "VkPipelineViewportDepthClampControlCreateInfoEXT",
    "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "rgbModel",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTI44VkVideoEncodeRgbModelConversionFlagBitsVALVE"
+    },
+    {
+     "field_name" : "rgbRange",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTI45VkVideoEncodeRgbRangeCompressionFlagBitsVALVE"
+    },
+    {
+     "field_name" : "xChromaOffset",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI41VkVideoEncodeRgbChromaOffsetFlagBitsVALVE"
+    },
+    {
+     "field_name" : "yChromaOffset",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTI41VkVideoEncodeRgbChromaOffsetFlagBitsVALVE"
+    }
+   ],
+   "linker_set_key" : "_ZTI48VkVideoEncodeSessionRgbConversionCreateInfoVALVE",
+   "name" : "VkVideoEncodeSessionRgbConversionCreateInfoVALVE",
+   "size" : 24,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -77680,7 +79400,7 @@
     {
      "field_name" : "pNext",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
+     "referenced_type" : "_ZTIPKv"
     },
     {
      "field_name" : "requiredSubgroupSize",
@@ -77783,6 +79503,50 @@
    "linker_set_key" : "_ZTI51VkQueueFamilyDataGraphProcessingEnginePropertiesARM",
    "name" : "VkQueueFamilyDataGraphProcessingEnginePropertiesARM",
    "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "counterAddressCount",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pCounterAddresses",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPKy"
+    },
+    {
+     "field_name" : "serializeRegions",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "counterIndexCount",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pCounterIndices",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "linker_set_key" : "_ZTI51VkRenderPassPerformanceCountersByRegionBeginInfoARM",
+   "name" : "VkRenderPassPerformanceCountersByRegionBeginInfoARM",
+   "size" : 28,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
   {
@@ -78679,6 +80443,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "videoEncodeRgbConversion",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI53VkPhysicalDeviceVideoEncodeRgbConversionFeaturesVALVE",
+   "name" : "VkPhysicalDeviceVideoEncodeRgbConversionFeaturesVALVE",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "zeroInitializeDeviceMemory",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -79137,6 +80925,30 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "performanceCountersByRegion",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI54VkPhysicalDevicePerformanceCountersByRegionFeaturesARM",
+   "name" : "VkPhysicalDevicePerformanceCountersByRegionFeaturesARM",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "pipelineLibraryGroupHandles",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -79144,6 +80956,30 @@
    ],
    "linker_set_key" : "_ZTI54VkPhysicalDevicePipelineLibraryGroupHandlesFeaturesEXT",
    "name" : "VkPhysicalDevicePipelineLibraryGroupHandlesFeaturesEXT",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "rayTracingInvocationReorder",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI54VkPhysicalDeviceRayTracingInvocationReorderFeaturesEXT",
+   "name" : "VkPhysicalDeviceRayTracingInvocationReorderFeaturesEXT",
    "size" : 12,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
@@ -79492,7 +81328,7 @@
     {
      "field_name" : "rayTracingInvocationReorderReorderingHint",
      "field_offset" : 64,
-     "referenced_type" : "_ZTI35VkRayTracingInvocationReorderModeNV"
+     "referenced_type" : "_ZTI36VkRayTracingInvocationReorderModeEXT"
     }
    ],
    "linker_set_key" : "_ZTI55VkPhysicalDeviceRayTracingInvocationReorderPropertiesNV",
@@ -79788,6 +81624,79 @@
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "maxPerRegionPerformanceCounters",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "performanceCounterRegionSize",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTI10VkExtent2D"
+    },
+    {
+     "field_name" : "rowStrideAlignment",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "regionAlignment",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "identityTransformOrder",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI56VkPhysicalDevicePerformanceCountersByRegionPropertiesARM",
+   "name" : "VkPhysicalDevicePerformanceCountersByRegionPropertiesARM",
+   "size" : 32,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "rayTracingInvocationReorderReorderingHint",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTI36VkRayTracingInvocationReorderModeEXT"
+    },
+    {
+     "field_name" : "maxShaderBindingTableRecordIndex",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI56VkPhysicalDeviceRayTracingInvocationReorderPropertiesEXT",
+   "name" : "VkPhysicalDeviceRayTracingInvocationReorderPropertiesEXT",
+   "size" : 16,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "workgroupMemoryExplicitLayout",
      "field_offset" : 64,
      "referenced_type" : "_ZTIj"
@@ -79906,6 +81815,30 @@
    ],
    "linker_set_key" : "_ZTI58VkPhysicalDeviceShaderEarlyAndLateFragmentTestsFeaturesAMD",
    "name" : "VkPhysicalDeviceShaderEarlyAndLateFragmentTestsFeaturesAMD",
+   "size" : 12,
+   "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "sType",
+     "referenced_type" : "_ZTI15VkStructureType"
+    },
+    {
+     "field_name" : "pNext",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "shaderUniformBufferUnsizedArray",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI58VkPhysicalDeviceShaderUniformBufferUnsizedArrayFeaturesEXT",
+   "name" : "VkPhysicalDeviceShaderUniformBufferUnsizedArrayFeaturesEXT",
    "size" : 12,
    "source_file" : "external/vulkan-headers/include/vulkan/vulkan_core.h"
   },
