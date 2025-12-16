@@ -169,6 +169,33 @@
    "name" : "ABinderProcess_startThreadPool"
   },
   {
+   "name" : "ABinderRpc_Accessor_asBinder"
+  },
+  {
+   "name" : "ABinderRpc_Accessor_delegateAccessor"
+  },
+  {
+   "name" : "ABinderRpc_Accessor_delete"
+  },
+  {
+   "name" : "ABinderRpc_Accessor_fromBinder"
+  },
+  {
+   "name" : "ABinderRpc_Accessor_new"
+  },
+  {
+   "name" : "ABinderRpc_ConnectionInfo_delete"
+  },
+  {
+   "name" : "ABinderRpc_ConnectionInfo_new"
+  },
+  {
+   "name" : "ABinderRpc_registerAccessorProvider"
+  },
+  {
+   "name" : "ABinderRpc_unregisterAccessorProvider"
+  },
+  {
    "name" : "AIBinder_Class_define"
   },
   {
@@ -1456,6 +1483,22 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPvbE",
+   "name" : "void (void *, bool)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIFvPvjbE",
    "name" : "void (void *, unsigned int, bool)",
    "parameters" :
@@ -1505,6 +1548,201 @@
    "linker_set_key" : "ABinderProcess_startThreadPool",
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_process.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_Accessor_asBinder",
+   "linker_set_key" : "ABinderRpc_Accessor_asBinder",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ABinderRpc_Accessor"
+    }
+   ],
+   "return_type" : "_ZTIP8AIBinder",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_Accessor_delegateAccessor",
+   "linker_set_key" : "ABinderRpc_Accessor_delegateAccessor",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIP8AIBinder"
+    },
+    {
+     "referenced_type" : "_ZTIPP8AIBinder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_Accessor_delete",
+   "linker_set_key" : "ABinderRpc_Accessor_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ABinderRpc_Accessor"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_Accessor_fromBinder",
+   "linker_set_key" : "ABinderRpc_Accessor_fromBinder",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIP8AIBinder"
+    }
+   ],
+   "return_type" : "_ZTIP19ABinderRpc_Accessor",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_Accessor_new",
+   "linker_set_key" : "ABinderRpc_Accessor_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPFP25ABinderRpc_ConnectionInfoPKcPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPvE"
+    }
+   ],
+   "return_type" : "_ZTIP19ABinderRpc_Accessor",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_ConnectionInfo_delete",
+   "linker_set_key" : "ABinderRpc_ConnectionInfo_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ABinderRpc_ConnectionInfo"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_ConnectionInfo_new",
+   "linker_set_key" : "ABinderRpc_ConnectionInfo_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK8sockaddr"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIP25ABinderRpc_ConnectionInfo",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_registerAccessorProvider",
+   "linker_set_key" : "ABinderRpc_registerAccessorProvider",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPFP19ABinderRpc_AccessorPKcPvE"
+    },
+    {
+     "referenced_type" : "_ZTIKPKPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPvE"
+    }
+   ],
+   "return_type" : "_ZTIP27ABinderRpc_AccessorProvider",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ABinderRpc_unregisterAccessorProvider",
+   "linker_set_key" : "ABinderRpc_unregisterAccessorProvider",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP27ABinderRpc_AccessorProvider"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_rpc.h"
   },
   {
    "availability_attrs" :
@@ -5296,6 +5534,14 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP34AIBinder_FrozenStateChangeCallback",
+   "name" : "AIBinder_FrozenStateChangeCallback *",
+   "referenced_type" : "_ZTI34AIBinder_FrozenStateChangeCallback",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP40AServiceManager_NotificationRegistration",
    "name" : "AServiceManager_NotificationRegistration *",
    "referenced_type" : "_ZTI40AServiceManager_NotificationRegistration",
@@ -5539,6 +5785,14 @@
    "linker_set_key" : "_ZTIPFvPvE",
    "name" : "void (*)(void *)",
    "referenced_type" : "_ZTIFvPvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPvbE",
+   "name" : "void (*)(void *, bool)",
+   "referenced_type" : "_ZTIFvPvbE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
