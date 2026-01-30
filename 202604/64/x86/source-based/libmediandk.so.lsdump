@@ -1004,7 +1004,7 @@
    "name" : "AMEDIAFORMAT_KEY_HDR10_PLUS_INFO"
   },
   {
-   "name" : "AMEDIAFORMAT_KEY_HDR_ECLIPSA_VIDEO_INFO"
+   "name" : "AMEDIAFORMAT_KEY_HDR_ST2094_50_INFO"
   },
   {
    "name" : "AMEDIAFORMAT_KEY_HDR_STATIC_INFO"
@@ -7712,8 +7712,8 @@
      "introduced_major" : 37
     }
    ],
-   "linker_set_key" : "AMEDIAFORMAT_KEY_HDR_ECLIPSA_VIDEO_INFO",
-   "name" : "AMEDIAFORMAT_KEY_HDR_ECLIPSA_VIDEO_INFO",
+   "linker_set_key" : "AMEDIAFORMAT_KEY_HDR_ST2094_50_INFO",
+   "name" : "AMEDIAFORMAT_KEY_HDR_ST2094_50_INFO",
    "referenced_type" : "_ZTIPKc",
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
