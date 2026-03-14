@@ -1,0 +1,50 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "wrapfd_acquire_ownership"
+  },
+  {
+   "name" : "wrapfd_allow_guests"
+  },
+  {
+   "name" : "wrapfd_driver_destroy"
+  },
+  {
+   "name" : "wrapfd_driver_new"
+  },
+  {
+   "name" : "wrapfd_driver_wrap"
+  },
+  {
+   "name" : "wrapfd_empty"
+  },
+  {
+   "name" : "wrapfd_get_state"
+  },
+  {
+   "name" : "wrapfd_load"
+  },
+  {
+   "name" : "wrapfd_prohibit_guests"
+  },
+  {
+   "name" : "wrapfd_release_ownership"
+  },
+  {
+   "name" : "wrapfd_rewrap"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
