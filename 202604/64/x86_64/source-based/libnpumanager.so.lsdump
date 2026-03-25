@@ -1,0 +1,761 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 16,
+   "linker_set_key" : "_ZTIg",
+   "name" : "long double",
+   "size" : 16
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "ANpuBuffer_free"
+  },
+  {
+   "name" : "ANpuBuffer_getFd"
+  },
+  {
+   "name" : "ANpuBuffer_loadAsync"
+  },
+  {
+   "name" : "ANpuBuffer_map"
+  },
+  {
+   "name" : "ANpuBuffer_setPriority"
+  },
+  {
+   "name" : "ANpuBuffer_unmap"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_create"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_free"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setBufferPriority"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setBufferType"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setCookie"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setDeviceNumber"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setFileSegmentToLoad"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setOnAlloc"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setOnPreempt"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setProtectionFlags"
+  },
+  {
+   "name" : "ANpuManager_AllocRequest_setSize"
+  },
+  {
+   "name" : "ANpuManager_allocAsync"
+  },
+  {
+   "name" : "ANpuManager_isSupported"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANPUBUFFER_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANPUBUFFER_TYPE_MODEL_EXECUTABLE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANPUBUFFER_TYPE_MODEL_WEIGHTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANPUBUFFER_TYPE_CACHE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANPUBUFFER_TYPE_AUXILIARY"
+    }
+   ],
+   "linker_set_key" : "_ZTI15ANpuBuffer_Type",
+   "name" : "ANpuBuffer_Type",
+   "size" : 1,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h",
+   "underlying_type" : "_ZTIa"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANPUBUFFER_PRIORITY_MIN"
+    },
+    {
+     "enum_field_value" : 500,
+     "name" : "ANPUBUFFER_PRIORITY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1000,
+     "name" : "ANPUBUFFER_PRIORITY_MAX"
+    }
+   ],
+   "linker_set_key" : "_ZTI19ANpuBuffer_Priority",
+   "name" : "ANpuBuffer_Priority",
+   "size" : 4,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPvE",
+   "name" : "void (void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPviP10ANpuBufferE",
+   "name" : "void (void *, int, ANpuBuffer *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIP10ANpuBuffer"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuBuffer_free",
+   "linker_set_key" : "ANpuBuffer_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKP10ANpuBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuBuffer_getFd",
+   "linker_set_key" : "ANpuBuffer_getFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ANpuBuffer"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer_fd.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuBuffer_loadAsync",
+   "linker_set_key" : "ANpuBuffer_loadAsync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ANpuBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPviP10ANpuBufferE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuBuffer_map",
+   "linker_set_key" : "ANpuBuffer_map",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ANpuBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuBuffer_setPriority",
+   "linker_set_key" : "ANpuBuffer_setPriority",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ANpuBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuBuffer_unmap",
+   "linker_set_key" : "ANpuBuffer_unmap",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ANpuBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_create",
+   "linker_set_key" : "ANpuManager_AllocRequest_create",
+   "return_type" : "_ZTIP24ANpuManager_AllocRequest",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_free",
+   "linker_set_key" : "ANpuManager_AllocRequest_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setBufferPriority",
+   "linker_set_key" : "ANpuManager_AllocRequest_setBufferPriority",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setBufferType",
+   "linker_set_key" : "ANpuManager_AllocRequest_setBufferType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTI15ANpuBuffer_Type"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setCookie",
+   "linker_set_key" : "ANpuManager_AllocRequest_setCookie",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPvE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setDeviceNumber",
+   "linker_set_key" : "ANpuManager_AllocRequest_setDeviceNumber",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setFileSegmentToLoad",
+   "linker_set_key" : "ANpuManager_AllocRequest_setFileSegmentToLoad",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setOnAlloc",
+   "linker_set_key" : "ANpuManager_AllocRequest_setOnAlloc",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPviP10ANpuBufferE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setOnPreempt",
+   "linker_set_key" : "ANpuManager_AllocRequest_setOnPreempt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPvE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setProtectionFlags",
+   "linker_set_key" : "ANpuManager_AllocRequest_setProtectionFlags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_AllocRequest_setSize",
+   "linker_set_key" : "ANpuManager_AllocRequest_setSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_allocAsync",
+   "linker_set_key" : "ANpuManager_allocAsync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "ANpuManager_isSupported",
+   "linker_set_key" : "ANpuManager_isSupported",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKP24ANpuManager_AllocRequest"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP10ANpuBuffer",
+   "name" : "ANpuBuffer *",
+   "referenced_type" : "_ZTI10ANpuBuffer",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP24ANpuManager_AllocRequest",
+   "name" : "ANpuManager_AllocRequest *",
+   "referenced_type" : "_ZTI24ANpuManager_AllocRequest",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvPvE",
+   "name" : "void (*)(void *)",
+   "referenced_type" : "_ZTIFvPvE",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvPviP10ANpuBufferE",
+   "name" : "void (*)(void *, int, ANpuBuffer *)",
+   "referenced_type" : "_ZTIFvPviP10ANpuBufferE",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKP10ANpuBuffer",
+   "name" : "ANpuBuffer *const *",
+   "referenced_type" : "_ZTIKP10ANpuBuffer",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKP24ANpuManager_AllocRequest",
+   "name" : "ANpuManager_AllocRequest *const *",
+   "referenced_type" : "_ZTIKP24ANpuManager_AllocRequest",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPb",
+   "name" : "bool *",
+   "referenced_type" : "_ZTIb",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKP10ANpuBuffer",
+   "name" : "ANpuBuffer *const",
+   "referenced_type" : "_ZTIP10ANpuBuffer",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKP24ANpuManager_AllocRequest",
+   "name" : "ANpuManager_AllocRequest *const",
+   "referenced_type" : "_ZTIP24ANpuManager_AllocRequest",
+   "size" : 8,
+   "source_file" : "packages/modules/NpuManager/ndk/include/android/npumanager/buffer.h"
+  }
+ ],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
